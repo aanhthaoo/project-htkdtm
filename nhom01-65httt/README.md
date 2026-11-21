@@ -6,7 +6,7 @@
 - **Lớp học phần:** 65HTTT
 
 ## 2. Cấu trúc thư mục
-- `danhsachnhom.md`: Danh sách thành viên và phân công nhiệm vụ.
+- `danhsachnhom.md`: Danh sách thành viên và phân công nhiệm vụ
 - `docs/`: Chứa tài liệu đặc tả, báo cáo đồ án (`baocao_doan.pdf`).
 - `src/`: Thư mục mã nguồn chính của dự án:
   - `backend/`: Mã nguồn xử lý phía máy chủ / API / ETL.
