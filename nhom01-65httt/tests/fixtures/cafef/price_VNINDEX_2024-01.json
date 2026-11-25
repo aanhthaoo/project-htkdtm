@@ -1,0 +1,90 @@
+{
+  "Data": {
+    "TotalCount": 7,
+    "Index": "VNINDEX",
+    "DateIndex": "23/11/2026",
+    "ClosePriceIndex": 1697.14,
+    "ChgIndex": 8.350000000000136,
+    "PctIndex": 0.494436845315293,
+    "TradingReport": {
+      "giaTriKhopLenh": "8,742.41",
+      "giaTriThoaThuan": "4,039.38",
+      "khoiLuongKhopLenh": "509,993,900",
+      "khoiLuongThoaThuan": "186,613,503"
+    },
+    "Data": [
+      {
+        "Symbol": "VNINDEX",
+        "Ngay": "10/01/2024",
+        "GiaDieuChinh": 1161.54,
+        "GiaDongCua": 1161.54,
+        "ThayDoi": "+2,95 (+0,25%)",
+        "KhoiLuongKhopLenh": 935719400,
+        "GiaTriKhopLenh": 19502.82,
+        "KLThoaThuan": 57041812,
+        "GtThoaThuan": 1253.46,
+        "GiaMoCua": 1158.79,
+        "GiaCaoNhat": 1166.1,
+        "GiaThapNhat": 1155.94
+      },
+      {
+        "Symbol": "VNINDEX",
+        "Ngay": "09/01/2024",
+        "GiaDieuChinh": 1158.59,
+        "GiaDongCua": 1158.59,
+        "ThayDoi": "-1,60 (-0,14%)",
+        "KhoiLuongKhopLenh": 799457700,
+        "GiaTriKhopLenh": 16877.04,
+        "KLThoaThuan": 71051566,
+        "GtThoaThuan": 1566.37,
+        "GiaMoCua": 1161.71,
+        "GiaCaoNhat": 1162.83,
+        "GiaThapNhat": 1155.46
+      },
+      {
+        "Symbol": "VNINDEX",
+        "Ngay": "08/01/2024",
+        "GiaDieuChinh": 1160.19,
+        "GiaDongCua": 1160.19,
+        "ThayDoi": "+5,51 (+0,48%)",
+        "KhoiLuongKhopLenh": 814410600,
+        "GiaTriKhopLenh": 17129.48,
+        "KLThoaThuan": 90997820,
+        "GtThoaThuan": 2071.87,
+        "GiaMoCua": 1159.42,
+        "GiaCaoNhat": 1162.56,
+        "GiaThapNhat": 1155.48
+      },
+      {
+        "Symbol": "VNINDEX",
+        "Ngay": "05/01/2024",
+        "GiaDieuChinh": 1154.68,
+        "GiaDongCua": 1154.68,
+        "ThayDoi": "+3,96 (+0,34%)",
+        "KhoiLuongKhopLenh": 760282600,
+        "GiaTriKhopLenh": 15396.49,
+        "KLThoaThuan": 42985728,
+        "GtThoaThuan": 903.76,
+        "GiaMoCua": 1152.37,
+        "GiaCaoNhat": 1155.84,
+        "GiaThapNhat": 1149.08
+      },
+      {
+        "Symbol": "VNINDEX",
+        "Ngay": "04/01/2024",
+        "GiaDieuChinh": 1150.72,
+        "GiaDongCua": 1150.72,
+        "ThayDoi": "+6,55 (+0,57%)",
+        "KhoiLuongKhopLenh": 1141608900,
+        "GiaTriKhopLenh": 24321.24,
+        "KLThoaThuan": 39745659,
+        "GtThoaThuan": 975.44,
+        "GiaMoCua": 1145.49,
+        "GiaCaoNhat": 1160.08,
+        "GiaThapNhat": 1144.32
+      }
+    ]
+  },
+  "Message": null,
+  "Success": true
+}

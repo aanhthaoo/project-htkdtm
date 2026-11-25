@@ -1,0 +1,90 @@
+{
+  "Data": {
+    "TotalCount": 7,
+    "Index": "VNINDEX",
+    "DateIndex": "23/11/2026",
+    "ClosePriceIndex": 1697.14,
+    "ChgIndex": 8.350000000000136,
+    "PctIndex": 0.494436845315293,
+    "TradingReport": {
+      "giaTriKhopLenh": "8,742.41",
+      "giaTriThoaThuan": "4,039.38",
+      "khoiLuongKhopLenh": "509,993,900",
+      "khoiLuongThoaThuan": "186,613,503"
+    },
+    "Data": [
+      {
+        "Symbol": "VNM",
+        "Ngay": "10/01/2024",
+        "GiaDieuChinh": 54.61,
+        "GiaDongCua": 67.5,
+        "ThayDoi": "-0,60 (-0,88%)",
+        "KhoiLuongKhopLenh": 3006600,
+        "GiaTriKhopLenh": 203.72,
+        "KLThoaThuan": 0,
+        "GtThoaThuan": 0,
+        "GiaMoCua": 68.1,
+        "GiaCaoNhat": 68.1,
+        "GiaThapNhat": 67.4
+      },
+      {
+        "Symbol": "VNM",
+        "Ngay": "09/01/2024",
+        "GiaDieuChinh": 55.1,
+        "GiaDongCua": 68.1,
+        "ThayDoi": "-0,10 (-0,15%)",
+        "KhoiLuongKhopLenh": 2460400,
+        "GiaTriKhopLenh": 167.78,
+        "KLThoaThuan": 119000,
+        "GtThoaThuan": 8.09,
+        "GiaMoCua": 68.2,
+        "GiaCaoNhat": 68.5,
+        "GiaThapNhat": 68
+      },
+      {
+        "Symbol": "VNM",
+        "Ngay": "08/01/2024",
+        "GiaDieuChinh": 55.18,
+        "GiaDongCua": 68.2,
+        "ThayDoi": "-0,60 (-0,87%)",
+        "KhoiLuongKhopLenh": 2396400,
+        "GiaTriKhopLenh": 164.18,
+        "KLThoaThuan": 0,
+        "GtThoaThuan": 0,
+        "GiaMoCua": 69,
+        "GiaCaoNhat": 69.1,
+        "GiaThapNhat": 68.2
+      },
+      {
+        "Symbol": "VNM",
+        "Ngay": "05/01/2024",
+        "GiaDieuChinh": 55.66,
+        "GiaDongCua": 68.8,
+        "ThayDoi": "-0,20 (-0,29%)",
+        "KhoiLuongKhopLenh": 1475700,
+        "GiaTriKhopLenh": 101.42,
+        "KLThoaThuan": 300000,
+        "GtThoaThuan": 20.57,
+        "GiaMoCua": 69.3,
+        "GiaCaoNhat": 69.3,
+        "GiaThapNhat": 68.5
+      },
+      {
+        "Symbol": "VNM",
+        "Ngay": "04/01/2024",
+        "GiaDieuChinh": 55.82,
+        "GiaDongCua": 69,
+        "ThayDoi": "0 (0,00%)",
+        "KhoiLuongKhopLenh": 3401500,
+        "GiaTriKhopLenh": 235.28,
+        "KLThoaThuan": 0,
+        "GtThoaThuan": 0,
+        "GiaMoCua": 69.1,
+        "GiaCaoNhat": 69.5,
+        "GiaThapNhat": 69
+      }
+    ]
+  },
+  "Message": null,
+  "Success": true
+}
