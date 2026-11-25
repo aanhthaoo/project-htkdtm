@@ -1,0 +1,74 @@
+# Ngưỡng chất lượng dữ liệu (chốt ở N2). Mã ETL và dbt test đọc từ tệp này.
+# Thay đổi ngưỡng phải ghi lý do vào commit; không sửa ngưỡng để "qua" test mà không giải thích.
+
+units:
+  money: ty_vnd            # mọi giá trị tiền trong stg/dw tính bằng tỷ VNĐ
+  price: vnd               # giá cổ phiếu tính bằng đồng (API CafeF trả nghìn đồng, nhân 1000)
+
+timezone: Asia/Ho_Chi_Minh # GMT+7
+market_close_time: "15:00" # tin đăng từ 15:00 trở đi thuộc phiên giao dịch kế tiếp
+
+completeness:
+  # Tỷ lệ mã đang niêm yết có dữ liệu giá trong một ngày giao dịch
+  min_stocks_with_price_ratio: 0.90      # dưới mức này: cảnh báo (warning)
+  # Tỷ lệ ô (mã x ngày giao dịch) thiếu giá cho phép trên toàn bộ mã được giữ
+  max_missing_price_rate: 0.005          # 0,5%
+  # Một ngày được coi là ngày giao dịch nếu VN-Index có dữ liệu giá ngày đó
+  trading_day_source: VNINDEX
+
+coverage:
+  news_history_start: "2020-09-01"       # khớp phạm vi tin tức backfill
+  price_history_start: "2020-09-01"      # VNDirect: giá đủ từ 01/09/2020
+  money_flow_history_start: "2020-09-01" # VNDirect: khối ngoại đủ từ 01/09/2020
+  # Tự doanh theo mã chỉ có từ giữa 05/2022 (HOSE 17/05, UPCoM 20/05, HNX 23/05). Trước mốc này
+  # không nguồn nào có; dòng OTHER_DOMESTIC trước mốc gộp cả tự doanh (cờ includes_prop).
+  prop_history_start: "2022-05-17"
+  # Khoảng trống lịch sử tối đa cho phép giữa hai ngày giao dịch liên tiếp (ngày dương lịch)
+  max_gap_calendar_days: 10              # Tết có thể nghỉ tới 9 ngày liên tiếp
+
+latest_day:
+  # VNDirect cập nhật khối ngoại trễ: ngày mới nhất có thể toàn giá trị 0.
+  # Ngày chỉ được nạp khi số mã cổ phiếu có giao dịch khối ngoại (mua + bán > 0) đạt ngưỡng này;
+  # các ngày trong cửa sổ dưới được lấy lại mỗi lần cập nhật.
+  refetch_window_days: 3
+  min_stocks_with_foreign_activity: 150  # các ngày bình thường quan sát được 283-426 mã
+
+stock_filter:
+  # Mã giữ lại để phân tích/huấn luyện: đủ thanh khoản
+  min_avg_trading_value_bn_20d: 0.5      # trung bình 20 phiên, tỷ VNĐ/phiên
+  # Mã coi là ngừng giao dịch nếu không có giao dịch liên tiếp từ ngưỡng này
+  halted_after_sessions: 20
+  # Ngành ICB cấp 2 có ít hơn số mã đạt thanh khoản này thì gộp vào nhóm "khác" khi dự báo
+  min_liquid_stocks_per_sector: 5
+
+outliers:
+  # Biên độ giá theo sàn (% so với giá tham chiếu); vượt thì gắn cờ (trừ phiên đầu niêm yết)
+  price_limit_pct:
+    HOSE: 7
+    HNX: 10
+    UPCOM: 15
+  flag_abs_pct_change_over: 30           # bất thường nếu |thay đổi giá| lớn hơn, kể cả đã điều chỉnh
+  negative_value_is_error: true          # giá trị mua/bán/giao dịch âm là lỗi
+
+money_flow:
+  # Nhóm "nhà đầu tư trong nước khác" = tổng giao dịch - khối ngoại - tự doanh.
+  # Nếu tỷ lệ bản ghi âm vượt ngưỡng thì định nghĩa tổng giao dịch chưa đúng, phải điều tra.
+  max_other_negative_rate: 0.01
+  # Dung sai khi so sánh mua ròng với bán ròng đã tính (làm tròn đơn vị)
+  net_tolerance_bn: 0.001
+
+cross_check:
+  # Đối chiếu tổng mua/bán ròng toàn thị trường (API CafeF) với bài tổng hợp phiên
+  # Đạt nếu lệch tuyệt đối <= abs_tolerance_bn HOẶC lệch tương đối <= rel_tolerance
+  abs_tolerance_bn: 5
+  rel_tolerance: 0.02
+  # Tỷ lệ ngày đối chiếu được phải đạt tối thiểu mới coi là có hiệu lực
+  min_days_checked_ratio: 0.5
+  # Đối chiếu hai nguồn: tổng giá trị KHỚP LỆNH các mã HOSE (VNDirect) / giá trị khớp lệnh VN-Index (CafeF).
+  # Cổ phiếu chiếm khoảng 92% (phần còn lại là chứng quyền, ETF, trái phiếu) nên tỷ lệ bình thường 0,85-0,97.
+  index_matched_value_ratio: {min: 0.80, max: 1.02}
+  index_match_min_days_ratio: 0.97   # tỷ lệ ngày nằm trong khoảng trên phải đạt tối thiểu
+
+sentiment:
+  min_cohen_kappa: 0.6                   # độ đồng thuận nhãn LLM với nhãn người (mức "đáng kể")
+  min_validation_samples: 300
