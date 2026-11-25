@@ -1,0 +1,37 @@
+name: htkdtm_dw
+version: "0.1.0"
+config-version: 2
+profile: htkdtm
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+analysis-paths: ["analyses"]
+clean-targets: ["target", "dbt_packages"]
+
+# Ngưỡng dùng chung. Phải khớp src/etl/config/quality_thresholds.yml (có unit test kiểm tra).
+vars:
+  min_traded_stocks_for_trading_day: 100   # ngày có >= ngần này mã khớp lệnh thì là ngày giao dịch
+  min_foreign_active_stocks: 150           # ngày khối ngoại "đủ" nếu có >= ngần này mã hoạt động
+  prop_history_start: "2022-05-17"         # tự doanh theo mã chỉ có từ ngày này
+  flag_abs_pct_change_over: 30             # gắn cờ biến động giá bất thường (%)
+  incremental_lookback_days: 10            # nạp tăng dần: lấy lại ngần này ngày gần nhất
+  cap_large_min_bn: 10000                  # vốn hóa lớn từ 10.000 tỷ
+  cap_mid_min_bn: 1000                     # vốn hóa vừa từ 1.000 tỷ
+
+seeds:
+  htkdtm_dw:
+    +schema: stg
+    +quote_columns: false
+    icb:
+      # Mã ICB có số 0 đứng đầu (0001, 0500...) nên phải là chuỗi
+      +column_types: {icb_code: varchar, parent_code: varchar}
+
+models:
+  htkdtm_dw:
+    staging:
+      +materialized: table
+      +schema: stg
+    marts:
+      +schema: dw

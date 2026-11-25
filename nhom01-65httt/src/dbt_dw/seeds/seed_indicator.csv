@@ -1,0 +1,8 @@
+indicator_key,code,name_vi,unit,frequency,scope,origin,source_code
+1,USDVND,Tỷ giá USD/VND,VND,daily,international,yfinance,VND=X
+2,DXY,Chỉ số USD (DXY),điểm,daily,international,yfinance,DX-Y.NYB
+3,SP500,S&P 500,điểm,daily,international,yfinance,^GSPC
+4,WTI,Dầu thô WTI,USD/thùng,daily,international,yfinance,CL=F
+5,BRENT,Dầu thô Brent,USD/thùng,daily,international,yfinance,BZ=F
+6,GOLD,Vàng,USD/oz,daily,international,yfinance,GC=F
+7,US10Y,Lợi suất trái phiếu Mỹ 10 năm,%,daily,international,yfinance,^TNX

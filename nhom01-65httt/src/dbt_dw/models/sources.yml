@@ -1,0 +1,33 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    description: Dữ liệu thô nguyên trạng từ các nguồn (lớp thu thập src/ingestion)
+    tables:
+      - name: vnd_stock_prices
+        description: Giá hằng ngày từ VNDirect (chỉ type = STOCK). Giá nghìn đồng, giá trị tiền bằng đồng
+      - name: vnd_foreigns
+        description: Giao dịch khối ngoại theo mã theo ngày từ VNDirect (gồm cả thỏa thuận), đơn vị đồng
+      - name: vnd_proprietary
+        description: Giao dịch tự doanh theo mã theo ngày từ VNDirect, từ 17/05/2022, đơn vị đồng
+      - name: vietcap_symbols
+      - name: vietcap_groups
+      - name: vietcap_company
+      - name: cafef_price
+        description: VN-Index (và đối chiếu) từ CafeF; điểm chỉ số, giá trị giao dịch tỷ đồng
+      - name: yf_prices
+        description: Chỉ số quốc tế từ yfinance
+      - name: news_backfill
+        description: Tin lịch sử EconVNNews (chỉ có ngày đăng)
+      - name: news_crawl
+        description: Tin crawl và RSS (có giờ đăng)
+
+  - name: stg_python
+    schema: stg
+    description: "Bảng stg do mã Python ghi (không phải dbt model): xử lý tin tức, xem src/etl/news"
+    tables:
+      - name: news_article
+        description: Tin đã làm sạch, gán phiên giao dịch, đánh dấu liên quan và trùng lặp
+      - name: news_mention
+        description: Mã cổ phiếu và ngành được nhắc tới trong từng bài

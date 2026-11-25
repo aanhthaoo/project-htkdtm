@@ -1,0 +1,4 @@
+investor_type_key,code,name_vi,name_en,is_derived
+1,FOREIGN,Khối ngoại,Foreign investors,false
+2,PROP,Tự doanh,Proprietary trading,false
+3,OTHER_DOMESTIC,Nhà đầu tư trong nước khác,Other domestic investors,true

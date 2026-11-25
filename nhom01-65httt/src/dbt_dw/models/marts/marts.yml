@@ -1,0 +1,160 @@
+version: 2
+
+models:
+  - name: dim_time
+    description: Chiều thời gian (mỗi ngày dương lịch)
+    columns:
+      - name: date_key
+        tests: [unique, not_null]
+      - name: date
+        tests: [unique, not_null]
+
+  - name: dim_sector
+    description: Chiều ngành ICB (cấp 4, kèm cấp 1 đến 3)
+    columns:
+      - name: sector_key
+        tests: [unique, not_null]
+      - name: sector_code
+        tests: [unique, not_null]
+
+  - name: dim_stock
+    description: Chiều cổ phiếu và VN-Index
+    columns:
+      - name: stock_key
+        tests: [unique, not_null]
+      - name: symbol
+        tests: [unique, not_null]
+      - name: sector_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_sector')
+              field: sector_key
+      - name: exchange
+        tests:
+          - accepted_values:
+              values: ['HOSE', 'HNX', 'UPCOM']
+      - name: security_type
+        tests:
+          - accepted_values:
+              values: ['STOCK', 'INDEX']
+
+  - name: dim_investor_type
+    columns:
+      - name: investor_type_key
+        tests: [unique, not_null]
+      - name: code
+        tests: [unique, not_null]
+
+  - name: dim_source
+    columns:
+      - name: source_key
+        tests: [unique, not_null]
+
+  - name: dim_indicator
+    columns:
+      - name: indicator_key
+        tests: [unique, not_null]
+      - name: code
+        tests: [unique, not_null]
+
+  - name: fact_daily_price
+    description: "Grain: 1 mã (hoặc VN-Index) x 1 ngày giao dịch"
+    tests:
+      - unique_combination:
+          columns: [date_key, stock_key]
+    columns:
+      - name: date_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_time')
+              field: date_key
+      - name: stock_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_stock')
+              field: stock_key
+      - name: total_value_bn
+        tests: [non_negative]
+
+  - name: fact_money_flow
+    description: "Grain: 1 mã x 1 ngày x 1 nhóm nhà đầu tư (chỉ ngày khối ngoại đủ)"
+    tests:
+      - unique_combination:
+          columns: [date_key, stock_key, investor_type_key]
+    columns:
+      - name: date_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_time')
+              field: date_key
+      - name: stock_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_stock')
+              field: stock_key
+      - name: investor_type_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_investor_type')
+              field: investor_type_key
+      - name: buy_value_bn
+        tests: [not_null, non_negative]
+      - name: sell_value_bn
+        tests: [not_null, non_negative]
+      - name: buy_volume
+        tests: [non_negative]
+      - name: sell_volume
+        tests: [non_negative]
+
+  - name: fact_macro_indicator
+    description: "Grain: 1 chỉ số x 1 kỳ"
+    tests:
+      - unique_combination:
+          columns: [indicator_key, date_key]
+    columns:
+      - name: indicator_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_indicator')
+              field: indicator_key
+      - name: value
+        tests: [not_null]
+
+  - name: dim_article
+    description: Chiều bài báo (không có toàn văn)
+    columns:
+      - name: article_key
+        tests: [unique, not_null]
+      - name: article_id
+        tests: [unique, not_null]
+      - name: source_key
+        description: Phải ánh xạ được mọi nguồn (nếu có nguồn mới phải thêm vào seed_source)
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_source')
+              field: source_key
+
+  - name: bridge_article_entity
+    description: "Grain: 1 bài x 1 mã hoặc ngành được nhắc"
+    tests:
+      - unique_combination:
+          columns: [article_key, entity_type, entity_code]
+    columns:
+      - name: article_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_article')
+              field: article_key
+      - name: entity_type
+        tests:
+          - accepted_values:
+              values: ['STOCK', 'SECTOR']

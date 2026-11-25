@@ -1,0 +1,61 @@
+version: 2
+
+models:
+  - name: stg_calendar
+    description: Lịch giao dịch (hợp VNDirect và VN-Index CafeF)
+    columns:
+      - name: trade_date
+        tests: [unique, not_null]
+
+  - name: stg_stock_master
+    description: Danh mục mã cổ phiếu
+    columns:
+      - name: symbol
+        tests: [unique, not_null]
+      - name: exchange
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['HOSE', 'HNX', 'UPCOM']
+
+  - name: stg_price_daily
+    description: Giá hằng ngày đã chuẩn hóa đơn vị (đồng, tỷ đồng)
+    tests:
+      - unique_combination:
+          columns: [symbol, trade_date]
+    columns:
+      - name: symbol
+        tests: [not_null]
+      - name: trade_date
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_calendar')
+              field: trade_date
+      - name: close_price
+        tests:
+          - not_null
+          - non_negative
+      - name: total_value_bn
+        tests: [not_null, non_negative]
+
+  - name: stg_day_quality
+    description: Chất lượng theo ngày (độ đủ của khối ngoại, tự doanh)
+    columns:
+      - name: trade_date
+        tests: [unique, not_null]
+
+  - name: stg_flow_daily
+    description: Dòng tiền theo mã, ngày, nhóm nhà đầu tư
+    tests:
+      - unique_combination:
+          columns: [symbol, trade_date, investor_type]
+    columns:
+      - name: investor_type
+        tests:
+          - accepted_values:
+              values: ['FOREIGN', 'PROP', 'OTHER_DOMESTIC']
+      - name: buy_value_bn
+        tests: [not_null, non_negative]
+      - name: sell_value_bn
+        tests: [not_null, non_negative]

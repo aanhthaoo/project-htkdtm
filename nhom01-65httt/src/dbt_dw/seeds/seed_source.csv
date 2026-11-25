@@ -1,0 +1,10 @@
+source_key,publisher,source_type,section,feed_timezone,note
+1,cafef,BACKFILL,chung-khoan,none,EconVNNews; chỉ có ngày đăng
+2,cafebiz,BACKFILL,kinh-te,none,EconVNNews; chỉ có ngày đăng
+3,vnexpress,BACKFILL,kinh-doanh,none,EconVNNews; chỉ có ngày đăng
+4,vietnamnet,BACKFILL,kinh-te,none,EconVNNews; chỉ có ngày đăng
+5,cafef,CRAWL,chung-khoan,+07:00,Trang chuyên mục; giờ đăng từ meta
+6,vneconomy,RSS,chung-khoan,GMT,RSS; giờ đăng theo GMT
+7,vietstock,RSS,chung-khoan,+07:00,RSS
+8,vnexpress,RSS,kinh-doanh,+07:00,RSS; lẫn tin kinh doanh chung
+9,tnck,RSS,home,+07:00,RSS Tin nhanh Chứng khoán

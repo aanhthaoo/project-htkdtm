@@ -1,0 +1,185 @@
+icb_code,level,parent_code,name_en,name_vi,name_verified
+0001,1,,Oil & Gas,Dầu khí,true
+1000,1,,Basic Materials,Vật liệu cơ bản,true
+2000,1,,Industrials,Công nghiệp,true
+3000,1,,Consumer Goods,Hàng tiêu dùng,true
+4000,1,,Health Care,Y tế,true
+5000,1,,Consumer Services,Dịch vụ tiêu dùng,true
+6000,1,,Telecommunications,Viễn thông,true
+7000,1,,Utilities,Tiện ích,true
+8000,1,,Financials,Tài chính,true
+9000,1,,Technology,Công nghệ,true
+0500,2,0001,Oil & Gas,Dầu khí,true
+1300,2,1000,Chemicals,Hóa chất,true
+1700,2,1000,Basic Resources,Tài nguyên cơ bản,true
+2300,2,2000,Construction & Materials,Xây dựng và vật liệu,true
+2700,2,2000,Industrial Goods & Services,Hàng và dịch vụ công nghiệp,true
+3300,2,3000,Automobiles & Parts,Ô tô và phụ tùng,true
+3500,2,3000,Food & Beverage,Thực phẩm và đồ uống,true
+3700,2,3000,Personal & Household Goods,Hàng cá nhân và gia dụng,true
+4500,2,4000,Health Care,Y tế,true
+5300,2,5000,Retail,Bán lẻ,true
+5500,2,5000,Media,Truyền thông,true
+5700,2,5000,Travel & Leisure,Du lịch và giải trí,true
+6500,2,6000,Telecommunications,Viễn thông,true
+7500,2,7000,Utilities,"Điện, nước và khí đốt",true
+8300,2,8000,Banks,Ngân hàng,true
+8500,2,8000,Insurance,Bảo hiểm,true
+8600,2,8000,Real Estate,Bất động sản,true
+8700,2,8000,Financial Services,Dịch vụ tài chính,true
+9500,2,9000,Technology,Công nghệ thông tin,true
+0530,3,0500,Oil & Gas Producers,,false
+0570,3,0500,"Oil Equipment, Services & Distribution",,false
+0580,3,0500,Alternative Energy,,false
+1350,3,1300,Chemicals,,false
+1730,3,1700,Forestry & Paper,,false
+1750,3,1700,Industrial Metals & Mining,,false
+1770,3,1700,Mining,,false
+2350,3,2300,Construction & Materials,,false
+2710,3,2700,Aerospace & Defense,,false
+2720,3,2700,General Industrials,,false
+2730,3,2700,Electronic & Electrical Equipment,,false
+2750,3,2700,Industrial Engineering,,false
+2770,3,2700,Industrial Transportation,,false
+2790,3,2700,Support Services,,false
+3350,3,3300,Automobiles & Parts,,false
+3530,3,3500,Beverages,,false
+3570,3,3500,Food Producers,,false
+3720,3,3700,Household Goods & Home Construction,,false
+3740,3,3700,Leisure Goods,,false
+3760,3,3700,Personal Goods,,false
+3780,3,3700,Tobacco,,false
+4530,3,4500,Health Care Equipment & Services,,false
+4570,3,4500,Pharmaceuticals & Biotechnology,,false
+5330,3,5300,Food & Drug Retailers,,false
+5370,3,5300,General Retailers,,false
+5550,3,5500,Media,,false
+5750,3,5700,Travel & Leisure,,false
+6530,3,6500,Fixed Line Telecommunications,,false
+6570,3,6500,Mobile Telecommunications,,false
+7530,3,7500,Electricity,,false
+7570,3,7500,"Gas, Water & Multiutilities",,false
+8350,3,8300,Banks,,false
+8530,3,8500,Nonlife Insurance,,false
+8570,3,8500,Life Insurance,,false
+8630,3,8600,Real Estate Investment & Services,,false
+8670,3,8600,Real Estate Investment Trusts,,false
+8770,3,8700,Financial Services,,false
+8980,3,8700,Equity Investment Instruments,,false
+8990,3,8700,Nonequity Investment Instruments,,false
+9530,3,9500,Software & Computer Services,,false
+9570,3,9500,Technology Hardware & Equipment,,false
+0533,4,0530,Exploration & Production,,false
+0537,4,0530,Integrated Oil & Gas,,false
+0573,4,0570,Oil Equipment & Services,,false
+0577,4,0570,Pipelines,,false
+0583,4,0580,Renewable Energy Equipment,,false
+0587,4,0580,Alternative Fuels,,false
+1353,4,1350,Commodity Chemicals,,false
+1357,4,1350,Specialty Chemicals,,false
+1733,4,1730,Forestry,,false
+1737,4,1730,Paper,,false
+1753,4,1750,Aluminum,,false
+1755,4,1750,Nonferrous Metals,,false
+1757,4,1750,Iron & Steel,,false
+1771,4,1770,Coal,,false
+1773,4,1770,Diamonds & Gemstones,,false
+1775,4,1770,General Mining,,false
+1777,4,1770,Gold Mining,,false
+1779,4,1770,Platinum & Precious Metals,,false
+2353,4,2350,Building Materials & Fixtures,,false
+2357,4,2350,Heavy Construction,,false
+2713,4,2710,Aerospace,,false
+2717,4,2710,Defense,,false
+2723,4,2720,Containers & Packaging,,false
+2727,4,2720,Diversified Industrials,,false
+2733,4,2730,Electrical Components & Equipment,,false
+2737,4,2730,Electronic Equipment,,false
+2753,4,2750,Commercial Vehicles & Trucks,,false
+2757,4,2750,Industrial Machinery,,false
+2771,4,2770,Delivery Services,,false
+2773,4,2770,Marine Transportation,,false
+2775,4,2770,Railroads,,false
+2777,4,2770,Transportation Services,,false
+2779,4,2770,Trucking,,false
+2791,4,2790,Business Support Services,,false
+2793,4,2790,Business Training & Employment Agencies,,false
+2795,4,2790,Financial Administration,,false
+2797,4,2790,Industrial Suppliers,,false
+2799,4,2790,Waste & Disposal Services,,false
+3353,4,3350,Automobiles,,false
+3355,4,3350,Auto Parts,,false
+3357,4,3350,Tires,,false
+3533,4,3530,Brewers,,false
+3535,4,3530,Distillers & Vintners,,false
+3537,4,3530,Soft Drinks,,false
+3573,4,3570,Farming & Fishing,,false
+3577,4,3570,Food Products,,false
+3722,4,3720,Durable Household Products,,false
+3724,4,3720,Nondurable Household Products,,false
+3726,4,3720,Furnishings,,false
+3728,4,3720,Home Construction,,false
+3743,4,3740,Consumer Electronics,,false
+3745,4,3740,Recreational Products,,false
+3747,4,3740,Toys,,false
+3763,4,3760,Clothing & Accessories,,false
+3765,4,3760,Footwear,,false
+3767,4,3760,Personal Products,,false
+3785,4,3780,Tobacco,,false
+4533,4,4530,Health Care Providers,,false
+4535,4,4530,Medical Equipment,,false
+4537,4,4530,Medical Supplies,,false
+4573,4,4570,Biotechnology,,false
+4577,4,4570,Pharmaceuticals,,false
+5333,4,5330,Drug Retailers,,false
+5337,4,5330,Food Retailers & Wholesalers,,false
+5371,4,5370,Apparel Retailers,,false
+5373,4,5370,Broadline Retailers,,false
+5375,4,5370,Home Improvement Retailers,,false
+5377,4,5370,Specialty Retailers,,false
+5379,4,5370,Specialized Consumer Services,,false
+5553,4,5550,Broadcasting & Entertainment,,false
+5555,4,5550,Media Agencies,,false
+5557,4,5550,Publishing,,false
+5751,4,5750,Airlines,,false
+5752,4,5750,Gambling,,false
+5753,4,5750,Hotels,,false
+5755,4,5750,Recreational Services,,false
+5757,4,5750,Restaurants & Bars,,false
+5759,4,5750,Travel & Tourism,,false
+6535,4,6530,Fixed Line Telecommunications,,false
+6575,4,6570,Mobile Telecommunications,,false
+7535,4,7530,Conventional Electricity,,false
+7537,4,7530,Alternative Electricity,,false
+7573,4,7570,Gas Distribution,,false
+7575,4,7570,Multiutilities,,false
+7577,4,7570,Water,,false
+8355,4,8350,Banks,,false
+8532,4,8530,Full Line Insurance,,false
+8534,4,8530,Insurance Brokers,,false
+8536,4,8530,Property & Casualty Insurance,,false
+8538,4,8530,Reinsurance,,false
+8575,4,8570,Life Insurance,,false
+8633,4,8630,Real Estate Holding & Development,,false
+8637,4,8630,Real Estate Services,,false
+8671,4,8670,Industrial & Office REITs,,false
+8672,4,8670,Retail REITs,,false
+8673,4,8670,Residential REITs,,false
+8674,4,8670,Diversified REITs,,false
+8675,4,8670,Specialty REITs,,false
+8676,4,8670,Mortgage REITs,,false
+8677,4,8670,Hotel & Lodging REITs,,false
+8771,4,8770,Asset Managers,,false
+8773,4,8770,Consumer Finance,,false
+8775,4,8770,Specialty Finance,,false
+8777,4,8770,Investment Services,,false
+8779,4,8770,Mortgage Finance,,false
+8985,4,8980,Equity Investment Instruments,,false
+8995,4,8990,Nonequity Investment Instruments,,false
+9533,4,9530,Computer Services,,false
+9535,4,9530,Internet,,false
+9537,4,9530,Software,,false
+9572,4,9570,Computer Hardware,,false
+9574,4,9570,Electronic Office Equipment,,false
+9576,4,9570,Semiconductors,,false
+9578,4,9570,Telecommunications Equipment,,false
