@@ -1,0 +1,45 @@
+#!/bin/sh
+# Git hook commit-msg: chặn commit sai quy chuẩn của nhóm.
+# Cài đặt một lần sau khi clone: sh nhom01-65httt/tools/setup-git-hooks.sh
+# Quy chuẩn chi tiết: nhom01-65httt/.claude/skills/git-commit-rules/SKILL.md
+
+MSG_FILE="$1"
+TEAM="$(basename "$(cd "$(dirname "$0")/../.." && pwd)")"
+
+# Bỏ dòng comment (#...) do git sinh ra
+CLEAN="$(grep -v '^#' "$MSG_FILE")"
+SUBJECT="$(printf '%s\n' "$CLEAN" | sed -n '1p')"
+
+# Cho qua commit do git tự sinh
+case "$SUBJECT" in
+  "Merge "*|"Revert "*|"fixup! "*|"squash! "*) exit 0 ;;
+esac
+
+fail() {
+  echo "" >&2
+  echo "[commit-msg] COMMIT BI TU CHOI: $1" >&2
+  echo "" >&2
+  echo "Cu phap: <loai>($TEAM): <mo ta ngan gon>" >&2
+  echo "  loai  : feat | fix | docs | chore" >&2
+  echo "  vi du : feat($TEAM): add news ETL pipeline" >&2
+  echo "Khong duoc them dong Co-Authored-By cho agent (Claude/AI)." >&2
+  echo "" >&2
+  exit 1
+}
+
+# Rule 2: cú pháp subject
+if ! printf '%s\n' "$SUBJECT" | grep -Eq "^(feat|fix|docs|chore)\($TEAM\): [^ ].*"; then
+  fail "dong tieu de sai cu phap: \"$SUBJECT\""
+fi
+
+# Subject không kết thúc bằng dấu chấm
+if printf '%s\n' "$SUBJECT" | grep -Eq '\.$'; then
+  fail "dong tieu de khong duoc ket thuc bang dau cham"
+fi
+
+# Rule 1: cấm agent làm co-author hoặc gắn nhãn sinh bởi AI
+if printf '%s\n' "$CLEAN" | grep -Eiq 'co-authored-by:.*(claude|anthropic|noreply@anthropic\.com|copilot|openai|chatgpt|gemini)|generated with.*(claude|ai)|🤖'; then
+  fail "co dong co-author hoac nhan 'Generated with' cua agent/AI"
+fi
+
+exit 0

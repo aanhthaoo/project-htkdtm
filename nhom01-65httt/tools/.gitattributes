@@ -1,0 +1,4 @@
+# Script shell va hook phai luon dung LF (CRLF lam hong shebang tren Windows)
+* text=auto
+hooks/* text eol=lf
+*.sh text eol=lf
