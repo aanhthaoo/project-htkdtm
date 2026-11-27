@@ -127,6 +127,30 @@ models:
       - name: value
         tests: [not_null]
 
+  - name: fact_individual_flow_weekly
+    description: Mua/bán của nhà đầu tư cá nhân trong nước theo tuần (nhập tay từ CSV, tỷ đồng)
+    columns:
+      - name: week_start_date_key
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              to: ref('dim_time')
+              field: date_key
+
+  - name: fact_etf_flow_monthly
+    description: Dòng vốn ròng vào quỹ ETF theo tháng (nhập tay từ CSV, tỷ đồng)
+    tests:
+      - unique_combination:
+          columns: [month_start_date_key, etf_name]
+    columns:
+      - name: month_start_date_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_time')
+              field: date_key
+
   - name: dim_article
     description: Chiều bài báo (không có toàn văn)
     columns:
@@ -158,3 +182,134 @@ models:
         tests:
           - accepted_values:
               values: ['STOCK', 'SECTOR']
+
+  - name: dim_model
+    description: Mô hình học máy (mỗi lần huấn luyện một dòng, kèm chỉ số trong cột metrics)
+    columns:
+      - name: model_key
+        tests: [unique, not_null]
+      - name: name
+        tests: [not_null]
+      - name: task
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['sentiment', 'cluster', 'forecast', 'recommendation']
+
+  - name: stock_cluster
+    description: Nhãn cụm hành vi dòng tiền của cổ phiếu (K-Means) và nhãn quy tắc cho mã không đủ dữ liệu
+    tests:
+      - unique_combination:
+          columns: [symbol, model_key]
+    columns:
+      - name: symbol
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_stock')
+              field: symbol
+      - name: model_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_model')
+              field: model_key
+      - name: cluster_label
+        tests: [not_null]
+
+  - name: fact_recommendation
+    description: "Khuyến nghị tăng/giảm tỷ trọng ngành. Grain: ngành x tuần áp dụng x lần chạy quy tắc"
+    columns:
+      - name: sector_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_sector')
+              field: sector_key
+      - name: week_start_date_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_time')
+              field: date_key
+      - name: model_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_model')
+              field: model_key
+      - name: action
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['increase', 'decrease', 'hold']
+      - name: confidence
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['high', 'medium', 'low']
+
+  - name: fact_prediction
+    description: "Dự báo dòng tiền ngành. Grain: ngành x tuần mục tiêu x mô hình x chân trời x thời điểm dự báo"
+    columns:
+      - name: sector_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_sector')
+              field: sector_key
+      - name: target_week_start_date_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_time')
+              field: date_key
+      - name: model_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_model')
+              field: model_key
+      - name: predicted_class
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['INFLOW', 'OUTFLOW']
+      - name: prob_inflow
+        tests: [not_null]
+
+  - name: fact_news_sentiment
+    description: "Cảm xúc tin tức. Grain: 1 bài x 1 mã hoặc ngành được nhắc. Chỉ giữ kết quả của mô hình cảm xúc mới nhất."
+    tests:
+      - unique_combination:
+          columns: [article_key, entity_type, entity_code, model_key]
+    columns:
+      - name: article_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_article')
+              field: article_key
+      - name: session_date_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_time')
+              field: date_key
+      - name: entity_type
+        tests:
+          - accepted_values:
+              values: ['STOCK', 'SECTOR']
+      - name: model_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_model')
+              field: model_key
+      - name: sentiment_label
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['negative', 'neutral', 'positive']
+      - name: sentiment_score
+        tests: [not_null]

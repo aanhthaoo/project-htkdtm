@@ -22,6 +22,12 @@ sources:
         description: Tin lịch sử EconVNNews (chỉ có ngày đăng)
       - name: news_crawl
         description: Tin crawl và RSS (có giờ đăng)
+      - name: manual_macro_monthly
+        description: Vĩ mô theo tháng nhập tay từ CSV (CPI, IIP, xuất nhập khẩu); nạp bằng ingestion.cli load-csv macro
+      - name: manual_individual_weekly
+        description: Mua/bán của nhà đầu tư cá nhân trong nước theo tuần, nhập tay từ CSV (tỷ đồng)
+      - name: manual_etf_monthly
+        description: Dòng vốn ròng vào quỹ ETF theo tháng, nhập tay từ CSV (tỷ đồng)
 
   - name: stg_python
     schema: stg

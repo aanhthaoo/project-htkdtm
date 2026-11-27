@@ -6,3 +6,7 @@ indicator_key,code,name_vi,unit,frequency,scope,origin,source_code
 5,BRENT,Dầu thô Brent,USD/thùng,daily,international,yfinance,BZ=F
 6,GOLD,Vàng,USD/oz,daily,international,yfinance,GC=F
 7,US10Y,Lợi suất trái phiếu Mỹ 10 năm,%,daily,international,yfinance,^TNX
+8,CPI_YOY,Lạm phát CPI so với cùng kỳ,%,monthly,domestic,manual,csv
+9,IIP_YOY,Chỉ số sản xuất công nghiệp so với cùng kỳ,%,monthly,domestic,manual,csv
+10,EXPORT_USD_BN,Kim ngạch xuất khẩu,tỷ USD,monthly,domestic,manual,csv
+11,IMPORT_USD_BN,Kim ngạch nhập khẩu,tỷ USD,monthly,domestic,manual,csv
