@@ -33,5 +33,7 @@ models:
     staging:
       +materialized: table
       +schema: stg
+    superset:
+      +schema: dw
     marts:
       +schema: dw
