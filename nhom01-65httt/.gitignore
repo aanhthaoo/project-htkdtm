@@ -6,3 +6,6 @@ src/dbt_dw/target/
 src/dbt_dw/logs/
 src/dbt_dw/dbt_packages/
 src/dbt_dw/.user.yml
+
+# Môi trường Python ảo của từng máy
+.venv/

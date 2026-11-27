@@ -184,3 +184,35 @@ CREATE TABLE IF NOT EXISTS raw.news_crawl (
 );
 CREATE INDEX IF NOT EXISTS ix_news_crawl_published ON raw.news_crawl (published_at DESC);
 CREATE INDEX IF NOT EXISTS ix_news_crawl_status ON raw.news_crawl (status, source);
+
+-- Số liệu nhập tay từ CSV (TV4): nạp bằng `python -m ingestion.cli load-csv`. Khóa tự nhiên làm khóa chính để nạp lại là ghi đè.
+CREATE TABLE IF NOT EXISTS raw.manual_macro_monthly (
+    period_end      DATE NOT NULL,
+    indicator_code  TEXT NOT NULL,
+    value           DOUBLE PRECISION NOT NULL,
+    unit            TEXT,
+    source          TEXT NOT NULL,
+    published_date  DATE NOT NULL,
+    note            TEXT,
+    fetched_at      TIMESTAMPTZ NOT NULL DEFAULT now(),
+    PRIMARY KEY (period_end, indicator_code)
+);
+
+CREATE TABLE IF NOT EXISTS raw.manual_individual_weekly (
+    week_start_date DATE PRIMARY KEY,
+    buy_value_bn    DOUBLE PRECISION NOT NULL,
+    sell_value_bn   DOUBLE PRECISION NOT NULL,
+    source          TEXT NOT NULL,
+    note            TEXT,
+    fetched_at      TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+CREATE TABLE IF NOT EXISTS raw.manual_etf_monthly (
+    month_start_date DATE NOT NULL,
+    etf_name         TEXT NOT NULL,
+    net_flow_bn      DOUBLE PRECISION NOT NULL,
+    source           TEXT NOT NULL,
+    note             TEXT,
+    fetched_at       TIMESTAMPTZ NOT NULL DEFAULT now(),
+    PRIMARY KEY (month_start_date, etf_name)
+);

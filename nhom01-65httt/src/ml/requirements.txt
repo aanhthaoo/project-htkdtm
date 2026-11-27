@@ -1,0 +1,13 @@
+pandas==2.2.3
+numpy==2.1.3
+scipy==1.18.1
+scikit-learn==1.9.1
+xgboost==2.1.3
+psycopg[binary]==3.2.3
+PyYAML==6.0.2
+# Mô hình cảm xúc dùng embedding câu (chạy trên CPU, không cần GPU). Nên cài torch bản CPU cho nhẹ:
+#   pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
+sentence-transformers==6.3.0
+torch==2.15.0
+# Chỉ cho thí nghiệm (ml.sentiment_experiments, ml.clustering_experiments), không cần khi chạy mô hình:
+#   hdbscan==0.8.44  pyvi==0.1.1

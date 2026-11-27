@@ -1,0 +1,212 @@
+{
+  "id": "etl-rerun-webhook",
+  "name": "ETL - Chạy lại thủ công qua webhook",
+  "active": false,
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "etl-run",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "name": "Webhook chạy lại ETL",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        100
+      ],
+      "webhookId": "etl-run-webhook"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.ETL_RUNNER_URL + '/jobs/' + encodeURIComponent($json.body.job) }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Service-Key",
+              "value": "={{ $env.SERVICE_KEY }}"
+            }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "fullResponse": true,
+              "neverError": true
+            }
+          },
+          "timeout": 30000
+        },
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "trigger",
+              "value": "n8n"
+            },
+            {
+              "name": "requested_by",
+              "value": "n8n-webhook"
+            }
+          ]
+        }
+      },
+      "name": "Gọi bộ chạy ETL",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        260,
+        100
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "boolean": [
+            {
+              "value1": "={{ $json.statusCode === 202 }}",
+              "value2": true
+            }
+          ]
+        }
+      },
+      "name": "Đã nhận?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [
+        520,
+        100
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify($json.body) }}",
+        "options": {
+          "responseCode": 202
+        }
+      },
+      "name": "Trả kết quả",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        780,
+        20
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.BACKEND_URL }}/api/internal/etl/events",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Service-Key",
+              "value": "={{ $env.SERVICE_KEY }}"
+            }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "fullResponse": true,
+              "neverError": true
+            }
+          },
+          "timeout": 30000
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ job: String($('Webhook chạy lại ETL').item.json.body.job), status: 'failed', message: String($json.error ? $json.error.message : JSON.stringify($json.body)).slice(0, 500) }) }}"
+      },
+      "name": "Ghi lỗi vào nhật ký",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        780,
+        200
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify({ error: { code: 'etl_start_failed', message: 'Không khởi động được ETL, đã ghi nhật ký' } }) }}",
+        "options": {
+          "responseCode": 502
+        }
+      },
+      "name": "Trả lỗi",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        1040,
+        200
+      ]
+    }
+  ],
+  "connections": {
+    "Webhook chạy lại ETL": {
+      "main": [
+        [
+          {
+            "node": "Gọi bộ chạy ETL",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gọi bộ chạy ETL": {
+      "main": [
+        [
+          {
+            "node": "Đã nhận?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Đã nhận?": {
+      "main": [
+        [
+          {
+            "node": "Trả kết quả",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Ghi lỗi vào nhật ký",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ghi lỗi vào nhật ký": {
+      "main": [
+        [
+          {
+            "node": "Trả lỗi",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Asia/Ho_Chi_Minh"
+  },
+  "pinData": {}
+}

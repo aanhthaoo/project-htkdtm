@@ -22,6 +22,17 @@ def main(argv: list[str] | None = None) -> int:
     sub = parser.add_subparsers(dest="cmd", required=True)
 
     sub.add_parser("init-db", help="Tạo các bảng raw (IF NOT EXISTS)")
+    p = sub.add_parser(
+        "load-csv", help="Nạp CSV nhập tay (vĩ mô tháng, cá nhân tuần, ETF tháng) vào raw"
+    )
+    p.add_argument("kind", choices=["macro", "individual", "etf"])
+    p.add_argument("file")
+    p.add_argument("--dry-run", action="store_true", help="Chỉ kiểm tra, không ghi")
+    p.add_argument(
+        "--allow-sample",
+        action="store_true",
+        help="Cho phép dòng ghi chú 'Mẫu minh họa' (chỉ để thử)",
+    )
     sub.add_parser("status", help="Tóm tắt số dòng từng bảng raw và nhật ký chạy")
     sub.add_parser("check", help="Kiểm tra thu thập đã xong chưa (mã thoát 0 = xong hết)")
 
@@ -63,6 +74,22 @@ def main(argv: list[str] | None = None) -> int:
     conn = db.connect()
     db.apply_ddl(conn)
 
+    if args.cmd == "load-csv":
+        from pathlib import Path
+
+        from ingestion import manual_csv
+
+        result = manual_csv.load(args.kind, Path(args.file), args.allow_sample, args.dry_run)
+        for err in result.errors:
+            print("LỖI:", err)
+        if result.errors:
+            print(f"Không ghi gì: {len(result.errors)} lỗi, {len(result.rows)} dòng hợp lệ")
+            return 1
+        print(
+            ("Hợp lệ (dry-run, chưa ghi): " if args.dry_run else "Đã nạp ")
+            + f"{len(result.rows)} dòng vào {manual_csv.SPECS[args.kind].table}"
+        )
+        return 0
     if args.cmd == "init-db":
         print("Đã tạo/kiểm tra các bảng raw.")
     elif args.cmd == "status":

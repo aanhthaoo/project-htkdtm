@@ -144,3 +144,55 @@ def test_materialized_view_khop_fact(conn):
     assert mv == pytest.approx(direct_foreign_total(conn), abs=1e-3)
     kpi = conn.execute("SELECT sum(foreign_net_bn) FROM dw.mv_market_daily_kpi").fetchone()[0]
     assert kpi == pytest.approx(direct_foreign_total(conn), abs=1e-3)
+
+
+# ---------------- Nạp CSV nhập tay (TV4) ----------------
+def test_nap_csv_nhap_tay_vao_raw_ghi_de_khong_nhan_doi_va_ghi_dq_log(tmp_path):
+    """Dùng khóa ở quá khứ xa (tháng 01/2019, trước dữ liệu của dự án) và xóa sau khi thử để không làm bẩn kho."""
+    from ingestion import manual_csv
+
+    csv_path = tmp_path / "cpi.csv"
+    header = "period_end,indicator_code,value,unit,source,published_date,note\n"
+    csv_path.write_text(
+        header + "2019-01-31,CPI_YOY,2.5,%,Kiểm thử,2019-02-06,thử\n", encoding="utf-8"
+    )
+    conn = db.connect()
+    try:
+        before = conn.execute(
+            "SELECT count(*) FROM dw.dq_log WHERE source = 'manual_csv'"
+        ).fetchone()[0]
+        result = manual_csv.load("macro", csv_path)
+        assert not result.errors
+        csv_path.write_text(
+            header + "2019-01-31,CPI_YOY,2.7,%,Kiểm thử,2019-02-06,thử\n", encoding="utf-8"
+        )
+        manual_csv.load("macro", csv_path)  # nạp lại cùng khóa: ghi đè, không thêm dòng
+        rows = conn.execute(
+            "SELECT value FROM raw.manual_macro_monthly WHERE period_end = '2019-01-31' AND indicator_code = 'CPI_YOY'"
+        ).fetchall()
+        assert rows == [(2.7,)]
+        # tệp sai: không ghi gì nhưng vẫn có dòng nhật ký báo lỗi
+        bad = tmp_path / "bad.csv"
+        bad.write_text(header + "2019-01-15,CPI_YOY,2.5,%,Kiểm thử,2019-02-06,\n", encoding="utf-8")
+        assert manual_csv.load("macro", bad).errors
+        assert (
+            conn.execute(
+                "SELECT count(*) FROM raw.manual_macro_monthly WHERE period_end = '2019-01-15'"
+            ).fetchone()[0]
+            == 0
+        )
+        after = conn.execute(
+            "SELECT count(*) FROM dw.dq_log WHERE source = 'manual_csv'"
+        ).fetchone()[0]
+        assert after == before + 3
+        failed = conn.execute(
+            "SELECT passed FROM dw.dq_log WHERE source = 'manual_csv' ORDER BY id DESC LIMIT 1"
+        ).fetchone()[0]
+        assert failed is False
+    finally:
+        conn.execute("DELETE FROM raw.manual_macro_monthly WHERE period_end = '2019-01-31'")
+        conn.execute(
+            "DELETE FROM dw.dq_log WHERE source = 'manual_csv' AND details->>'file' IN ('cpi.csv', 'bad.csv')"
+        )
+        conn.commit()
+        conn.close()

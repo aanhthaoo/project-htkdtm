@@ -30,6 +30,18 @@ services:
     restart: unless-stopped
     environment:
       DATABASE_URL: postgresql+psycopg://bi_app:${BI_APP_PASSWORD}@postgres:5432/${POSTGRES_DB:-bi_dw}
+      JWT_SECRET: ${JWT_SECRET:?Chua co JWT_SECRET trong .env}
+      JWT_TTL_MINUTES: ${JWT_TTL_MINUTES:-60}
+      SERVICE_KEY: ${SERVICE_KEY:?Chua co SERVICE_KEY trong .env}
+      APP_ADMIN_EMAIL: ${APP_ADMIN_EMAIL:-}
+      APP_ADMIN_PASSWORD: ${APP_ADMIN_PASSWORD:-}
+      APP_DEMO_EMAIL: ${APP_DEMO_EMAIL:-}
+      APP_DEMO_PASSWORD: ${APP_DEMO_PASSWORD:-}
+      SUPERSET_URL: http://superset:8088
+      SUPERSET_PUBLIC_URL: http://localhost:${SUPERSET_PORT:-8088}
+      SUPERSET_ADMIN_USER: ${SUPERSET_ADMIN_USER:-admin}
+      SUPERSET_ADMIN_PASSWORD: ${SUPERSET_ADMIN_PASSWORD:?Chua co .env}
+      ETL_RUNNER_URL: http://etl-runner:8100
       TZ: *tz
     ports:
       - "127.0.0.1:${BACKEND_PORT:-8000}:8000"
@@ -46,6 +58,8 @@ services:
   frontend:
     build: ./src/frontend
     restart: unless-stopped
+    environment:
+      VITE_API_PROXY: http://backend:8000
     ports:
       - "127.0.0.1:${FRONTEND_PORT:-5173}:5173"
     depends_on:
@@ -53,6 +67,32 @@ services:
         condition: service_healthy
     healthcheck:
       test: ["CMD-SHELL", "wget -q -O /dev/null http://127.0.0.1:5173/ || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+  etl-runner:
+    build:
+      context: ./src
+      dockerfile: etl_runner/Dockerfile
+    restart: unless-stopped
+    environment:
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB:-bi_dw}
+      DBT_HOST: postgres
+      SERVICE_KEY: ${SERVICE_KEY:?Chua co SERVICE_KEY trong .env}
+      TZ: *tz
+    ports:
+      - "127.0.0.1:${ETL_RUNNER_PORT:-8100}:8100"
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request as u; u.urlopen('http://localhost:8100/health', timeout=3)"]
       interval: 10s
       timeout: 5s
       retries: 10
@@ -94,12 +134,20 @@ services:
       N8N_PORT: 5678
       GENERIC_TIMEZONE: *tz
       TZ: *tz
+      # Workflow đọc các biến này bằng $env.* (xem src/n8n/README.md)
+      SERVICE_KEY: ${SERVICE_KEY:?Chua co SERVICE_KEY trong .env}
+      ETL_RUNNER_URL: http://etl-runner:8100
+      BACKEND_URL: http://backend:8000
+      N8N_BLOCK_ENV_ACCESS_IN_NODE: "false"
     ports:
       - "127.0.0.1:${N8N_PORT:-5678}:5678"
     volumes:
       - n8n_data:/home/node/.n8n
+      - ./src/n8n/workflows:/workflows:ro
     depends_on:
       postgres:
+        condition: service_healthy
+      etl-runner:
         condition: service_healthy
     healthcheck:
       test: ["CMD-SHELL", "wget -q -O /dev/null http://127.0.0.1:5678/healthz || exit 1"]
