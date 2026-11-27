@@ -1,9 +1,29 @@
-// Trang tạm thời của N1. Khung giao diện, router, đăng nhập sẽ làm ở N7.
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { AuthProvider } from "./auth/AuthContext.jsx";
+import ProtectedRoute from "./auth/ProtectedRoute.jsx";
+import Layout from "./components/Layout.jsx";
+import NotFound from "./pages/NotFound.jsx";
+import { ROUTES } from "./routes.jsx";
+
 export default function App() {
   return (
-    <main style={{ fontFamily: "sans-serif", padding: 24 }}>
-      <h1>Hệ thống phân tích dòng tiền và luân chuyển ngành</h1>
-      <p>Nhóm 01 – 65HTTT. Khung giao diện đang được xây dựng.</p>
-    </main>
+    <BrowserRouter>
+      <AuthProvider>
+        <Routes>
+          <Route element={<Layout />}>
+            {ROUTES.map((r) => (
+              <Route
+                key={r.path}
+                path={r.path}
+                element={
+                  r.minRole === "guest" ? r.element : <ProtectedRoute minRole={r.minRole}>{r.element}</ProtectedRoute>
+                }
+              />
+            ))}
+            <Route path="*" element={<NotFound />} />
+          </Route>
+        </Routes>
+      </AuthProvider>
+    </BrowserRouter>
   );
 }
