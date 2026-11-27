@@ -1,0 +1,86 @@
+{
+  "Data": {
+    "TotalCount": 7,
+    "Index": "VNINDEX",
+    "DateIndex": "23/11/2026",
+    "TradingReport": {
+      "klMua": 56409146,
+      "klBan": 75511122,
+      "gtMua": 1464.44,
+      "gtBan": 1883.73,
+      "percentBuyVol": "8.09 %",
+      "percentBuyVal": "11.44 %",
+      "percentSellVol": "10.83 %",
+      "percentSellVal": "14.72 %"
+    },
+    "Data": [
+      {
+        "Symbol": "VNM",
+        "Ngay": "10/01/2024",
+        "KLGDRong": -756500,
+        "GTDGRong": -51295970000,
+        "ThayDoi": "67,50 (-0,88%)",
+        "KLMua": 238700,
+        "GtMua": 16195040000,
+        "KLBan": 995200,
+        "GtBan": 67491010000,
+        "RoomConLai": 963920500,
+        "DangSoHuu": 53.88
+      },
+      {
+        "Symbol": "VNM",
+        "Ngay": "09/01/2024",
+        "KLGDRong": -1163600,
+        "GTDGRong": -79323240000,
+        "ThayDoi": "68,10 (-0,15%)",
+        "KLMua": 103700,
+        "GtMua": 7077500000,
+        "KLBan": 1267300,
+        "GtBan": 86400740000,
+        "RoomConLai": 963519168,
+        "DangSoHuu": 53.9
+      },
+      {
+        "Symbol": "VNM",
+        "Ngay": "08/01/2024",
+        "KLGDRong": -510700,
+        "GTDGRong": -34970450000,
+        "ThayDoi": "68,20 (-0,87%)",
+        "KLMua": 129300,
+        "GtMua": 8850590000,
+        "KLBan": 640000,
+        "GtBan": 43821040000,
+        "RoomConLai": 962855296,
+        "DangSoHuu": 53.93
+      },
+      {
+        "Symbol": "VNM",
+        "Ngay": "05/01/2024",
+        "KLGDRong": -139500,
+        "GTDGRong": -9589600000,
+        "ThayDoi": "68,80 (-0,29%)",
+        "KLMua": 143100,
+        "GtMua": 9836090000,
+        "KLBan": 282600,
+        "GtBan": 19425690000,
+        "RoomConLai": 962344596,
+        "DangSoHuu": 53.95
+      },
+      {
+        "Symbol": "VNM",
+        "Ngay": "04/01/2024",
+        "KLGDRong": -306900,
+        "GTDGRong": -21213820000,
+        "ThayDoi": "69,00 (0,00%)",
+        "KLMua": 171700,
+        "GtMua": 11873220000,
+        "KLBan": 478600,
+        "GtBan": 33087040000,
+        "RoomConLai": 962205096,
+        "DangSoHuu": 53.96
+      }
+    ]
+  },
+  "Message": null,
+  "Success": true
+}

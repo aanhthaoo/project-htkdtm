@@ -1,0 +1,59 @@
+{
+  "Data": {
+    "TotalCount": 7,
+    "DateIndex": "23/11/2026",
+    "Index": "VNINDEX",
+    "TradingReport": {
+      "TongGtBan": 516528017000,
+      "TongGtMua": 873825655000,
+      "TongKlBan": 23181472,
+      "TongKlMua": 20802150
+    },
+    "Data": {
+      "ListDataTudoanh": [
+        {
+          "Symbol": "VNM",
+          "Date": "10/01/2024",
+          "KLcpMua": 33800,
+          "KlcpBan": 203300,
+          "GtMua": 2293110000,
+          "GtBan": 13784180000
+        },
+        {
+          "Symbol": "VNM",
+          "Date": "09/01/2024",
+          "KLcpMua": 132000,
+          "KlcpBan": 20800,
+          "GtMua": 9000970000,
+          "GtBan": 1419960000
+        },
+        {
+          "Symbol": "VNM",
+          "Date": "08/01/2024",
+          "KLcpMua": 127700,
+          "KlcpBan": 25800,
+          "GtMua": 8774870000,
+          "GtBan": 1763190000
+        },
+        {
+          "Symbol": "VNM",
+          "Date": "05/01/2024",
+          "KLcpMua": 176900,
+          "KlcpBan": 105500,
+          "GtMua": 12161210000,
+          "GtBan": 7248670000
+        },
+        {
+          "Symbol": "VNM",
+          "Date": "04/01/2024",
+          "KLcpMua": 543900,
+          "KlcpBan": 134000,
+          "GtMua": 37643860000,
+          "GtBan": 9262530000
+        }
+      ]
+    }
+  },
+  "Message": null,
+  "Success": true
+}

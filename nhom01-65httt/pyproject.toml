@@ -1,0 +1,18 @@
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["src", "src/backend", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+# Docstring và chú thích tiếng Việt dài: để ruff format lo phần mã, không ép độ dài dòng văn bản
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "src/backend"]
+# Mặc định chỉ chạy unit test (không cần Docker). Smoke test chạy bằng: pytest -m smoke
+addopts = "-m 'not smoke'"
+markers = [
+    "smoke: kiem tra he thong dang chay bang docker compose",
+]

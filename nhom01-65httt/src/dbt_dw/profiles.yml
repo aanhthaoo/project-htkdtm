@@ -1,0 +1,13 @@
+# Kết nối dbt tới PostgreSQL. Biến môi trường lấy từ .env (dùng run.py để nạp tự động).
+htkdtm:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: "{{ env_var('DBT_HOST', '127.0.0.1') }}"
+      port: "{{ env_var('POSTGRES_PORT', '5432') | as_number }}"
+      user: "{{ env_var('POSTGRES_USER') }}"
+      password: "{{ env_var('POSTGRES_PASSWORD') }}"
+      dbname: "{{ env_var('POSTGRES_DB', 'bi_dw') }}"
+      schema: dw
+      threads: 4

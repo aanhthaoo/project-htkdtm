@@ -1,0 +1,8 @@
+# Dữ liệu thô tải về (EconVNNews...), không đưa vào git
+data/
+
+# Sản phẩm sinh ra khi chạy dbt
+src/dbt_dw/target/
+src/dbt_dw/logs/
+src/dbt_dw/dbt_packages/
+src/dbt_dw/.user.yml
