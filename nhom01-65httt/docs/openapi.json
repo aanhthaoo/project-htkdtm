@@ -1,0 +1,5040 @@
+{
+  "components": {
+    "schemas": {
+      "Accuracy": {
+        "properties": {
+          "disclaimer": {
+            "default": "Thông tin chỉ phục vụ học tập, không phải khuyến nghị đầu tư.",
+            "title": "Disclaimer",
+            "type": "string"
+          },
+          "overall_accuracy": {
+            "title": "Overall Accuracy",
+            "type": "number"
+          },
+          "overall_baseline_accuracy": {
+            "title": "Overall Baseline Accuracy",
+            "type": "number"
+          },
+          "points": {
+            "items": {
+              "$ref": "#/components/schemas/AccuracyPoint"
+            },
+            "title": "Points",
+            "type": "array"
+          },
+          "stub": {
+            "default": false,
+            "description": "true nếu đây là dữ liệu mẫu, không phải dữ liệu thật",
+            "title": "Stub",
+            "type": "boolean"
+          },
+          "weeks": {
+            "title": "Weeks",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "weeks",
+          "overall_accuracy",
+          "overall_baseline_accuracy",
+          "points"
+        ],
+        "title": "Accuracy",
+        "type": "object"
+      },
+      "AccuracyPoint": {
+        "properties": {
+          "accuracy": {
+            "title": "Accuracy",
+            "type": "number"
+          },
+          "baseline_accuracy": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Mô hình cơ sở: tuần sau giống tuần này",
+            "title": "Baseline Accuracy"
+          },
+          "n_sectors": {
+            "title": "N Sectors",
+            "type": "integer"
+          },
+          "week_start_date": {
+            "format": "date",
+            "title": "Week Start Date",
+            "type": "string"
+          }
+        },
+        "required": [
+          "week_start_date",
+          "accuracy",
+          "baseline_accuracy",
+          "n_sectors"
+        ],
+        "title": "AccuracyPoint",
+        "type": "object"
+      },
+      "AdminUserOut": {
+        "properties": {
+          "created_at": {
+            "format": "date-time",
+            "title": "Created At",
+            "type": "string"
+          },
+          "email": {
+            "title": "Email",
+            "type": "string"
+          },
+          "full_name": {
+            "title": "Full Name",
+            "type": "string"
+          },
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          },
+          "is_active": {
+            "title": "Is Active",
+            "type": "boolean"
+          },
+          "last_login_at": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Last Login At"
+          },
+          "role": {
+            "title": "Role",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "email",
+          "full_name",
+          "role",
+          "is_active",
+          "created_at",
+          "last_login_at"
+        ],
+        "title": "AdminUserOut",
+        "type": "object"
+      },
+      "AdminUserPatch": {
+        "properties": {
+          "is_active": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Is Active"
+          },
+          "role": {
+            "anyOf": [
+              {
+                "enum": [
+                  "investor",
+                  "admin"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Role"
+          }
+        },
+        "title": "AdminUserPatch",
+        "type": "object"
+      },
+      "AlertDispatchRequest": {
+        "properties": {
+          "alert_type": {
+            "enum": [
+              "flow_reversal",
+              "negative_news",
+              "weekly_digest"
+            ],
+            "title": "Alert Type",
+            "type": "string"
+          },
+          "entity_code": {
+            "title": "Entity Code",
+            "type": "string"
+          },
+          "entity_type": {
+            "enum": [
+              "STOCK",
+              "SECTOR"
+            ],
+            "title": "Entity Type",
+            "type": "string"
+          }
+        },
+        "required": [
+          "alert_type",
+          "entity_type",
+          "entity_code"
+        ],
+        "title": "AlertDispatchRequest",
+        "type": "object"
+      },
+      "AlertDispatchResponse": {
+        "properties": {
+          "alert_type": {
+            "title": "Alert Type",
+            "type": "string"
+          },
+          "count": {
+            "title": "Count",
+            "type": "integer"
+          },
+          "entity_code": {
+            "title": "Entity Code",
+            "type": "string"
+          },
+          "entity_type": {
+            "title": "Entity Type",
+            "type": "string"
+          },
+          "recipients": {
+            "items": {
+              "$ref": "#/components/schemas/Recipient"
+            },
+            "title": "Recipients",
+            "type": "array"
+          }
+        },
+        "required": [
+          "alert_type",
+          "entity_type",
+          "entity_code",
+          "count",
+          "recipients"
+        ],
+        "title": "AlertDispatchResponse",
+        "type": "object"
+      },
+      "AlertSubscribe": {
+        "properties": {
+          "alert_type": {
+            "enum": [
+              "flow_reversal",
+              "negative_news",
+              "weekly_digest"
+            ],
+            "title": "Alert Type",
+            "type": "string"
+          },
+          "entity_code": {
+            "maxLength": 20,
+            "minLength": 1,
+            "title": "Entity Code",
+            "type": "string"
+          },
+          "entity_type": {
+            "enum": [
+              "STOCK",
+              "SECTOR"
+            ],
+            "title": "Entity Type",
+            "type": "string"
+          }
+        },
+        "required": [
+          "entity_type",
+          "entity_code",
+          "alert_type"
+        ],
+        "title": "AlertSubscribe",
+        "type": "object"
+      },
+      "AlertSubscription": {
+        "properties": {
+          "alert_type": {
+            "title": "Alert Type",
+            "type": "string"
+          },
+          "channel": {
+            "title": "Channel",
+            "type": "string"
+          },
+          "entity_code": {
+            "title": "Entity Code",
+            "type": "string"
+          },
+          "entity_type": {
+            "enum": [
+              "STOCK",
+              "SECTOR"
+            ],
+            "title": "Entity Type",
+            "type": "string"
+          },
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          },
+          "is_active": {
+            "title": "Is Active",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "entity_type",
+          "entity_code",
+          "alert_type",
+          "channel",
+          "is_active"
+        ],
+        "title": "AlertSubscription",
+        "type": "object"
+      },
+      "AuthResponse": {
+        "properties": {
+          "access_token": {
+            "title": "Access Token",
+            "type": "string"
+          },
+          "expires_in": {
+            "description": "Số giây token còn hiệu lực",
+            "title": "Expires In",
+            "type": "integer"
+          },
+          "token_type": {
+            "default": "bearer",
+            "title": "Token Type",
+            "type": "string"
+          },
+          "user": {
+            "$ref": "#/components/schemas/UserOut"
+          }
+        },
+        "required": [
+          "access_token",
+          "expires_in",
+          "user"
+        ],
+        "title": "AuthResponse",
+        "type": "object"
+      },
+      "ChatRequest": {
+        "properties": {
+          "message": {
+            "maxLength": 2000,
+            "minLength": 1,
+            "title": "Message",
+            "type": "string"
+          }
+        },
+        "required": [
+          "message"
+        ],
+        "title": "ChatRequest",
+        "type": "object"
+      },
+      "ChatResponse": {
+        "properties": {
+          "answer": {
+            "title": "Answer",
+            "type": "string"
+          },
+          "disclaimer": {
+            "default": "Thông tin chỉ phục vụ học tập, không phải khuyến nghị đầu tư.",
+            "title": "Disclaimer",
+            "type": "string"
+          },
+          "sources": {
+            "items": {
+              "$ref": "#/components/schemas/ChatSource"
+            },
+            "title": "Sources",
+            "type": "array"
+          },
+          "stub": {
+            "default": false,
+            "description": "true nếu đây là dữ liệu mẫu, không phải dữ liệu thật",
+            "title": "Stub",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "answer",
+          "sources"
+        ],
+        "title": "ChatResponse",
+        "type": "object"
+      },
+      "ChatSource": {
+        "properties": {
+          "title": {
+            "title": "Title",
+            "type": "string"
+          },
+          "url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Url"
+          }
+        },
+        "required": [
+          "title"
+        ],
+        "title": "ChatSource",
+        "type": "object"
+      },
+      "ClusterItem": {
+        "properties": {
+          "cluster_label": {
+            "title": "Cluster Label",
+            "type": "string"
+          },
+          "symbol": {
+            "title": "Symbol",
+            "type": "string"
+          }
+        },
+        "required": [
+          "symbol",
+          "cluster_label"
+        ],
+        "title": "ClusterItem",
+        "type": "object"
+      },
+      "ClusterRequest": {
+        "properties": {
+          "symbols": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Symbols",
+            "type": "array"
+          }
+        },
+        "required": [
+          "symbols"
+        ],
+        "title": "ClusterRequest",
+        "type": "object"
+      },
+      "ClusterResponse": {
+        "properties": {
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/ClusterItem"
+            },
+            "title": "Items",
+            "type": "array"
+          },
+          "model_version": {
+            "title": "Model Version",
+            "type": "string"
+          },
+          "stub": {
+            "default": false,
+            "description": "true nếu đây là dữ liệu mẫu, không phải dữ liệu thật",
+            "title": "Stub",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "model_version",
+          "items"
+        ],
+        "title": "ClusterResponse",
+        "type": "object"
+      },
+      "Correlation": {
+        "properties": {
+          "against": {
+            "title": "Against",
+            "type": "string"
+          },
+          "disclaimer": {
+            "default": "Thông tin chỉ phục vụ học tập, không phải khuyến nghị đầu tư.",
+            "title": "Disclaimer",
+            "type": "string"
+          },
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/CorrelationItem"
+            },
+            "title": "Items",
+            "type": "array"
+          },
+          "stub": {
+            "default": false,
+            "description": "true nếu đây là dữ liệu mẫu, không phải dữ liệu thật",
+            "title": "Stub",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "against",
+          "items"
+        ],
+        "title": "Correlation",
+        "type": "object"
+      },
+      "CorrelationItem": {
+        "properties": {
+          "code": {
+            "title": "Code",
+            "type": "string"
+          },
+          "correlation": {
+            "title": "Correlation",
+            "type": "number"
+          },
+          "window": {
+            "title": "Window",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "code",
+          "correlation",
+          "window"
+        ],
+        "title": "CorrelationItem",
+        "type": "object"
+      },
+      "DashboardInfo": {
+        "properties": {
+          "key": {
+            "title": "Key",
+            "type": "string"
+          },
+          "min_role": {
+            "title": "Min Role",
+            "type": "string"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string"
+          }
+        },
+        "required": [
+          "key",
+          "title",
+          "min_role"
+        ],
+        "title": "DashboardInfo",
+        "type": "object"
+      },
+      "DqLogEntry": {
+        "properties": {
+          "business_date": {
+            "anyOf": [
+              {
+                "format": "date",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Business Date"
+          },
+          "check_name": {
+            "title": "Check Name",
+            "type": "string"
+          },
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          },
+          "layer": {
+            "title": "Layer",
+            "type": "string"
+          },
+          "logged_at": {
+            "format": "date-time",
+            "title": "Logged At",
+            "type": "string"
+          },
+          "metric_value": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Metric Value"
+          },
+          "passed": {
+            "title": "Passed",
+            "type": "boolean"
+          },
+          "run_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Run Id"
+          },
+          "severity": {
+            "title": "Severity",
+            "type": "string"
+          },
+          "source": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Source"
+          },
+          "target_table": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Target Table"
+          },
+          "threshold_value": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Threshold Value"
+          }
+        },
+        "required": [
+          "id",
+          "logged_at",
+          "layer",
+          "check_name",
+          "severity",
+          "passed"
+        ],
+        "title": "DqLogEntry",
+        "type": "object"
+      },
+      "EmbedInfo": {
+        "properties": {
+          "dashboard_id": {
+            "title": "Dashboard Id",
+            "type": "string"
+          },
+          "guest_token": {
+            "title": "Guest Token",
+            "type": "string"
+          },
+          "key": {
+            "title": "Key",
+            "type": "string"
+          },
+          "superset_domain": {
+            "title": "Superset Domain",
+            "type": "string"
+          }
+        },
+        "required": [
+          "key",
+          "dashboard_id",
+          "superset_domain",
+          "guest_token"
+        ],
+        "title": "EmbedInfo",
+        "type": "object"
+      },
+      "EtlEvent": {
+        "properties": {
+          "job": {
+            "title": "Job",
+            "type": "string"
+          },
+          "message": {
+            "default": "",
+            "title": "Message",
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "success",
+              "failed"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "required": [
+          "job",
+          "status"
+        ],
+        "title": "EtlEvent",
+        "type": "object"
+      },
+      "EtlEventOut": {
+        "properties": {
+          "run_id": {
+            "title": "Run Id",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "run_id"
+        ],
+        "title": "EtlEventOut",
+        "type": "object"
+      },
+      "EtlRun": {
+        "properties": {
+          "finished_at": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Finished At"
+          },
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          },
+          "job": {
+            "title": "Job",
+            "type": "string"
+          },
+          "log_tail": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Log Tail"
+          },
+          "requested_by": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Requested By"
+          },
+          "started_at": {
+            "format": "date-time",
+            "title": "Started At",
+            "type": "string"
+          },
+          "status": {
+            "title": "Status",
+            "type": "string"
+          },
+          "steps": {
+            "default": [],
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Steps",
+            "type": "array"
+          },
+          "trigger_type": {
+            "title": "Trigger Type",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "job",
+          "trigger_type",
+          "status",
+          "started_at"
+        ],
+        "title": "EtlRun",
+        "type": "object"
+      },
+      "EtlRunRequest": {
+        "properties": {
+          "job": {
+            "default": "after_close",
+            "enum": [
+              "rss",
+              "daily",
+              "news",
+              "dbt",
+              "quality",
+              "after_close"
+            ],
+            "title": "Job",
+            "type": "string"
+          }
+        },
+        "title": "EtlRunRequest",
+        "type": "object"
+      },
+      "EtlRunStarted": {
+        "properties": {
+          "job": {
+            "title": "Job",
+            "type": "string"
+          },
+          "run_id": {
+            "title": "Run Id",
+            "type": "integer"
+          },
+          "status": {
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "required": [
+          "run_id",
+          "job",
+          "status"
+        ],
+        "title": "EtlRunStarted",
+        "type": "object"
+      },
+      "Flow": {
+        "properties": {
+          "buy_bn": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Buy Bn"
+          },
+          "net_bn": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Net Bn"
+          },
+          "sell_bn": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Sell Bn"
+          }
+        },
+        "required": [
+          "buy_bn",
+          "sell_bn",
+          "net_bn"
+        ],
+        "title": "Flow",
+        "type": "object"
+      },
+      "FlowPoint": {
+        "properties": {
+          "buy_bn": {
+            "title": "Buy Bn",
+            "type": "number"
+          },
+          "date": {
+            "format": "date",
+            "title": "Date",
+            "type": "string"
+          },
+          "investor_type": {
+            "title": "Investor Type",
+            "type": "string"
+          },
+          "net_bn": {
+            "title": "Net Bn",
+            "type": "number"
+          },
+          "sell_bn": {
+            "title": "Sell Bn",
+            "type": "number"
+          }
+        },
+        "required": [
+          "date",
+          "investor_type",
+          "buy_bn",
+          "sell_bn",
+          "net_bn"
+        ],
+        "title": "FlowPoint",
+        "type": "object"
+      },
+      "FlowSeries": {
+        "properties": {
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/FlowPoint"
+            },
+            "title": "Items",
+            "type": "array"
+          },
+          "symbol": {
+            "title": "Symbol",
+            "type": "string"
+          }
+        },
+        "required": [
+          "symbol",
+          "items"
+        ],
+        "title": "FlowSeries",
+        "type": "object"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "title": "Detail",
+            "type": "array"
+          }
+        },
+        "title": "HTTPValidationError",
+        "type": "object"
+      },
+      "Highlights": {
+        "properties": {
+          "disclaimer": {
+            "default": "Thông tin chỉ phục vụ học tập, không phải khuyến nghị đầu tư.",
+            "title": "Disclaimer",
+            "type": "string"
+          },
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/NewsItem"
+            },
+            "title": "Items",
+            "type": "array"
+          }
+        },
+        "required": [
+          "items"
+        ],
+        "title": "Highlights",
+        "type": "object"
+      },
+      "LoginRequest": {
+        "properties": {
+          "email": {
+            "format": "email",
+            "title": "Email",
+            "type": "string"
+          },
+          "password": {
+            "maxLength": 128,
+            "minLength": 1,
+            "title": "Password",
+            "type": "string"
+          }
+        },
+        "required": [
+          "email",
+          "password"
+        ],
+        "title": "LoginRequest",
+        "type": "object"
+      },
+      "MacroPoint": {
+        "properties": {
+          "date": {
+            "format": "date",
+            "title": "Date",
+            "type": "string"
+          },
+          "pct_change_prev": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Pct Change Prev"
+          },
+          "value": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Value"
+          }
+        },
+        "required": [
+          "date",
+          "value",
+          "pct_change_prev"
+        ],
+        "title": "MacroPoint",
+        "type": "object"
+      },
+      "MacroResponse": {
+        "properties": {
+          "series": {
+            "items": {
+              "$ref": "#/components/schemas/MacroSeries"
+            },
+            "title": "Series",
+            "type": "array"
+          }
+        },
+        "required": [
+          "series"
+        ],
+        "title": "MacroResponse",
+        "type": "object"
+      },
+      "MacroSeries": {
+        "properties": {
+          "code": {
+            "title": "Code",
+            "type": "string"
+          },
+          "name_vi": {
+            "title": "Name Vi",
+            "type": "string"
+          },
+          "points": {
+            "items": {
+              "$ref": "#/components/schemas/MacroPoint"
+            },
+            "title": "Points",
+            "type": "array"
+          },
+          "unit": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Unit"
+          }
+        },
+        "required": [
+          "code",
+          "name_vi",
+          "unit",
+          "points"
+        ],
+        "title": "MacroSeries",
+        "type": "object"
+      },
+      "MarketOverview": {
+        "properties": {
+          "date": {
+            "format": "date",
+            "title": "Date",
+            "type": "string"
+          },
+          "disclaimer": {
+            "default": "Thông tin chỉ phục vụ học tập, không phải khuyến nghị đầu tư.",
+            "title": "Disclaimer",
+            "type": "string"
+          },
+          "foreign": {
+            "$ref": "#/components/schemas/Flow"
+          },
+          "prop": {
+            "$ref": "#/components/schemas/Flow"
+          },
+          "total_value_bn": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Total Value Bn"
+          },
+          "vnindex": {
+            "$ref": "#/components/schemas/VnIndex"
+          }
+        },
+        "required": [
+          "date",
+          "vnindex",
+          "total_value_bn",
+          "foreign",
+          "prop"
+        ],
+        "title": "MarketOverview",
+        "type": "object"
+      },
+      "ModelInfo": {
+        "properties": {
+          "metrics": {
+            "additionalProperties": true,
+            "title": "Metrics",
+            "type": "object"
+          },
+          "model_key": {
+            "title": "Model Key",
+            "type": "integer"
+          },
+          "name": {
+            "title": "Name",
+            "type": "string"
+          },
+          "task": {
+            "title": "Task",
+            "type": "string"
+          },
+          "train_range": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Train Range"
+          },
+          "trained_at": {
+            "format": "date-time",
+            "title": "Trained At",
+            "type": "string"
+          },
+          "version": {
+            "title": "Version",
+            "type": "string"
+          }
+        },
+        "required": [
+          "model_key",
+          "name",
+          "task",
+          "version",
+          "trained_at",
+          "train_range",
+          "metrics"
+        ],
+        "title": "ModelInfo",
+        "type": "object"
+      },
+      "ModelRef": {
+        "properties": {
+          "name": {
+            "title": "Name",
+            "type": "string"
+          },
+          "version": {
+            "title": "Version",
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "version"
+        ],
+        "title": "ModelRef",
+        "type": "object"
+      },
+      "ModelsResponse": {
+        "properties": {
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/ModelInfo"
+            },
+            "title": "Items",
+            "type": "array"
+          },
+          "stub": {
+            "default": false,
+            "description": "true nếu đây là dữ liệu mẫu, không phải dữ liệu thật",
+            "title": "Stub",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "items"
+        ],
+        "title": "ModelsResponse",
+        "type": "object"
+      },
+      "NewsItem": {
+        "properties": {
+          "published_at": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Published At"
+          },
+          "sentiment_label": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Sentiment Label"
+          },
+          "sentiment_score": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Sentiment Score"
+          },
+          "session_date": {
+            "format": "date",
+            "title": "Session Date",
+            "type": "string"
+          },
+          "source": {
+            "title": "Source",
+            "type": "string"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string"
+          },
+          "url": {
+            "title": "Url",
+            "type": "string"
+          }
+        },
+        "required": [
+          "title",
+          "source",
+          "published_at",
+          "session_date",
+          "url"
+        ],
+        "title": "NewsItem",
+        "type": "object"
+      },
+      "Page_AdminUserOut_": {
+        "properties": {
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/AdminUserOut"
+            },
+            "title": "Items",
+            "type": "array"
+          },
+          "page": {
+            "title": "Page",
+            "type": "integer"
+          },
+          "page_size": {
+            "title": "Page Size",
+            "type": "integer"
+          },
+          "total": {
+            "title": "Total",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "items",
+          "page",
+          "page_size",
+          "total"
+        ],
+        "title": "Page[AdminUserOut]",
+        "type": "object"
+      },
+      "Page_DqLogEntry_": {
+        "properties": {
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/DqLogEntry"
+            },
+            "title": "Items",
+            "type": "array"
+          },
+          "page": {
+            "title": "Page",
+            "type": "integer"
+          },
+          "page_size": {
+            "title": "Page Size",
+            "type": "integer"
+          },
+          "total": {
+            "title": "Total",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "items",
+          "page",
+          "page_size",
+          "total"
+        ],
+        "title": "Page[DqLogEntry]",
+        "type": "object"
+      },
+      "Page_EtlRun_": {
+        "properties": {
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/EtlRun"
+            },
+            "title": "Items",
+            "type": "array"
+          },
+          "page": {
+            "title": "Page",
+            "type": "integer"
+          },
+          "page_size": {
+            "title": "Page Size",
+            "type": "integer"
+          },
+          "total": {
+            "title": "Total",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "items",
+          "page",
+          "page_size",
+          "total"
+        ],
+        "title": "Page[EtlRun]",
+        "type": "object"
+      },
+      "Page_NewsItem_": {
+        "properties": {
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/NewsItem"
+            },
+            "title": "Items",
+            "type": "array"
+          },
+          "page": {
+            "title": "Page",
+            "type": "integer"
+          },
+          "page_size": {
+            "title": "Page Size",
+            "type": "integer"
+          },
+          "total": {
+            "title": "Total",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "items",
+          "page",
+          "page_size",
+          "total"
+        ],
+        "title": "Page[NewsItem]",
+        "type": "object"
+      },
+      "Page_StockSummary_": {
+        "properties": {
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/StockSummary"
+            },
+            "title": "Items",
+            "type": "array"
+          },
+          "page": {
+            "title": "Page",
+            "type": "integer"
+          },
+          "page_size": {
+            "title": "Page Size",
+            "type": "integer"
+          },
+          "total": {
+            "title": "Total",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "items",
+          "page",
+          "page_size",
+          "total"
+        ],
+        "title": "Page[StockSummary]",
+        "type": "object"
+      },
+      "PredictItem": {
+        "properties": {
+          "icb_l2_code": {
+            "title": "Icb L2 Code",
+            "type": "string"
+          },
+          "predicted_class": {
+            "enum": [
+              "INFLOW",
+              "OUTFLOW"
+            ],
+            "title": "Predicted Class",
+            "type": "string"
+          },
+          "predicted_net_bn": {
+            "title": "Predicted Net Bn",
+            "type": "number"
+          },
+          "prob_inflow": {
+            "title": "Prob Inflow",
+            "type": "number"
+          }
+        },
+        "required": [
+          "icb_l2_code",
+          "predicted_class",
+          "prob_inflow",
+          "predicted_net_bn"
+        ],
+        "title": "PredictItem",
+        "type": "object"
+      },
+      "PredictRequest": {
+        "properties": {
+          "horizon_weeks": {
+            "default": 1,
+            "title": "Horizon Weeks",
+            "type": "integer"
+          },
+          "target_week_start": {
+            "format": "date",
+            "title": "Target Week Start",
+            "type": "string"
+          }
+        },
+        "required": [
+          "target_week_start"
+        ],
+        "title": "PredictRequest",
+        "type": "object"
+      },
+      "PredictResponse": {
+        "properties": {
+          "disclaimer": {
+            "default": "Thông tin chỉ phục vụ học tập, không phải khuyến nghị đầu tư.",
+            "title": "Disclaimer",
+            "type": "string"
+          },
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/PredictItem"
+            },
+            "title": "Items",
+            "type": "array"
+          },
+          "model_version": {
+            "title": "Model Version",
+            "type": "string"
+          },
+          "stub": {
+            "default": false,
+            "description": "true nếu đây là dữ liệu mẫu, không phải dữ liệu thật",
+            "title": "Stub",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "model_version",
+          "items"
+        ],
+        "title": "PredictResponse",
+        "type": "object"
+      },
+      "PredictionItem": {
+        "properties": {
+          "actual_class": {
+            "anyOf": [
+              {
+                "enum": [
+                  "INFLOW",
+                  "OUTFLOW"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Chiều dòng tiền thực tế (có khi tuần mục tiêu đã kết thúc)",
+            "title": "Actual Class"
+          },
+          "actual_net_bn": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Actual Net Bn"
+          },
+          "icb_l2_code": {
+            "title": "Icb L2 Code",
+            "type": "string"
+          },
+          "name_vi": {
+            "title": "Name Vi",
+            "type": "string"
+          },
+          "predicted_class": {
+            "enum": [
+              "INFLOW",
+              "OUTFLOW"
+            ],
+            "title": "Predicted Class",
+            "type": "string"
+          },
+          "predicted_net_bn": {
+            "title": "Predicted Net Bn",
+            "type": "number"
+          },
+          "prob_inflow": {
+            "title": "Prob Inflow",
+            "type": "number"
+          },
+          "rank": {
+            "description": "Thứ hạng ngành theo giá trị ròng dự báo (1 = dự báo mua ròng mạnh nhất trong tuần). Cách đọc khác của cùng dự báo hồi quy, không phải mô hình riêng",
+            "title": "Rank",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "icb_l2_code",
+          "name_vi",
+          "predicted_class",
+          "prob_inflow",
+          "predicted_net_bn",
+          "rank"
+        ],
+        "title": "PredictionItem",
+        "type": "object"
+      },
+      "Predictions": {
+        "properties": {
+          "disclaimer": {
+            "default": "Thông tin chỉ phục vụ học tập, không phải khuyến nghị đầu tư.",
+            "title": "Disclaimer",
+            "type": "string"
+          },
+          "evaluated": {
+            "description": "true nếu tuần mục tiêu đã kết thúc và có giá trị thực tế",
+            "title": "Evaluated",
+            "type": "boolean"
+          },
+          "horizon_weeks": {
+            "title": "Horizon Weeks",
+            "type": "integer"
+          },
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/PredictionItem"
+            },
+            "title": "Items",
+            "type": "array"
+          },
+          "model": {
+            "$ref": "#/components/schemas/ModelRef"
+          },
+          "stub": {
+            "default": false,
+            "description": "true nếu đây là dữ liệu mẫu, không phải dữ liệu thật",
+            "title": "Stub",
+            "type": "boolean"
+          },
+          "target_week_start": {
+            "format": "date",
+            "title": "Target Week Start",
+            "type": "string"
+          }
+        },
+        "required": [
+          "target_week_start",
+          "horizon_weeks",
+          "model",
+          "evaluated",
+          "items"
+        ],
+        "title": "Predictions",
+        "type": "object"
+      },
+      "PricePoint": {
+        "properties": {
+          "close_vnd": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Close Vnd"
+          },
+          "date": {
+            "format": "date",
+            "title": "Date",
+            "type": "string"
+          },
+          "high_vnd": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "High Vnd"
+          },
+          "low_vnd": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Low Vnd"
+          },
+          "open_vnd": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Open Vnd"
+          },
+          "pct_change": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Pct Change"
+          },
+          "total_value_bn": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Total Value Bn"
+          }
+        },
+        "required": [
+          "date",
+          "open_vnd",
+          "high_vnd",
+          "low_vnd",
+          "close_vnd",
+          "pct_change",
+          "total_value_bn"
+        ],
+        "title": "PricePoint",
+        "type": "object"
+      },
+      "PriceSeries": {
+        "properties": {
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/PricePoint"
+            },
+            "title": "Items",
+            "type": "array"
+          },
+          "symbol": {
+            "title": "Symbol",
+            "type": "string"
+          }
+        },
+        "required": [
+          "symbol",
+          "items"
+        ],
+        "title": "PriceSeries",
+        "type": "object"
+      },
+      "Recipient": {
+        "properties": {
+          "email": {
+            "title": "Email",
+            "type": "string"
+          },
+          "full_name": {
+            "title": "Full Name",
+            "type": "string"
+          },
+          "user_id": {
+            "title": "User Id",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "user_id",
+          "email",
+          "full_name"
+        ],
+        "title": "Recipient",
+        "type": "object"
+      },
+      "Recommendation": {
+        "properties": {
+          "action": {
+            "enum": [
+              "increase",
+              "decrease",
+              "hold"
+            ],
+            "title": "Action",
+            "type": "string"
+          },
+          "confidence": {
+            "default": "low",
+            "description": "Độ chắc chắn theo số tín hiệu cùng chiều và có lệch pha hay không",
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ],
+            "title": "Confidence",
+            "type": "string"
+          },
+          "icb_l2_code": {
+            "title": "Icb L2 Code",
+            "type": "string"
+          },
+          "name_vi": {
+            "title": "Name Vi",
+            "type": "string"
+          },
+          "prob_inflow": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Xác suất mua ròng của mô hình dự báo tuần này",
+            "title": "Prob Inflow"
+          },
+          "reason": {
+            "title": "Reason",
+            "type": "string"
+          },
+          "score": {
+            "default": 0.0,
+            "description": "Điểm tổng hợp các tín hiệu; >= 0,5 tăng, <= -0,5 giảm",
+            "title": "Score",
+            "type": "number"
+          },
+          "signal": {
+            "enum": [
+              "none",
+              "reversal",
+              "mismatch"
+            ],
+            "title": "Signal",
+            "type": "string"
+          },
+          "signals": {
+            "description": "Mã các tín hiệu đã kích hoạt: forecast_inflow, forecast_outflow, reversal_up, reversal_down, sentiment_up, sentiment_down, positive_news_outflow, negative_news_inflow",
+            "items": {
+              "type": "string"
+            },
+            "title": "Signals",
+            "type": "array"
+          }
+        },
+        "required": [
+          "icb_l2_code",
+          "name_vi",
+          "action",
+          "signal",
+          "reason"
+        ],
+        "title": "Recommendation",
+        "type": "object"
+      },
+      "Recommendations": {
+        "properties": {
+          "disclaimer": {
+            "default": "Thông tin chỉ phục vụ học tập, không phải khuyến nghị đầu tư.",
+            "title": "Disclaimer",
+            "type": "string"
+          },
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/Recommendation"
+            },
+            "title": "Items",
+            "type": "array"
+          },
+          "rule_version": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Rule Version"
+          },
+          "stub": {
+            "default": false,
+            "description": "true nếu đây là dữ liệu mẫu, không phải dữ liệu thật",
+            "title": "Stub",
+            "type": "boolean"
+          },
+          "week": {
+            "format": "date",
+            "title": "Week",
+            "type": "string"
+          }
+        },
+        "required": [
+          "week",
+          "items"
+        ],
+        "title": "Recommendations",
+        "type": "object"
+      },
+      "RegisterRequest": {
+        "properties": {
+          "email": {
+            "format": "email",
+            "title": "Email",
+            "type": "string"
+          },
+          "full_name": {
+            "default": "",
+            "maxLength": 120,
+            "title": "Full Name",
+            "type": "string"
+          },
+          "password": {
+            "description": "Tối thiểu 8 ký tự",
+            "maxLength": 128,
+            "minLength": 8,
+            "title": "Password",
+            "type": "string"
+          }
+        },
+        "required": [
+          "email",
+          "password"
+        ],
+        "title": "RegisterRequest",
+        "type": "object"
+      },
+      "SectorDetail": {
+        "properties": {
+          "disclaimer": {
+            "default": "Thông tin chỉ phục vụ học tập, không phải khuyến nghị đầu tư.",
+            "title": "Disclaimer",
+            "type": "string"
+          },
+          "icb_l2_code": {
+            "title": "Icb L2 Code",
+            "type": "string"
+          },
+          "name_vi": {
+            "title": "Name Vi",
+            "type": "string"
+          },
+          "net_bn_by_week": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Net Bn By Week",
+            "type": "array"
+          },
+          "sentiment_label": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Sentiment Label"
+          },
+          "stub": {
+            "default": false,
+            "description": "true nếu đây là dữ liệu mẫu, không phải dữ liệu thật",
+            "title": "Stub",
+            "type": "boolean"
+          },
+          "top_stocks": {
+            "items": {
+              "$ref": "#/components/schemas/TopStock"
+            },
+            "title": "Top Stocks",
+            "type": "array"
+          }
+        },
+        "required": [
+          "icb_l2_code",
+          "name_vi",
+          "net_bn_by_week",
+          "sentiment_label",
+          "top_stocks"
+        ],
+        "title": "SectorDetail",
+        "type": "object"
+      },
+      "SectorFlow": {
+        "properties": {
+          "granularity": {
+            "title": "Granularity",
+            "type": "string"
+          },
+          "investor_type": {
+            "title": "Investor Type",
+            "type": "string"
+          },
+          "periods": {
+            "items": {
+              "format": "date",
+              "type": "string"
+            },
+            "title": "Periods",
+            "type": "array"
+          },
+          "sectors": {
+            "items": {
+              "$ref": "#/components/schemas/SectorSeries"
+            },
+            "title": "Sectors",
+            "type": "array"
+          }
+        },
+        "required": [
+          "investor_type",
+          "granularity",
+          "periods",
+          "sectors"
+        ],
+        "title": "SectorFlow",
+        "type": "object"
+      },
+      "SectorSeries": {
+        "properties": {
+          "icb_l2_code": {
+            "title": "Icb L2 Code",
+            "type": "string"
+          },
+          "name_vi": {
+            "title": "Name Vi",
+            "type": "string"
+          },
+          "net_bn": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "title": "Net Bn",
+            "type": "array"
+          }
+        },
+        "required": [
+          "icb_l2_code",
+          "name_vi",
+          "net_bn"
+        ],
+        "title": "SectorSeries",
+        "type": "object"
+      },
+      "SentimentRequest": {
+        "properties": {
+          "texts": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Texts",
+            "type": "array"
+          }
+        },
+        "required": [
+          "texts"
+        ],
+        "title": "SentimentRequest",
+        "type": "object"
+      },
+      "SentimentResponse": {
+        "properties": {
+          "model_version": {
+            "title": "Model Version",
+            "type": "string"
+          },
+          "results": {
+            "items": {
+              "$ref": "#/components/schemas/SentimentResult"
+            },
+            "title": "Results",
+            "type": "array"
+          },
+          "stub": {
+            "default": false,
+            "description": "true nếu đây là dữ liệu mẫu, không phải dữ liệu thật",
+            "title": "Stub",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "model_version",
+          "results"
+        ],
+        "title": "SentimentResponse",
+        "type": "object"
+      },
+      "SentimentResult": {
+        "properties": {
+          "confidence": {
+            "title": "Confidence",
+            "type": "number"
+          },
+          "label": {
+            "enum": [
+              "negative",
+              "neutral",
+              "positive"
+            ],
+            "title": "Label",
+            "type": "string"
+          },
+          "score": {
+            "title": "Score",
+            "type": "number"
+          }
+        },
+        "required": [
+          "label",
+          "score",
+          "confidence"
+        ],
+        "title": "SentimentResult",
+        "type": "object"
+      },
+      "Source": {
+        "properties": {
+          "code": {
+            "title": "Code",
+            "type": "string"
+          },
+          "is_enabled": {
+            "title": "Is Enabled",
+            "type": "boolean"
+          },
+          "kind": {
+            "title": "Kind",
+            "type": "string"
+          },
+          "name": {
+            "title": "Name",
+            "type": "string"
+          },
+          "note": {
+            "title": "Note",
+            "type": "string"
+          }
+        },
+        "required": [
+          "code",
+          "name",
+          "kind",
+          "is_enabled",
+          "note"
+        ],
+        "title": "Source",
+        "type": "object"
+      },
+      "SourcePut": {
+        "properties": {
+          "is_enabled": {
+            "title": "Is Enabled",
+            "type": "boolean"
+          },
+          "note": {
+            "default": "",
+            "title": "Note",
+            "type": "string"
+          }
+        },
+        "required": [
+          "is_enabled"
+        ],
+        "title": "SourcePut",
+        "type": "object"
+      },
+      "StockDetail": {
+        "properties": {
+          "cap_group": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Cap Group"
+          },
+          "cluster_label": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Nhãn cụm hành vi (có sau khi chạy mô hình phân cụm)",
+            "title": "Cluster Label"
+          },
+          "exchange": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Exchange"
+          },
+          "icb_l2_code": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Icb L2 Code"
+          },
+          "icb_l2_name_vi": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Icb L2 Name Vi"
+          },
+          "icb_l4_name": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Icb L4 Name"
+          },
+          "is_vn30": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Is Vn30"
+          },
+          "listing_date": {
+            "anyOf": [
+              {
+                "format": "date",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Listing Date"
+          },
+          "market_cap_bn": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Market Cap Bn"
+          },
+          "name_vi": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Name Vi"
+          },
+          "symbol": {
+            "title": "Symbol",
+            "type": "string"
+          }
+        },
+        "required": [
+          "symbol",
+          "name_vi",
+          "exchange",
+          "icb_l2_code",
+          "icb_l2_name_vi",
+          "icb_l4_name",
+          "market_cap_bn",
+          "cap_group",
+          "is_vn30",
+          "listing_date"
+        ],
+        "title": "StockDetail",
+        "type": "object"
+      },
+      "StockSummary": {
+        "properties": {
+          "exchange": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Exchange"
+          },
+          "icb_l2_code": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Icb L2 Code"
+          },
+          "icb_l2_name_vi": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Icb L2 Name Vi"
+          },
+          "name_vi": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Name Vi"
+          },
+          "symbol": {
+            "title": "Symbol",
+            "type": "string"
+          }
+        },
+        "required": [
+          "symbol",
+          "name_vi",
+          "exchange",
+          "icb_l2_code",
+          "icb_l2_name_vi"
+        ],
+        "title": "StockSummary",
+        "type": "object"
+      },
+      "TopNet": {
+        "properties": {
+          "date_from": {
+            "format": "date",
+            "title": "Date From",
+            "type": "string"
+          },
+          "date_to": {
+            "format": "date",
+            "title": "Date To",
+            "type": "string"
+          },
+          "investor_type": {
+            "title": "Investor Type",
+            "type": "string"
+          },
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/TopNetItem"
+            },
+            "title": "Items",
+            "type": "array"
+          },
+          "side": {
+            "title": "Side",
+            "type": "string"
+          }
+        },
+        "required": [
+          "side",
+          "investor_type",
+          "date_from",
+          "date_to",
+          "items"
+        ],
+        "title": "TopNet",
+        "type": "object"
+      },
+      "TopNetItem": {
+        "properties": {
+          "icb_l2_name_vi": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Icb L2 Name Vi"
+          },
+          "n_days": {
+            "title": "N Days",
+            "type": "integer"
+          },
+          "name_vi": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Name Vi"
+          },
+          "net_bn": {
+            "title": "Net Bn",
+            "type": "number"
+          },
+          "symbol": {
+            "title": "Symbol",
+            "type": "string"
+          }
+        },
+        "required": [
+          "symbol",
+          "name_vi",
+          "icb_l2_name_vi",
+          "net_bn",
+          "n_days"
+        ],
+        "title": "TopNetItem",
+        "type": "object"
+      },
+      "TopStock": {
+        "properties": {
+          "net_bn": {
+            "title": "Net Bn",
+            "type": "number"
+          },
+          "symbol": {
+            "title": "Symbol",
+            "type": "string"
+          }
+        },
+        "required": [
+          "symbol",
+          "net_bn"
+        ],
+        "title": "TopStock",
+        "type": "object"
+      },
+      "UserOut": {
+        "properties": {
+          "created_at": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Created At"
+          },
+          "email": {
+            "title": "Email",
+            "type": "string"
+          },
+          "full_name": {
+            "title": "Full Name",
+            "type": "string"
+          },
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          },
+          "role": {
+            "title": "Role",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "email",
+          "full_name",
+          "role"
+        ],
+        "title": "UserOut",
+        "type": "object"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "title": "Location",
+            "type": "array"
+          },
+          "msg": {
+            "title": "Message",
+            "type": "string"
+          },
+          "type": {
+            "title": "Error Type",
+            "type": "string"
+          }
+        },
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError",
+        "type": "object"
+      },
+      "VnIndex": {
+        "properties": {
+          "change": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Change"
+          },
+          "change_pct": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Change Pct"
+          },
+          "close": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Close"
+          }
+        },
+        "required": [
+          "close",
+          "change",
+          "change_pct"
+        ],
+        "title": "VnIndex",
+        "type": "object"
+      },
+      "WatchAdd": {
+        "properties": {
+          "entity_code": {
+            "maxLength": 20,
+            "minLength": 1,
+            "title": "Entity Code",
+            "type": "string"
+          },
+          "entity_type": {
+            "enum": [
+              "STOCK",
+              "SECTOR"
+            ],
+            "title": "Entity Type",
+            "type": "string"
+          }
+        },
+        "required": [
+          "entity_type",
+          "entity_code"
+        ],
+        "title": "WatchAdd",
+        "type": "object"
+      },
+      "WatchItem": {
+        "properties": {
+          "created_at": {
+            "format": "date-time",
+            "title": "Created At",
+            "type": "string"
+          },
+          "entity_code": {
+            "title": "Entity Code",
+            "type": "string"
+          },
+          "entity_type": {
+            "enum": [
+              "STOCK",
+              "SECTOR"
+            ],
+            "title": "Entity Type",
+            "type": "string"
+          },
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "id",
+          "entity_type",
+          "entity_code",
+          "created_at"
+        ],
+        "title": "WatchItem",
+        "type": "object"
+      }
+    },
+    "securitySchemes": {
+      "HTTPBearer": {
+        "scheme": "bearer",
+        "type": "http"
+      }
+    }
+  },
+  "info": {
+    "description": "API website phân tích dòng tiền và luân chuyển ngành. Contract chốt: docs/openapi.json.",
+    "title": "HTKDTM Nhom 01 - Backend",
+    "version": "0.2.0"
+  },
+  "openapi": "3.1.0",
+  "paths": {
+    "/api/admin/dq-log": {
+      "get": {
+        "description": "Nhật ký chất lượng dữ liệu (dw.dq_log), mới nhất trước.",
+        "operationId": "dq_log_api_admin_dq_log_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "from",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "format": "date",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "From"
+            }
+          },
+          {
+            "in": "query",
+            "name": "to",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "format": "date",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "To"
+            }
+          },
+          {
+            "in": "query",
+            "name": "severity",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "enum": [
+                    "info",
+                    "warning",
+                    "error"
+                  ],
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Severity"
+            }
+          },
+          {
+            "in": "query",
+            "name": "failed_only",
+            "required": false,
+            "schema": {
+              "default": false,
+              "title": "Failed Only",
+              "type": "boolean"
+            }
+          },
+          {
+            "in": "query",
+            "name": "page",
+            "required": false,
+            "schema": {
+              "default": 1,
+              "minimum": 1,
+              "title": "Page",
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "page_size",
+            "required": false,
+            "schema": {
+              "default": 20,
+              "maximum": 100,
+              "minimum": 1,
+              "title": "Page Size",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Page_DqLogEntry_"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Dq Log",
+        "tags": [
+          "Admin: ETL và chất lượng dữ liệu"
+        ]
+      }
+    },
+    "/api/admin/etl/run": {
+      "post": {
+        "description": "Chạy lại một bước ETL hoặc cả chuỗi (`after_close`). Trả ngay mã lần chạy; xem tiến độ ở /etl/runs.",
+        "operationId": "run_etl_api_admin_etl_run_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EtlRunRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "202": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EtlRunStarted"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Run Etl",
+        "tags": [
+          "Admin: ETL và chất lượng dữ liệu"
+        ]
+      }
+    },
+    "/api/admin/etl/runs": {
+      "get": {
+        "operationId": "list_etl_runs_api_admin_etl_runs_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "status",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "enum": [
+                    "running",
+                    "success",
+                    "failed"
+                  ],
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Status"
+            }
+          },
+          {
+            "in": "query",
+            "name": "page",
+            "required": false,
+            "schema": {
+              "default": 1,
+              "minimum": 1,
+              "title": "Page",
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "page_size",
+            "required": false,
+            "schema": {
+              "default": 20,
+              "maximum": 100,
+              "minimum": 1,
+              "title": "Page Size",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Page_EtlRun_"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "List Etl Runs",
+        "tags": [
+          "Admin: ETL và chất lượng dữ liệu"
+        ]
+      }
+    },
+    "/api/admin/models": {
+      "get": {
+        "description": "Phiên bản và chỉ số các mô hình đã huấn luyện (dw.dim_model), mới nhất trước.",
+        "operationId": "list_models_api_admin_models_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ModelsResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "List Models",
+        "tags": [
+          "TV2: Quản trị"
+        ]
+      }
+    },
+    "/api/admin/sources": {
+      "get": {
+        "operationId": "list_sources_api_admin_sources_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/Source"
+                  },
+                  "title": "Response List Sources Api Admin Sources Get",
+                  "type": "array"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "List Sources",
+        "tags": [
+          "TV2: Quản trị"
+        ]
+      }
+    },
+    "/api/admin/sources/{code}": {
+      "put": {
+        "operationId": "put_source_api_admin_sources__code__put",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "code",
+            "required": true,
+            "schema": {
+              "title": "Code",
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SourcePut"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Source"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Put Source",
+        "tags": [
+          "TV2: Quản trị"
+        ]
+      }
+    },
+    "/api/admin/users": {
+      "get": {
+        "operationId": "list_users_api_admin_users_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "page",
+            "required": false,
+            "schema": {
+              "default": 1,
+              "minimum": 1,
+              "title": "Page",
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "page_size",
+            "required": false,
+            "schema": {
+              "default": 20,
+              "maximum": 100,
+              "minimum": 1,
+              "title": "Page Size",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Page_AdminUserOut_"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "List Users",
+        "tags": [
+          "TV2: Quản trị"
+        ]
+      }
+    },
+    "/api/admin/users/{user_id}": {
+      "patch": {
+        "operationId": "patch_user_api_admin_users__user_id__patch",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "user_id",
+            "required": true,
+            "schema": {
+              "title": "User Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdminUserPatch"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AdminUserOut"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Patch User",
+        "tags": [
+          "TV2: Quản trị"
+        ]
+      }
+    },
+    "/api/alerts/subscriptions": {
+      "post": {
+        "operationId": "subscribe_alert_api_alerts_subscriptions_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AlertSubscribe"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AlertSubscription"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Subscribe Alert",
+        "tags": [
+          "TV2: Mã, theo dõi, cảnh báo, chatbot"
+        ]
+      }
+    },
+    "/api/alerts/subscriptions/{sub_id}": {
+      "delete": {
+        "operationId": "unsubscribe_alert_api_alerts_subscriptions__sub_id__delete",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "sub_id",
+            "required": true,
+            "schema": {
+              "title": "Sub Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Unsubscribe Alert",
+        "tags": [
+          "TV2: Mã, theo dõi, cảnh báo, chatbot"
+        ]
+      }
+    },
+    "/api/auth/login": {
+      "post": {
+        "operationId": "login_api_auth_login_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AuthResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Login",
+        "tags": [
+          "Auth"
+        ]
+      }
+    },
+    "/api/auth/me": {
+      "get": {
+        "operationId": "me_api_auth_me_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserOut"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Me",
+        "tags": [
+          "Auth"
+        ]
+      }
+    },
+    "/api/auth/register": {
+      "post": {
+        "description": "Đăng ký tài khoản nhà đầu tư. Mật khẩu được băm bằng bcrypt, không lưu dạng thô.",
+        "operationId": "register_api_auth_register_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AuthResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Register",
+        "tags": [
+          "Auth"
+        ]
+      }
+    },
+    "/api/chat": {
+      "post": {
+        "description": "STUB: chatbot LLM + RAG do TV2 hoàn thiện; schema đã chốt.",
+        "operationId": "chat_api_chat_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChatRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ChatResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Chat",
+        "tags": [
+          "TV2: Mã, theo dõi, cảnh báo, chatbot"
+        ]
+      }
+    },
+    "/api/internal/alerts/dispatch": {
+      "post": {
+        "description": "n8n gọi khi cần gửi cảnh báo: trả danh sách người dùng đã đăng ký nhận loại cảnh báo này cho mã/ngành này.",
+        "operationId": "alerts_dispatch_api_internal_alerts_dispatch_post",
+        "parameters": [
+          {
+            "in": "header",
+            "name": "x-service-key",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "X-Service-Key"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AlertDispatchRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AlertDispatchResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Alerts Dispatch",
+        "tags": [
+          "Nội bộ (khóa dịch vụ)"
+        ]
+      }
+    },
+    "/api/internal/etl/events": {
+      "post": {
+        "description": "n8n ghi một sự kiện ETL (ví dụ nguồn lỗi) vào nhật ký chạy.",
+        "operationId": "etl_event_api_internal_etl_events_post",
+        "parameters": [
+          {
+            "in": "header",
+            "name": "x-service-key",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "X-Service-Key"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EtlEvent"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EtlEventOut"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Etl Event",
+        "tags": [
+          "Nội bộ (khóa dịch vụ)"
+        ]
+      }
+    },
+    "/api/macro/correlation": {
+      "get": {
+        "description": "STUB: tương quan cuốn chiếu giữa chỉ số vĩ mô và dòng tiền khối ngoại. TV5 hoàn thiện; schema đã chốt.",
+        "operationId": "macro_correlation_api_macro_correlation_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "codes",
+            "required": false,
+            "schema": {
+              "default": "USDVND,DXY",
+              "title": "Codes",
+              "type": "string"
+            }
+          },
+          {
+            "in": "query",
+            "name": "against",
+            "required": false,
+            "schema": {
+              "default": "foreign_net",
+              "title": "Against",
+              "type": "string"
+            }
+          },
+          {
+            "in": "query",
+            "name": "window",
+            "required": false,
+            "schema": {
+              "default": 60,
+              "maximum": 250,
+              "minimum": 5,
+              "title": "Window",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Correlation"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Macro Correlation",
+        "tags": [
+          "TV5: Tin tức và vĩ mô"
+        ]
+      }
+    },
+    "/api/macro/series": {
+      "get": {
+        "operationId": "macro_series_api_macro_series_get",
+        "parameters": [
+          {
+            "description": "Mã chỉ số cách nhau bằng dấu phẩy, ví dụ USDVND,DXY",
+            "in": "query",
+            "name": "codes",
+            "required": true,
+            "schema": {
+              "description": "Mã chỉ số cách nhau bằng dấu phẩy, ví dụ USDVND,DXY",
+              "title": "Codes",
+              "type": "string"
+            }
+          },
+          {
+            "in": "query",
+            "name": "from",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "format": "date",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "From"
+            }
+          },
+          {
+            "in": "query",
+            "name": "to",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "format": "date",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "To"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MacroResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Macro Series",
+        "tags": [
+          "TV5: Tin tức và vĩ mô"
+        ]
+      }
+    },
+    "/api/market/overview": {
+      "get": {
+        "description": "KPI một phiên (mặc định phiên mới nhất): VN-Index, tổng giá trị giao dịch, dòng tiền khối ngoại và tự doanh.",
+        "operationId": "market_overview_api_market_overview_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "date",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "format": "date",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Date"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MarketOverview"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Market Overview",
+        "tags": [
+          "TV3: Thị trường và ngành"
+        ]
+      }
+    },
+    "/api/news": {
+      "get": {
+        "description": "Tin liên quan chứng khoán (đã loại trùng): tiêu đề, nguồn, đường dẫn bài gốc, không trả toàn văn.\nKhách chỉ xem tối đa 5 tin mới nhất; nhà đầu tư xem đầy đủ và phân trang.",
+        "operationId": "news_api_news_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "symbol",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Symbol"
+            }
+          },
+          {
+            "description": "Mã ICB cấp 2",
+            "in": "query",
+            "name": "sector",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Mã ICB cấp 2",
+              "title": "Sector"
+            }
+          },
+          {
+            "in": "query",
+            "name": "from",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "format": "date",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "From"
+            }
+          },
+          {
+            "in": "query",
+            "name": "to",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "format": "date",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "To"
+            }
+          },
+          {
+            "in": "query",
+            "name": "page",
+            "required": false,
+            "schema": {
+              "default": 1,
+              "minimum": 1,
+              "title": "Page",
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "page_size",
+            "required": false,
+            "schema": {
+              "default": 20,
+              "maximum": 100,
+              "minimum": 1,
+              "title": "Page Size",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Page_NewsItem_"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "News",
+        "tags": [
+          "TV5: Tin tức và vĩ mô"
+        ]
+      }
+    },
+    "/api/news/highlights": {
+      "get": {
+        "description": "Tin nổi bật: bài gần đây nhắc nhiều mã nhất (khách xem được).",
+        "operationId": "news_highlights_api_news_highlights_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Highlights"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "News Highlights",
+        "tags": [
+          "TV5: Tin tức và vĩ mô"
+        ]
+      }
+    },
+    "/api/predictions": {
+      "get": {
+        "description": "Dự báo chiều dòng tiền khối ngoại của ngành ICB cấp 2 cho tuần bắt đầu `week` (mặc định tuần mới nhất có dự báo).\nDự báo trong quá khứ là dự báo ngoài mẫu (walk-forward) và có kèm giá trị thực tế.",
+        "operationId": "predictions_api_predictions_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "week",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "format": "date",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Week"
+            }
+          },
+          {
+            "in": "query",
+            "name": "horizon",
+            "required": false,
+            "schema": {
+              "default": 1,
+              "maximum": 4,
+              "minimum": 1,
+              "title": "Horizon",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Predictions"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Predictions",
+        "tags": [
+          "TV4: Dự báo và khuyến nghị"
+        ]
+      }
+    },
+    "/api/predictions/accuracy": {
+      "get": {
+        "description": "Độ chính xác dự báo (đúng chiều dòng tiền) theo từng tuần mục tiêu, so với mô hình cơ sở \"tuần sau giống tuần này\".",
+        "operationId": "predictions_accuracy_api_predictions_accuracy_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "weeks",
+            "required": false,
+            "schema": {
+              "default": 12,
+              "maximum": 260,
+              "minimum": 1,
+              "title": "Weeks",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Accuracy"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Predictions Accuracy",
+        "tags": [
+          "TV4: Dự báo và khuyến nghị"
+        ]
+      }
+    },
+    "/api/recommendations": {
+      "get": {
+        "description": "Khuyến nghị tăng/giảm tỷ trọng 19 ngành cho tuần bắt đầu `week` (mặc định tuần mới nhất), kèm tín hiệu đảo chiều,\ncảnh báo lệch pha và độ chắc chắn. Quy tắc cố định và công khai (`docs/ml_ket_qua.md` mục 5); đây không phải lời khuyên đầu tư.",
+        "operationId": "recommendations_api_recommendations_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "week",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "format": "date",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Week"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Recommendations"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Recommendations",
+        "tags": [
+          "TV4: Dự báo và khuyến nghị"
+        ]
+      }
+    },
+    "/api/sectors/flow": {
+      "get": {
+        "description": "Ma trận dòng tiền ròng ngành ICB cấp 2 × kỳ (tỷ đồng).",
+        "operationId": "sectors_flow_api_sectors_flow_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "from",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "format": "date",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "From"
+            }
+          },
+          {
+            "in": "query",
+            "name": "to",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "format": "date",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "To"
+            }
+          },
+          {
+            "in": "query",
+            "name": "granularity",
+            "required": false,
+            "schema": {
+              "default": "week",
+              "enum": [
+                "day",
+                "week",
+                "month"
+              ],
+              "title": "Granularity",
+              "type": "string"
+            }
+          },
+          {
+            "in": "query",
+            "name": "investor_type",
+            "required": false,
+            "schema": {
+              "default": "FOREIGN",
+              "enum": [
+                "FOREIGN",
+                "PROP",
+                "OTHER_DOMESTIC"
+              ],
+              "title": "Investor Type",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SectorFlow"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Sectors Flow",
+        "tags": [
+          "TV3: Thị trường và ngành"
+        ]
+      }
+    },
+    "/api/sectors/{icb_l2_code}": {
+      "get": {
+        "description": "STUB: chi tiết ngành (dòng tiền, cảm xúc, top mã). TV3 hoàn thiện; schema đã chốt.",
+        "operationId": "sector_detail_api_sectors__icb_l2_code__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "icb_l2_code",
+            "required": true,
+            "schema": {
+              "title": "Icb L2 Code",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SectorDetail"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Sector Detail",
+        "tags": [
+          "TV3: Thị trường và ngành"
+        ]
+      }
+    },
+    "/api/stocks": {
+      "get": {
+        "operationId": "search_stocks_api_stocks_get",
+        "parameters": [
+          {
+            "description": "Một phần mã hoặc tên",
+            "in": "query",
+            "name": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Một phần mã hoặc tên",
+              "title": "Query"
+            }
+          },
+          {
+            "in": "query",
+            "name": "exchange",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "enum": [
+                    "HOSE",
+                    "HNX",
+                    "UPCOM"
+                  ],
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Exchange"
+            }
+          },
+          {
+            "description": "Mã ICB cấp 2",
+            "in": "query",
+            "name": "sector",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Mã ICB cấp 2",
+              "title": "Sector"
+            }
+          },
+          {
+            "in": "query",
+            "name": "page",
+            "required": false,
+            "schema": {
+              "default": 1,
+              "minimum": 1,
+              "title": "Page",
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "page_size",
+            "required": false,
+            "schema": {
+              "default": 20,
+              "maximum": 100,
+              "minimum": 1,
+              "title": "Page Size",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Page_StockSummary_"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Search Stocks",
+        "tags": [
+          "TV2: Mã, theo dõi, cảnh báo, chatbot"
+        ]
+      }
+    },
+    "/api/stocks/top-net": {
+      "get": {
+        "description": "Top mã được gom (buy) hoặc xả (sell) ròng nhiều nhất trong `period` phiên gần nhất.",
+        "operationId": "top_net_api_stocks_top_net_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "side",
+            "required": false,
+            "schema": {
+              "default": "buy",
+              "enum": [
+                "buy",
+                "sell"
+              ],
+              "title": "Side",
+              "type": "string"
+            }
+          },
+          {
+            "in": "query",
+            "name": "investor_type",
+            "required": false,
+            "schema": {
+              "default": "FOREIGN",
+              "enum": [
+                "FOREIGN",
+                "PROP",
+                "OTHER_DOMESTIC"
+              ],
+              "title": "Investor Type",
+              "type": "string"
+            }
+          },
+          {
+            "description": "Số phiên gần nhất",
+            "in": "query",
+            "name": "period",
+            "required": false,
+            "schema": {
+              "default": 5,
+              "description": "Số phiên gần nhất",
+              "maximum": 250,
+              "minimum": 1,
+              "title": "Period",
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "limit",
+            "required": false,
+            "schema": {
+              "default": 10,
+              "maximum": 50,
+              "minimum": 1,
+              "title": "Limit",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TopNet"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Top Net",
+        "tags": [
+          "TV3: Thị trường và ngành"
+        ]
+      }
+    },
+    "/api/stocks/{symbol}": {
+      "get": {
+        "operationId": "stock_detail_api_stocks__symbol__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "symbol",
+            "required": true,
+            "schema": {
+              "title": "Symbol",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StockDetail"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Stock Detail",
+        "tags": [
+          "TV2: Mã, theo dõi, cảnh báo, chatbot"
+        ]
+      }
+    },
+    "/api/stocks/{symbol}/flow": {
+      "get": {
+        "operationId": "stock_flow_api_stocks__symbol__flow_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "symbol",
+            "required": true,
+            "schema": {
+              "title": "Symbol",
+              "type": "string"
+            }
+          },
+          {
+            "in": "query",
+            "name": "from",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "format": "date",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "From"
+            }
+          },
+          {
+            "in": "query",
+            "name": "to",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "format": "date",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "To"
+            }
+          },
+          {
+            "in": "query",
+            "name": "investor_type",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "enum": [
+                    "FOREIGN",
+                    "PROP",
+                    "OTHER_DOMESTIC"
+                  ],
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Investor Type"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FlowSeries"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Stock Flow",
+        "tags": [
+          "TV2: Mã, theo dõi, cảnh báo, chatbot"
+        ]
+      }
+    },
+    "/api/stocks/{symbol}/prices": {
+      "get": {
+        "description": "Lịch sử giá (đồng). Mặc định 90 ngày gần nhất.",
+        "operationId": "stock_prices_api_stocks__symbol__prices_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "symbol",
+            "required": true,
+            "schema": {
+              "title": "Symbol",
+              "type": "string"
+            }
+          },
+          {
+            "in": "query",
+            "name": "from",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "format": "date",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "From"
+            }
+          },
+          {
+            "in": "query",
+            "name": "to",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "format": "date",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "To"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PriceSeries"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Stock Prices",
+        "tags": [
+          "TV2: Mã, theo dõi, cảnh báo, chatbot"
+        ]
+      }
+    },
+    "/api/superset/dashboards": {
+      "get": {
+        "description": "Các dashboard người dùng hiện tại được xem.",
+        "operationId": "list_dashboards_api_superset_dashboards_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/DashboardInfo"
+                  },
+                  "title": "Response List Dashboards Api Superset Dashboards Get",
+                  "type": "array"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "List Dashboards",
+        "tags": [
+          "Superset"
+        ]
+      }
+    },
+    "/api/superset/embed/{key}": {
+      "get": {
+        "description": "Trả mã nhúng và guest token (hiệu lực ngắn, chỉ cho đúng dashboard này).",
+        "operationId": "embed_api_superset_embed__key__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "key",
+            "required": true,
+            "schema": {
+              "title": "Key",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EmbedInfo"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Embed",
+        "tags": [
+          "Superset"
+        ]
+      }
+    },
+    "/api/watchlist": {
+      "get": {
+        "operationId": "get_watchlist_api_watchlist_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/WatchItem"
+                  },
+                  "title": "Response Get Watchlist Api Watchlist Get",
+                  "type": "array"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Get Watchlist",
+        "tags": [
+          "TV2: Mã, theo dõi, cảnh báo, chatbot"
+        ]
+      },
+      "post": {
+        "operationId": "add_watchlist_api_watchlist_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WatchAdd"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WatchItem"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Add Watchlist",
+        "tags": [
+          "TV2: Mã, theo dõi, cảnh báo, chatbot"
+        ]
+      }
+    },
+    "/api/watchlist/{item_id}": {
+      "delete": {
+        "operationId": "delete_watchlist_api_watchlist__item_id__delete",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "item_id",
+            "required": true,
+            "schema": {
+              "title": "Item Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Delete Watchlist",
+        "tags": [
+          "TV2: Mã, theo dõi, cảnh báo, chatbot"
+        ]
+      }
+    },
+    "/health": {
+      "get": {
+        "description": "Kiểm tra dịch vụ và kết nối cơ sở dữ liệu.",
+        "operationId": "health_health_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Health",
+        "tags": [
+          "Hệ thống"
+        ]
+      }
+    },
+    "/ml/cluster": {
+      "post": {
+        "description": "Nhãn cụm hành vi dòng tiền của từng mã (`unknown` nếu mã không có trong kho).",
+        "operationId": "ml_cluster_ml_cluster_post",
+        "parameters": [
+          {
+            "in": "header",
+            "name": "x-service-key",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "X-Service-Key"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ClusterRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ClusterResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Ml Cluster",
+        "tags": [
+          "API mô hình (nội bộ)"
+        ]
+      }
+    },
+    "/ml/predict": {
+      "post": {
+        "description": "Dự báo chiều dòng tiền khối ngoại của 19 ngành cho tuần bắt đầu `target_week_start` (mô hình dự báo mới nhất trong dw).",
+        "operationId": "ml_predict_ml_predict_post",
+        "parameters": [
+          {
+            "in": "header",
+            "name": "x-service-key",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "X-Service-Key"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PredictRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PredictResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Ml Predict",
+        "tags": [
+          "API mô hình (nội bộ)"
+        ]
+      }
+    },
+    "/ml/sentiment": {
+      "post": {
+        "description": "Chấm cảm xúc văn bản (điểm = P(tích cực) - P(tiêu cực) trong [-1, 1]).\n\nĐiểm thật khi mô hình và thư viện học máy có mặt trong tiến trình backend; nếu không trả dữ liệu mẫu `stub: true`\n(image backend hiện chưa có thư viện học máy, xem app/core/ml_serving.py).",
+        "operationId": "ml_sentiment_ml_sentiment_post",
+        "parameters": [
+          {
+            "in": "header",
+            "name": "x-service-key",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "X-Service-Key"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SentimentRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SentimentResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Ml Sentiment",
+        "tags": [
+          "API mô hình (nội bộ)"
+        ]
+      }
+    }
+  }
+}

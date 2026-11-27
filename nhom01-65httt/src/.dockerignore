@@ -1,0 +1,13 @@
+# Ngữ cảnh build của dịch vụ etl-runner là thư mục src/: chỉ lấy ingestion, etl, dbt_dw, etl_runner
+backend
+frontend
+superset
+database
+n8n
+ml
+**/__pycache__
+**/*.pyc
+**/node_modules
+dbt_dw/target
+dbt_dw/logs
+dbt_dw/.user.yml
