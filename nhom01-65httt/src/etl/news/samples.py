@@ -11,6 +11,8 @@ Chạy (từ src/):  python -m etl.news.samples
 
 import csv
 import random
+import shutil
+from datetime import datetime
 from pathlib import Path
 
 from ingestion import db
@@ -20,8 +22,18 @@ SEED = 20261125
 EXCERPT = 1200
 
 
+def _backup_existing(path: Path) -> None:
+    """Người dùng có thể đã điền nhãn vào tệp cũ: không bao giờ ghi đè mà không sao lưu."""
+    if path.exists() and path.stat().st_size > 0:
+        stamp = datetime.fromtimestamp(path.stat().st_mtime).strftime("%Y%m%d-%H%M%S")
+        backup = path.with_name(f"{path.stem}.bak-{stamp}{path.suffix}")
+        shutil.copy2(path, backup)
+        print(f"Đã sao lưu tệp cũ: {backup.name}")
+
+
 def _write(path: Path, header: list[str], rows: list[list]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
+    _backup_existing(path)
     with open(
         path, "w", encoding="utf-8-sig", newline=""
     ) as fh:  # utf-8-sig để Excel mở đúng tiếng Việt

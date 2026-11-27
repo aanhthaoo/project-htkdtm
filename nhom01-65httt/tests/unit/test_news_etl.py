@@ -133,7 +133,26 @@ def test_ma_trung_tu_viet_tat_chi_tinh_khi_co_ngu_canh():
     ex = make_extractor()
     assert "CEO" not in codes(ex.extract("Tân CEO nhậm chức", "Ông A là CEO của tập đoàn."))
     assert "CEO" in codes(ex.extract("Tập đoàn C.E.O", "Cổ phiếu CEO tăng trần."))
-    assert "CEO" in codes(ex.extract("Tin doanh nghiệp", "Tập đoàn C.E.O (CEO) công bố kết quả."))
+    # Chỉ trong ngoặc (hay là định nghĩa viết tắt) thì chưa đủ cho mã trùng từ thông dụng
+    assert "CEO" not in codes(
+        ex.extract("Tin doanh nghiệp", "Tập đoàn C.E.O (CEO) công bố kết quả.")
+    )
+
+
+def test_ma_trung_dia_danh_hoc_ham_thuong_hieu_khong_tinh_khi_dung_rieng():
+    ex = make_extractor()
+    ex2 = entities.Extractor(SYMBOLS | {"HCM", "PGS", "BOT"}, SECTORS, None)
+    text = "Cổ phiếu và cổ đông tại Sở GDCK TP HCM; PGS Nguyễn A; Cty CP BOT cầu Thái Hà."
+    assert not ({"HCM", "PGS", "BOT"} & codes(ex2.extract("Tin", text)))
+    assert "HCM" in codes(ex2.extract("Tin", "Nhà đầu tư mua cổ phiếu HCM hôm nay."))
+    assert ex  # extractor mặc định vẫn dùng được
+
+
+def test_ma_dung_rieng_chi_tinh_khi_bai_co_ngu_canh_chung_khoan_hoac_o_tieu_de():
+    ex = make_extractor()
+    assert "VNM" not in codes(ex.extract("Dọn nhà dịp Tết", "Mẹ bảo VNM là nhãn sữa quen thuộc."))
+    assert "VNM" in codes(ex.extract("Dọn nhà dịp Tết", "VNM tăng giá, cổ phiếu sữa hút tiền."))
+    assert "VNM" in codes(ex.extract("VNM ra mắt sản phẩm", "Sản phẩm mới có mặt ở siêu thị."))
 
 
 def test_khong_nhan_dien_chuoi_dai_hon_3_ky_tu_hoac_chu_thuong():
@@ -153,19 +172,20 @@ def test_ten_cong_ty_anh_xa_ve_ma():
 def test_nganh_suy_ra_tu_ma_va_tu_tu_khoa():
     m = make_extractor().extract(
         "Ngân hàng đẩy mạnh tín dụng",
-        "VCB và HPG dẫn dắt. Ngành thép phục hồi, thép xây dựng tăng giá.",
+        "VCB và HPG dẫn dắt. Ngành thép phục hồi, thép xây dựng tăng giá, thép cuộn khởi sắc.",
     )
     sectors = codes(m, "SECTOR")
     assert {"8300", "1700"} <= sectors  # VCB -> ngân hàng, HPG -> thép, từ khóa ngân hàng và thép
 
 
-def test_tu_khoa_nganh_trong_noi_dung_can_xuat_hien_tu_2_lan():
+def test_tu_khoa_nganh_trong_noi_dung_can_xuat_hien_tu_3_lan():
     ex = make_extractor()
     assert "5300" not in codes(
-        ex.extract("Tin thị trường", "Một siêu thị mới khai trương."), "SECTOR"
+        ex.extract("Tin thị trường", "Siêu thị mở rộng, bán lẻ tăng trưởng."), "SECTOR"
     )
     assert "5300" in codes(
-        ex.extract("Tin thị trường", "Siêu thị mở rộng, bán lẻ tăng trưởng."), "SECTOR"
+        ex.extract("Tin thị trường", "Siêu thị mở rộng, bán lẻ tăng trưởng, chuỗi cửa hàng đông."),
+        "SECTOR",
     )
 
 
@@ -189,9 +209,23 @@ def test_chuyen_muc_chung_khoan_hoac_co_ma_chac_chan_la_lien_quan():
     assert relevance.score_article("Tin", "Nội dung.", None, 1).reason == "ticker"
 
 
+def test_chuyen_muc_thi_truong_chung_khong_du_nhung_chuyen_muc_chung_khoan_thi_du():
+    assert not relevance.score_article(
+        "Kia Sonet giá 499 triệu", "Xe mới ra mắt.", "Thị trường", 0
+    ).is_related
+    assert relevance.score_article("Tin", "Nội dung.", "Thị trường chứng khoán", 0).is_related
+
+
+def test_tu_khoa_manh_don_le_khong_du_va_vi_mo_can_2_lan():
+    assert not relevance.score_article("Twitter kiện", "Cổ phiếu Tesla giảm.", None, 0).is_related
+    assert relevance.score_article("Tin", "Cổ phiếu tăng, cổ đông vui.", None, 0).is_related
+    assert relevance.score_article("Giá xăng tăng", "Giá xăng tăng sau Tết.", None, 0).is_related
+    assert not relevance.score_article("Tin hôm nay", "Hôm nay giá xăng.", None, 0).is_related
+
+
 def test_tu_khoa_yeu_can_du_so_lan():
-    text = "Lãi suất tăng, tỷ giá biến động, tín dụng chậm lại, lạm phát cao."
-    assert relevance.score_article("Kinh tế", text, None, 0).is_related  # 4 từ khóa yếu
+    text = "Lãi suất tăng, tỷ giá biến động, tín dụng chậm lại, lạm phát cao. " * 2
+    assert relevance.score_article("Kinh tế", text, None, 0).is_related  # 8 từ khóa yếu
     assert not relevance.score_article(
         "Kinh tế", "Lãi suất tăng, doanh nghiệp khó khăn.", None, 0
     ).is_related
