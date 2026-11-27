@@ -1,0 +1,457 @@
+{
+  "id": "etl-after-close",
+  "name": "ETL - Chuỗi sau phiên 15h30 (giá, quốc tế, dbt, chất lượng)",
+  "active": false,
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "30 15 * * 1-5"
+            }
+          ]
+        }
+      },
+      "name": "15h30 các ngày làm việc",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {},
+      "name": "Chạy thủ công",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.ETL_RUNNER_URL }}/jobs/after_close",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Service-Key",
+              "value": "={{ $env.SERVICE_KEY }}"
+            }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "fullResponse": true,
+              "neverError": true
+            }
+          },
+          "timeout": 30000
+        },
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "trigger",
+              "value": "n8n"
+            },
+            {
+              "name": "requested_by",
+              "value": "n8n-after-close"
+            }
+          ]
+        }
+      },
+      "name": "Chạy chuỗi sau phiên",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        260,
+        100
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "boolean": [
+            {
+              "value1": "={{ $json.statusCode === 202 }}",
+              "value2": true
+            }
+          ]
+        }
+      },
+      "name": "Đã nhận?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [
+        520,
+        100
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "a1",
+              "name": "run_id",
+              "value": "={{ $json.body.run_id }}",
+              "type": "number"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "name": "Lưu mã lần chạy",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        780,
+        20
+      ]
+    },
+    {
+      "parameters": {
+        "amount": 60,
+        "unit": "seconds"
+      },
+      "name": "Chờ 60 giây",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        1040,
+        20
+      ]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "={{ $env.ETL_RUNNER_URL + '/jobs/' + $json.run_id }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Service-Key",
+              "value": "={{ $env.SERVICE_KEY }}"
+            }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "fullResponse": true,
+              "neverError": true
+            }
+          },
+          "timeout": 30000
+        }
+      },
+      "name": "Xem trạng thái",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1300,
+        20
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "b1",
+              "name": "run_id",
+              "value": "={{ $json.body.id }}",
+              "type": "number"
+            },
+            {
+              "id": "b2",
+              "name": "status",
+              "value": "={{ $json.body.status }}",
+              "type": "string"
+            },
+            {
+              "id": "b3",
+              "name": "log_tail",
+              "value": "={{ $json.body.log_tail }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "name": "Đọc trạng thái",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1560,
+        20
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "boolean": [
+            {
+              "value1": "={{ $json.status === 'running' }}",
+              "value2": true
+            }
+          ]
+        }
+      },
+      "name": "Còn chạy?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [
+        1820,
+        20
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "boolean": [
+            {
+              "value1": "={{ $json.status === 'success' }}",
+              "value2": true
+            }
+          ]
+        }
+      },
+      "name": "Thành công?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [
+        2080,
+        100
+      ]
+    },
+    {
+      "parameters": {},
+      "name": "Xong",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        2340,
+        20
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.BACKEND_URL }}/api/internal/etl/events",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Service-Key",
+              "value": "={{ $env.SERVICE_KEY }}"
+            }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "fullResponse": true,
+              "neverError": true
+            }
+          },
+          "timeout": 30000
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ job: 'after_close', status: 'failed', message: String($json.log_tail || 'Chuỗi sau phiên thất bại').slice(0, 500) }) }}"
+      },
+      "name": "Ghi lỗi vào nhật ký (chuỗi lỗi)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2340,
+        200
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.BACKEND_URL }}/api/internal/etl/events",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Service-Key",
+              "value": "={{ $env.SERVICE_KEY }}"
+            }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "fullResponse": true,
+              "neverError": true
+            }
+          },
+          "timeout": 30000
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ job: 'after_close', status: 'failed', message: String($json.error ? $json.error.message : JSON.stringify($json.body)).slice(0, 500) }) }}"
+      },
+      "name": "Ghi lỗi vào nhật ký (không khởi động được)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        780,
+        220
+      ],
+      "onError": "continueRegularOutput"
+    }
+  ],
+  "connections": {
+    "15h30 các ngày làm việc": {
+      "main": [
+        [
+          {
+            "node": "Chạy chuỗi sau phiên",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Chạy thủ công": {
+      "main": [
+        [
+          {
+            "node": "Chạy chuỗi sau phiên",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Chạy chuỗi sau phiên": {
+      "main": [
+        [
+          {
+            "node": "Đã nhận?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Đã nhận?": {
+      "main": [
+        [
+          {
+            "node": "Lưu mã lần chạy",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Ghi lỗi vào nhật ký (không khởi động được)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Lưu mã lần chạy": {
+      "main": [
+        [
+          {
+            "node": "Chờ 60 giây",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Chờ 60 giây": {
+      "main": [
+        [
+          {
+            "node": "Xem trạng thái",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Xem trạng thái": {
+      "main": [
+        [
+          {
+            "node": "Đọc trạng thái",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Đọc trạng thái": {
+      "main": [
+        [
+          {
+            "node": "Còn chạy?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Còn chạy?": {
+      "main": [
+        [
+          {
+            "node": "Chờ 60 giây",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Thành công?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Thành công?": {
+      "main": [
+        [
+          {
+            "node": "Xong",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Ghi lỗi vào nhật ký (chuỗi lỗi)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Asia/Ho_Chi_Minh"
+  },
+  "pinData": {}
+}

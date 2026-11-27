@@ -1,0 +1,147 @@
+{
+  "id": "alert-dispatch-sample",
+  "name": "Mẫu - Gửi cảnh báo email (TV5 hoàn thiện)",
+  "active": false,
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "alert-dispatch",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "name": "Webhook cảnh báo",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        100
+      ],
+      "webhookId": "alert-dispatch-webhook"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.BACKEND_URL }}/api/internal/alerts/dispatch",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Service-Key",
+              "value": "={{ $env.SERVICE_KEY }}"
+            }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "fullResponse": true,
+              "neverError": false
+            }
+          },
+          "timeout": 30000
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ alert_type: $json.body.alert_type, entity_type: $json.body.entity_type, entity_code: $json.body.entity_code }) }}"
+      },
+      "name": "Lấy người đăng ký",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        260,
+        100
+      ]
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "body.recipients",
+        "options": {}
+      },
+      "name": "Tách từng người nhận",
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        520,
+        100
+      ]
+    },
+    {
+      "parameters": {},
+      "name": "Gửi email (TV5 thay bằng nút Send Email/SMTP)",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        780,
+        100
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify({ dispatched: $input.all().length }) }}",
+        "options": {
+          "responseCode": 200
+        }
+      },
+      "name": "Trả kết quả",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        1040,
+        100
+      ]
+    }
+  ],
+  "connections": {
+    "Webhook cảnh báo": {
+      "main": [
+        [
+          {
+            "node": "Lấy người đăng ký",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Lấy người đăng ký": {
+      "main": [
+        [
+          {
+            "node": "Tách từng người nhận",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Tách từng người nhận": {
+      "main": [
+        [
+          {
+            "node": "Gửi email (TV5 thay bằng nút Send Email/SMTP)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gửi email (TV5 thay bằng nút Send Email/SMTP)": {
+      "main": [
+        [
+          {
+            "node": "Trả kết quả",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Asia/Ho_Chi_Minh"
+  },
+  "pinData": {}
+}
