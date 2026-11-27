@@ -1,0 +1,11 @@
+{
+  "n": 100,
+  "accuracy": 0.91,
+  "cohen_kappa": 0.8611111111111112,
+  "accuracy_random": 0.88,
+  "n_random": 50,
+  "accuracy_uncertain": 0.94,
+  "n_uncertain": 50,
+  "n_both_confident": 64,
+  "accuracy_both_confident": 1.0
+}

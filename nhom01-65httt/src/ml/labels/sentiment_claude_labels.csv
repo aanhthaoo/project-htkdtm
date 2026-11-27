@@ -1,0 +1,1501 @@
+sample_id,article_id,label,c,why,source,year,batch
+S00399,953e4d5f526c5a991f8697b3c1b1e641,negative,1,Chuyên gia cảnh báo rủi ro lỗ khi đổ xô mua vàng,cafef,2020,1
+S02921,e72a0a7bc043b5a409d6e30ab1c9aa10,negative,3,"Xuất khẩu da giày giảm, khó đạt mục tiêu",cafef,2020,1
+S00319,298a036d3ca031e266fead9e4d1b836c,negative,3,"VN-Index giảm, khối ngoại bán ròng, thanh khoản thấp",cafef,2026,1
+S02387,df8347ced30bf7fdb0a93ae28690c859,positive,1,"Vinhomes ra mắt sàn cho thuê, mở rộng dịch vụ",cafebiz,2021,1
+S00351,984c44d4577440fe3862e6c8601a638b,neutral,3,"Cuộc thi của công ty chứng khoán, không tác động giá",cafef,2026,1
+S01977,fe47015d48fb486da1a7eb4794c0fc82,positive,2,VIB hợp tác Amex ra mắt thẻ mới,cafef,2023,1
+S00272,fccd0a07331a5042d3d4b0622d531b02,neutral,2,"Bản tin lãi suất huy động, không rõ tác động",vietnamnet,2024,1
+S02546,e94e1e66d1c5bf9f36b355e41162f45a,negative,3,"VN-Index giảm 6 phiên liên tiếp, Novaland nằm sàn",cafef,2026,1
+S01556,f694bcc3a54fdb1436eb521647547d95,negative,3,Các công ty họ FLC bị hủy tư cách đại chúng,cafef,2025,1
+S00333,68eca26b67cc4122f1c8524033b2e382,positive,2,Bán lẻ tăng trưởng doanh thu nhờ chuyển đổi số,vnexpress,2021,1
+S01889,8d03455fff76c704cdbee2fce1a9a687,positive,1,"Dự báo vàng lập đỉnh, ngành kim loại quý tốt",cafef,2023,1
+S01855,b051b8e6667e8c08c94d1f68c8f36f5f,positive,2,Vingroup được vinh danh nơi làm việc tốt nhất,vietnamnet,2020,1
+S01873,a82fa0b2d723a041ecefa91b75e6a349,positive,2,"SCG thâu tóm 100% Nhựa Duy Tân, đầu tư lớn",cafef,2025,1
+S03096,ab41a6a1cfc71897e0e929555b20c1d8,neutral,3,"Bài kể chuyện phát triển Hàn Quốc, không liên quan thị trường",vietnamnet,2020,1
+S00279,82981b53311b5c097d84b21e17fe4ecc,positive,3,"VN-Index tăng lên cao nhất 4 tháng, dòng tiền mạnh",vnexpress,2023,1
+S00913,6c09d488328145ecb7c093f76301cda5,positive,1,"Lãi giảm nhưng bám kế hoạch, chi cổ tức 20%",cafef,2025,1
+S03052,7b20cb539e9a9fee39476ff931c1b9b3,neutral,2,"Tin tỷ giá USD, tác động không rõ",vietnamnet,2020,1
+S01660,d45994cf101fb7eeb94a8b3d1d994819,neutral,1,"Kiến nghị cơ chế vốn đường Vành đai 4, chưa rõ",cafef,2024,1
+S01242,1a1c166e667793baf3c08cebf8e2c37e,negative,2,"Phân tích kỹ thuật cảnh báo rủi ro ngắn hạn, giảm điểm",vietstock,2026,1
+S02046,3b0980840908b5e322c92b06e03d96e2,positive,2,Vinamilk vào top doanh nghiệp bền vững 6 năm liên tiếp,vnexpress,2021,1
+S03469,1dcf021a5f46c7a082614fd087572151,neutral,2,Ưu đãi phí của một công ty chứng khoán,cafef,2026,1
+S02938,efb171bb195485eb1951d299c26202bc,negative,2,"VN-Index giảm 4 phiên, áp lực bán, kiểm tra đáy cũ",vietstock,2026,1
+S03099,d6eff7596af89ba518ea52675af4f94c,negative,2,"Thị trường trầm lắng, thanh khoản thấp, tâm lý chán",cafef,2026,1
+S01972,d81f444f8bb48f93f9ad5693a84a9b99,neutral,2,"Thị phần môi giới hàng hóa, không rõ tác động",vietnamnet,2023,1
+S02189,b1b8e4585a4024221e817cf1fada6454,negative,2,"Thành viên HĐQT Coteccons từ nhiệm, chỉ trích nội bộ",cafebiz,2020,1
+S02714,d079c1e4c027940f2e3c29df040b2a9a,negative,2,Chuỗi pizza Mỹ chật vật vì khách giảm chi,vnexpress,2026,1
+S02194,75602ce33d1defb35fe9a279af60ab67,positive,3,VinFast nhận gần 46.000 đơn đặt cọc,cafef,2025,1
+S01543,6f5253c35a04bcbcdb8957313c074ad8,positive,3,"Sabeco lợi nhuận tăng 6%, phục hồi hai quý",vnexpress,2024,1
+S02233,47bd366938679b5602db52cf33936c2a,negative,3,"Thanh khoản thấp kỷ lục, rủi ro thủng đáy",vneconomy,2026,1
+S00707,1901c6a8326c8149f4c4f6ffe2f9ec32,neutral,2,"Dự báo giá xăng giảm nhẹ, dầu tăng, trái chiều",vietnamnet,2023,1
+S00413,6185078a1a98d2b5aeb8a5416ddcd8e3,negative,3,VNI bị xử phạt vi phạm sau thanh tra,cafef,2025,1
+S03240,a20d2072fa06ea98667e37e6e134c482,neutral,3,"Tin về tỷ phú Musk, không liên quan",cafef,2021,1
+S02231,b296e0b4422ca6a1de3c1a6cd7cda403,neutral,2,"Kế hoạch cơ cấu vốn nhà nước, hành chính",tnck,2026,1
+S02790,1705747bedb806af3793b2945008a8f9,neutral,2,"Phát hành ESOP, tác động không rõ",cafef,2025,1
+S02816,b0523f49446b9fc306c30a4fc1bf1236,negative,3,Công nghệ Trung Quốc tăng trưởng doanh thu giảm,vietnamnet,2021,1
+S02425,99a98277054c4082cd5462d666487372,neutral,3,"Chính trị Mỹ, không tác động rõ",vnexpress,2024,1
+S01914,bb6fb2eea996224a7fe51957f6eb4aa3,negative,2,"Chứng khoán giảm điểm, bất động sản bị bán",cafef,2025,1
+S01151,5f3a7a04efea06854e06150433bb8494,neutral,2,"Nông nghiệp địa phương, không liên quan chứng khoán",vietnamnet,2020,1
+S03055,bf682350531f5e1c31953446cf6e2f6a,positive,2,Goldman dự báo kinh tế phục hồi mạnh nhờ xuất khẩu,cafebiz,2020,1
+S02270,db9268ce290571ab497e5d56338fb491,neutral,1,"Doanh nghiệp địa ốc tìm hướng đi, tác động không rõ",vnexpress,2024,1
+S03106,1657e9b4b1504cf9b4341b447ef0bd39,neutral,3,"Phát động chương trình đánh giá, hành chính",vietnamnet,2024,1
+S01816,8ff6baef506cb0c27a47f38160f96d7f,neutral,1,"Khuyến cáo mua vé, nhu cầu bay tăng nhưng chủ yếu cảnh báo",vietnamnet,2022,1
+S01031,40fb107eddac6f965d40ea856ad9de0f,positive,3,Cổ phiếu KBC tăng mạnh 4 tháng,vietnamnet,2023,1
+S02757,bacac0c335b82f70d877c7cee29db3b7,neutral,2,"Giá vàng biến động, không liên quan cổ phiếu",vietnamnet,2022,1
+S01302,c7f0f7b5dc6f232a7616239793207a36,positive,2,"Thủ tướng thúc đẩy nhà ở xã hội, chính sách hỗ trợ",cafef,2024,1
+S00680,a6e9d0df9e618dabaf7162754b24cc9d,positive,2,VietinBank đạt giải IR được yêu thích,cafef,2023,1
+S02666,bcb738a730a3f43b2e4f630044b3e3eb,positive,2,VHM trở lại top 10 danh mục quỹ ngoại lớn,cafef,2025,1
+S00241,cda73827e3b873cffbe38eee750e7a11,neutral,3,"Bài thảo luận tự động hóa, chung chung",vietnamnet,2024,1
+S01528,ce31b4c84e170bbff42958b4f167a564,negative,2,"VN-Index giảm, xu hướng giảm vẫn chiếm ưu thế",vneconomy,2026,1
+S03325,9e7d7e06caeab181e4c0c88c12a09d06,neutral,3,"Vàng tăng, chứng khoán Mỹ trái chiều",vnexpress,2020,1
+S03271,0f7b2d675845f7454c07d1ba4ac2f289,neutral,2,"Tài sản mã hóa, không liên quan trực tiếp cổ phiếu",cafef,2025,1
+S01763,f63a779da7804bb212c7ed85fddfaabc,neutral,3,"Nhập khẩu vàng Trung Quốc, không liên quan",tnck,2026,1
+S00773,20805096901ee61a42a01ca128a59899,neutral,2,"NHNN hút tiền qua tín phiếu, tác động không rõ",cafef,2025,1
+S00924,b94b3973ad13101c9700d47b3bfb3f4c,positive,3,"Cổ phiếu CII tăng trần, thị trường tích cực",vnexpress,2022,1
+S02333,e2319fe9818debf7c69641a06260c291,negative,3,"Coteccons thua kiện, mất thầu, nợ quá khứ",cafef,2024,1
+S02753,266fa922439e080097c613e5d70cd73b,positive,2,Lịch chốt cổ tức tiền mặt và thưởng cổ phiếu,cafef,2025,1
+S02708,9f566d4e5b59e2b3f86c5baad1ea1bd2,neutral,2,Đầu tư công vốn lớn nhưng triển khai chậm,cafef,2022,1
+S02531,9a5e2ff93c572124c4687e04796b1bb1,positive,2,"Lãnh đạo mua gom 4,4 triệu cổ phiếu IDC",vietstock,2026,1
+S00362,ea5048707542ccc62b3caef65115dc34,negative,2,"Viettel rao bán lần 4 không ai mua, dự án đắp chiếu",cafebiz,2021,1
+S03313,73bec39acf96edcef1316b26fd0b04b0,neutral,3,"Danh sách nữ tỷ phú, không liên quan",cafef,2022,1
+S02125,d49fa38ace8554b1b8f679ca66b77884,neutral,3,Chuyện sinh viên săn lỗ hổng bảo mật,cafef,2024,1
+S01633,66807ae6661c345c86d8131af3f6535c,positive,1,Lãi suất trái phiếu giảm lần đầu trong năm,vnexpress,2026,1
+S01999,aebec2116fe854a9f04c6c066654fb14,negative,2,"Nhà đầu tư đất vay nợ, cắt lỗ không bán được",cafebiz,2022,1
+S00370,60b2b94560c479c70463cda8713f5e9c,negative,3,"Bất động sản ế, chuyên gia nhận định không khởi sắc",cafebiz,2022,1
+S01715,34dece6099e1b8447238f5723915eac9,negative,3,Doanh thu môi giới giảm quý thứ 3 liên tiếp,cafef,2025,1
+S02144,5f0dfa35d69b2ab3312dafa84fe5f63e,positive,2,Tuyến buýt nhanh tạo động lực địa ốc Tây Sài Gòn,vnexpress,2021,1
+S03045,8f26c6ceb29642d239400a3db78ad01f,neutral,2,"Vàng giảm nhẹ nhưng dự báo tăng, không liên quan cổ phiếu",cafef,2021,1
+S02484,6a8e5f0c24085a2682b7a2cd7b21dcc5,neutral,3,"Chuyện doanh nhân nghệ sĩ, không liên quan",cafebiz,2021,1
+S00224,fb40587166bac6f81ad7282d67782678,neutral,3,"Bàn về AI trong ngân hàng, chung chung",tnck,2026,1
+S01241,fc51901ebda1d0340de97def8906e9bd,negative,2,Đấu giá cổ phiếu LPB ế khách,vnexpress,2022,1
+S01829,83fdc184dba467afa9240837b545f7e9,positive,2,"Thủ tướng chỉ đạo tháo gỡ khó khăn, thúc đẩy tăng trưởng",cafef,2024,1
+S02368,8aec67dbe2ac02735871204204af1250,neutral,2,Giá lương thực thế giới giảm nhẹ,vnexpress,2022,1
+S03454,ef658dc3000064c8e1007930579fdd35,neutral,2,"Lập công ty con nhỏ, vốn 20 tỷ",vietnamnet,2024,1
+S01571,54a1218edb7452bcaa97d315d3044a40,negative,1,Cảnh báo rủi ro mua nhà đất ở đỉnh giá,vnexpress,2022,1
+S03144,bdc47c787bf4de767d316b46c79bc619,negative,2,Cảnh báo kinh tế Mỹ có thể suy thoái,cafebiz,2024,1
+S02698,83b1b73998bee3ec0d09af9b6ed5c7eb,negative,2,Bitcoin mất giá hơn một nửa,vneconomy,2026,1
+S00932,15fcd89603130386c4ca7162763bf91b,neutral,2,"Thành lập thành phố mới, hành chính",cafebiz,2024,1
+S01619,7e588646613a3110e8466de3043ac9fb,negative,2,"HBC lãi ước thấp, hợp đồng mới giảm 22%",cafebiz,2020,1
+S02081,2ace027c548ffbf1160491f62f4104e5,neutral,2,"Phát hành ESOP giá thấp, tác động không rõ",vnexpress,2021,1
+S03121,50d58759a4de2a323d96a11bf2c43de4,positive,2,"Tiền gửi ngân hàng tăng 18,76%",vietnamnet,2024,1
+S03038,141c7f1d955b63aa870372d9af3afb74,neutral,3,Quan điểm nhân lực chuyển đổi số,vnexpress,2021,1
+S02157,dab1e046b53106c6d2b2bf54e5499f4b,positive,1,PTX tăng mạnh và sắp chuyển lên HNX,cafef,2024,1
+S02348,c8d2512193f0d2e7d0f162c19859ab44,neutral,2,"Thống kê giá đất nền, không rõ tác động",cafebiz,2022,1
+S01782,a68be3e6cead6b0591124f48dd006c24,neutral,3,"Ngân hàng chặn giao dịch lừa đảo, chuyện người dùng",vietnamnet,2024,1
+S00584,e72c86784a5a092433fb18a604c3b1d2,negative,2,Giá nhà tăng nhưng thanh khoản giảm 60-90%,vnexpress,2022,1
+S02809,a3a5ab81203addaa8544d85ddbc909a9,neutral,3,"Chính trị Nga, không liên quan",vnexpress,2024,1
+S03107,1d3e6e769df7b503ae9090cae7c49543,positive,2,"Giá urê tăng, doanh nghiệp phân bón hưởng lợi",cafef,2025,1
+S01440,9d4dee3a651d941928a1d31c962b84c6,negative,3,Làn sóng vỡ nợ doanh nghiệp Trung Quốc,vietnamnet,2020,1
+S00683,e8275abc4870f4c89a2fa82189b9d1e1,neutral,3,"Diễn đàn đầu tư Đà Nẵng, chung chung",vnexpress,2022,1
+S01375,0d3f3473d90a23727cb4808ce308da9b,positive,3,CTCK báo lãi lớn vượt xa chỉ tiêu,cafef,2021,1
+S02528,3f84dfcbde093a59403e4a37c670a0c6,neutral,2,Cuộc đua thẻ tín dụng khách VIP,cafef,2023,1
+S01337,23c4f87057a74128bf15cc96676aefcb,positive,2,"Kinh tế phục hồi mạnh, Thủ tướng chỉ đạo ổn định vĩ mô",cafebiz,2022,1
+S01627,3d425a385ca607a13e7b9d81a64d324e,neutral,2,"Tin tỷ giá USD, tác động không rõ",cafef,2020,1
+S01280,aebd8ee272ff32e326a865d1c812e4ab,neutral,2,"Quỹ ETF mua bán lẫn lộn, cân bằng",cafef,2023,1
+S02230,0682c720cffe0a2d86834bb7704cb6e9,positive,2,Thương vụ khó xảy ra là tín hiệu tích cực cho HDBank,vnexpress,2020,1
+S01518,ab129bc1ea94b018e48c9fd2443626b2,negative,3,FLC bị chuyển sang UPCoM,vnexpress,2023,1
+S00883,4aca306357edf9983c418a69061e6afa,positive,1,Container điều được trả lại doanh nghiệp Việt,vnexpress,2022,1
+S00674,af70e3de97e46f5751dbee169eeedcc9,neutral,2,"Giá vàng giảm nhẹ, không liên quan cổ phiếu",vietnamnet,2023,1
+S03193,5f4f8723d9a784d0e09975f15a7b1547,neutral,2,"Nhận định so sánh thị trường, không rõ tác động",cafebiz,2021,1
+S02901,471700ddd1423bce1f029bfbcd8a0a6c,positive,2,Phân bón Cà Mau mở rộng xuất khẩu Australia,vnexpress,2024,1
+S00445,56090642725a115e3ed997b56c45d491,neutral,1,"định giá thấp nhưng VN-Index neo cao, tác động không rõ",cafef,2026,2
+S01417,fa70801167df5a47d5545f37e6877595,neutral,2,"VN-Index gần như đi ngang, xanh đỏ cân bằng",vietstock,2026,2
+S00864,9d5cebed24963873feae5857a96c6ba2,positive,3,"sắc xanh lan tỏa, nhiều cổ phiếu tăng",cafef,2025,2
+S02091,4a6efb342cb6edb5bd2c82c9514f7751,neutral,1,"ngân hàng giảm lãi vay, tác động tới giá cổ phiếu không rõ",cafef,2023,2
+S02250,3dc041c6a5ca10b94bf9770808bdb17e,negative,2,trái phiếu BĐS lãi suất cao kèm rủi ro,cafebiz,2020,2
+S02620,6cf141265a84a83e526ff49800ca06fe,negative,3,doanh nghiệp thép đồng loạt báo lỗ,vietnamnet,2022,2
+S03450,3ec6b8696063124a504dcf795e30197a,positive,2,"thu ngân sách kỷ lục, kinh tế địa phương tốt",cafef,2022,2
+S02442,01d09f37fe266c98057871c2132a0a57,neutral,2,"tin về tài sản người giàu, không tác động rõ",vietnamnet,2020,2
+S02293,93d46ccff883dc6c04bd6b0c8c017ebc,neutral,1,"giải ngân gói phục hồi chậm, tác động không rõ",vnexpress,2022,2
+S02756,cbb3a4ddee9fd135eb547d0216955612,negative,3,"khối ngoại bán ròng 4 phiên liên tiếp, tự doanh bán ròng",vietstock,2026,2
+S02759,1b9dc4254ad97313e495fbe10fbf2bcc,negative,2,"khối ngoại xả cổ phiếu ngân hàng, VN-Index giảm tuần",cafef,2026,2
+S01863,02b1fba35e72244ae856a51b82e866bb,neutral,1,"đại hội không đủ túc số, cổ tức cao nhưng chưa rõ",cafef,2023,2
+S02558,690964e6e9cd7b2321cb24fc36e3685c,negative,3,"VN-Index lao dốc 3,92%, giảm mạnh nhất",cafef,2024,2
+S02992,3c2031a05b391c8774b29e36bd13632e,negative,2,"bất động sản Trung Quốc khó khăn, thưởng bằng 0",cafebiz,2022,2
+S02089,bdb504822d2437a305b5a8aeb5b7da8c,neutral,2,"giải thưởng thương hiệu, tác động giá hạn chế",vietnamnet,2020,2
+S03343,4c20ee1e6df7c7d5eec15bfc14d7d14e,neutral,2,"nhận định chung về nhà đầu tư BĐS, không rõ tác động",cafef,2022,2
+S02623,b74dbace9d2afaa4073a9a3829fefdde,neutral,1,lợi nhuận quý giảm mạnh nhưng 9 tháng đạt kế hoạch,vnexpress,2020,2
+S00257,2a48adf13114bc4b13e336fb8cdc2282,positive,2,"cổ phiếu tăng giá, thêm tỷ phú USD",vietnamnet,2021,2
+S00587,07cb0fc7f1008431df84543d6e2a2672,positive,2,Vingroup đề xuất siêu dự án đường sắt 4 tỷ USD,cafef,2025,2
+S02283,afa75f1e686ed47e00267f3a8a3dead7,neutral,3,"lưu ý chuyển tiền dịp Tết, không liên quan giá",vietnamnet,2022,2
+S02882,43dceb9fd3ec5641839c7d0c72e2bd08,positive,1,Hà Nội thêm khu công nghiệp mới,cafebiz,2022,2
+S01205,306e573bfcb76fc945026e06555eade4,neutral,1,"phát hành trái phiếu BĐS tăng, vừa tốt vừa rủi ro",cafef,2026,2
+S01267,53b41d16020bf751bde6aef3b2311ecd,neutral,2,"xu hướng mua sắm online, không tác động rõ",cafef,2024,2
+S01399,dbba2961d368fd77cab4782f7137e61e,neutral,1,Fed giảm lãi suất nhưng do thất nghiệp tăng,cafebiz,2024,2
+S00347,a4aaa04c647a548f344d92f0411e4be2,negative,2,Covid làm giảm cầu bất động sản,cafebiz,2021,2
+S00155,814612ef6672f62dc31e0dffde79e381,negative,2,chứng khoán Mỹ giảm 5 phiên liên tiếp,vneconomy,2026,2
+S02259,48e4b3656c0f5fadfbc73f21360b2adb,neutral,3,"thử thách sales, không liên quan thị trường",cafebiz,2022,2
+S03125,f7b6ff59b220f7614c96973df057d647,negative,3,"HQC lợi nhuận giảm 88%, doanh thu giảm 29%",cafebiz,2023,2
+S00297,ecd882d9ee5a2f4fa813b3bd17e1dd35,neutral,1,Thaco thoái vốn HVG nhưng có người đăng ký mua lại,vnexpress,2020,2
+S02807,ebad24323c6462a9c49be76a677678c0,neutral,1,"kiến nghị trao quyền cho NHNN, tác động không rõ",vietnamnet,2024,2
+S02388,a2845e1d7e2114e8a794b9c28fdc4bef,positive,2,doanh nghiệp BĐS kỳ vọng bứt phá hậu Covid,cafef,2021,2
+S01102,2311c34beeb73c20e5d25e04c7a2a8e9,neutral,2,"cảnh báo gọi vốn rủi ro, không gắn mã niêm yết",cafef,2020,2
+S02148,ebad37ba51de5ab6170b07fa99a22fd8,negative,2,"khởi tố, bắt tạm giam liên quan đất công",cafef,2021,2
+S01769,eb9824db033d47c4eb4c83feeb9fdf9e,neutral,2,xác thực sinh trắc học gây quá tải tạm thời,cafef,2024,2
+S01830,b5c3ed647160161286c671ff545027a2,positive,1,FLC đề xuất tham gia dự án sân bay 8.000 tỷ,vietnamnet,2020,2
+S00461,afc5900d78ee2cbd4999baf12a4b6825,positive,1,nguồn cung nhà bình dân kỳ vọng tăng khi pháp lý khơi thông,vnexpress,2024,2
+S03373,929452b1ba2071c9076c4aa652ebc1e5,neutral,2,"chuyện thị trường Nhật, không liên quan Việt Nam",vnexpress,2022,2
+S03277,f3193a2297f8e4a4f448a3344cdb03b5,negative,3,"BĐS nghỉ dưỡng trầm lắng, tồn kho lớn",cafebiz,2021,2
+S02001,71c1209ccfefff25df3ad5f1eafa41d2,negative,2,"giá thực phẩm, xăng dầu tăng, đứt nguồn cung",vietnamnet,2022,2
+S00872,8d787e7b5c3a75c034ad45e5280a2948,positive,2,HDS tăng vốn điều lệ lên gần 11.000 tỷ,cafef,2025,2
+S00552,d87b69222434415c872bd2f0bd3879c4,positive,3,"Vietnam Airlines doanh thu tăng 11%, lãi 3.625 tỷ",cafef,2025,2
+S00360,a0f372cba497432d223c9ccc40dc551a,negative,2,bị xử phạt vì không công bố thông tin,cafef,2025,2
+S01666,c4a1a8df6fd89687dbd67d9a9a7bbc67,negative,2,chuyên gia dự báo thị trường tiếp tục giảm,cafef,2025,2
+S02565,56c32291579fe5f6ed1884becd20bdec,neutral,2,"mẹo gửi tiết kiệm, không tác động thị trường",vietnamnet,2020,2
+S02363,9fd45611b035a040671e1d3b58a86898,neutral,1,"câu hỏi nhà đầu tư cá nhân, lời khuyên đầu tư dài hạn",vnexpress,2022,2
+S01247,09f16fd95baaa84be4968a3120f2b938,neutral,3,"xếp hạng GDP Qatar, không liên quan",cafebiz,2023,2
+S02541,5f8d42a1874498cf0e96ddf2226d1ed0,positive,2,nhiều doanh nghiệp chốt tạm ứng cổ tức tiền mặt,cafef,2026,2
+S01421,fa217da66423a475511c631c4d6887b2,neutral,1,rủi ro hậu M&A mang tính chung chung,vnexpress,2020,2
+S02403,6091d6ce4e2aae809c3995f46183b026,positive,3,"VN-Index tăng nhiều tuần, thanh khoản cải thiện",cafef,2025,2
+S02459,9dc47f3eaa6dd2d565cf4c3c10be2c8e,negative,2,"dịch Covid khiến khách hủy đổi vé, bất lợi hàng không",vietnamnet,2021,2
+S01668,46f88e3f5e80ed30cede051c70aaf0fe,neutral,3,"thay đổi cổ đông lớn và HĐQT, tác động không rõ",vietnamnet,2023,2
+S02939,7cf923ff01d87df7e50ac8e836451e16,positive,3,"lợi nhuận tăng 40%, không còn nợ trái phiếu",cafebiz,2023,2
+S01687,c20d8c2f63d3ff54cdcdd3024aecef56,neutral,3,quy định hành chính về xe tạm nhập,cafef,2021,2
+S01028,2b53b677b962f269bce653aa3ae393bb,neutral,2,"giá xăng giảm nhưng hàng hóa vẫn cao, không rõ tác động",vietnamnet,2022,2
+S01742,e99d155c949f8829c8111db54e779673,positive,3,"Vinachem doanh thu cao kỷ lục, lợi nhuận tăng 2,8 lần",vnexpress,2023,2
+S00439,cabfa23a9198bf1b5e00f69fb1387d64,positive,3,"FTSE nâng hạng, kỳ vọng 6 tỷ USD vốn ngoại",cafef,2026,2
+S00483,ab6862c38fb89a166f762d565294db7c,neutral,2,"chủ đề doanh nghiệp xanh, không tác động giá rõ",cafef,2023,2
+S00276,efb82637d7496c4a9f1ef05fd35e7c75,neutral,1,chủ tịch mua vào nhưng cổ đông khác bán ra,cafef,2022,2
+S01538,5598582f161ab6ae71a361e8229a029f,neutral,3,khuyến cáo an toàn giao dịch ngân hàng,vietnamnet,2024,2
+S01954,f9f5646402a591c1724b85f2e992c289,negative,1,"ngân hàng tăng lãi suất huy động, chi phí vốn tăng",vietnamnet,2024,2
+S02327,e41a984fe1fa61cd014f21587d85dd49,positive,2,"Đất Xanh Services tuyển lại môi giới, thị trường đảo chiều",cafebiz,2024,2
+S03223,dcb0d01dd8286a98c8bbd52be8328cc1,positive,2,Việt Nam được đánh giá tốt trong cuộc đua sản xuất,cafebiz,2020,2
+S02378,82a5b6e63b539274a28e7605b9e71514,negative,2,doanh nghiệp thủy sản mất tiền do không thông quan,vietnamnet,2021,2
+S02598,a518bee7009e1905bab72b2ca1a43ffc,neutral,1,"FDI đăng ký giảm nhẹ, vốn thực hiện tăng",cafebiz,2022,2
+S01650,5335f5c4f4bafb474dfd4591ba87c984,neutral,2,ngân hàng đấu giá tài sản thế chấp thông thường,vnexpress,2023,2
+S01303,187b5f6d912ed703ecd7d88d9b432c67,positive,1,VIB ra mắt sản phẩm ngân hàng số mới,vietnamnet,2020,2
+S01035,807e1262b1c00f4bb489a1a5e9a8fba8,neutral,2,"giá xăng giữ nguyên, dầu tăng nhẹ",cafebiz,2022,2
+S03327,ac6dc37ecc411fc64967ab6658817ae7,neutral,2,"nông nghiệp Ấn Độ, không liên quan",vnexpress,2023,2
+S00099,b8c63a60cc2d5a2c3055d5e4b55f7b6b,neutral,2,"kiến nghị miễn visa, chưa thành chính sách",vietnamnet,2023,2
+S02306,c7679fd78c847a8e800f50a5a3aff05d,neutral,2,"bản tin giá vàng, USD, dầu trái chiều",vietnamnet,2023,2
+S00271,663d017c30b9f334d39b7bf1d1893c18,negative,2,tỉnh hụt thu ngân sách gần 6.500 tỷ,cafef,2020,2
+S02224,85e4c572b763fee0d71888060d6d4a94,neutral,2,"nhận định thị trường biến động, cân bằng",cafef,2026,2
+S02326,e1858a9c480023abcb4e574c62844b49,positive,2,"bất động sản ấm lên, giá và lượng khách tăng",cafebiz,2024,2
+S00378,c7fe56345425c402cee0c861059a6d06,neutral,2,"giải thưởng thương hiệu, tác động giá hạn chế",vietnamnet,2023,2
+S00613,7fbcb07739da82840cce611701ae2aef,neutral,2,"nhận định vĩ mô, lãi suất cao đi ngang, không rõ",cafef,2026,2
+S02463,9324b1f314f9ce637a7a6281624c3a36,neutral,2,cảnh báo lừa đảo thẻ tín dụng,vietnamnet,2022,2
+S01658,03940b1fa18009228bc95a751772d306,neutral,1,"PDR phát hành giá thấp gây tranh luận, tác động không rõ",vnexpress,2023,2
+S01628,7e827af78b0874b5f894f2bd985ffd61,negative,3,HAGL bị phạt 3 tỷ và đình chỉ giao dịch,vnexpress,2022,2
+S01148,73f3842c032ee4be43f3d31fb0921edb,neutral,1,TNH huy động vốn mở rộng nhưng giá phát hành thấp,vnexpress,2021,2
+S01807,a81d03891190ffdb61c6a89e68bc1a91,neutral,1,"sốt đất nền, tác động tới cổ phiếu không rõ",cafebiz,2021,2
+S00472,b1c94f4949e8ba906d8b405f50dabba7,positive,2,"điện gió, mặt trời tăng công suất, cơ hội đầu tư lớn",cafef,2020,2
+S02722,35ebf0c0cb404443e906150adf546e77,negative,3,"VN-Index giảm 2,66% tuần, áp lực bán tăng",cafef,2026,2
+S03199,d2ef2d104fedaabd1f41435bfcccfcb2,positive,2,GSM khai trương dịch vụ xe máy điện mới,cafef,2023,2
+S01442,6d62b5a2e3e3f423e56213051d77eeee,neutral,2,câu chuyện cá nhân vay mua nhà,vietnamnet,2020,2
+S02160,0320023aeae62711cf29a33819671e8c,negative,3,"kết luận thanh tra, chuyển công an điều tra FLC",cafebiz,2022,2
+S00576,3d2ef00c403c5062b92b21c1c0d7630b,neutral,1,kỳ vọng thị trường BĐS ấm lên nhưng còn trở ngại,cafebiz,2022,2
+S00064,d8be036e4a692c836ba9186116470ae6,neutral,2,"mô tả nguồn cung căn hộ, không rõ tác động",vnexpress,2021,2
+S00538,33a305959e4c12e072e57e165555a5a0,negative,2,"chủ tịch bán cổ phiếu, TIG giảm sàn 6 phiên",tnck,2026,2
+S01429,891ebec5f617738ca432e706e282fb1f,positive,3,nhiều doanh nghiệp chốt quyền cổ tức tiền mặt,cafef,2025,2
+S01220,f91393b4b73d427746b0eb26cac50f7a,positive,1,công nghệ AI VinBrain có thể ứng dụng toàn cầu,cafef,2022,2
+S01209,925db9590dd664c1c2845e065a8bedac,positive,2,tập đoàn bán dẫn Mỹ tăng đầu tư vào Việt Nam,vietnamnet,2023,2
+S02952,f03221344693d950d55ef77af22d75d7,positive,3,Bản Việt dự báo lợi nhuận Vincom Retail hồi phục mạnh,cafebiz,2020,2
+S02177,6c3e8c82ba3880b9c0bda4df17418d7d,positive,3,gói hỗ trợ kinh tế 350.000 tỷ sắp ban hành,cafebiz,2022,2
+S02236,cabdf7736d4d22db0a7e65cd79da1a4e,negative,2,"lợi nhuận quý giảm 31%, doanh thu vàng mã thấp nhất",vnexpress,2024,2
+S00217,aa3eb2b26a36621c942b5869c3a76227,positive,2,BAF đầu tư hơn 1.200 tỷ mở rộng nhà máy,tnck,2026,2
+S01309,fd5599bdf75d729c40595d000b6c9186,neutral,2,"hai kịch bản doanh thu, phụ thuộc dịch bệnh",vnexpress,2021,2
+S00159,edea933d5cd6f7c7cfccd88ae9c00ac1,neutral,3,"tin xe ô tô, không liên quan thị trường",cafef,2024,2
+S01840,d8714a614f7409157b3d5bcaa1879cff,negative,3,"VN-Index giảm sâu, bán cổ phiếu phát hành trái phiếu lớn",vnexpress,2022,2
+S03431,700dfb9e57a5892bfd5cf96f3c8aa467,positive,2,"bất động sản hưởng lợi từ trục đại lộ, khách quan tâm",vnexpress,2020,2
+S00689,2f0cc354ffee96af003bcd1b4eeffa2b,negative,1,"bất động sản vẫn trầm lắng, khó bán dù lãi suất giảm",cafebiz,2023,2
+S00012,85fcba0796cf1bef92352a7d429e2bd9,positive,2,"F88 tăng mạnh, chia thưởng, thanh khoản hấp thụ tốt",cafef,2026,3
+S02704,fb6929b9f36ebb1be79c78a8a8195149,neutral,1,"Lãi suất tiết kiệm nhích nhẹ, chưa thay đổi lớn",vnexpress,2021,3
+S01984,1ef66499ab48e768abcd8988df7cc093,positive,2,Hạ tầng đầu tư công hưởng lợi khu đô thị Vinhomes,cafebiz,2024,3
+S02063,8e16b229cd08ecb3db7682fe3dd32bf3,negative,2,Khối ngoại bán ròng 80.000 tỷ liên tục,cafef,2026,3
+S01489,dd095f4935175c7ee0256706757151a4,positive,3,"Novaland doanh thu lợi nhuận tăng vọt, lãi dự kiến lớn",cafebiz,2021,3
+S03170,3ed1153dcb5c7b4e60080141141f84e6,negative,2,"Bài học đắt giá, nợ nần, bán tài sản trả nợ",vietnamnet,2022,3
+S02278,966c4f7438173da9cf924b0d23b672a2,positive,3,"TOS lập đỉnh lịch sử, tăng 123%",cafef,2025,3
+S01180,c672329f1475de8550f269978be786d1,neutral,2,Thảo luận chung về Chính phủ điện tử,vnexpress,2020,3
+S00135,77fa1198e1501ebabfb6d04776965364,negative,2,"Lãi suất tăng gây bán tháo, rủi ro bất động sản",cafebiz,2022,3
+S03227,2eb2e31c2ac9dbfd0bbc8c82cab41006,neutral,2,"Giá vàng giảm, không liên quan trực tiếp cổ phiếu",vnexpress,2023,3
+S00278,3bdbcc197119dc752d62fe472419b218,negative,2,"ABBank lợi nhuận thấp, trích lập dự phòng tăng",cafef,2023,3
+S02635,ade9a1d2316ed2940582e6a6376b8967,positive,2,"Nvidia vốn hóa kỷ lục, cổ phiếu tăng mạnh",cafef,2024,3
+S00906,36368ec79ab36b1d110eaabb3624e881,neutral,3,Bài giáo dục về quyền chọn chỉ số,vneconomy,2026,3
+S03011,319945abfb4bcdb483715c390ce5bf02,positive,2,"Bất động sản qua giai đoạn khó, chu kỳ mới",cafebiz,2024,3
+S01867,30b0a3c9ae2e549e3236b457fd3af2f1,neutral,3,Chương trình tri ân khách hàng thuần marketing,vietnamnet,2021,3
+S01626,7328021842a403e28f6853a09df282fa,negative,3,"HAGL bị xử phạt, cho lãnh đạo vay vi phạm",vietnamnet,2022,3
+S03044,f4c681dd6b60c90322d4ff1319159a86,negative,3,"Tiêu thụ căn hộ thấp nhất 3 năm, nguồn cung giảm",cafebiz,2024,3
+S00926,096d23fe2b590928b57a52c610b52f6f,negative,2,VNP chuyển từ lãi sang lỗ nhiều năm,cafef,2020,3
+S03371,f8c1b45236ac0c81731a27058d0e3c9a,neutral,2,"Tranh luận hạn sử dụng chung cư, tác động không rõ",cafebiz,2022,3
+S00934,df86d4412aecb92b47f15f6ba30cb3af,neutral,2,"Giữ nguyên quy hoạch sân bay, tác động không rõ",vietnamnet,2021,3
+S02908,f9845ba5e4c0b5615f6c509f373dd7ad,neutral,2,"Giá xăng dầu giảm, tác động không rõ",vietnamnet,2024,3
+S00018,5b340b698f66a62ab160e0facc094974,neutral,2,Thông báo hành chính trở thành công ty đại chúng,cafef,2026,3
+S00377,52326cc03d9c8843b9274d71993e1778,negative,2,"Lạm phát cứng đầu, Fed cảnh báo còn xa",vnexpress,2023,3
+S03432,6d6aa46bc4d3fcbaae7a1bac44049ff0,neutral,3,Bài hướng dẫn phân tích kỹ thuật,cafef,2025,3
+S01181,ea0bc45b85a3c67112c40bf1b1149cd6,negative,1,Kế hoạch lợi nhuận POW giảm 67% dù doanh thu tăng,cafef,2025,3
+S00544,0735602af8a5bfb0d8e2de9b5b351165,positive,2,"ACB lãi gần 10.000 tỷ, hoàn thành 50% kế hoạch",vnexpress,2023,3
+S01024,00409421f1883fc57674300f806484fb,positive,2,"Xuất khẩu rau quả kỷ lục, tăng mạnh",vietnamnet,2023,3
+S02139,c8dd733a4d8ad25cf248e46c53e08ad4,neutral,1,"Danh sách đen Mỹ-Trung, ít liên quan thị trường Việt",vnexpress,2020,3
+S01017,1ad1c53b4c4eadf99242e9368b745b14,neutral,2,"Ưu đãi kích cầu bán hàng dự án, tác động không rõ",vnexpress,2020,3
+S00133,1c67eb430bf2de9e05434f1e13ba2dfb,positive,2,"Giá chung cư tăng mạnh, chủ nhà lãi lớn",cafebiz,2023,3
+S01044,b60db1eb6ed76701384729d6726c4173,neutral,3,Dự thảo thông tư chứng quyền lấy ý kiến,cafef,2025,3
+S02466,ab187740f4c1bbc196a7634ac31eb9ce,neutral,2,"Giá điện tăng, giải thích tác động xã hội",cafef,2023,3
+S00151,1b20b69a1e14ea413f00eee6dae41914,negative,2,"Vé Tết ế, sức mua rất thấp, ngành hàng không khó",vietnamnet,2021,3
+S00739,3b5ffe5866dba76ec2b145a5694e84e5,neutral,1,Quan ngại Fed tăng lãi suất nhanh nhưng lạc quan thận trọng,cafef,2022,3
+S02254,e356eee8804ac0bb1380b284b20360d8,neutral,3,"Chuyện người du mục kỹ thuật số, không liên quan",vnexpress,2022,3
+S00288,cea23b348111556e21f73d8cd0008cc8,negative,2,VN-Index giảm hơn 82 điểm do thuế đối ứng Mỹ,cafef,2025,3
+S01020,8666a047ba70f841c0d69aaaeb81ce45,neutral,2,"Giá vé tăng mùa cao điểm, tác động không rõ",vietnamnet,2021,3
+S00198,0f29ab65f8a24274bb005ab8e67d3b86,neutral,2,"Hợp tác chiến lược nhà thuốc, chưa có số liệu",vietnamnet,2021,3
+S01927,bcc1e61989eb32c6d56c265e2718e45b,negative,3,"Đất Xanh lỗ lũy kế, doanh thu giảm 45%",cafebiz,2020,3
+S03019,5195b4156cf371be6ce96942809115ce,negative,3,MB bị buộc khắc phục hậu quả do vi phạm,cafef,2026,3
+S00258,a42f41e6fa4ca289273dd3223d00b20f,negative,2,"Ngân hàng cắt giảm nhân sự, giảm thu nhập",vietnamnet,2021,3
+S03157,479fa4c112fe87578e73ac64682ac209,positive,2,"Doanh nghiệp phục hồi, lợi nhuận khả quan",vietnamnet,2020,3
+S02772,74e8f3a2a3f2e608d9cdbcf4889093e0,positive,2,"Doanh nghiệp vào chuỗi cung ứng Boeing, 200 triệu USD",vietnamnet,2022,3
+S01458,97e7044fcd38c07ecb19450937cea63c,positive,2,"Kinh tế số tăng trưởng mạnh, đóng góp GDP",cafebiz,2024,3
+S00302,cac5342476f267b193c3d23fc9f15d03,neutral,2,"Góp ý phát triển TP Thủ Đức, có thách thức",cafebiz,2020,3
+S03145,ef11e7f4eec10730c2f3f11e8e547457,neutral,1,"Kiến nghị kiểm soát giá đất, tác động không rõ",cafef,2021,3
+S01310,e2e14892c13ab7b50be41a24217c703d,neutral,2,"Giải thưởng, tác động giá cổ phiếu không rõ",vietnamnet,2020,3
+S01420,57d57a2b89d658201f35c439df1450ca,negative,2,"NHNN hút ròng 100.000 tỷ, lo lãi suất tăng",cafef,2024,3
+S00291,60b4715c12e0bd85c3b543baf922c069,negative,2,"Bất động sản phát mại ế, giá liên tục giảm",vietnamnet,2022,3
+S00442,283318e8f37e74da631b360191281435,neutral,2,"Trung Quốc giảm nắm trái phiếu Mỹ, tác động không rõ",cafebiz,2022,3
+S00186,35b554444e10f33fc9e4cb17abe33356,neutral,2,"So sánh kênh đầu tư, không tin cụ thể",vietnamnet,2020,3
+S03420,b8de033aa70db1acd66c2784e4b9c3e9,negative,2,Xuất khẩu thủy sản sụt 15-20% do giãn cách,cafef,2021,3
+S01730,7b11a35f47e1fb173933c791eb7addf4,negative,1,Cổ đông lớn thoái vốn IDC sau hai phiên giảm sàn,vnexpress,2021,3
+S01838,5482f1b809552d68959617b1c207d8c9,neutral,2,Bài phân tích chung về nhân sự môi giới,cafef,2022,3
+S02175,b03822d6a4ea636fe03d69cf85810ddc,negative,1,Ba lãnh đạo cấp cao đồng loạt từ nhiệm,cafebiz,2023,3
+S03398,ca798bb6d1e96a37662e2a0926c00615,negative,3,"VN-Index lao dốc, áp lực bán mạnh",vietnamnet,2024,3
+S02401,0897e7e1e352c540370ec7f1d41254cb,positive,2,"KKC lãi sau thuế tăng, thoát diện cảnh báo",cafef,2026,3
+S00060,0367f7c585382daa6b960d95cba89dcc,positive,2,"Đèo Cả thi công dự án lớn, hưởng lợi đầu tư công",cafebiz,2023,3
+S01662,bdbe695185841a389b4d898849421d70,positive,2,"Thị trường hồi phục, kỳ vọng bên mua quyết liệt hơn",cafef,2022,3
+S03221,0cf163bf6af8e2911fa587727b6509ab,neutral,2,"Giải thưởng công nghệ, tác động cổ phiếu không rõ",vnexpress,2024,3
+S03302,d042c93735ccfd8c54354d4aa6ce589f,neutral,1,"Đề xuất tăng giá điện, tốt EVN nhưng gánh nặng chi phí",vnexpress,2024,3
+S02489,d4f8ca9b384a88029fc87d9369afaa0a,negative,2,"Cảnh báo khủng hoảng Đức, mất 5% GDP",cafebiz,2022,3
+S02173,bd6a55ddd183947f42f9c3c2cdea59da,positive,3,"Khối ngoại mua ròng, ba sàn tăng điểm",cafef,2020,3
+S01727,dbf8bef568c8655de73ea8f7fe9c1c6f,neutral,2,"Lãi suất tiền gửi giảm, tư vấn gửi tiền",cafef,2023,3
+S02417,a27890cabcd3914d92a5023ea47c8fc1,neutral,3,"Cạnh tranh Alibaba JD.com, không liên quan",cafef,2021,3
+S03228,934ee0e725da00f52ca2397db797f449,positive,3,"Thanh khoản kỷ lục, VN-Index tăng 34,9%",cafebiz,2021,3
+S00912,9f794fa3de3726bd7bb518c914a8931a,neutral,3,"Ra mắt giao diện website, tin quảng bá",vietnamnet,2024,3
+S02495,553060c00eeeeb685d5067d32b115574,positive,1,Sàn giao dịch quyền sử dụng đất minh bạch thị trường,cafebiz,2023,3
+S00101,5b3fe8d27f68d2c810a0b0494118868c,positive,3,Chứng khoán Mỹ lên đỉnh lịch sử,vietnamnet,2021,3
+S00512,ffa2e2f8317f6993060f8895f0775df4,positive,2,"Cổ phiếu Nvidia tăng vọt 35%, vốn hóa lớn",vnexpress,2026,3
+S03266,424b41531375297acc2e32e5fe16343f,positive,3,"Thu nhập ngân hàng tăng mạnh, tăng trưởng vững",vneconomy,2026,3
+S03377,8e747b600ca82a1e6773fb7a36763d51,positive,3,"Lợi nhuận Đạm Cà Mau gấp 11,5 lần",cafef,2020,3
+S00967,f7c9779e60cfd783e25faef17b904e27,positive,2,"Dòng vốn lớn Bắc Mỹ, châu Âu vào thị trường",cafef,2026,3
+S01944,35fdb1321b7d6252689254c7ac85d169,neutral,2,"Citigroup rút bán lẻ, tác động chứng khoán không rõ",vnexpress,2021,3
+S00009,6dc2d7a9972970dac2bc82129c892098,neutral,3,"Giá vàng biến động, không liên quan cổ phiếu",vietnamnet,2024,3
+S02843,4bdf8699fb4e09aae9aa25151a8325e5,neutral,2,"Giá xăng điều chỉnh nhẹ, tác động không rõ",vietnamnet,2024,3
+S00875,bfd2a001b63332024fcf8da28f323c2d,neutral,3,"Chân dung nhà đầu tư, nội dung chung",cafef,2020,3
+S00620,ec731db2b3b302775e914e74e1036571,neutral,3,Tư vấn cá nhân gửi tiết kiệm hay bất động sản,vnexpress,2023,3
+S02396,63e3d59c361c504350db8d4e975c4951,neutral,2,"Thông tin đấu giá quyền mua, tác động không rõ",cafef,2025,3
+S00546,5bf27ce557519d5352ba8a3d4af32aa7,positive,2,Ký MOU hợp tác mở rộng quốc tế với Toppan,cafef,2023,3
+S02877,4c2f7975570ba94eb8df46b7b33a074a,neutral,2,"Tư vấn đầu tư bất động sản, thận trọng",cafebiz,2020,3
+S00949,2ec25bf77ed1718aee42aeb461b06152,negative,2,"Vụ lừa đảo 2.700 tỷ tại Eximbank, khó thu hồi",cafef,2024,3
+S02503,acb01a0fdfe924d5c827d4c123685f61,negative,2,"Thị trường điều chỉnh, thanh khoản thấp, cầu yếu",cafef,2026,3
+S02726,6d17591f0bb157a05d8526004a80634a,neutral,3,"Giá xe điện Mỹ, không liên quan",cafef,2020,3
+S00334,1a2f859baf35ecc764288d3927c5495e,neutral,2,"Giá vàng giảm mạnh, không liên quan cổ phiếu",vietnamnet,2022,3
+S02634,140c335cc826a43fa62bd90226cc358b,neutral,3,"Diễn đàn hỗ trợ doanh nghiệp, không số liệu",cafef,2023,3
+S00197,750817853afa097d12c1a9727a1a8c42,neutral,1,"Từ nhiệm HĐQT sau đổi chủ, tác động không rõ",cafef,2026,3
+S00626,4a8ae03943d65c3726adac3a54bdb841,neutral,2,"Thị trường ảm đạm, kết phiên tăng nhẹ, HAG bị bán tháo",vnexpress,2023,3
+S00923,56a29a086a06495873dd148ab7070db9,positive,2,VinFast mở rộng sang thị trường Ấn Độ,cafef,2025,3
+S01813,dd74d8129a1cc1176f85e0d080e33205,negative,2,Lợi nhuận quý 1 tiêu cực cản đà tăng,cafef,2023,3
+S01789,8b6a5c88fea4a33f5da8b6d949accac1,neutral,2,"Đề cử thành viên HĐQT FPT, thông báo hành chính",cafef,2026,3
+S01522,5a5439f5c0694afa36d6933f212463c0,negative,2,Người nhà chủ tịch OCB bán ra lượng lớn cổ phiếu,cafef,2025,3
+S02566,a34c1fb0ad46a8a18bd502bc2efc0137,neutral,2,"Phóng sự CNBC về Ocean City, tác động không rõ",vnexpress,2024,3
+S02888,5325c6e7eeb36a1d56d1a38420334be0,negative,3,"Eximbank giảm cho vay, tiền gửi, nợ xấu tăng",vnexpress,2021,3
+S03053,20581d7e4d246fc0f3ef709b04822dbb,negative,3,Chứng khoán châu Á bị bán tháo mạnh,cafef,2022,3
+S03341,9d365ec23de5243641aff29b620f75b3,neutral,2,"Chỉ đạo khởi công nhà ở xã hội, chưa tác động rõ",cafef,2024,3
+S02276,25c98dab83ad8c7836316d33b7797efb,positive,3,"TPS lợi nhuận phục hồi, chi phí giảm mạnh",cafef,2025,3
+S03060,6105a0e2da38755259d865ba78c572a0,positive,2,Dragon Capital mua ròng tăng sở hữu DXG,cafef,2025,3
+S03037,48f4d7cd8c589d1920acd1708fcb62d8,positive,1,Lãnh đạo nhìn thấy cơ hội dù có thách thức,cafebiz,2020,3
+S00298,fc22a268cc52857da514b596061c2fce,positive,3,Apple doanh thu kỷ lục vượt dự báo,vnexpress,2021,3
+S01995,52225bb7592ea3c6ffe5ae3af8136413,negative,2,khối ngoại bán ròng hơn nghìn tỷ,vnexpress,2020,4
+S01776,f6fd9ca25d05d4f6087e39a26201fd0f,positive,1,SHB hoàn tất thoái vốn cho đối tác chiến lược,vietnamnet,2023,4
+S01551,1ea7c0b2e809e7d9fb95bbdec59a4e07,neutral,1,"yên trú ẩn, Nasdaq giảm, tác động không rõ",vneconomy,2026,4
+S01795,66fa3ccc166a87096cab49a3b847d128,neutral,1,"vàng dầu giảm, chứng khoán thế giới tăng",vnexpress,2022,4
+S01058,5508c8249026bba36482e2cd92fa2fe0,neutral,2,"lạm phát Argentina, không liên quan thị trường VN",vnexpress,2023,4
+S01485,d268b329c3ee476072b8ab170d68219c,negative,2,"LDG diện kiểm soát, khối ngoại bán ròng hơn 5.000 tỷ",cafef,2025,4
+S02211,2f857d4afc4143a1df9f6c661d690c08,neutral,2,"giá vàng thế giới, không rõ tác động cổ phiếu",cafef,2021,4
+S00814,415c4c52626a3a933e14d2a0e9b90354,positive,3,"VN-Index bứt phá, nhiều mã tăng trần",cafef,2026,4
+S02201,a25db50683ee6953237b6977df1ee521,negative,2,"các vụ án rửa tiền, khởi tố",cafef,2020,4
+S00793,528e82d7471078e7de54f669450f2cfc,positive,2,"giá biệt thự shophouse tăng, điểm sáng thị trường",cafebiz,2020,4
+S01656,5c1a6f52e52925777d06684b1d632f1d,positive,2,chốt cổ tức tiền mặt và cổ phiếu,cafef,2025,4
+S02400,7877e4f7c32e9941ff8e4dceebcb1ff3,negative,2,"bất động sản khó khăn, lướt sóng rủi ro",cafebiz,2020,4
+S02789,ac25e9ca2ce03748c36dd999e8fd655f,negative,3,"AST lỗ liên tục, cảnh báo hủy niêm yết",cafef,2022,4
+S03013,272719db696473a48ce8a7022f76322b,positive,1,"giá chung cư tăng, nhu cầu phục hồi",cafebiz,2023,4
+S01185,a8879a131a48b339929bbb7caa74fca3,negative,2,"siết tín dụng bất động sản, vay mua nhà khó",vietnamnet,2022,4
+S02953,71c40349cc3d7f095374ba6ab110296a,positive,2,"doanh thu lớn, biên lợi nhuận gộp cao",vnexpress,2023,4
+S03388,fdbe2ae8c145d42ff7a120b899535a5b,negative,2,dịch khiến thị trường bất động sản đóng băng,cafef,2021,4
+S01021,fbf09ff19f3a15728e82e7aa099ea36e,neutral,2,thay đổi nhân sự lãnh đạo thuần hành chính,tnck,2026,4
+S03058,7cddd35533a958b9aa32835aadbe1998,neutral,1,"thoái vốn công ty con, tác động chưa rõ",vnexpress,2021,4
+S01948,5a97c58b4e8731dd6905a37827a3b53d,positive,1,"VinFast giữ giá trị, thương hiệu tốt",cafef,2020,4
+S02347,2e2e2a5ea0e140de4ba97e9279d8e478,positive,1,đà giảm xuất khẩu cá tra thu hẹp,vnexpress,2023,4
+S02448,358fb44fa7391eb87da1f5741e7b91eb,neutral,3,"vụ cướp giật cá nhân, không liên quan thị trường",cafef,2026,4
+S03213,59afab937d35faac62304da5b25bba5a,positive,3,chứng khoán Việt Nam top 3 triển vọng châu Á,vnexpress,2024,4
+S02594,f67cefcd377ff4ee0acd4a2ccb3615c4,neutral,1,báo cáo hạn chế quản lý thuế chuyển nhượng BĐS,cafebiz,2024,4
+S00481,7235a9bfec7c314fc4e39dd212e3bdc6,positive,2,"VN-Index tăng gần 16 điểm, thanh khoản tốt",cafef,2025,4
+S02696,bfd95015651e18ecbd0b894e1372d649,positive,2,NHNN hạ lãi suất điều hành,vnexpress,2020,4
+S00686,0ad25140252cf84cd7cf5fb1de3b1478,neutral,2,"giá vàng tăng, không rõ tác động cổ phiếu",vietnamnet,2020,4
+S02578,5383109957bdb627c0b7fd70e5d046ec,neutral,2,"tái bổ nhiệm CEO Nvidia, tác động không rõ",vnexpress,2026,4
+S03116,3ffc60434dda71e06dc51779e68048a9,positive,2,kỳ vọng nới room tín dụng cho ngân hàng,cafef,2022,4
+S02716,3ed070abb8261483ab6ac543ea7c6770,negative,2,"HDG nằm sàn, mất vốn hóa",cafef,2026,4
+S01110,526be90a926bfbfef3bd4eabacdcbb9a,neutral,1,"lãi lớn nhưng doanh thu đi ngang, lợi nhuận gộp giảm",cafef,2021,4
+S02739,1a3595b93201e9e3472d27a9cc6ef697,positive,1,"hợp đồng tương lai tăng điểm, bớt bi quan",vietstock,2026,4
+S01073,c8f8ddc61ab30266e2170250bdacf5e5,negative,2,công ty thua lỗ triền miên vay trái phiếu lãi cao,cafebiz,2021,4
+S00915,5a00e4c64371b71bd0e8fb99dbc7ff95,positive,3,"VN-Index vượt 1.400, khối ngoại và tự doanh mua ròng",cafef,2025,4
+S00640,e97156e1451a18460dbfdafbe99ad0f3,neutral,1,VN-Index tăng nhẹ nhưng cảnh báo khối ngoại bán,cafef,2025,4
+S00976,1accc6686504afe6092531cda955699e,neutral,1,VN-Index tăng mạnh nhưng khối ngoại bán ròng,cafef,2026,4
+S02054,54b269e689fb574471c1596fe4833bd1,neutral,1,"NVL chuyển nhượng vốn công ty dự án, tác động chưa rõ",tnck,2026,4
+S02451,52dd6dbc0e0d3d10fff175465416c37b,neutral,3,"tin giảm giá tivi, không liên quan chứng khoán",cafef,2020,4
+S03286,1648d1adcec9e8f38bf3e25ccdcc8d3c,positive,2,HDBank nhận giải thưởng tài chính xanh,cafef,2024,4
+S00412,ea2856b78d1f6858fc5b527208398a81,neutral,2,"phát hành trái phiếu cơ cấu nợ, trung tính",cafef,2025,4
+S02262,14b166d059f5aab9f51a1c2d39129caa,neutral,2,"HĐQT độc lập bị bắt, công ty nói không ảnh hưởng",cafef,2025,4
+S01796,c2b345513ddcde5572b29fe052542308,neutral,2,"phân tích giá nhà, không rõ tác động",vnexpress,2023,4
+S01348,73e4f7b51eea29f9a66b8f5cec4723cb,positive,1,chủ tịch FPT lạc quan về cơ hội blockchain,cafef,2025,4
+S00789,8782b7a574a31a7cdc0a3526dac9f632,neutral,2,"tiền số điều chỉnh, không phải chứng khoán",cafef,2025,4
+S03113,0b36f8b7a9eef713a9c397d95aff2e4d,negative,2,UBCKNN xử phạt nặng thao túng giá,cafef,2021,4
+S01921,928cb5e3f9bbe0f6b0d4d57efe9776ca,positive,2,"kinh tế tích cực, nhóm ngành hưởng lợi",cafef,2026,4
+S01618,e35ff369fa00896585296517e0b75a2c,neutral,1,"ETF review danh mục, có mã vào mã ra",cafef,2024,4
+S00980,45e58cf6982538f721c9d5d2afa74c3c,positive,1,"HPG hướng tới đỉnh lịch sử, VIC chịu áp lực",vietnamnet,2024,4
+S03153,c7c4440c82ce369bb324ebcae5049133,positive,3,nâng hạng FTSE có hiệu lực,cafef,2026,4
+S00498,602c03c8606c285f5dcac769bc7da5e4,positive,3,C4G trúng thầu nhiều dự án đầu tư công,cafef,2020,4
+S00331,2cb9ad46e6de18b5f3663c7b77d63b35,neutral,1,"VN-Index tăng nhẹ, phân hóa ngành",cafef,2025,4
+S00280,dc758f65b834e027318cff201b5fb24b,negative,3,nhiều doanh nghiệp xin lùi trả nợ trái phiếu,cafef,2023,4
+S01560,76cbd308e9c8be7ed376f50748120b29,neutral,2,"đầu tư Việt Nam tại Campuchia, thông tin chung",vnexpress,2021,4
+S03328,9f3b06892ec83acd4c348761aef226da,neutral,2,"IPO Mỹ, không liên quan trực tiếp thị trường VN",vneconomy,2026,4
+S03300,8b69485117e3d42873b294cbc96d101a,neutral,2,"tỷ giá ngoại tệ thế giới, tác động không rõ",vietnamnet,2021,4
+S01748,6a4d9c04081f74f8748204e2be2c13bf,negative,3,"DHG lợi nhuận quý giảm 37%, thấp nhất 3 năm",cafef,2023,4
+S02444,be77f3fdde7824b2ef62697352e53967,negative,1,"cảnh báo rủi ro điều tra, thuế với hàng xuất khẩu",vnexpress,2026,4
+S00585,f50a7aa5871f23269f27a86baf0cb5d1,neutral,2,"giá vàng trong nước giảm, không rõ tác động",vietnamnet,2023,4
+S01488,63463b3f8e6e722c2fb57c2bcfa856e4,neutral,2,"tín dụng đen kiềm chế, không liên quan cổ phiếu",vnexpress,2020,4
+S02868,5e321aa1a3d71ddd16a01fb2ed0e96f2,negative,1,"giá cả tăng do chiến sự, lạm phát",cafef,2022,4
+S03212,1ae9d903ed4e738d0d6e6c29575bf5c8,negative,1,"giá lương thực cao nhất thập kỷ, lạm phát",cafebiz,2022,4
+S01381,54406a4b5df86b182f399d46386d6081,neutral,1,"ngành chip Nhật, không trực tiếp thị trường VN",cafebiz,2024,4
+S00575,5b22e8fb2673f4a21c2a6fd4876a0819,neutral,2,"giá vàng thế giới giảm, tác động không rõ",vnexpress,2020,4
+S00588,7e305da3a93b30553b4c761745e14e37,neutral,2,mô tả khu đô thị biên giới hoang vắng,cafebiz,2024,4
+S00181,bc3b27e95e13e3ca6042aafd9ceae836,neutral,2,HoSE tổ chức tham quan giáo dục nhà đầu tư,cafef,2026,4
+S00478,5ac3f263827012ca428e43d195cbe030,neutral,2,bài viết chiến lược chung về đổi mới sáng tạo,vietnamnet,2021,4
+S03137,bf6099bb3d33ef62f40cf5b46be9b3a0,positive,2,"Nghệ An thu hút FDI lớn, điểm sáng",cafebiz,2023,4
+S01305,cf04d634082440d967ff308869da0465,neutral,2,"chính sách giá xăng Hungary, không liên quan VN",vnexpress,2022,4
+S02769,ebb5c6d3b819688bd8c60cced1ee0e45,neutral,1,"kiến nghị quản lý môi giới, tác động không rõ",cafebiz,2021,4
+S00265,afd8dcf7355d9cae45dbedd74a3c4073,neutral,1,"SSI trình tăng vốn tại ĐHĐCĐ, chưa có số liệu",cafef,2025,4
+S02203,fa110eb30dd3d4ad4776deee6f79adf6,positive,2,bất động sản nâng đỡ VN-Index tăng điểm,vnexpress,2023,4
+S01191,17e696d4581f1ba44ea5a08abe55e2db,neutral,3,"bài chân dung CEO FE Credit, không rõ tác động",vnexpress,2020,4
+S01360,f0df9406ac04e5296074256e812127b8,positive,2,"kỳ vọng lãi suất đảo chiều, chứng khoán hưởng lợi",cafef,2026,4
+S01354,952484738cd3abcacc3263c412b24776,negative,2,"tỷ giá lập kỷ lục, áp lực mất giá VND",vnexpress,2026,4
+S02469,cecd591d9300293b75475135e03ec40c,positive,1,khai trương tổ hợp giải trí lớn tại Phú Quốc,vnexpress,2021,4
+S02294,02286568f3076fb76b08916d2f8c84de,neutral,3,"G20 kết nạp Liên minh châu Phi, không liên quan",vnexpress,2023,4
+S00328,847d07c94c2c5de8241c43fdf236da7d,neutral,1,"phát mại BĐS xử lý nợ xấu, thiệt hại kiểm soát",cafebiz,2022,4
+S01178,56fcc50a0c7aa0d0468fd5a582bf078a,neutral,2,"vàng và chứng khoán Mỹ, tác động không rõ",vnexpress,2021,4
+S00982,1ea37b3c3eb6c2d1ea40941f3806a574,neutral,2,nhận định dư địa giảm lãi suất hạn chế,cafef,2020,4
+S02351,3bb74170a45e06dab215c0c2d3e6e7dc,neutral,2,tin tỷ giá ngoại tệ thông thường,vietnamnet,2021,4
+S01812,4768c966049d9c11797dbc4a203bfdfb,neutral,1,giá vàng giảm do kỳ vọng Fed tăng lãi suất,vietnamnet,2021,4
+S02595,48bd04593caedaf01a8ba61fe11c8f2f,negative,3,"cổ phiếu BĐS giảm sàn, VN-Index giảm sâu",cafebiz,2022,4
+S00786,c6a36a3ec883a7167a96cab03199e109,neutral,1,"nhu cầu vốn ngành điện, vướng mắc thu hút đầu tư",vietnamnet,2020,4
+S03136,3192fbad19ccfcca479c07d6eadf281a,negative,3,Saigon Glory nợ quá hạn 5.000 tỷ trái phiếu,cafebiz,2023,4
+S01192,2c73bd3e316925300db87907d6df245d,positive,2,Bamboo Airways lãi trước thuế tăng 34%,vietnamnet,2021,4
+S01352,7e5f86ac316a0a548c65be36d171e237,positive,2,"TGG tăng trần liên tiếp, hồi phục",vnexpress,2023,4
+S00675,3c96d442f2b573156068b5bd11a89d38,neutral,2,điều chỉnh giá vàng miếng nhỏ,vnexpress,2020,4
+S01411,acf6f6cbc38a1d9c36468a63253ec46c,negative,2,"đầu tư công chậm tiến độ, đội vốn, lãng phí",vietnamnet,2022,4
+S00306,c387aaeeb008c0728d45f12a18569807,neutral,2,"kỷ niệm ngành, lời khuyên nhà đầu tư chung",cafef,2026,4
+S00484,fe08832f0ec79ddf81aed5572bad3f8a,positive,3,"Gelex lợi nhuận tăng 59%, đạt 92% kế hoạch năm",vnexpress,2024,4
+S00525,c0358934d09ae0536c6080e7440f1791,negative,2,UBCKNN hủy tư cách công ty đại chúng,cafef,2026,4
+S03207,0901940ade06a82c301f982cbebe1c62,neutral,2,"giá vàng thế giới lập kỷ lục, không rõ tác động",vietnamnet,2024,4
+S01537,97a2aee79851cc8a4ac02bdae3c04d6e,positive,2,"KBC thu hút đầu tư, chứng khoán tăng",vietnamnet,2020,4
+S02334,63b5dbbdd994ccac5d0bd805d4a849b6,positive,2,Vĩnh Phúc thu hút FDI tăng mạnh,cafebiz,2023,4
+S02354,d4e6a31946615ce8edade52a929142b7,positive,1,VIB lập thêm kỷ lục sản phẩm,vnexpress,2023,4
+S03163,63064fa0357d41174c3f4dc65ad39929,negative,3,"doanh nghiệp liên quan Vạn Thịnh Phát lỗ nặng, nợ trái phiếu",vietnamnet,2024,4
+S02043,2a05d40664a50b57832cdb9f778dc2e0,neutral,2,"ĐHĐCĐ bổ nhiệm tổng giám đốc, hành chính",cafef,2023,4
+S02553,7928bfbf83277daf68c4c369e092e570,positive,2,"gói phục hồi kinh tế lớn, chính sách hỗ trợ",vnexpress,2021,4
+S03284,7b51383bab8fa3eadd66cec46f35c334,positive,3,"TOS lợi nhuận quý tăng 49%, cổ phiếu đỉnh lịch sử",cafef,2026,4
+S00753,cc1c0965c38efa878bb99e249f352f07,neutral,1,"Takashimaya dự định đầu tư BĐS, tác động chưa rõ",vnexpress,2020,4
+S02115,150f5660293fd50cc251db620e6c81bc,neutral,1,BĐS trầm lắng nhưng chuyên gia nói điều chỉnh chu kỳ,cafebiz,2022,5
+S00357,3e3f771eb2cbab47ee8f7632502e6725,neutral,1,Dòng tiền vào BĐS nhưng kèm cảnh báo vay vốn,cafef,2021,5
+S03022,3117df344b58978f1d50aeca50bbd728,neutral,2,Ngân hàng tăng mạnh nhưng VN-Index giảm tuần,cafef,2024,5
+S03092,0e3584b7f3c751a7bf99a47749a8dd21,positive,2,"Dự báo giá BĐS tăng, triển vọng lạc quan",cafebiz,2021,5
+S01617,5788d84b3fa516098be4d7a62e8ce248,negative,1,"Chứng quyền giảm giá, khối ngoại bán ròng",vietstock,2026,5
+S01270,a955b4ba4998ac6f650f795715a5eacf,neutral,1,Vàng giảm mạnh nhưng kỳ vọng ổn định,vneconomy,2026,5
+S02436,adde275f0b9700ca54816d253f3ade7a,neutral,3,"Diễn tập quân sự, không liên quan chứng khoán",vnexpress,2020,5
+S00494,d3d370fd08922c988dec96368ad467fa,neutral,1,"Giá vàng thế giới kỷ lục, không rõ tác động cổ phiếu",vnexpress,2024,5
+S00355,b2af6110b87a8199032b70b9f03ec286,positive,2,Vinhomes ra chương trình kích cầu bán nhà,cafef,2021,5
+S02723,9d210783dceff54cc6c867169f63f59b,neutral,2,"Thị trường giảm, khối ngoại bán, tự doanh mua",cafef,2025,5
+S02493,120e63d2255ae71767f3be1d538af3c3,neutral,1,"Giảm giá điện máy, tác động không rõ",cafef,2021,5
+S00685,f7d6dad35014ed36ae81e207b6d76a30,negative,2,Cổ phiếu ITA giảm mạnh,vnexpress,2024,5
+S01930,6ec3e9b28b7cda113be3a91736de776b,negative,2,Xử phạt thao túng cổ phiếu AAT,cafef,2026,5
+S02377,b78b9eb3f3352cd19479cc668f62c5df,positive,3,Hoa Sen lãi tăng gấp 5 lần,vnexpress,2021,5
+S00886,70742b2d098bc09ebdd740319e52546d,negative,3,"Thị trường lao dốc, bán giải chấp cổ phiếu",vietnamnet,2023,5
+S02130,b24f9fe969ad15c52d166926b00ff2f9,positive,2,"Tỷ giá ổn định, vĩ mô thuận lợi",vnexpress,2020,5
+S03460,5f180f8f61263f14d780e4c7152061c9,negative,1,"Agribank phát mại tài sản nợ, bán bất thành",vietnamnet,2022,5
+S00711,3e230576c9270cf6f71c01781517ee41,neutral,2,"Chăm sóc công nhân, không tác động rõ",vietnamnet,2021,5
+S01279,029223586f946a18a854a75733086feb,neutral,3,Bài phân tích xu hướng ngân hàng số,vietnamnet,2022,5
+S01693,cc9231c74bb2ed78b580edd123d2d464,positive,2,VN-Index hồi phục lên 1000 điểm,vnexpress,2022,5
+S01826,c4c687871e5435c497b07cbb08bc3e8b,neutral,1,"Vàng kỷ lục, chứng khoán biến động",cafef,2025,5
+S01911,1c6fa63c800071fd0c098d2785dc2ca6,negative,2,"VN-Index giảm, khối ngoại bán ròng mạnh",cafef,2025,5
+S03403,2f0e343abd26905c4bf64ee2b4091940,positive,2,BĐS phía Tây sôi động trở lại,cafebiz,2020,5
+S00784,fce695e88ae61ba7f3db349f3f6ba659,neutral,1,"Giá vàng thế giới tăng, SJC không đổi",vietnamnet,2023,5
+S03289,485f5846a8c48ae878af648ec12bd249,neutral,1,"Thi công cao tốc, tác động không rõ",cafef,2024,5
+S01794,1574c77cba353480dad8550e261b9e70,negative,2,"IMF hạ dự báo, cảnh báo suy thoái",vnexpress,2022,5
+S03290,b59449c9d36e046f36fc6b481d40b603,neutral,2,Thông báo họp đại hội cổ đông bất thường,cafef,2025,5
+S01565,642a582828bc41c26226814d6c6fce89,neutral,3,"Kinh tế Na Uy, không liên quan thị trường VN",cafebiz,2021,5
+S00889,a3f97d4e7bfbbaa03d9e19c167efb149,neutral,1,"Thay đổi cấu trúc niêm yết, tác động chưa rõ",vietstock,2026,5
+S02983,b02c0c51b2cfa6e7243b2d5d044c0026,positive,2,Techcombank được vinh danh dẫn đầu,vietnamnet,2022,5
+S01146,472aa878bc1930b12911498ee33e5c93,positive,3,"CTR doanh thu, lợi nhuận tăng trưởng",cafef,2025,5
+S00813,5af49471205006228958b1d27aa16954,positive,3,IJC lãi cao nhất 18 quý,cafef,2025,5
+S02818,765e1f1eebe5ff297841cfb2eeeb8547,neutral,1,"Ký hợp tác nền tảng số, không số liệu",cafef,2023,5
+S02993,87738a1a846679e189cc571e2733cb29,neutral,1,"Cổ đông bán nhỏ lẻ SAS, tác động hạn chế",cafef,2025,5
+S01712,19748541d35210f67135dca5dd6ce2b9,neutral,2,Vụ kiện thẻ tín dụng cá nhân,vietnamnet,2020,5
+S00097,cb8d575772d99a22c8ab4637d2b12354,negative,1,Cảnh báo rủi ro trái phiếu doanh nghiệp,cafef,2022,5
+S02014,0495a9fafb2473592869002ac1ba5206,neutral,2,Giá dầu phục hồi nhẹ,vietnamnet,2023,5
+S02431,a377f39f1e5e3ddcf2e369f4ee480562,neutral,2,"Bổ nhiệm người đại diện vốn, hành chính",vnexpress,2021,5
+S00497,d7a5fff33b8c0c296107d8010f773a15,neutral,3,"Thành viên HĐQT từ nhiệm, hành chính",cafef,2025,5
+S00247,f25e1d0a16f0571d2bc065eddf41050a,neutral,1,Đài Loan lao dốc nhưng có biện pháp hỗ trợ,vneconomy,2026,5
+S02475,8f28409ad91d66493acf854703f00171,neutral,3,"Chiến sự Ukraine, không liên quan trực tiếp",vnexpress,2022,5
+S00557,b51bb487ab18aff80bde7d91c1aebe4b,positive,3,"VN-Index tăng, cổ phiếu ngân hàng chứng khoán tăng",cafef,2025,5
+S03346,91be3fd928ad6ebf8fefc0475e25980c,neutral,1,"Thị trường BĐS trầm lắng, có tín hiệu tích cực",cafef,2022,5
+S02697,48dd95fa8b1e90595f21cbbaccc17eb2,positive,1,Miễn thuế nhập khẩu linh kiện công nghệ,cafef,2022,5
+S01359,0b7bd33db3f3df3e4067ee6598f185e8,positive,2,Vietcombank đạt thương hiệu quốc gia,vietnamnet,2022,5
+S02330,380ce2d34b689df1f7a4693e3577a1c0,neutral,3,Quảng bá dịch vụ tài khoản số đẹp,vnexpress,2022,5
+S02087,ae41a31bd98b555b864f8a447c364f0f,neutral,3,Quảng bá ưu đãi thẻ tín dụng,vietnamnet,2020,5
+S02007,5e25a2d1916a3628e3b93eef774ebf43,neutral,3,Sự kiện tri ân đối tác,cafef,2022,5
+S00728,f97e39bdc1207b882ecd1e68d590c669,positive,3,"Chính sách hỗ trợ, kinh tế khả quan cho BĐS",cafebiz,2024,5
+S01384,5c5cbbe8f688b8c09a768a47c6e33677,neutral,2,"Giá bạc kỷ lục, không liên quan cổ phiếu",cafef,2026,5
+S01266,efd199a564f3c454d642c52362c4f09a,neutral,2,Chỉ thị hành chính quản lý thị trường vàng,cafef,2024,5
+S00822,09f6fc2adbc98f74229819408ba47048,neutral,1,"Tỷ giá USD giảm, tác động không rõ",vietnamnet,2020,5
+S01176,fab458c8c0db3a875049320ca675a11d,neutral,1,"Tỷ giá USD tăng nhẹ, tác động không rõ",vietnamnet,2020,5
+S00991,e05c2142d85eb75c650bf3e98f3907f5,positive,1,Quỹ ETF có thể gom cổ phiếu Vingroup,cafef,2026,5
+S02107,4db289bc506306436fd46d0c5471eed5,negative,2,"ATG lỗ luỹ kế hàng trăm tỷ, ít nhân sự",cafef,2025,5
+S01460,ea16e8a184f116f16fdc7b43dd39a196,negative,1,"Lãi suất huy động tăng, bất lợi cho chứng khoán",cafebiz,2022,5
+S01821,baa2df0a4df14a815f4d6ee5a57813fe,neutral,2,Liệt kê các thương vụ M&A quá khứ,cafebiz,2021,5
+S01657,5584e01d5245e7351f3586e681fdb03d,positive,1,"VN-Index phục hồi, sắc xanh lấn lướt",vietstock,2026,5
+S03098,a44bdbce2562b8c02da0df9d7f95aada,neutral,2,Chuyện nhà đầu tư BĐS Hong Kong,cafebiz,2023,5
+S00762,22f043d8027097dc157f657cf653cb1c,neutral,2,"Điểm số đi ngang, độ rộng yếu, thanh khoản thấp",vneconomy,2026,5
+S00167,c8f63da5a89b2bfd230a765c18bf372a,negative,2,UBCKNN xử phạt hai doanh nghiệp,vietstock,2026,5
+S00666,589916372e977e693b008747f3608520,neutral,1,Lời khuyên thận trọng khi đầu tư BĐS,cafef,2021,5
+S01987,9827dad408b6aee2d4ecd9a56c8ed6e5,positive,1,Cầu nhà ở lớn hơn cung tại Biên Hòa,cafebiz,2020,5
+S01147,e3c50cdbc8e1a7fc1af37241cd3b1ecd,negative,2,"Novaland hạ giá chuyển đổi, pha loãng, giá xa thị giá",cafebiz,2024,5
+S00369,520ef274a476fbe819999c399d267601,neutral,3,Bài hoài niệm bánh quy,vietnamnet,2023,5
+S03076,14a5d65409ddcb6ed3f23e6cb4320c26,negative,2,Quỹ ETF bị rút vốn mạnh,cafef,2023,5
+S01415,cfb74a95c306c0663ef70c1af5b47da2,neutral,2,Gợi ý đầu tư BĐS cho cá nhân,cafebiz,2020,5
+S02286,bab5a33e061c4b90a59d7f102847e569,negative,1,"Tivi ế ẩm, sức mua yếu dù giảm giá",vietnamnet,2021,5
+S02004,54bbb6bef934ab5e99221e8e3ebce82b,negative,1,Tiêu thụ vàng của người Việt giảm,vnexpress,2023,5
+S02393,1d1edebbb8d0007d334eb5c2cbc26c2d,positive,2,Nhà đầu tư ngoại muốn rót 540 triệu USD,vnexpress,2022,5
+S01053,6915744b15745fecc5aaf933f29304e4,negative,3,"Bán tháo toàn thị trường, nhiều mã giảm sàn",cafef,2026,5
+S02810,35388d30ba2d5561a4c9a2d326b56920,neutral,1,Lãnh đạo thoái vốn nhưng cổ phiếu tăng trần,cafef,2025,5
+S00960,2452632c29e0582b03c46ed19006bd92,negative,3,Doanh nghiệp BĐS ngừng hoạt động vì hết tiền,cafebiz,2023,5
+S02208,9a2208c32161d11a0b1ae78fa54d0adb,neutral,2,Bước đầu xin cấp phép sàn tài sản mã hóa,cafef,2026,5
+S01513,0a55ef7aa72efb6f5feacb4f3d0aadd8,neutral,2,"Giá vàng giảm, không liên quan cổ phiếu",vietnamnet,2020,5
+S02544,1c3e9a48213d8b044e95d350c76bbc19,negative,1,Nhà máy xi măng phải dừng hoạt động 2030,cafef,2020,5
+S02093,209a58af4079ac743419ad9978d488eb,positive,2,"Phú Mỹ Hưng được chấp thuận dự án 1,06 tỷ USD",cafebiz,2024,5
+S00380,0fa075c1f69e9a436806630941d0dedf,positive,3,"Dự báo GDP 6,8% lạc quan",cafebiz,2021,5
+S03005,d1f1e36d601b66c90e4af7be2fd4e257,neutral,2,"Đấu thầu vàng miếng, tác động không rõ",vnexpress,2024,5
+S03452,358c672af2767a324955c2eefbaf014d,positive,2,"Đất Long Thành tăng giá, giao dịch sôi động",cafebiz,2020,5
+S03152,b1f430a9aeac8d8bd19f8991af82b233,positive,3,"HoSE lãi kỷ lục, thanh khoản tăng",cafef,2021,5
+S03436,a325ee4bb7805a5eff892abf1c8a6b6c,neutral,2,"Kết quả chào bán cổ phiếu, thông tin trung tính",cafef,2025,5
+S01598,160cec4f244deeaf3b6fcb8164ab94d0,positive,1,"Giá xăng dự kiến giảm, giảm áp lực chi phí",cafebiz,2022,5
+S02891,934b1054a307cc06dd444c2a3164e839,neutral,3,Cập nhật giá vàng trong nước,cafef,2024,5
+S02462,b2f6dffba858b23af0ecff37a7f7945a,neutral,2,"Mục tiêu KCN xanh, chưa có số liệu tác động",vietnamnet,2024,5
+S01787,61ed030654e9ccdb3dd75ea18ecc99a4,neutral,1,"HHV chuyển sàn HoSE, giá tham chiếu thấp hơn",vietnamnet,2022,5
+S00656,5a62fe0d955a44178c6a3d6603743c4f,neutral,1,"Dự báo giá vàng thế giới, không liên quan cổ phiếu",cafebiz,2024,5
+S01061,12003f3f30921653a3d8d80f20216f79,positive,3,SHS chia cổ tức tiền mặt và cổ phiếu thưởng,cafef,2026,5
+S02110,d27b1dba49f89e32be80e44f3d3963d3,positive,2,Khu kinh tế Dung Quất thu hút vốn lớn,cafebiz,2024,5
+S02984,122ffb9e7529f5c1b8e472ecadecd735,positive,1,Luật Đất đai mới tạo hành lang pháp lý,cafebiz,2024,5
+S00473,120c35f3c0d6d866d90072ca0b01a1eb,negative,1,"Lạm phát tăng, lãi suất huy động tăng",cafef,2022,5
+S00458,fbbbe4e6f3e3159f6b4b379914b57544,positive,2,Tăng tốc giải ngân đầu tư công thúc đẩy tăng trưởng,vietnamnet,2023,5
+S01292,b50dd0ea9ded953e138500ce71de4963,positive,2,"KCN thu hút nhà đầu tư, đơn hàng lớn",vnexpress,2021,5
+S03070,d082302cb9a5fcc7358eb5a1eda3eb8d,positive,3,"HDBank tài sản tăng 26,7%, hoàn thành 84% kế hoạch",vnexpress,2021,5
+S00524,0649b3debc774760cb08479c4c26c277,positive,2,"BĐS bán chạy, nhu cầu mạnh",cafebiz,2023,5
+S00957,c653e64865f17a2383b667880cae431f,positive,3,"Chứng khoán Mỹ tăng mạnh, kỳ vọng Fed cắt lãi suất",cafef,2025,5
+S02161,a6ac84eea1d5c1dd340fba27bced5d12,neutral,3,"Phòng chống lừa đảo mạng, không liên quan cổ phiếu",cafef,2024,5
+S00663,da615398793c906d0cb09c4f99d5ef47,neutral,2,Giá vàng thế giới giảm nhẹ,vnexpress,2021,5
+S02648,159671a4f6e1438369928fb5022e45b8,neutral,2,"Vingroup tham dự hội nghị, không tác động rõ",vnexpress,2022,5
+S01159,7cd3df60addac047bc51307726b9c015,positive,2,Nhiều doanh nghiệp chốt chia cổ tức tiền mặt,cafef,2025,5
+S03225,de8925a4edd401bb0ba6cfa80e0ee2f6,neutral,2,"thống kê nhân sự ngân hàng, không rõ tác động",vietnamnet,2023,6
+S01552,dc6b218d9c2a39591f129186fe9e71eb,positive,2,"doanh thu, lợi nhuận tăng mạnh, kế hoạch lãi gấp 5 lần",vnexpress,2022,6
+S01484,8b545423d67755b903d0d333eeb01166,neutral,3,"ChatGPT tư vấn đầu tư tại Mỹ, không liên quan",cafef,2023,6
+S01404,227281a326b6c6c81989df0170462689,neutral,1,"lịch mốc đánh giá FTSE, thông tin thủ tục",cafef,2026,6
+S02024,28a02421006098669178256b417aa6c4,neutral,2,"Goldman sa thải, ít liên quan thị trường Việt Nam",cafebiz,2024,6
+S03405,95979dfad7c59431a425003aab3ab22a,negative,1,"lừa đảo ngân hàng quy mô lớn, rủi ro ngành",cafef,2024,6
+S00046,78147bb75fe4f3ef6161b170f2e6be50,positive,2,"Vingroup được giao chạy xe bus điện, mở rộng",cafef,2020,6
+S02863,95ee92792dd57b9763da21f429c2c01f,positive,2,"Sabeco vượt khó, khẳng định vị thế thương hiệu",vietnamnet,2021,6
+S00983,26d30bd870e3d1f718f7a91ff6602a42,positive,2,"căn hộ giá và nhu cầu tăng, không ế",cafebiz,2024,6
+S03395,f976a3d2151f7516a4256ebd0b0602aa,neutral,2,lãnh đạo mua vào nhưng lợi nhuận quý giảm 45%,tnck,2026,6
+S00055,22d39fd1bb2356de54e9686b0d7c068c,neutral,3,"tin quân sự Ukraine, không liên quan",vnexpress,2024,6
+S00086,b775894907946649cfdcb61f5f678ff4,negative,2,"nhà ở xã hội ế, vướng mắc thủ tục, dự án đình trệ",cafebiz,2024,6
+S03056,f2b6ad6d28fab4e5db258d797d0e85ac,positive,3,VN-Index lập đỉnh lịch sử mới,cafef,2026,6
+S00037,c6d0b1278c34e513c4b57ef414a108ee,negative,3,"phong tỏa tài sản vụ án FLC, Tân Hoàng Minh",cafebiz,2022,6
+S02965,32d8ebe6ffc1db669d89fe8f24642c35,neutral,2,vốn hóa sụt nhưng vẫn là gà đẻ trứng vàng,vietnamnet,2024,6
+S02745,46f643fb3c6c99f6a268c589216d932c,neutral,2,"giải thích cơ cấu phí vé máy bay, không rõ tác động",vnexpress,2024,6
+S01436,b2e50fb6624280bf69e3f677e6ab34b7,neutral,1,"nguồn cung giảm, giá tăng, tác động lẫn lộn",cafebiz,2022,6
+S01940,7e5a3bf0564513c6cfdf9c367b7bcb4a,positive,2,chuyên gia nhận định BĐS nghỉ dưỡng nhiều cơ hội,vnexpress,2021,6
+S00671,2d1a2dbb7ad89c9905258ac6a7e13e39,negative,3,"cắt điện luân phiên ảnh hưởng sản xuất, chi phí tăng",vietnamnet,2023,6
+S03203,989d2627c23b236a0ac6d925d27fe7d9,neutral,1,"giá xe máy tăng do chi phí đầu vào, tác động không rõ",cafef,2022,6
+S03361,25ffa8f26dce54036576cd44f129b946,positive,2,Hà Nội tăng trưởng tích cực dù Covid,cafef,2020,6
+S00820,c32cc344259f04aa74cd3a7e5a38d0ca,neutral,3,"mẹo dùng máy lọc nước, không liên quan",vietnamnet,2021,6
+S00871,13a9b110a45ef46bdf743c196f7532f2,positive,3,"thị trường hồi phục, tháng 5 thường tăng, lợi suất hấp dẫn",cafef,2025,6
+S02834,5cba8cc77ecb36312ca1719917fff7d6,neutral,2,"giá vàng giảm theo USD, không liên quan cổ phiếu",vietnamnet,2021,6
+S02279,4f606c99726d2b9cdfe2bc5cf37358ec,positive,3,PVEP vượt kế hoạch lợi nhuận 62%,cafef,2021,6
+S01771,136a83a35a97d8f132dcb991ff207ba6,positive,3,"VN-Index tăng 5,3%, khối ngoại mua ròng",cafef,2021,6
+S00733,dd21609d979b1fea0d53fb97cdfa6f0a,positive,2,nghiên cứu gói hỗ trợ kinh tế thứ hai,cafebiz,2021,6
+S02825,4a6c01924502283798adb45530daa873,neutral,2,danh sách giá thuê văn phòng,cafebiz,2020,6
+S02328,2510ec901869bbdcdaf4ef6c7a3ab66e,neutral,2,"thống kê dư nợ tín dụng BĐS, trung tính",cafef,2020,6
+S02505,94f9897f785937f9505ab8e64755f989,neutral,2,"sự cố cá nhân mất tiền, không tác động thị trường",vnexpress,2020,6
+S01012,1eb876238980668730a53a6cf91128d1,neutral,3,tham vọng sản xuất của Ấn Độ,cafef,2024,6
+S01219,c5c2237b0afeb89df15c88bac1a88c7a,neutral,2,"giai thoại giao dịch nhà, không rõ tác động",cafebiz,2023,6
+S00383,ee439d457ca009c9c5ada528f0c4d4e2,neutral,2,"chương trình tri ân khách hàng, thông tin thương mại",cafef,2025,6
+S00641,6987b0bd80d759bafd049287f6bea744,neutral,2,"nhân dân tệ điện tử, không liên quan trực tiếp",vnexpress,2021,6
+S00652,45db2f2b9ee367ff58f7a4b016481e85,negative,1,"đấu giá tài sản nợ, giảm giá mạnh",cafebiz,2023,6
+S03393,7be3f16188669b420da045d5249e3f74,positive,2,"đất nền được săn đón, nhu cầu tốt",cafef,2021,6
+S03150,50fc281681c3e8173cbc00dc2e51dff6,neutral,1,"chào bán tăng vốn, vừa mở rộng vừa pha loãng",cafef,2026,6
+S01832,2e00266f745ff3c7810276380b8d386f,negative,2,"thành viên HĐQT đăng ký bán 2,3 triệu cổ phiếu",cafef,2025,6
+S00485,4a6a99cc38c4adf0e4b93d29ba397fe0,neutral,2,"quy định tiền gửi mới, tác động không rõ",vnexpress,2022,6
+S00607,28f3b35e6fe9dd5446076d06ca9b2deb,neutral,1,BĐS Bắc Ninh nóng kèm lưu ý đầu tư,cafebiz,2020,6
+S01079,c5f92cee5e932fda57affed239fbaa9b,positive,3,"vượt kế hoạch, tạm ứng cổ tức 50% tiền mặt",cafef,2026,6
+S02728,e79fbbce8fcb7e74ac669a3878d5f803,neutral,3,bài giáo dục ROA ROE,cafef,2025,6
+S01465,8a08d5b8617fc574922c1b9f7beaa34d,positive,2,kỳ vọng làn sóng đầu tư nước ngoài mới,cafebiz,2023,6
+S02606,69d3f728f17bcc57bee7d87f4556e4e9,neutral,3,"giới thiệu chủ doanh nghiệp, không rõ tác động",cafebiz,2023,6
+S01990,26995ba397de01a384158c5de4e60c92,neutral,2,tư vấn vay mua nhà cá nhân,vnexpress,2023,6
+S03413,723c42ae176cb57db7263cc259f8e4cb,negative,3,"VN-Index giảm 4 phiên, cổ phiếu nóng giảm sàn",cafef,2022,6
+S02622,f8bf9309a34b8597098d250ea07d0afb,positive,3,"xuất khẩu rau quả tăng mạnh nhờ Mỹ, Trung Quốc",cafebiz,2024,6
+S01819,ecf0be6bf8a7cb71fc1afdc26a28c7a1,positive,2,"HBC tăng trần, vốn hóa vượt Coteccons",cafebiz,2021,6
+S02660,3fd6256324aa5468c5d072bdd7d29bc2,neutral,1,chỉ số tăng nhưng khối ngoại bán ròng hơn 2.500 tỷ,cafef,2026,6
+S01006,142e586f4ed3470b4a93b4d7c8aba11e,neutral,1,yếu tố tích cực đan xen rủi ro bên ngoài,cafef,2025,6
+S01926,8734814870bb049530c8d98846fe2cf1,neutral,3,"tin chính trị Mỹ, không liên quan",vnexpress,2021,6
+S01790,5abba731d2e4d35a2a04d30affe4a4ab,positive,2,thị trường trái phiếu doanh nghiệp hạ cánh mềm,cafef,2023,6
+S01897,3535491ef595a6e70c49be26de468df9,neutral,2,"chân dung doanh nhân, không rõ tác động",cafebiz,2021,6
+S02162,0e36672d3f8e38471f63b2a4905a821d,negative,2,LOBICO thua lỗ lớn nhiều năm,cafebiz,2020,6
+S02219,391213927719f2e4716f243229ba73d8,positive,3,"VN-Index lập đỉnh, cổ phiếu ngân hàng tăng trần",cafef,2025,6
+S03311,8c362c92c1c776f58c228e70e2d8df11,negative,2,chậm cấp sổ hồng gây hệ quả cho dự án BĐS,cafebiz,2020,6
+S01215,96c21483a07cd5ef91263d2510444289,positive,2,"dự thảo nghị định có lợi cho PLX, OIL",cafef,2024,6
+S02190,e9f181b9279735f7c22188111c7c4f57,negative,3,bán giải chấp cổ phiếu DIG của lãnh đạo,cafef,2026,6
+S03250,fd719815b31680aefbf0beacfbd3ed37,neutral,2,xuất siêu kỷ lục nhưng kèm tín hiệu cảnh báo,vietnamnet,2020,6
+S02947,c3cc1d3644e929314018bb79c58ccda6,neutral,2,"căng thẳng Nga-EU, không liên quan trực tiếp",vietnamnet,2022,6
+S03281,7fd67832d29f4ba855babc4a54efd90e,negative,1,cổ phiếu BĐS có thể điều chỉnh ngắn hạn,cafebiz,2022,6
+S01846,d786ec260fc48a3cb720a110b3a3d27f,neutral,2,bản tin giá vàng dầu USD,vietnamnet,2024,6
+S01620,5dcc3417e3810d34c71d72cf5dc56950,negative,3,bị xử phạt vi phạm công bố thông tin,cafef,2026,6
+S00737,6bfd34dde8aa38501c86ba290a1d5a8d,neutral,3,"thử nghiệm bom Mỹ, không liên quan",vnexpress,2021,6
+S02936,8eb2b41459c2578a9edeb3df96b79abb,neutral,2,công nghệ nông nghiệp chung chung,vnexpress,2023,6
+S01835,0161f9720f285dab62cae7a248ffc010,positive,2,Trung Thủy bắt tay đối tác Nhật đầu tư dự án,cafebiz,2021,6
+S01892,b8f09a7ac64b6e5c67f5073b4473c1da,neutral,2,kết quả quý 3 lẫn lộn tăng giảm,cafef,2022,6
+S01673,dad12c8e41cf5924e8147bbedb2ffa06,neutral,2,bài quan điểm về AI trong tài chính tiêu dùng,tnck,2026,6
+S00388,20fc97b8c1ea700c04877357c5c392b3,positive,1,"đấu thầu trái phiếu thuận lợi, lãi suất giảm",cafebiz,2020,6
+S00778,c0892a1633d8418e99217e3c2dbed805,neutral,2,"nhận định BĐS nhấp nhô, khó sốt",cafebiz,2021,6
+S02048,a8d8bc65180f54d6117e29aa717e1f84,neutral,2,"giải thưởng bình đẳng giới, không tác động giá",vnexpress,2026,6
+S03280,d42ed565399ad2ca2b2859f7c0a7adf0,negative,2,ba thành viên HĐQT độc lập PNJ từ nhiệm,tnck,2026,6
+S02176,aee564f47a1481627aa3e47b5a4e6d41,neutral,2,tâm lý nhà đầu tư giảm nhưng vẫn kỳ vọng giá tăng,cafef,2023,6
+S02029,b7ebf31fe269e52a0bf9d30bf86905f1,positive,2,"ngân hàng số bùng nổ, giao dịch tăng mạnh",vietnamnet,2022,6
+S02661,9c051863d7e7c917c46d1f3c3660e8f1,negative,2,cổ phiếu HSBC xuống thấp nhất nhiều năm,cafef,2020,6
+S01605,074086c5f81556764263b75e4a32a42f,neutral,2,"sáp nhập hoán đổi cổ phiếu, tác động không rõ",vnexpress,2021,6
+S00474,5c5e114653bba784cf3ab3e2b7cbf6cb,negative,2,"tỷ giá tự do tăng mạnh, áp lực tỷ giá",cafef,2022,6
+S01165,fdf3a91ac1212fc2e9e732ae49b84f0c,neutral,2,nhà máy vẫn hoạt động an toàn qua bão,vietnamnet,2020,6
+S02096,d558cc0cef190c2113d6bd53f43a70ed,negative,2,kiến nghị thu hồi 29 dự án chậm triển khai,cafebiz,2021,6
+S01659,7816bffd6df52c337157e6befc7dee76,positive,2,công ty chứng khoán lãi lớn từ tự doanh,cafef,2025,6
+S00031,06ba6c9af4f8fca8ff1da955d3bf5058,positive,3,lợi nhuận gấp đôi nhờ biên lợi nhuận cải thiện,vnexpress,2020,6
+S01781,57f874f4621ceb0de2c81787dce1d3f3,neutral,2,"giá vàng giảm, không liên quan cổ phiếu",vietnamnet,2021,6
+S03287,f2b48501bd88322973b533a766f795ee,negative,1,lo thiếu đơn hàng cuối năm dù nửa đầu tốt,cafef,2022,6
+S02774,696eea192a98a44d3f0aeb2a77042fd9,neutral,2,"ba kịch bản, hỗ trợ và rủi ro cân bằng",cafef,2025,6
+S03303,3bb5a06560a76bc2b02a1e52d32a547a,neutral,2,chỉ số tăng nhưng danh mục nhiều người lỗ,cafef,2026,6
+S01961,2f5f6ab06bf6084fa8033243797bad77,neutral,3,quảng bá thẻ tín dụng,vietnamnet,2022,6
+S03215,dc90296e3c8d948882aa9a0380eef9e8,positive,3,"khối ngoại mua ròng kỷ lục, thanh khoản tăng",cafef,2025,6
+S03320,e7b055c923cff09d4a41287d451ae145,negative,2,HBC khó đòi nợ Cocobay hàng trăm tỷ,vnexpress,2023,6
+S00103,d39bba191d2c49cac6090e71aabbc3b5,positive,3,VPB lên đỉnh 38 tháng nhờ khối ngoại mua ròng,cafef,2025,6
+S02440,1fb8f15f651f5b22684cde3499323b6e,neutral,2,"thưởng CEO Coinbase, không liên quan thị trường Việt",cafef,2021,6
+S00878,4b4485bc6cab48d8a8aa935e450aaacb,positive,3,dự báo lợi nhuận quý 1 nhiều ngành tăng mạnh,cafef,2025,6
+S00526,c2c1776334686b44fa11c87a7f7e463b,positive,3,"TJC chia cổ tức 9.000 đồng, cao kỷ lục",cafef,2026,6
+S01013,b9037c3ae402e5613afc371793f26d55,neutral,1,"đề xuất tổ hợp tín dụng, chưa rõ tác động",cafef,2020,6
+S00027,50b96b2ca9de587f1565c97c98bb7978,negative,2,"dự án thế chấp bị rao bán, nợ xấu",vietnamnet,2022,6
+S02422,9a751f166df6ebc4192b4bddb3ca85f0,neutral,2,giá vàng giảm sau lạm phát Mỹ,vietnamnet,2021,6
+S02930,6446237f71becf225ddf352f7227cfba,negative,2,"VN-Index giảm, khối ngoại và tự doanh bán ròng",cafef,2026,6
+S02429,9081a3fff7a5d8b7e607844e97ff2649,positive,2,khởi công dự án cảng lớn mở rộng năng lực,tnck,2026,6
+S00708,8154815fba699a1de65fa3e9b406143f,neutral,2,"bê bối cá nhân CEO Nvidia, ít liên quan Việt Nam",vnexpress,2026,6
+S02764,17a0f8e3f13c4537c3908649fed48614,positive,3,"dệt may tăng trưởng hai con số, đơn hàng cao",cafef,2025,6
+S00892,7685a13000dfe5432bdb8cf4d8809a07,neutral,3,"vụ ly hôn tài phiệt Hàn, không liên quan",cafebiz,2024,6
+S00282,0637071dc6cdfcfa4f2a73babb9c8960,positive,2,giá và giao dịch BĐS khu Đông tăng nhiệt,cafebiz,2020,7
+S01640,94ed9774823379bf7a8a9772065da070,neutral,3,"tàu cao tốc Mỹ, không liên quan",cafebiz,2021,7
+S01806,148e43c92e98c1ddee5fda8678199b7e,neutral,2,"ngân hàng tăng lãi tiết kiệm trực tuyến, tác động không rõ",vietnamnet,2024,7
+S01295,7fdc26e10a6bf15abfd76521ad35c843,neutral,3,tư vấn chọn nhà theo ngân sách,cafebiz,2021,7
+S02305,60962d1e5b31347e4ccb7d9612972566,neutral,2,"giá xăng giảm, tác động không rõ",vietnamnet,2024,7
+S03449,4c744c2347c36844fa1351de62186d16,positive,3,nâng hạng kích hoạt vốn ngoại vào ngân hàng,cafef,2026,7
+S01737,b23892c028ffff129faea5d06af0ae1f,positive,2,Novaland đặt kế hoạch doanh thu lợi nhuận lớn,vnexpress,2021,7
+S00581,1f8266b8d9e9904eb51cd668964eb7a9,neutral,2,"tập huấn pháp lý tài sản mã hóa, tác động không rõ",cafef,2025,7
+S00345,237589f08ea5a0215775135465a79a04,positive,2,"thu ngân sách tăng 16,5% so với cùng kỳ",vnexpress,2022,7
+S01506,505cd1fb0ec91b3f9ea5abaf56b05c46,neutral,2,"bàn về Bitcoin, tương lai chưa rõ",vietnamnet,2020,7
+S02238,2c258d49eec4428e66aeca232741e181,neutral,3,điểm tin chính sách hành chính,cafebiz,2022,7
+S03183,ef948b4fe44917fdfcfd033c4a6fd945,positive,2,ngân hàng chuyển đổi bán lẻ tích cực,cafef,2021,7
+S01868,d4503bc46122e2e3cc40e774225cb20b,negative,3,"VN-Index giảm 3,44%, nhiều cổ phiếu giảm sàn",cafef,2022,7
+S00997,0a6f13d096d2c5aad959925365d78c43,neutral,2,tiền số diễn biến trái chiều,cafef,2025,7
+S00160,d8a153db51154f096559efd9454f01a7,negative,2,Bitcoin giảm mạnh xuống thấp nhất 7 tuần,vnexpress,2024,7
+S01471,e5144847520adc55b45da9348e4a5ddd,positive,3,"SSI khả quan BĐS khu công nghiệp, vật liệu xây dựng",cafef,2026,7
+S01239,1c47747e640d267803d4b6e812c69b15,neutral,1,"tăng vốn công ty không niêm yết, tác động không rõ",vnexpress,2026,7
+S02502,bb03104c2c2d39e92e1f9d623f88287f,negative,3,"DGC giảm sàn liên tiếp, nhà đầu tư kẹt hàng",cafef,2025,7
+S01445,fc91fd56bd8089f3391745134dd7011e,negative,3,"VN-Index giảm thủng 1700, nguy cơ thủng đáy",vneconomy,2026,7
+S00508,73d35510af4c07b79f77294c8b855e5d,positive,2,Điện Máy Xanh dẫn đầu thị trường bán lẻ,cafef,2023,7
+S00423,1a35867d3dd712f68db8812df280d5dd,positive,1,"xuất khẩu dăm gỗ thu 2,9 tỷ USD dù khó khăn",vietnamnet,2024,7
+S00293,34bc2822aa4d0766b84f565c0bb3f9f1,neutral,1,địa ốc phát hành trái phiếu lại khiêm tốn,cafef,2022,7
+S00350,2fc3d512a9994d90c1c35a4879994521,neutral,3,"xe tự lái, không tác động thị trường",cafef,2023,7
+S01608,1508ed7540d4b088a5cd1b92f46d81fe,neutral,1,khách sạn giảm giá hút khách khi tái khởi động,vietnamnet,2021,7
+S03102,69e9ca8444d282c2001a78b4cc4812a6,negative,3,"địa ốc ảm đạm, lỗ, cắt nhân sự, nghỉ Tết sớm",vnexpress,2023,7
+S01631,7136ad9629c81c2e3be16cfecf9535b2,negative,2,"Lucid sản lượng giảm, cổ phiếu giảm 12%",vnexpress,2023,7
+S02925,40bd31c35be0d5eae489758cacc8a653,neutral,2,"CPI tăng nhẹ 0,08%, trung tính",vietnamnet,2023,7
+S02770,1c1844ce2cac13b75035511341382dba,positive,3,"VN-Index lên cao nhất gần hai năm, LDG tăng",cafef,2025,7
+S03176,f3b276941c14619720efc7cff0d9fd6b,neutral,2,"giá xăng giảm, tác động không rõ",vietnamnet,2020,7
+S03036,0be9b6b2ae6a3bacf7c7a80f1277addc,positive,3,làn sóng FDI giúp địa ốc Bình Dương sôi động,vnexpress,2020,7
+S00969,f0904bb6fd1308ad0bd13e30f1b6e1fb,neutral,1,lãnh đạo từ nhiệm lý do cá nhân,cafef,2026,7
+S03285,a7b12eaa825509079ec79a1ea0e42f4f,neutral,2,"phát hành trái phiếu lãi 13,5%, tác động không rõ",cafef,2026,7
+S01922,ff4242aecee3f95dc59e471f07b0bd4f,neutral,2,phó thống đốc giải thích vụ mất tiền,vnexpress,2024,7
+S01389,8af814dba0ffdc4203b72e622682268e,positive,3,xuất khẩu sầu riêng tăng 19 lần,vnexpress,2023,7
+S00366,0a382ac869d2b6a477d4ca26f4e6c37e,neutral,2,"nhận định giá BĐS không giảm, cảnh báo thổi giá",cafebiz,2024,7
+S02899,106ea745d8f5d3956c063188ac94d919,neutral,3,"giá vàng biến động, không liên quan cổ phiếu",vietnamnet,2024,7
+S01966,1da776bda30a00480cca06f8ea2ce8e8,neutral,3,tranh cãi chính trị Mỹ về dầu dự trữ,vnexpress,2022,7
+S01678,9c3c416594e9dee967f1cc49be9fdaf2,neutral,3,"thuyết âm mưu 11/9, không liên quan",vnexpress,2021,7
+S03269,81c7c0938e0da67eed96077cc7e44791,negative,3,"VN-Index giảm 1,77%, nhiều cổ phiếu nằm sàn",cafef,2026,7
+S00437,280ace9eb6d4d0047dae3841523f81ea,neutral,2,"tỷ giá USD yếu, tác động không rõ",vietnamnet,2022,7
+S01699,92e3793c41c85a403a9cfee847633cbf,positive,2,"thị trường hồi phục, 273 mã tăng, ngân hàng dẫn dắt",cafef,2026,7
+S02394,63b2b8cd9b468114acf03149bc4063ee,neutral,3,tin chính trị Nga Ukraine,vnexpress,2023,7
+S00455,6514653a6dd763783e6cc4ece96a7712,negative,2,"yen, nhân dân tệ mất giá, cảnh báo khủng hoảng",vnexpress,2022,7
+S02962,21843e4690e7b3ce399b2f3a3c11282a,neutral,3,ký hợp tác với trường đại học,cafef,2021,7
+S01834,c97cc37a462b88c9d08ada0df4872e73,neutral,2,"Bitcoin hồi phục, chưa rõ xu hướng",cafef,2022,7
+S03216,a05f1df5e10fa32cde7f925a708a4e62,positive,3,PVS trúng gói thầu tỷ đô dự án điện khí,cafebiz,2023,7
+S00013,61285e7b0206e0579cee296a8555fccc,negative,2,"tỷ giá USD tăng mạnh, áp lực lên tiền đồng",cafebiz,2023,7
+S00661,26f1cb90cf9f4e0d3022b59f50a74dd0,neutral,2,điều chỉnh mạnh rồi dự báo hồi phục đan xen rung lắc,cafef,2026,7
+S03390,d25381f2eafe687f35d82b5b2b487108,positive,3,Việt Nam hưởng lợi làn sóng dịch chuyển đầu tư,cafebiz,2020,7
+S03135,8d3fb81d75dcf5fcff3ae420dc1e2848,negative,2,ngân hàng thắt chặt cho vay mua nhà,vietnamnet,2021,7
+S02981,9ef482ceb9817d5de99ca75de70a8fe1,neutral,2,Thống đốc giải thích dừng đấu thầu vàng,vietnamnet,2024,7
+S03047,a1a25e2356c34f27ba4232c19e2281ab,positive,2,nhà đầu tư BĐS Long An lời hơn kỳ vọng,cafebiz,2020,7
+S00836,e70b547a3f456ae4d4e81073323e60dc,negative,3,"khối ngoại bán ròng 1.200 tỷ, VN-Index giảm",vneconomy,2026,7
+S03465,a499f2da425eadfdadd089b0fde4ba8f,positive,3,D2D chia cổ tức tiền mặt 84%,cafef,2025,7
+S00023,6aabe0244768134d130832295306d8a1,negative,2,"Novaland vướng mắc 9 dự án, nguy cơ đổ vỡ",vnexpress,2023,7
+S00697,a819e2659a9aad7144f210fe960c099b,neutral,2,bổ nhiệm thành viên HĐQT Techcombank,cafebiz,2021,7
+S01034,1e3cd72ff87de5386f7a71b478cf5bc6,neutral,1,dự báo VN-Index 1.750 nhưng kèm cảnh báo,cafef,2025,7
+S00004,6f9b1261185cd0fea7077fa78c21d958,neutral,3,máy bán vàng tự động nước ngoài,cafebiz,2023,7
+S01591,b2d3378ae2f7874e2fd242cf0b20f17f,neutral,2,chương trình vay ưu đãi nữ doanh nhân,vnexpress,2022,7
+S01391,bf8e8d5985b3308af1c07e817fbdc415,positive,2,lãi suất cho vay còn dư địa giảm,cafebiz,2024,7
+S01107,4c63c91f82f658edf7f27baa620ee240,positive,1,"vốn vay ưu đãi, xuất khẩu khởi sắc",cafef,2024,7
+S02530,4c3d3509dc8f7e78e3a78a79e0211326,positive,2,CTCK điểm tên doanh nghiệp tăng trưởng tích cực,cafef,2026,7
+S01622,235d1d9eaf233445e90d656169bf321f,neutral,2,"khủng hoảng năng lượng, dự báo vàng tăng",vietnamnet,2022,7
+S02454,2fde4efc17cf6e37b256f4d48bce418c,positive,2,thanh toán di động tăng gần 178%,vnexpress,2020,7
+S02857,bdd93a9d6f8be66bb999c2f46afcfe60,neutral,1,doanh nghiệp lo ngại nhưng tác động chưa rõ,cafef,2024,7
+S02150,4823801b16b5fac419814f6865270b2f,positive,2,"hưng phấn, VN-Index chinh phục 1095 điểm",vnexpress,2020,7
+S01726,cd0810365f5e3f1bf9eb654de9532c35,positive,2,cổ đông ngoại lớn mua vào AgriS,cafef,2026,7
+S00553,a175be7480f91844cdeb28bc1cef641d,positive,2,"Tổng thống Indonesia thăm VinFast, hợp tác mở rộng",cafef,2024,7
+S00185,d3164d5ee7f311f9e46e4702656144ff,negative,3,HBS bị hạn chế giao dịch do chậm báo cáo,cafef,2025,7
+S02237,4cfae9d12a0998ac1f6fcf25d40898a9,neutral,3,giá xăng dầu biến động nhẹ,vietnamnet,2024,7
+S03429,6067be6237341d090d9794dcdf22d663,neutral,2,"VN-Index tăng nhẹ nhưng khối ngoại, tự doanh bán ròng",cafef,2025,7
+S00943,eb149e86a91e088cea4940e01d811c9a,neutral,1,"VPS từ nhiệm đại lý trái phiếu, tác động không rõ",cafef,2022,7
+S02869,e8fa0880dd337cf56fb75a3edfe558f7,negative,2,5.000 công nhân đình công ảnh hưởng sản xuất,cafef,2020,7
+S01262,e9c074603db6aa06eb1be3d6ea39d615,negative,2,"ngân hàng giảm chỉ tiêu lợi nhuận, hạ lãi suất",cafebiz,2020,7
+S03020,013c4d7c8e4c69941c1b2313bb5b37a0,neutral,2,"HSC chào bán xong, đổi cơ cấu cổ đông",cafef,2025,7
+S03378,da574f2392c1e144ed7ccd82228bb238,negative,2,"giảm giá dịch vụ chứng khoán, giảm doanh thu CTCK",cafef,2021,7
+S01452,8ea3c1c32943f0b328bb3613ca1bb0fe,negative,3,"dự án FLC sai phạm, lãnh đạo tỉnh bị kỷ luật",cafebiz,2022,7
+S02836,7e24b69eb41a65347632e84828fdbfce,positive,3,"thị trường hồi phục mạnh, định giá hấp dẫn, ngoại mua",cafef,2022,7
+S00650,7b5833885aad40ce364d0518917ee3b6,positive,2,dự án 1 tỷ USD với tập đoàn Nhật,cafebiz,2024,7
+S02362,4d8d6d249ad586e27529c7ce812edb0e,neutral,1,tin vắn tổng hợp nhiều tin lẫn lộn,cafef,2024,7
+S00168,68c4f3ada645a66377a6f9f0041f941a,positive,3,DIG trả cổ tức bằng cổ phiếu 6%,cafef,2026,7
+S00220,4d2b43a374505d4b0bac20338a9e44db,negative,2,ngân hàng phát mại xe thu hồi nợ quá hạn,cafef,2020,7
+S00126,a4c9e844849551d88f0fd6c493f04fb5,neutral,2,"Red Lobster Mỹ phá sản, không liên quan",vnexpress,2024,7
+S01731,325381aa940880c77165e3e4f2daff3a,positive,3,"HDBank lãi trước thuế tăng 15,9%, nợ xấu thấp",vnexpress,2021,7
+S00317,7f5238745156940cf336d9e8fa55b364,negative,3,"SCR doanh thu giảm 67%, lãi giảm mạnh",cafef,2020,7
+S02881,be8543f4bccd3452e1fb56bcc871b358,negative,2,"siết thuế chuyển nhượng BĐS, khai lại hồ sơ",cafebiz,2022,7
+S00324,510409e29b73a23c147aea67b950cf4d,neutral,2,"giá vàng quốc tế hồi, tin kim loại quý",vneconomy,2026,7
+S00405,2a2098408b2c317610c9fb931a860abf,positive,3,SIP lãi 9 tháng vượt 181% kế hoạch,cafef,2020,7
+S01766,fb5953a3a6d7b150812749cf8add7b9e,neutral,2,"phương án phát hành trái phiếu, trung tính",cafef,2025,7
+S00361,ac08b5088fd5e4a9a3deb5a4fd6cf2c9,negative,2,FLCHomes rút hồ sơ niêm yết HOSE,cafebiz,2020,7
+S01268,79a8a9bc7003e7c5ec238497bd9b72dd,positive,1,tiềm năng điện gió ngoài khơi lớn,cafebiz,2023,7
+S01690,ee129bb93295c96c436d3fddc7878c22,negative,3,giá nhà đất Nha Trang giảm sâu 30%,cafebiz,2020,7
+S00228,d2cd17ad0337610825115f46e42a90a4,positive,2,"livestream bán 517 căn, 700-800 tỷ booking",cafef,2025,7
+S02138,0fd83a2dad1a33db46090a7d1d891eab,positive,2,"tiền gửi tại CTCK cao, dòng tiền chờ giải ngân",cafef,2025,7
+S00540,7b48be7ef0552270f9a90039719124bb,neutral,3,"thông báo lên sàn Upcom, hành chính",cafef,2021,7
+S00141,c01c6792f98055007e4c625a9d36ef1f,neutral,3,bài về chuyển giao thế hệ doanh nghiệp gia đình,vnexpress,2020,7
+S03384,8a9ce7b119bf5eee299946030c61927d,negative,3,BĐS thế chấp phát mãi nhiều lần vẫn ế,cafebiz,2020,7
+S02937,03dc51699a57a5e5bc16ea2ead0b07a3,neutral,1,đề xuất bỏ bảo lãnh nhà trên giấy,cafebiz,2023,7
+S00005,ff8e5518eb209bb3d279fd59d911160d,negative,3,"cổ phiếu thép lao dốc, khối ngoại bán HPG",vietnamnet,2022,7
+S00558,e29c2fa8a5526dafebe5faa7d8dfa3d3,positive,3,"doanh thu kỷ lục, lợi nhuận cao nhất gần 9 năm",vnexpress,2023,7
+S01540,a4a4629e5619ed70566058f58c71a075,negative,1,"lãi suất huy động tăng cao, chi phí vốn tăng",vietnamnet,2022,8
+S03033,05a0855594b278ab0536f950e22e78b5,negative,3,"VN-Index giảm mạnh, tài sản tỉ phú bốc hơi",cafef,2025,8
+S01261,072b9aa2665757aefc043b97b374646f,neutral,2,"giảm nhẹ cuối phiên nhưng hồi phục mạnh, cân bằng",cafef,2025,8
+S02646,1547dc84052d58937fb9d6d2e35de08d,negative,2,giá thép tăng gây khó doanh nghiệp xây dựng,cafebiz,2022,8
+S01706,a7a67700fa4fb7f3b96a731710b22bdd,positive,3,"VN-Index tăng 26 điểm, ba phiên tăng liên tiếp",cafef,2025,8
+S01405,430f65df133949b645911f7f6dcb39dd,neutral,1,"tăng lãi suất tiết kiệm nhẹ, tác động không rõ",cafef,2024,8
+S01955,8ce858ee8a514e88180999c5d37f2a39,negative,2,cảnh báo bong bóng tài sản toàn cầu,cafebiz,2021,8
+S02187,49d6d8a2a205d0200c3a2d5e969d2b19,negative,2,TGĐ DVG bị xử phạt vi phạm,cafef,2026,8
+S00048,aaa053117fc32f6b25936639bcc2933e,positive,2,tin vắn chia cổ tức tiền mặt tỷ lệ cao,cafef,2024,8
+S02325,08d3881c54bb8e6aa457e019be4572ac,neutral,2,"chuyển nhượng nội bộ người thân, không rõ tác động",vietnamnet,2023,8
+S00843,694b06f3f8ee6871437c174735d9d271,neutral,2,"bổ nhiệm thống đốc, bình luận áp lực chung",cafef,2020,8
+S01688,fabb19a6077f197e389d3a80e39b69be,neutral,2,"hồi phục nhưng độ rộng yếu, cân bằng",vneconomy,2026,8
+S01481,3b6c917e6fad1122ca0c5980c5879f13,neutral,3,tin chính trị Mỹ không liên quan chứng khoán,vnexpress,2020,8
+S03002,841e4932e41725a03ea8f9e4224f626d,positive,2,PLX doanh thu quý 1 tăng hơn 45%,cafef,2026,8
+S02920,9485430b540fba3109177fad0b2a3960,negative,1,lạm phát euro tăng trở lại,cafebiz,2024,8
+S01762,42bf27f942f03af6f98efed653141bd6,negative,3,"thêm ngân hàng Mỹ sụp đổ, lo ngại lan rộng",vietnamnet,2023,8
+S03406,724f1febb6fca9033a08976404625d2e,neutral,2,"tin dự án mang tính quảng bá, không số liệu",cafef,2020,8
+S01117,4a4743d5bac9eff405632c365f613708,negative,3,"nợ xấu tăng, bán nợ bế tắc",cafef,2021,8
+S01409,352d9274c0fad5e6b775d71f43237fdc,positive,2,"VN-Index tăng 7 phiên liên tiếp, kỳ vọng vượt 1.100",cafef,2023,8
+S01327,b3a54951e73c9e541d8d40026aa8baad,negative,2,Ant Group bị siết quản lý như ngân hàng,vietnamnet,2021,8
+S02667,817230d2dda9495aa632c562a5b672b5,positive,2,"Fed giữ lãi suất thấp, tăng hỗ trợ kinh tế",vnexpress,2020,8
+S02580,4bb833198004c1573fd40002620eda44,neutral,2,"giá vàng tăng, không liên quan trực tiếp cổ phiếu",vietnamnet,2022,8
+S03201,897c357db6202d540bbc166a3b28866f,neutral,2,doanh thu lợi nhuận giảm nhưng khả quan hơn ngành,cafef,2023,8
+S01594,71bec4168b53078a1b1bc6b44273d604,neutral,2,"so sánh lãi suất tiết kiệm, tác động không rõ",vietnamnet,2024,8
+S00716,156930675befabe4c0137cb31c9c60a4,neutral,3,"đấu giá từ thiện trang sức, không liên quan",vnexpress,2024,8
+S00077,0a77e4f4f8d1af413729a7ac5c62dc27,neutral,2,"tổng hợp ý định niêm yết ngoại, không rõ tác động",vietnamnet,2021,8
+S02291,01e78a55486b3693bc6def787e2b0dd3,positive,2,chuyên gia dự báo áp lực lạm phát thấp,vnexpress,2024,8
+S00985,f59de7198064e9c7e49a5faa1e50de7f,positive,1,"bất động sản phục hồi, giọng quảng bá",cafef,2022,8
+S00340,fe5621190b6d8a9f61a6e94012bf6271,neutral,2,"thông tin thu nhập địa phương, không liên quan",cafebiz,2023,8
+S01449,33b7ba92574e96193814b7c2b0e13805,neutral,3,"tài trợ thiết bị y tế, tin hoạt động xã hội",vietnamnet,2022,8
+S01357,117fcba5ddeb047871b79ce53e4edc33,neutral,2,"sự kiện ra mắt dự án, không số liệu",vnexpress,2024,8
+S03324,e91dc0efc92cd1bc12323f3221edc5f7,positive,2,"biệt thự khu Tây được săn lùng, cầu tăng",cafebiz,2023,8
+S02058,83a3dcc162721e32d8936d0e9b0efeb2,positive,2,"VN-Index tuần tăng 2,8%, xu hướng khá tích cực",cafef,2023,8
+S01588,676fc6619721872fd6dc0ac23a28b3e8,negative,3,"bán tháo, hàng trăm mã giảm sàn",cafef,2025,8
+S02098,76ae32ec2a4f6fea31f8929acce6f18c,positive,3,lãi suất huy động và cho vay giảm hỗ trợ DN,cafef,2020,8
+S00266,ec503004d4434b19234880187a5657a6,negative,2,"xét xử vụ FLC, nhiều nhà đầu tư bị hại",cafef,2024,8
+S03307,3c7444ceff5aaeb8c4ca67a99fc526cf,neutral,3,tư vấn cá nhân về đổi chung cư,cafebiz,2022,8
+S02202,7224cf3156b0a70ec95857f99cccfc5c,positive,3,doanh thu kỷ lục các doanh nghiệp lớn,cafef,2026,8
+S00672,0bc07dc2e113f83c47aaed4679785570,positive,2,"Central Retail đầu tư 1,45 tỷ USD vào Việt Nam",vnexpress,2023,8
+S01982,2b54bee8339e7256e95ac091636b0640,neutral,2,"dự thảo thủ tục vay, tác động không rõ",vnexpress,2024,8
+S03112,7646ff331423da476a56cbfa79d08f8b,neutral,2,"giá vàng giảm nhẹ, không liên quan cổ phiếu",vietnamnet,2022,8
+S00001,5707d788cd106d66616bc80b7c898532,positive,3,96% doanh nghiệp khu công nghiệp hoạt động lại,cafef,2021,8
+S00970,0ea8253ed1e8d208b8c704006ec6cbdb,neutral,2,quảng bá sản phẩm số của OCB,cafef,2023,8
+S03275,d4a8e63ab2ebe3425ab9679bd0dfa961,neutral,2,"giải thưởng địa phương, tác động không rõ",cafebiz,2023,8
+S00420,34109ae93fd0b0f272542a7482fcfd02,positive,2,"người tiêu dùng Việt lạc quan, kinh tế tăng trưởng",cafebiz,2023,8
+S02371,b8b810ed67ce2a70ec44a0cc4ca50fd9,positive,3,"HVN tăng 179%, lợi nhuận quý bội thu",cafef,2024,8
+S02707,9f5f7eac62842b3e948f81953708c629,positive,3,"CTG nhận phí trả trước lớn, thu nhập bancassurance tăng",cafef,2021,8
+S01187,c45d42c010206f3b21a858d93e58feff,neutral,2,"bàn luận vĩ mô về hạ giá USD, không rõ",cafef,2022,8
+S01767,8993c2a2b5c439b6b0d6ad0fed40683e,negative,2,"cổ đông lớn đăng ký bán gần 21,6 triệu TCI",cafef,2026,8
+S02061,f9db03fb4e013ae298cc598f1865f6ba,positive,2,"VN-Index tăng nhờ VIC, VJC dẫn dắt",cafef,2025,8
+S02625,97aca66ada3a270ace621cb07bb8e8b6,positive,2,tin vắn chia cổ tức tiền mặt,cafef,2025,8
+S02924,2f2e93b4c9321468ce7d1e837e45517b,neutral,2,tổng hợp biểu lãi suất ngân hàng,vietnamnet,2023,8
+S02408,e51b42152f0588b9f2fc0200e897352c,positive,2,"du lịch phục hồi, bất động sản Cửa Lò hấp dẫn",cafef,2022,8
+S01664,0157edfd522f9a5242640c8016e49a57,positive,3,"nhà phân phối ô tô lãi gấp đôi, gấp ba",cafef,2023,8
+S00039,ad561aa6e4fe8bb1b7a3df88d0c06fe1,neutral,2,"giải thích giá xăng dầu, không rõ tác động",cafebiz,2022,8
+S02832,de55b33e9d8b1f57dda698d8637fd39b,negative,3,cổ phiếu công nghệ Mỹ mất hàng chục tỉ USD,cafef,2022,8
+S00615,057edfd1c69730190c4c16cc34d46747,neutral,2,"dòng vốn Canada vào Mỹ, không liên quan Việt Nam",cafef,2025,8
+S01045,769b6d655cab13fc1f30909bc6f40587,negative,2,"doanh nghiệp khó vay vốn, phải vay tín dụng đen",vietnamnet,2022,8
+S02034,c4da6b372a96a0193b25cf5016ec33ac,neutral,2,"dự thảo thuế hộ kinh doanh, tác động không rõ",cafebiz,2021,8
+S02410,73e750f12e2034a29d816cc0b474967e,positive,2,"bất động sản ấm lại, giao dịch tăng",cafebiz,2023,8
+S02609,02c0d70f3cd448e04ba2b692a513f08d,neutral,2,chương trình ưu đãi vay mua xe,vietnamnet,2021,8
+S03122,e68569afe595b1abf26e3bc03afcf533,neutral,2,"sự cố AI Google, tác động không rõ",cafef,2023,8
+S00764,a59a4652d7e1280ca75228cee98a5b9c,positive,2,REE dự kiến cổ tức tiền mặt tối đa 10%,cafef,2025,8
+S02497,94023a393b0629e15684ba8060eb346b,neutral,1,"dự thảo tách thửa, tạo nguồn cung nhưng chưa rõ",cafef,2022,8
+S01804,2cd9a383cd6ef4b3d9edb38e26bc538c,neutral,3,bài hướng dẫn đầu tư cho người mới,cafef,2025,8
+S00264,64783e9fa090d553198204bf83be6cd7,negative,2,hai thành viên HĐQT OPC bán sạch cổ phần,cafef,2021,8
+S02890,2742fd41de711a53f615ad39a5b59c96,neutral,2,"chỉ số giảm nhẹ, khối ngoại mua ròng, cân bằng",cafef,2021,8
+S00128,7339cd367ee4fafd7adca56ec26d1c9a,positive,2,DSE thông qua mở rộng kinh doanh và tăng vốn,cafef,2026,8
+S00295,b169a82a84243a437974c93e149ae602,positive,1,dự án trung tâm logistics hạ tầng mới,cafef,2022,8
+S01124,0b22d5575f73acf28a919d9d098b8da3,positive,2,chủ tịch HPX mua thành công 10 triệu cổ phiếu,cafef,2026,8
+S02509,3767dca7ce9488a0e6c529c36f81c15e,neutral,3,"tin sự kiện hội thảo, không số liệu",vietstock,2026,8
+S02876,c1a30ec927cb3597ea40231ef22bd780,neutral,2,thông báo hành chính giá tham chiếu niêm yết,cafef,2026,8
+S02057,3d2aba55e0b234eeaadf962f09ef26d2,positive,2,"DXG tăng sát trần, thanh khoản đột biến",cafef,2026,8
+S00456,fa0cb242d2435d7dfa99b64b3d294c4f,positive,2,đất nền sắp vào chu kỳ tăng giá,cafebiz,2024,8
+S03453,9d0dee9e0771605b8ca4d0d96a066827,negative,2,khối ngoại bán ròng gần 2.000 tỷ đồng,cafef,2023,8
+S01243,799776abb5d1da35da36d2cd87e1527c,negative,2,"VN-Index giảm, mất mốc 1.700 điểm",vneconomy,2026,8
+S02931,d5fd89c1f9c0b9922a1999ac9bd6dd7b,neutral,3,"tin văn hóa, không liên quan thị trường",vnexpress,2023,8
+S03294,6723dccbf6d622984cfd5c40f0392593,neutral,3,chia sẻ chiến lược phân bổ tài sản chung,tnck,2026,8
+S00746,9047f473c0bf8db28a40aad9bc1b53e6,neutral,2,thu nhập lãnh đạo công ty chứng khoán,cafef,2026,8
+S01470,08cb1cecac63fe7f30903950726a5726,neutral,2,"khối ngoại mua giảm tốc, Fed tăng lãi suất, cân bằng",cafef,2023,8
+S01234,4533f309e90e0905ed452914b1b10a97,neutral,3,câu chuyện khởi nghiệp cá nhân,vietnamnet,2020,8
+S01088,a7eb9d0f737236260430513c30179e9c,negative,3,"áp lực bán lan rộng ngân hàng, chứng khoán",cafef,2025,8
+S01568,432ead6a6b2ed9ababced59b4b5314a2,neutral,2,"tọa đàm trái phiếu doanh nghiệp, không số liệu",vietnamnet,2023,8
+S01653,395dfaff1d715ca46277fe9dcb1f5c9c,neutral,2,"tin kinh tế địa phương, tác động không rõ",cafebiz,2023,8
+S00322,dcd3d636da753f7c3533e951d68f635c,negative,2,Mỹ dừng chương trình hỗ trợ cho vay của Fed,vnexpress,2020,8
+S03075,2d48d5644331eca23bfd7b53df75d0f5,neutral,2,"cầu bắt đáy nhưng áp lực cắt lỗ, cân bằng",vneconomy,2026,8
+S01609,df50a8a747a3e55e76020c3c396892e5,positive,2,"vốn FDI đăng ký tăng 8,2%",cafebiz,2023,8
+S01251,6f8fdcf9185d7103fca9258f6cc35c7e,neutral,3,chương trình khuyến mãi khách hàng,vietnamnet,2023,8
+S00964,02e174b2552c7938cbc452f192bc7053,neutral,2,"HAGL phát hành trái phiếu riêng lẻ, tác động không rõ",vnexpress,2026,8
+S02515,74a255f954728dbcbd969901310a77e7,positive,2,"VN-Index tăng 14 điểm, khối ngoại mua ròng",cafef,2024,8
+S02700,01afde8c8cb7cccabcb718ff88379039,positive,3,CTR doanh thu và lợi nhuận tăng,cafef,2024,8
+S01105,3262d9c34d56f4a9e2a34c6a246dc59e,neutral,2,"tỷ giá USD cao, tác động không rõ",vietnamnet,2021,8
+S00349,4b0be71de2d3f628c5948175d264554c,negative,2,"khối ngoại bán ròng 868 tỷ, thanh khoản thấp",cafef,2026,8
+S01402,d485c325405473d3c1ba8778e61b5727,positive,2,"Vingroup nhận dự án KCN, kỳ vọng hồi sinh",cafebiz,2020,8
+S03411,7003ba63a3270d7bb410afefce8652d5,positive,3,bất động sản công nghiệp hưởng lợi vốn FDI,cafebiz,2020,8
+S01284,f4fa825faadbb1a6c8b734197ca495af,neutral,2,"giá xăng dầu giảm, tác động không rõ",vietnamnet,2023,8
+S03077,144c7e50064660f010767d301daacacd,positive,2,"lãi suất huy động giảm, ổn định cuối năm",cafebiz,2020,8
+S01505,72418387a6f44af0137bea3af2513c42,positive,3,dòng tiền giải ngân mạnh vào cổ phiếu bất động sản,vnexpress,2023,8
+S02084,468ad822f43595c0387dace7b62e65d2,positive,2,giải ngân gói hỗ trợ 16.000 tỷ cho lao động,cafebiz,2020,8
+S01008,8c7a3b00d0dc746e93aee50674fdcb47,neutral,3,quảng bá sản phẩm thẻ tín dụng,vietnamnet,2024,8
+S01881,b11c318e44511d67f9dd042da237127d,negative,2,"vi phạm xây dựng, kỷ luật, khởi tố cán bộ",cafebiz,2021,9
+S03410,12a770b68c310e6ec7ef025b629da156,positive,2,Vinhomes ưu đãi trả góp kích cầu bán nhà,cafef,2024,9
+S01895,0c22a2abb8308114f5ce4d86f4855534,negative,3,"VN-Index giảm sâu, khối ngoại bán ròng 1.100 tỷ",cafef,2026,9
+S02365,a6a7a9d0f85b3d5c6ff8f0d1d7de70c0,positive,2,Hòa Phát tăng trưởng mạnh một thập niên,cafebiz,2020,9
+S02072,ad7f5284fc854aa263260c93855947ae,neutral,1,nới room tốt nhưng lãi huy động tăng cao,cafef,2022,9
+S00747,9df6ab285498df74742607c036f48886,positive,1,dự án đường sắt cao tốc tín hiệu tích cực,cafebiz,2024,9
+S00724,db7f8d21e5c8d3769da055442d8e574c,positive,3,"FTSE nâng hạng, VN-Index tăng mạnh, vốn ngoại vào",cafef,2026,9
+S01296,66dfb76d5bc2a332baa84609b3ea93f6,positive,3,dòng vốn lớn vào thị trường nhờ nâng hạng,cafef,2026,9
+S00795,714cbfbea0750dac8d3e22879dafa9dd,neutral,2,"quy định thanh toán chuyển khoản, tác động không rõ",vnexpress,2024,9
+S03304,7336332c52b0ccf4dbebcff1fbd80c7f,positive,2,VPBankS tăng thị phần môi giới,cafef,2026,9
+S00835,8e8c55b9cf667130f26ff79c05161721,neutral,1,"đề xuất xuất khẩu than, còn lo ngại",vietnamnet,2020,9
+S01492,c1a6a27daab30646f2edea54b5eca501,negative,2,"VN-Index giảm, thanh khoản yếu, ngoại bán ròng",vnexpress,2022,9
+S01945,d36d69ddeebf682a4475874b735400ad,negative,2,"VN-Index mất mốc 1700, thanh khoản thấp",vneconomy,2026,9
+S03374,b5fcb190204188520beecb2ff15103a2,positive,2,"BĐS công nghiệp tăng trưởng, nhiều M&A",cafebiz,2020,9
+S00727,81c3d7712dc6ba58c30b40301abef85f,negative,3,"áp lực bán, VN-Index điều chỉnh mạnh",vietstock,2026,9
+S01629,f10de78bf54a3f640cd0e9efac82a982,neutral,1,"phong thủy, BĐS có dấu hiệu khởi sắc nhẹ",cafebiz,2024,9
+S01525,030143567dad57a5dc7616eed4ed0228,neutral,2,"công ty Trung Quốc bị điều tra, không liên quan VN",vnexpress,2021,9
+S01799,e98e8b083568acd8ae3a32cd3827ce56,neutral,2,"đi ngang, CTCK thận trọng, tăng nhẹ",cafef,2024,9
+S02542,f6f0af618773e4e0d828ca4ec1de8b69,negative,3,"bán tháo, ngân hàng giảm sàn, VN-Index giảm mạnh",cafef,2023,9
+S01401,e8a64a252cf7e9da4f0a85f36c1af132,neutral,1,BĐS hạ nhiệt nhưng có dòng tiền bắt đáy,cafebiz,2021,9
+S01289,851da450f7d30f700bca79f5cb12a413,positive,2,"5 phiên tăng, kỳ vọng lên 960 điểm",vnexpress,2020,9
+S02300,9ec8b0baad1b1c73b8d402c3b7716664,neutral,1,"giá vé tăng dịp lễ, tác động không rõ",cafef,2022,9
+S02149,c5d4c91d6b3d667be920b7c607f28bbd,positive,2,SHB nhận 4 giải thưởng quốc tế,vietnamnet,2020,9
+S01905,f5b40f75157d29a2e53c2a53dc99b125,neutral,1,"giá xăng giảm, tác động không rõ",cafebiz,2022,9
+S00156,f1b89a5eb9ba46985fba8fd3792c4f23,neutral,2,"ưu đãi tài khoản doanh nghiệp, quảng bá dịch vụ",cafef,2021,9
+S01273,15394f8dd1ad5a24e73c2f334d7285a0,negative,2,công an kiểm tra hàng loạt điểm giao dịch F88,cafef,2023,9
+S00056,b0e6b6fc789e59cfa9894628946e96e6,neutral,3,"giá tôm hùm, không liên quan chứng khoán",vietnamnet,2021,9
+S00730,f3be54c3f900d8cd4d43a31fb484afa5,positive,2,tài khoản mở mới cao nhất 1 năm,cafef,2025,9
+S03376,bd3bcc73f31033f36b93c70f68890c4e,positive,2,DPM kế hoạch doanh thu lợi nhuận 2026 lớn,cafef,2026,9
+S00725,b5ecaa34d1a2173d5dfecdf128362af4,neutral,1,"tư vấn vượt biến động, thông tin chung",cafef,2026,9
+S00441,867bb0e0b3075e5a498d8b55b606b81d,positive,3,VietinBank lãi trước thuế tăng 23%,vnexpress,2020,9
+S02299,cccd749dbd05e3cf00cbdfe95bf8e9c8,positive,3,Gelex hợp tác đầu tư KCN 6.000 tỷ,vietnamnet,2023,9
+S02304,45cc37ab61e91b675295c39ad8bea1de,neutral,1,"BĐS Trung Quốc, tác động tới VN không rõ",vnexpress,2024,9
+S03128,d2bd6409a9249d219fe77c2704b77be7,positive,2,dự báo GDP PPP Việt Nam tăng mạnh,cafebiz,2023,9
+S01967,9b466ffc8f497d9858c8c5468d8b98da,neutral,1,"nhập khẩu hạt điều, tác động cổ phiếu không rõ",cafebiz,2024,9
+S01519,ad086f162b95949be8123a356efc502a,positive,2,"VN-Index tăng, dòng tiền ngân hàng tích cực",cafef,2025,9
+S01070,fae9b437058d6ecc2f35606cdff21b03,neutral,3,"chính sách đào tạo cầu thủ, không tác động giá",cafef,2024,9
+S01651,00f526336151ecfff3adf38c504da6a4,positive,1,"Dow Jones lập đỉnh lịch sử, thị trường Mỹ tăng",vietnamnet,2020,9
+S00935,17488349cb42f8c3507ac7a7639743bf,neutral,2,tạm dừng thu phí tài khoản giao thông,cafef,2026,9
+S01033,891b33c60caed7ee5ebe094f9de3372b,positive,2,CEO đăng ký mua 20 triệu cổ phiếu PDR,vnexpress,2022,9
+S03427,c559d7524506b01f4dd672ee7941ee4e,neutral,2,"VN-Index đi ngang, phân hóa",cafef,2023,9
+S02861,bcea457e09831abd34f4e24b772bbec8,negative,2,"Fed tăng lãi, Wall Street giảm 2-3%",vnexpress,2022,9
+S01453,68d2a86d9f04ad6ebdf5ca611b85131f,neutral,1,"lãnh đạo bán 1,2 triệu cổ phiếu nhỏ",vietnamnet,2024,9
+S02464,64b0cc83e46ed1874c56b04c752e8ea9,positive,3,97% quỹ căn đợt 1 được đặt chỗ,vnexpress,2021,9
+S00832,5d1f046beb21b84c9867a8f696d29cc3,neutral,3,giá iPhone xách tay giảm,vietnamnet,2020,9
+S01983,affe00e3db47976aafe6fc5d01dc6a17,positive,3,"VN-Index tăng 3,8%, ngoại mua ròng 3.468 tỷ",cafef,2026,9
+S01805,7887437ed64b56e02b3a1198ccee5836,positive,3,"SRC trả cổ tức tiền, doanh thu tăng",cafef,2021,9
+S03182,0527d773b63f2edb94c4aee73f66e05c,neutral,2,nhận định về thị trường vốn dài hạn,cafef,2026,9
+S02423,40c7269bb97a66350f35b2423fe47848,positive,3,"Long Châu mở rộng, doanh thu tăng mạnh",vnexpress,2024,9
+S01515,8cdad347a762a76bce928669809f4370,positive,2,"NHA chuyển sàn, giá tăng mạnh, có lãi",cafef,2021,9
+S01265,9e0e36ac78e77ed61092ecc2ab93422b,negative,3,VN-Index rơi mạnh do tin Trump nhiễm Covid,vnexpress,2020,9
+S01322,58c262281e32a6e0f89cd8b1b8d46c36,neutral,2,tư vấn đầu tư BĐS chung chung,cafebiz,2022,9
+S02455,5abd10397da162b47b95d44ba7f62162,neutral,1,thị trường giảm mạnh nhưng kỳ vọng hồi phục,cafef,2022,9
+S01898,ec4005819335443046fdaff63a47d321,neutral,2,"kiến nghị tăng vốn Big 4, chưa có quyết định",cafef,2020,9
+S02253,4cf967d54a8d041f9292e99691c49d87,neutral,3,hướng dẫn lịch giao dịch,cafef,2025,9
+S00110,af28877058e5892b8d4e7d81d9110d54,negative,1,"BĐS phải chiết khấu mạnh kích cầu, sức mua yếu",vnexpress,2023,9
+S00829,82f2122f54edadaa92e963f75112ebe9,neutral,2,"giá xăng tăng, tác động không rõ",vietnamnet,2024,9
+S00569,ca8d02d3b5731009351ed3fb9613da45,negative,2,"dự án CT6 bị điều tra, vướng sổ đỏ",cafebiz,2020,9
+S00390,25281a5f067e691437742234e5ddf6a2,neutral,1,VPBank giải thích cơ cấu ngân hàng 0 đồng,vnexpress,2024,9
+S00819,38b4371d4edafe79f89e480cfe5e2807,positive,3,Vinamilk ký dự án 500 triệu USD,vnexpress,2021,9
+S01002,ee144820d3a7c1b1489d5106dced7a5f,positive,2,"VN-Index tăng, khối ngoại và tự doanh mua ròng",cafef,2025,9
+S02705,7b80d83d3938164374315473d5250fe9,neutral,1,"kiến nghị tài khoản biên giới, tác động không rõ",vietnamnet,2020,9
+S00389,307223d4a5c1fc885d9dabfa9dd37690,neutral,3,lễ kỷ niệm hành chính,tnck,2026,9
+S01581,829dc34947ba32fddbca20bea7ba04f5,negative,3,"khối ngoại bán ròng 4.700 tỷ, VN-Index giảm",cafef,2025,9
+S02799,719db9f975c8903ba5192e286a38bf1f,positive,2,Hòa Phát xem xét khởi động lại lò cao,cafef,2023,9
+S01051,e2f6bb9f68310beb16ed043e557f652c,neutral,2,"giá xăng tăng, tác động không rõ",cafef,2020,9
+S02801,390318f67aa16c62a298ac85ff241211,neutral,2,"giá thiết bị điện nước tăng, tác động không rõ",vietnamnet,2021,9
+S00885,1c941861cd3432fdc5680553ab393912,neutral,3,"nhà giàu Trung Quốc mua lâu đài, không liên quan",cafef,2021,9
+S00803,a344b68a2b142be95069d1b87c69bb7b,positive,3,ngân hàng chuyển sàn HOSE kích hoạt dòng tiền,vietnamnet,2020,9
+S02847,acdbf9e91fe06436d9ef42eb6ae9f6fd,neutral,2,"tranh luận về lãi ngân hàng, quan điểm",cafef,2021,9
+S00138,b2629b677a993b4a17a1595c44088dd2,neutral,2,chủ tịch từ nhiệm dù công ty lãi cao,cafef,2026,9
+S03073,6a4aa0936bda713940bd638aeea5975f,neutral,2,"lãi suất huy động nhích tăng, tác động hai chiều",cafef,2021,9
+S02255,a745dd6c78e1250c728c34e6f094bdf6,neutral,3,danh sách Forbes không liên quan thị trường,vnexpress,2021,9
+S01163,45d1cb91c0171718928c2e21ed6a6eec,neutral,2,"giá xăng tăng, tác động không rõ",vnexpress,2023,9
+S03217,0a4949db12d696d44a0619f394209e63,neutral,3,"chuyện xe Volvo, không liên quan",vietnamnet,2024,9
+S01059,b64899e6123b5bbfd64cda7d69cce6b9,neutral,3,"lối sống thượng lưu, không liên quan",cafef,2024,9
+S01870,6049857227db2f602cea72dd1e10dd51,neutral,2,"ngân hàng tăng phí SMS, tác động nhỏ",cafef,2024,9
+S01883,a264831f5c3a1da490ab9cf44bc71bbc,neutral,2,"thương mại Úc - Trung, không liên quan VN",vnexpress,2021,9
+S00195,b0e6ef430616437940ad7cf19bb86599,neutral,1,tăng trưởng lợi nhuận thấp nhưng đánh giá tích cực vài mã,cafef,2021,9
+S01318,b50d4f01d7117e6a34eb77648a4048b1,negative,2,"vướng pháp lý đất, doanh nghiệp bỏ dự án",vietnamnet,2023,9
+S01725,c68017772d923a515f1d526bd374ca5c,positive,2,CEO GEX mua 30 triệu cổ phiếu,cafef,2021,9
+S02265,69ee30c858c2175de2b01cbe4b84a8b5,neutral,3,"bảo mật thẻ tín dụng, không liên quan",vietnamnet,2020,9
+S00721,5b59dbfc630cbf876d8cfc149df4022e,positive,2,xuất khẩu nông sản kỷ lục 53 tỷ USD,vnexpress,2023,9
+S00823,07b4516e3eff6057ac583ef020afd55e,neutral,3,"tính năng app MBBank, không tác động",vietnamnet,2023,9
+S02039,6d2d625da96e5902b5cc0edd2c4911ce,negative,3,DCL giảm sàn 4 phiên liên tiếp,vietstock,2026,9
+S02846,1cc0930479481cce0c004ac5d938b735,neutral,2,"Sovico phát hành trái phiếu, tác động không rõ",cafebiz,2020,9
+S03414,10cd20fc35ebfe0a5230b6020bdb81b8,positive,2,"xuất khẩu phục hồi, kinh tế có tín hiệu tốt",cafebiz,2024,9
+S01160,4f28bbd591516ca5d45ec94d3bb2302d,negative,3,"923 doanh nghiệp BĐS giải thể, tạm ngừng",cafebiz,2020,9
+S01724,a012635a83f2301bc5aa886fbdc9429a,negative,3,"FLC bị đình chỉ giao dịch, hủy niêm yết",cafef,2023,9
+S01408,7e723e64d30cb3826129f9c574139eb1,positive,3,"VN-Index tăng gần 1,7%, vốn hóa tăng",cafef,2024,9
+S02210,d05e963f25b65162aa32a8c0e6415237,positive,2,"VN-Index tăng 13 điểm, blue-chip hồi phục",cafef,2025,9
+S00900,98f188ff1cc623d4d2159ea3dace115b,positive,3,Vinaconex mục tiêu tăng trưởng 15-25%/năm,vnexpress,2020,9
+S01128,6389a78e27812e378ef181782663ce7a,negative,2,"dự án King Bay bị tố lừa đảo, thanh tra",cafef,2021,9
+S02828,a5635e20e542938debe54225e78bd15f,neutral,2,thủ tục thi hành án Vạn Thịnh Phát,cafef,2025,9
+S01259,2d15b6681d28d5630000d6f9291ad38d,neutral,1,tư vấn đầu tư căn hộ cho thuê chung,vnexpress,2020,9
+S01934,afa011f16499f4e33f9d09dee2b8c4b7,neutral,1,xem xét sửa ngưỡng thuế cho thuê nhà,vietnamnet,2021,9
+S03291,05f8fd54f69f3261d82242643c9be4a2,positive,2,SeABank nới room ngoại lên 5%,cafef,2021,9
+S03419,2dd236199932469770d9a803221cc0b1,negative,1,nhiều dự án dở dang nhiều năm,vnexpress,2023,9
+S01507,e0492d5adc87e4e3c88cf3c7caecfa00,positive,2,lãi suất cho vay giảm hỗ trợ tăng trưởng,cafef,2020,9
+S01932,43bdf9485933ec8724ac95f66135f137,neutral,1,MWG đóng chuỗi Campuchia để tập trung khác,vnexpress,2023,9
+S01856,a9cb2478b0ee2d0cd91e97a3832558cd,neutral,1,"lãi suất tăng, lợi cho người gửi, tác động cổ phiếu không rõ",vietnamnet,2021,10
+S02676,bfac5bdb6d289d1cc582acd173aa432a,neutral,2,"lương nhân viên ngân hàng, thông tin trung tính",cafef,2025,10
+S01866,57991c8865c28c2ca186eae834171e52,neutral,1,VCB giảm lãi vay: hỗ trợ DN nhưng giảm thu nhập lãi,vnexpress,2020,10
+S02197,a93c0e3faf064e5f802bd52ae78cea51,neutral,2,"dự báo giá vàng, không liên quan trực tiếp cổ phiếu",cafef,2025,10
+S02404,0f6ab042c21a74b0d0d8c3a6da411f25,neutral,3,bài giải thích sản phẩm quyền chọn,vneconomy,2026,10
+S00771,8761e3952a259063248dcad929c77110,neutral,3,bài quảng bá thiết kế căn hộ hạng sang,vnexpress,2020,10
+S02837,68b0ba0088c7e4c1aea7f39493fa8f26,neutral,2,"khuyến mại phí giao dịch, thị trường sôi động nhẹ",cafef,2026,10
+S02320,7a3b0166dd157c408831a12b99935f74,neutral,3,"cảnh báo lừa đảo, không liên quan chứng khoán",vietnamnet,2021,10
+S01464,d00a891a5baf58b62be10fe7d57e1e72,neutral,3,"thay lãnh đạo ngân hàng, hành chính",vnexpress,2026,10
+S00775,0c8e3f2c47e26d35e9c99c2fe8ffd6e3,positive,2,"SHB, HDG phát hành cổ phiếu trả cổ tức",cafef,2023,10
+S00830,024aa5c870182588e0e54b5511e3c4d0,negative,3,"chứng khoán thế giới bán tháo, giảm mạnh",vneconomy,2026,10
+S03202,533f957153cd389c0eb4abb72c80490e,positive,2,HAG không bị ảnh hưởng thuế đối ứng Mỹ,cafef,2025,10
+S00433,8de74fcb6545a927b506df95d28d09a2,neutral,2,"hồi phục nhẹ nhưng khối ngoại bán, rủi ro kiểm định đáy",vneconomy,2026,10
+S02895,734ebd6cba617c07c110e95eca5ad1f8,positive,2,Coteccons mở rộng EPC năng lượng tái tạo,cafebiz,2020,10
+S02140,172c5ac491e35b2d3e3b6ea492ce5cad,neutral,2,"giá vàng tăng, không liên quan cổ phiếu",vnexpress,2021,10
+S02971,2ab515f634d7408b2f4d1585568de494,positive,3,chứng khoán Mỹ tăng nhờ vaccine,vnexpress,2020,10
+S00692,9f5374c34ec84801e4ab591d66122ffc,negative,2,"AAV lỗ quý thứ 6 liên tiếp, doanh thu giảm 98%",cafef,2024,10
+S00925,02e32da12dbf8b49aee82ec9b9371fee,neutral,3,"thu nhập lãnh đạo, thông tin trung tính",cafef,2021,10
+S03305,9dc6b664f4839c592c6b8d66359a3da2,negative,3,"Eximbank đại hội đổ vỡ, nội chiến",vietnamnet,2021,10
+S02346,6026ccb59b1f3974fababbaed9c38887,neutral,2,tiền gửi vào SCB nhưng bối cảnh khủng hoảng niềm tin,vnexpress,2022,10
+S02946,0c39067191b71cf0e989026b335a2102,neutral,3,"cái chết doanh nhân Trung Quốc, không liên quan",vietnamnet,2020,10
+S02143,cf7a8862b5e93ede33980077f0804e2c,positive,3,VCK thưởng cổ phiếu tỷ lệ 1:1 quy mô lớn,cafef,2025,10
+S02814,68489546cea48c21d499f0af61926864,neutral,2,"giá vàng thế giới giảm, không liên quan cổ phiếu",cafef,2024,10
+S03399,af8d8e0a0bd913b1c36522af08bf0444,neutral,3,bán vé sự kiện đào tạo,vnexpress,2021,10
+S03196,132336e301c7461fea9ccf7061365132,neutral,3,"giá vàng tăng, bản tin giá",vietnamnet,2020,10
+S03470,c645814dda426179d65b40ca545887f9,neutral,3,sự kiện thanh toán không tiền mặt,vietnamnet,2024,10
+S01862,d1be02f7353731f1f80d104c3220cb5e,negative,3,"VN-Index giảm 7 phiên, chuỗi dài nhất 7 năm",cafef,2026,10
+S02593,ec645c6aed2c942916c46390b8554a28,negative,3,tài sản tỷ phú bốc hơi do chứng khoán giảm,vietnamnet,2022,10
+S00482,aa5a8cf51e63d63f01b1929dc08e2083,neutral,2,"khai trương tiện ích dự án, quảng bá",cafef,2021,10
+S00854,bd47a6aa5971fd269a03fc4945a94e4a,neutral,2,"giá xăng tăng, tác động không rõ",vietnamnet,2021,10
+S00051,c0968a0c600e35757e40bfe931d692e8,neutral,2,"Starbucks thay CEO, doanh nghiệp nước ngoài",vnexpress,2024,10
+S02693,b0d7dc6d34d7996e5f7177502f617e8b,positive,3,"VN-Index tăng 5 phiên, dòng tiền vào",cafef,2023,10
+S03235,1e22bb7988fee516929bc20e4606df33,neutral,3,"xăng Malaysia xuất sang Việt Nam, không rõ tác động",cafebiz,2022,10
+S01553,88365782244e5130bf5bd5595f45bd20,positive,2,tháo gỡ sổ hồng cho dự án nhà ở,vnexpress,2020,10
+S00070,0ce08968221d98815918d8495affe972,negative,2,giao dịch bất động sản thương mại giảm mạnh,vnexpress,2020,10
+S00184,da897cbf17fc612ff8709e9bb8880551,neutral,2,"tổng hợp tin lẫn lộn: xử phạt, khối ngoại mua bán",vietstock,2026,10
+S01780,ad4e2580f65a04a1a2f043583e025da9,negative,3,"VN-Index giảm 2,2%, lực bán chiếm ưu thế",cafef,2026,10
+S01412,9cf29609678fa804b34c8f89f2469be2,negative,2,HAGL Agrico lỗ lũy kế hơn 8.000 tỷ,cafef,2024,10
+S02132,a733757d81839f8764143c7e80f2f1ab,positive,3,"Vinamilk doanh thu tăng 5,9%, hoàn thành kế hoạch",vnexpress,2021,10
+S01648,b12238120f07974cad25b8e647ff1963,neutral,1,"xét xử Vạn Thịnh Phát, tác động cổ phiếu không rõ",vietnamnet,2024,10
+S00710,dcf90d15793d5a9b66cf485a1ed0432e,neutral,3,thống kê sở hữu cổ phần lãnh đạo,vnexpress,2024,10
+S01929,cf4e48062a092d7ad4a40662937ab33a,positive,3,"VCG tăng trần, nhóm đầu tư công tăng mạnh",cafef,2022,10
+S03131,959a87f47a634e98bd33b4c391bdb3d3,neutral,2,"lãi suất huy động Dong A tăng, trung tính",vietnamnet,2024,10
+S02065,1f76f335a59ee045a0a767757e785ef5,negative,3,VN-Index bán tháo mất hơn 25 điểm,vnexpress,2020,10
+S00129,508cbf0a827781a7299a81e295f8230a,neutral,2,"giá nhà thế giới tăng, cổ phiếu BĐS giảm, hỗn hợp",vnexpress,2020,10
+S01828,6dc75395ba212cdb522acd321f6b6433,positive,2,"giá chung cư lập đỉnh, dự báo còn tăng",cafebiz,2024,10
+S00848,d6e6695b26d0649717e82c27477fe644,positive,3,"SHS tăng trưởng quý 2, tài sản tăng 20%",cafef,2026,10
+S01785,d8c743f978db299de35a5d3649fee50b,positive,2,"LEGO đầu tư 1,3 tỷ USD, dòng vốn FDI",cafef,2022,10
+S00440,277d5c4e7741cf160658f0c75ebb78e8,negative,2,"NVL, PDR giảm sàn, nợ vay lớn",cafebiz,2023,10
+S02134,a8e6dac0473fc517956f71a5e05060aa,neutral,3,chiến dịch truyền thông Tết của bia,vietnamnet,2023,10
+S00953,16234d59194a6cb49722caf3bb003707,positive,2,Thủ tướng đẩy giải ngân đầu tư công,cafebiz,2024,10
+S01195,97452de6cca385a272a617e902a2f70f,positive,2,"DFC lợi nhuận tăng 18%, trả cổ tức 20%",cafef,2024,10
+S00504,8801c8d98ada3903c520d25743f08aa4,positive,2,"tăng trưởng cao, định giá hợp lý, triển vọng tích cực",cafef,2025,10
+S02271,61fe725ed4f8396c80ccc4b7f2d18f9c,negative,2,khối ngoại bán ròng đột biến 925 tỷ,cafef,2025,10
+S01917,34159b1170fa91e8c5fa015f62e17587,neutral,2,"tin địa phương, không liên quan cổ phiếu",cafebiz,2024,10
+S01907,f99747a3d6bdc9fa103e6ed1b5427c38,neutral,2,"giá xăng dầu tăng, bản tin giá",vietnamnet,2024,10
+S02873,011566d16ad07c4c8baecd913efd4241,negative,2,"thị trường BĐS khó khăn, môi giới mất việc",cafebiz,2020,10
+S02631,337e9596be12e57ce046140293492feb,positive,2,"khả năng suy thoái Mỹ giảm, lạc quan",vnexpress,2023,10
+S02608,a97a864cd63a7c4c8adb6e340c03c8b8,positive,3,dự báo kinh tế phục hồi chữ V,cafebiz,2020,10
+S00897,d17cfa8d0a7900c1c463fc8971ab90c6,negative,2,"siết quản lý, điều tra thổi giá bất động sản",cafebiz,2022,10
+S02736,380dd8b52ae3ca07a5b6cebdef806064,neutral,3,số liệu nhập khẩu bông,cafebiz,2024,10
+S03262,aa79af914b1946394f6ba54ff128cd30,neutral,2,sân bay Vân Đồn nhận giải thưởng,vnexpress,2020,10
+S01264,3b5cc5966be923ad49b7ef7d266051a5,neutral,2,"lãnh đạo đăng ký bán lượng nhỏ, SBT tăng giá",cafef,2021,10
+S01432,a1600a49542b26f4d44b1d39c489c7fe,negative,3,PC1 lãnh đạo bị khởi tố,cafef,2026,10
+S00477,ce3bbc41846d62f13f11469988877782,negative,2,doanh nghiệp bị hủy tư cách công ty đại chúng,cafef,2026,10
+S00109,7b57570e96e56e29328255c40c8fe83a,neutral,3,khuyến mại của công ty chứng khoán,cafef,2025,10
+S00595,d89c5724692d4fbd88efe9036d22eb97,neutral,3,thị trường hoa tươi 20/10,vietnamnet,2022,10
+S00036,bf39f29ab6f52a8c6e61f7168ff4a7de,neutral,2,"tiền gửi kỷ lục nhưng lãi suất trái phiếu tăng, hỗn hợp",vietnamnet,2023,10
+S01182,98ab930dd9d781dcc8a1f8c71c86b7fa,neutral,2,"giảm giá máy giặt, sức mua thấp, không rõ tác động",vietnamnet,2021,10
+S01845,d2818953684ef9e0366f374e119defd1,neutral,3,"thảo luận dự luật thuế, hành chính",vnexpress,2024,10
+S00408,32ed46adcad8cfdf3b5fd0a3e5aabad4,positive,2,"HPG lấy lại vị thế, cổ phiếu nổi bật 2023",vietnamnet,2023,10
+S00065,631d8e52c65884780730020a85828283,neutral,3,bài phong thủy đầu tư,cafef,2025,10
+S01539,ae101f0220c219cbeea09a600ef552ab,neutral,3,"tài trợ đại học, không liên quan",cafef,2022,10
+S00732,a179f8cb212649f09b29f48df7815ffc,neutral,2,"Bitcoin biến động, không phải chứng khoán Việt",tnck,2026,10
+S03441,48e1f936a7e317993529b03545a11980,neutral,2,nguồn cung nhựa đường đã cơ bản vượt qua khó khăn,tnck,2026,10
+S03438,34a72eb9232780b967306c733207e1eb,positive,2,Chính phủ tháo gỡ tín dụng bất động sản,cafef,2023,10
+S01141,93edac4dba8831a1c8938ea05b89f6fb,positive,2,"sửa gói tín dụng ưu đãi hơn, tín dụng cải thiện",vnexpress,2024,10
+S02376,369dfea1a6595473f05987634496110d,neutral,2,"giải pháp chống sốt đất, tác động không rõ",cafebiz,2022,10
+S02338,9bce33e4786f40be54d8f1c5b6d45f4d,neutral,3,lời khuyên đầu tư bất động sản,cafebiz,2021,10
+S02036,000e84e87170279f90cf8200758679f6,negative,2,"khủng hoảng nguồn cung diesel, lạm phát tăng",cafebiz,2022,10
+S01463,27d65ab15d31bb0a42547d63904d8b26,negative,3,đơn hàng doanh nghiệp giảm hơn 40%,cafef,2023,10
+S02978,66c5cc682b2c9d54feb7afbe8cb8ca23,positive,3,đơn hàng xuất khẩu thực phẩm tăng trở lại,vnexpress,2024,10
+S00856,ca0a6ab21ec9cc6e49d9d9fa59559f65,positive,2,giá đất quanh sân bay Long Thành tăng mạnh,cafebiz,2021,10
+S00551,e63c3bc9801a4235fe8dc483a64e7c88,positive,3,đề xuất giãn hoãn 135.000 tỷ thuế hỗ trợ DN,cafebiz,2022,10
+S02763,428c389a0a8c67749aa9da8769f8feec,positive,3,"dòng vốn ETF, khối ngoại mua ròng, thị trường tích cực",cafef,2022,10
+S03400,103d12ca47e8e7a8f152e61a9cad6e7f,neutral,2,"dự báo giá vàng giảm, không liên quan cổ phiếu",vneconomy,2026,10
+S01695,94af53b2a1bf9e0bb39809a9d2c1d207,neutral,3,quảng bá thương hiệu VIB,vietnamnet,2022,10
+S02821,86acb39ee1330a5db199e6c3d8223130,neutral,2,"giá nhà cao, bài xã hội",cafebiz,2020,10
+S00193,ef937a316b72cf36eea3829d6459758f,neutral,2,"cổ phiếu ngân hàng phân hóa, VN-Index tăng nhẹ",cafef,2021,10
+S03249,5026c9027ad1f850789d26d38bca9812,negative,2,GDP quý II gần thấp nhất 13 năm,cafebiz,2023,10
+S00865,21f72f65229dcaddf690dddaa92f18fd,negative,3,"bán tháo cổ phiếu AI, lo bong bóng",vnexpress,2026,10
+S03283,840ce21c263004f0d3c4fda60fcbcc92,neutral,2,"giá vàng giảm, không liên quan cổ phiếu",vnexpress,2020,10
+S02988,63f4b1d6a8f593cfe7d8c80bf7c16c33,negative,3,"VN-Index giảm 2,2% tuần, áp lực bán cuối tuần",cafef,2026,10
+S01824,ba5c74173856a1e2d5372a7e4f8dc42a,positive,3,"VN-Index tăng, VN30 vượt 1.860, thanh khoản cao",cafef,2025,10
+S02199,00e00b12df0dff371c47d12c01d5382e,positive,2,"giá đường cao, cơ hội cho ngành mía đường",vietnamnet,2023,10
+S02545,c18eb08d96b25db376d777791b45c544,neutral,3,lời khuyên dùng thẻ tín dụng,vietnamnet,2021,10
+S02501,93fb92a75bbc33d0b419519c989fb92d,neutral,2,"ra mắt mô hình siêu thị mới, không có số liệu",vietnamnet,2023,10
+S01140,9221751aab84421df6feb0904e2c8593,negative,3,"VN-Index giảm, cổ phiếu bất động sản đỏ lửa",cafef,2026,10
+S02573,2a649480229ffa6df211cd895ae24738,positive,2,Thủ tướng yêu cầu ngân hàng linh hoạt đẩy vốn,vnexpress,2023,10
+S00054,37a4d39270637ec6134862882095d4b5,positive,2,"thị trường căn hộ HCM sôi động, bán tốt",cafebiz,2021,10
+S01201,7a22dcee9c3bc72c6ccfd2c3ca5ca3f4,neutral,1,"giải thích quy định, tác động không rõ",cafebiz,2024,11
+S02511,c13d7fefb42d8176f300d10c342a2f18,positive,2,"văn phòng cầu vượt cung, cơ hội đầu tư",cafebiz,2023,11
+S01570,5fb7040070778bac271ab72aa8308531,neutral,2,"Phố Wall biến động, chỉ số đi ngang",vnexpress,2020,11
+S01902,2c35360d16781747cce9f57fe1ef6c72,positive,1,"bất động sản Dubai bùng nổ, giao dịch tăng",vnexpress,2023,11
+S02010,ec35f5b03675daf41844547d6c932d3d,positive,2,VPBank tăng vốn mạnh nhất hệ thống,cafef,2021,11
+S01252,15e9561238560951f914bf00130da464,negative,2,Country Garden đối mặt đơn kiện phá sản,cafebiz,2024,11
+S00766,57d1a2852217fe32579e3fa13a758b9e,positive,2,"BVB lãi 456 tỷ, đạt kế hoạch",cafef,2023,11
+S02842,690c26480b9d45c771abda452c0dec43,negative,2,"sốt đất ảo, cảnh báo rủi ro",cafebiz,2021,11
+S03263,f725fb9b81e3f501847ebe1643286237,negative,2,nguy cơ chiến tranh Nga-Ukraine,vnexpress,2022,11
+S02752,3048317bd14f900ba14aae5eeea96ef5,neutral,2,"điểm lại các thương vụ, không rõ tác động",cafebiz,2024,11
+S02612,20d9d2fd170284f26b1065c6ff58face,positive,2,GDP 2020 vẫn nhóm cao nhất thế giới,vietnamnet,2020,11
+S00292,942821201618ac9b17e1da887267db7a,negative,3,"Hòa Bình lỗ kinh doanh chính, doanh thu lợi nhuận giảm",cafebiz,2020,11
+S00973,afffb09e0ff96bb3f1e51c03d25979d8,negative,1,"lo ngại giá nhà tăng, quy định bất lợi",vietnamnet,2021,11
+S00700,ee446605fb536dc0679edab69ee94189,neutral,3,"chính trị Mỹ, không liên quan",vnexpress,2021,11
+S02968,c0d16b66f58bf7019286469334bd820e,neutral,2,"thông báo đấu thầu vàng, hành chính",cafebiz,2024,11
+S00215,6a82712d66874f3704c6020fa9fed931,positive,2,HSC được chào bán tăng vốn lên trên 10.000 tỷ,cafef,2025,11
+S00463,651116b73361a3834f722a94d7092610,positive,2,VinCommerce chiến lược mở rộng tăng trưởng,vietnamnet,2020,11
+S03288,334b3053f67a9e8cda129887306a8a0b,negative,3,Novaland không đủ dòng tiền trả nợ,cafef,2025,11
+S01233,fea082e5f68d15c01e97c83985f36548,negative,1,"vàng lao dốc, chứng khoán thế giới giảm",vietnamnet,2020,11
+S01027,50f81c188dc16f44a2008ea11b13532c,positive,1,"đất nền vào chu kỳ tăng, tâm lý mua tốt",cafebiz,2024,11
+S01942,672c9e7cc36f880c4698c7d525ab52a4,neutral,2,"ngân hàng thận trọng, tác động hai chiều",cafebiz,2021,11
+S00344,ee94aaa8cac6fa4fba48404d0aeb74f7,positive,2,"kịch bản VN-Index trên 1.500, nhận định tích cực",cafef,2021,11
+S02470,dedd2500740c6030f39d7189f02a6511,negative,3,"doanh nghiệp địa ốc lỗ, doanh thu giảm mạnh",cafebiz,2020,11
+S00905,900095e9d7de665afd32dcf5725d09fa,positive,2,cổ đông lớn mua vào gần 10 triệu cổ phiếu,cafef,2025,11
+S01188,02b2cc4b0e98975b9550bd37e904cf54,positive,2,"doanh thu tăng 20%, lãi ròng tăng",cafef,2021,11
+S01298,9a9360d7c668d3d078aac0b32418c8ed,positive,3,Hòa Phát sản lượng bán HRC kỷ lục,cafef,2025,11
+S00748,3fd1ae9207d15e6ad398b5e3a14a83db,neutral,1,"chuyển giao vốn, doanh thu giảm lợi nhuận giữ",cafef,2020,11
+S00397,b1db55b1f323998eb9aaddde58370143,negative,2,dự án FLC dang dở bị thu hồi,cafebiz,2023,11
+S00975,2c01647f5b3903fcff0cf5b51e1f0fd0,positive,3,DNSE tăng mạnh thị phần phái sinh,cafef,2026,11
+S03423,6555ccd8f0e31365c593a542410552d8,positive,3,"lãi suất giảm kích cầu, cổ phiếu BĐS triển vọng",cafebiz,2020,11
+S03443,726ad5e7d0d2266f9492d81d8302413f,positive,1,kỳ vọng gói hỗ trợ phục hồi kinh tế,cafef,2022,11
+S03010,0c6dc90ce63b0a5f78192259db3a734a,neutral,2,"thư chúc Tết, thông tin hành chính",cafef,2024,11
+S02295,710653e7b0acbbd140b8422b937a9629,neutral,2,"phân tích thuế quan Mỹ, tác động gián tiếp",vietnamnet,2020,11
+S00537,863a50487906a3de75ea84dcfa927a63,neutral,1,"Bộ bác đề xuất Bamboo, tác động không rõ",cafebiz,2024,11
+S01036,3aadde1247efaa789f7f5aa50e98fc2c,neutral,3,"tỷ phú công nghệ, không liên quan",cafef,2021,11
+S01714,d822fda1b54b20e65bf9a329d69e3b9b,neutral,3,lời khuyên cá nhân tỷ phú,vnexpress,2020,11
+S00444,84893219e49fe42ef9c6a1b157755794,negative,2,bất động sản Thái Nguyên vẫn trầm lắng,cafef,2023,11
+S03079,46c20d61586bc7eec1e94bab86087d0d,positive,3,"tín dụng tăng trở lại, tín hiệu khả quan",cafef,2020,11
+S02079,ce5d9975ade1eb714eb2fd069410e91a,negative,2,"Fed có thể không giảm lãi suất, lạm phát",vnexpress,2024,11
+S00243,2306d4f09615a6deaa489fdc23cd183b,positive,1,"Vinamilk ESG nâng cạnh tranh, thu hút vốn",vietnamnet,2022,11
+S02486,e3c3854115a8fdd2dff4c3f5065d1926,neutral,3,chuyện cá nhân hoa hậu đầu tư,cafef,2026,11
+S00464,1ea729c1c11d3680c306e7c0fc63a89c,positive,2,ngân hàng giảm lãi suất hỗ trợ doanh nghiệp,cafebiz,2021,11
+S00042,6c676cc4a03ad7d67f9ec1cfb936ce89,negative,1,"chưa bỏ room tín dụng, lo nợ xấu",cafebiz,2024,11
+S01736,412b16522afe3433e6a85119571a7ea0,neutral,2,"miễn phí quỹ mở, tác động nhỏ",cafef,2026,11
+S01542,07a48729c22113c2290b39aeb0681fac,positive,2,"cổ đông lớn mới, cổ phiếu tăng trần 5 phiên",cafef,2026,11
+S03155,12e3c41960d7e3bd23960111631ca51b,negative,3,nợ thuế bị cưỡng chế tài khoản,vietnamnet,2021,11
+S03467,6fb4cfacd6668fa515a4459d86fbe794,positive,1,"giá xăng dầu giảm, thuận lợi vĩ mô",vnexpress,2024,11
+S03089,2802c1e1238d636d962f0571876d6b8d,positive,1,CapitaLand đạt nhiều giải thưởng,vnexpress,2023,11
+S02392,520643c336a3fb1aea2830f8ab80ef4e,negative,3,thanh tra kết luận ngân hàng sai phạm,vietnamnet,2023,11
+S02186,089f0152d58af6d7f2a5d1c3ae341680,positive,2,"Berkshire vốn hóa nghìn tỷ USD, cổ phiếu tăng",cafebiz,2024,11
+S02099,868fe5dd618d3f67bcaaa25d5dbcde16,positive,3,chính sách giãn nợ hỗ trợ doanh nghiệp,vnexpress,2023,11
+S00849,75740705d8ba6efe5493531403487950,positive,1,Nhựa Bình Minh thương hiệu hàng đầu,vietnamnet,2024,11
+S02366,f9e86ca88b99cddf41ab97528cbc85ae,negative,3,"chứng khoán Mỹ mất 6,6 nghìn tỷ USD",cafef,2025,11
+S02850,26f4278584b0508fdcb269bb220a7c66,neutral,2,"dự án sân bay Dubai, không liên quan",cafef,2024,11
+S02154,d5f28928e2546753513f22155394b75a,neutral,2,"đề xuất mô hình trung tâm, tác động không rõ",vnexpress,2023,11
+S00385,7b5c1a0d899818415e64fab823ae85ea,positive,2,"VN-Index tăng, kỳ vọng tiếp đà hồi phục",cafef,2025,11
+S00853,efcd8210c4fce6f0703f02e88728d11f,positive,2,"dự báo giá nhà đất tăng 10%, động lực mới",cafebiz,2021,11
+S01677,380d767f0e160ebd99d61dfcd7149364,negative,3,"doanh nghiệp thủy sản lãi giảm mạnh, thua lỗ",vietnamnet,2023,11
+S01383,c7cc9948b69d0bb5051a67bf3774d918,neutral,2,"giá căn hộ Hưng Yên tăng, không rõ tác động",cafebiz,2023,11
+S00592,72aab7f691d171e53f53ac337eac922b,neutral,2,"so sánh dự báo GDP, không rõ tác động",cafebiz,2020,11
+S01112,410e4bbd79da8e49b0963466cf783535,positive,1,Petrovietnam phát triển vượt bậc,vietnamnet,2022,11
+S02438,e78c18bcb8b4f8794c8bb98846b94d22,positive,3,"Vinhomes bàn giao nhiều, doanh thu tăng mạnh",cafebiz,2020,11
+S02582,7f81ab00b2c2be519f352452080a2001,positive,1,"VietABank nhận giải thưởng, tăng trưởng ổn định",vietnamnet,2021,11
+S01170,cb76ae9ec1caa028eee610deb4017011,positive,2,thị trường chứng khoán tăng trưởng ổn định,cafef,2026,11
+S01307,fc3e7dcaee71cdced918578ccf28cbbc,neutral,2,"tổng hợp sự kiện, tin hành chính",tnck,2026,11
+S00150,ed8c04dad08ca7d2119933bca3a85e0f,positive,2,Vinhomes Ocean Park bàn giao 10000 căn,vnexpress,2020,11
+S02077,0936c17dda12b78265a5f5a4a2c594e9,neutral,3,lời khuyên đầu tư chung,vnexpress,2021,11
+S00384,c08a5b1cbeab61145a377b9b4e07d27d,negative,3,"xi măng tiêu thụ giảm, nguy cơ phá sản",cafef,2024,11
+S02512,9419fd1a3042c2ae03c6e4d529f1dde6,neutral,1,"dự báo phân hóa, vừa tăng vừa giảm",cafef,2026,11
+S02677,b8d22536fd5f8c59812b4d41ab1bd58a,negative,3,AGM bị hủy niêm yết bắt buộc,cafef,2025,11
+S01906,f0fdb720850a09edf608de8d3cea267b,neutral,2,lời khuyên đầu tư thời kỳ bất định,cafebiz,2020,11
+S00963,060aaa51a7b5c4f19df11226318dba20,positive,1,Nam A Bank nhận giải thưởng,vnexpress,2020,11
+S00222,5ca7128a25839220f24ef052d26a7a3e,positive,1,Tổ công tác gỡ vướng bất động sản,vnexpress,2022,11
+S00489,5b91ad1af2b03e28430c46645fd41668,positive,1,Masan được vinh danh M&A tiêu biểu,vietnamnet,2020,11
+S01203,e59e479f2a0bd2531e98821549fbc411,neutral,1,"ngân hàng tăng lãi huy động, tác động không rõ",vietnamnet,2024,11
+S02754,0f8398ae1b3f76a23a14efd29a7052a1,neutral,2,"giá vàng tăng, không liên quan cổ phiếu",vietnamnet,2024,11
+S00790,7f20cc787be72b6dd98f15f345515bdf,positive,1,"làm việc với FTSE Russell, kỳ vọng nâng hạng",cafef,2026,11
+S02188,07223a05aa63b22dbd783ee47ba5e2da,positive,2,"doanh nghiệp địa ốc tuyển dụng mạnh, phục hồi",vnexpress,2022,11
+S01670,7e5682b1b5ce1ab50f231b30859122f7,neutral,3,so sánh lãi suất huy động,vietnamnet,2021,11
+S01850,398e8767b45948aa12130129e56ee542,neutral,2,mất cân đối nguồn cung nhà giá rẻ,cafebiz,2024,11
+S01019,3fb7c3ea503aeaeda69a9f2d3d489b22,negative,2,người nhà lãnh đạo DIG bị bán giải chấp,cafef,2026,11
+S01196,aef9b72b00083d9fbf355a3b0801bfa4,neutral,3,"công bố rổ chỉ số, thông tin kỹ thuật",cafef,2025,11
+S01480,b5b044b42b8a486e76833706cd9a338a,neutral,2,"khởi nghiệp Trung Quốc suy giảm, không liên quan",cafebiz,2024,11
+S00952,bc0094edf3e8d5f82af301bc2d2896bf,neutral,2,"ưu đãi dịch vụ trả lương, quảng bá",cafef,2022,11
+S01661,2b16fa1d000ece40dba66ed4663b7f93,neutral,1,doanh thu giảm nhưng lãi nhờ bán vốn,cafebiz,2021,11
+S00063,236ae190cccf1ee6ddb251e852c87438,negative,2,"EVN lỗ ngàn tỷ, giá thành tăng",vietnamnet,2021,11
+S01466,0acbb006ff7f0fa6b60a40d5d4baa43a,neutral,3,"bản tin giá vàng, dầu, USD",vietnamnet,2023,11
+S02699,c63af80d1a410583c99d841b5de96334,positive,2,Phó Thủ tướng chỉ đạo tháo gỡ dự án Novaland,cafebiz,2023,11
+S03198,43e112f539cc8d48eae52fcef07d527d,neutral,2,"dự báo tỷ giá, lãi suất tạo đáy",cafef,2024,11
+S01859,21b2bcdb92d69132dc7020fb0390d86f,positive,2,Tasco kế hoạch doanh thu lợi nhuận tăng mạnh,vnexpress,2023,11
+S00446,f4633debc4881e736fc044ab8e4648b0,negative,1,chỉ báo suy thoái cảnh báo kinh tế Mỹ,cafebiz,2024,11
+S02725,7b81421806f937fcc31b6a23eed2b5c0,neutral,1,"doanh nghiệp lãi nhưng thanh khoản giảm, VN-Index nhích",cafef,2025,11
+S01312,87b3c81c0b89814ab17cf471bf93d831,neutral,2,"yêu cầu lắp đèn đêm, hành chính",vnexpress,2021,11
+S03012,c21c7bf3e2a82d386f875a2708460987,neutral,3,"thuế YouTuber, không liên quan chứng khoán",vietnamnet,2020,11
+S02604,c7cb691866d7eb273f1912e3ca6207d6,positive,2,gói tín dụng ưu đãi lãi suất thấp,cafef,2023,11
+S00212,4b4c0a57cf6145678f54b95c05b04cf5,positive,2,"lạm phát Mỹ giảm, áp lực VND giảm",vietnamnet,2022,11
+S01849,8df1c5ea2793b618d28a49da7b1511ab,neutral,3,lời khuyên mua chung cư,cafebiz,2023,11
+S00974,b45231fb3bba19c9194d166609b22cc0,neutral,1,khó khăn nhưng nửa đầu năm vẫn tích cực,vietnamnet,2021,11
+S00573,383cafcbd0a8ddcfcd5724ed504f20b4,positive,1,"Bình Dương phát triển thần tốc, kỳ tích",cafebiz,2022,11
+S01738,10a9a1980c659fc82c89742b5709139a,neutral,2,"cảnh báo tiền ảo, không liên quan cổ phiếu",vnexpress,2021,11
+S02641,38ffe6b1f4d234c0b37fa8663a33afa3,negative,2,IPO Ant bị trì hoãn do điều tra,cafef,2020,12
+S00882,b23467f93c5185ce352c9477c2b5bddd,neutral,2,"Bài giới thiệu dịch vụ, không tác động rõ",cafef,2025,12
+S02243,95f240453e192db834ead76db17171f2,neutral,1,"Thị trường giảm nhưng khối ngoại mua ròng, cân bằng",cafef,2022,12
+S00633,874353ba2699f080cd84c4b75eb5ed09,negative,1,"Vàng giảm mạnh, Fed cứng rắn, USD tăng",vneconomy,2026,12
+S00246,d2befbe509708f8994c5d11e08ef7d77,positive,2,Dự án dược phẩm lớn vốn đầu tư Ấn Độ,cafebiz,2024,12
+S01602,01d668fced10349ffabe9c6144f4e4ff,neutral,3,Bài tư vấn tài chính cá nhân chung chung,cafef,2026,12
+S03442,1b3ea6a1d11a521bd6f990fb2b521e2d,negative,3,Cảnh báo chứng khoán Mỹ giảm thêm 10%,cafef,2022,12
+S02519,6ea5a8ac0532e07298a006a23e29cbfe,positive,2,"VN-Index tăng 2,23%, tháng 8 tăng điểm",cafef,2025,12
+S00219,190c8083d8f2128330bf66c8ebfecac6,positive,2,Dự báo giá chung cư tăng do cầu lớn,cafebiz,2023,12
+S00826,77540966fe0711d5892fd2b121097d21,neutral,1,Khối ngoại bán ròng nhưng tự doanh mua ròng bù,vietstock,2026,12
+S02885,844be388f077d028d4e797b6f722f93a,positive,2,"Cổ phiếu chứng khoán tăng mạnh, VN-Index vượt 1.500",cafef,2025,12
+S01373,41a9e04a895238860e465282802a491e,positive,1,Giá vàng tăng lên đỉnh cao,vietnamnet,2023,12
+S01171,02ad6c194c09f409bb49b51e14480be4,positive,3,"LNST quý 2 toàn thị trường tăng 33,6%",cafef,2025,12
+S02042,116223461c750262e2bd8fd0e6c70d6b,negative,3,"Chứng khoán Mỹ giảm, lợi suất cao nhất 19 năm",cafef,2026,12
+S00668,d027d4f919a84ab74b239010cb5b7cee,neutral,1,"Giảm vốn đầu tư dự án, quy mô giữ nguyên",vnexpress,2024,12
+S00806,a324a60cb13f7b47d64aae156188f0d8,negative,1,"Phát hành trái phiếu giảm mạnh, rủi ro mời chào",vietnamnet,2020,12
+S00341,c81f4d3dd11eef694d29c14b08208cdb,negative,3,"Âm vốn chủ, nguy cơ hủy niêm yết",cafef,2021,12
+S03296,66ad22a66ac0f949f85f4753365c3791,positive,3,"LNST quý I tăng 15,8%",cafef,2024,12
+S02491,5aee389e5eb71cff63985680f370cadf,negative,3,"VN-Index giảm 48 điểm, khối ngoại bán ròng",cafef,2026,12
+S01916,ebd4dad1f5e37d6f84574d78e9b5e4f5,neutral,2,"Giải thưởng doanh nghiệp Malaysia, không liên quan cổ phiếu VN",vnexpress,2023,12
+S01029,152c6e8d697ba69e7a70ed9b52e622df,positive,3,"CTCK khuyến nghị mua MSN, giá mục tiêu cao hơn",vnexpress,2021,12
+S03026,f0ee438989838e52c1224d8dfcf58021,neutral,3,Điều động nhân sự hành chính,vietnamnet,2022,12
+S02658,c4409941857235ebd87ef0f85e566518,positive,2,"Quan hệ thương mại Nhật Việt nâng cấp, tiềm năng đầu tư",cafebiz,2023,12
+S02673,5baa5b88afd86589051091fc0b8401b3,neutral,2,"Quy hoạch đô thị, tác động không rõ",cafebiz,2023,12
+S02584,ef3c98b7d326d9dfaa3def3fb361ee66,neutral,2,"Giá dầu thế giới tăng, tác động không rõ",vnexpress,2023,12
+S00979,ac76394604794481eddb82a3a66468f2,positive,3,"Trả cổ tức tiền mặt 44%, lịch sử đều đặn",cafef,2026,12
+S00593,3f855302d5221b2679c2dc50af76ef7e,negative,2,Bị xử phạt chậm công bố thông tin,tnck,2026,12
+S03064,2a4bee125845a9d60b8f74cbe7021d5f,neutral,3,"Đổi logo nhận diện, không tác động",cafef,2025,12
+S01842,64493279421034f7f409c235962bb52a,neutral,3,Bổ nhiệm nhân sự thuần hành chính,vnexpress,2026,12
+S01282,11f0357c7e3d51f829590072c647b890,negative,3,"Nhiều CTCK lãi quý 1 giảm, lỗ",cafef,2025,12
+S02331,43f958e096139c12b6442c00448e508d,negative,2,"Giá vàng giảm sâu, bán tháo",vietnamnet,2020,12
+S02591,cd763c3f3e4ba39b6c1544219f66d7da,neutral,2,Giá xăng dầu biến động nhẹ hai chiều,vietnamnet,2024,12
+S02998,ed6e8888382f93d7239e5baaf3617c43,positive,3,CTCK báo lãi quý 2 tăng mạnh,cafef,2026,12
+S00571,31c079921c6940a6e81bd8b93b0aefd8,negative,2,Fed tăng lãi suất mạnh nhất 22 năm,cafebiz,2022,12
+S01649,9d4e2e7ca85165fe05ae734b2921c280,neutral,2,Bài quảng bá dịch vụ tổng đài,cafef,2021,12
+S01385,f6ce3310af1430cc877bebf0cc56b6a5,neutral,2,"Ra mắt sản phẩm số, tác động không rõ",vnexpress,2020,12
+S00765,df0734a7c03e079d8a726ce077b13c6a,neutral,2,Bài hướng dẫn chọn cổ phiếu BĐS,cafebiz,2021,12
+S02121,cd022b2530e0501b58124142473533d6,neutral,2,"Nvidia thay đổi CEO, tác động không rõ",tnck,2026,12
+S02340,3fdb2b14ed1a7445c07bb9a47904f7eb,negative,2,"Quỹ ngoại bán hết cổ phần PNJ, đóng quỹ",vietstock,2026,12
+S00535,6a9235dbd6b3f1f345ba9b0dec581d44,neutral,1,Dự báo vàng tăng nhưng phân tích thận trọng,vnexpress,2022,12
+S02426,99cb4634c5576b43f87f2ea6fe84f0f9,negative,2,"Doanh nghiệp thiếu vốn, ba kênh vốn bị tắc",vnexpress,2022,12
+S02292,33d01fecccb4aa749355dcd0a7de8d27,negative,3,"Vàng giảm mạnh, cổ phiếu AI bị bán tháo",vneconomy,2026,12
+S00523,b54bc3d5a99e0c8b9f3d2e17300e6de4,positive,2,Vingroup khởi công siêu dự án lớn,cafebiz,2024,12
+S00898,25c67ef3de3ae6f7b7b4e03778d424e6,negative,2,Người nhà lãnh đạo đăng ký thoái sạch vốn ITA,vnexpress,2021,12
+S02668,cc59733fcc96667c01dfd277c3802566,neutral,2,Kiểm tra định kỳ điểm bán xăng dầu,vietnamnet,2023,12
+S00417,118d2db4b0c15a249c93c558866048a9,neutral,3,"Khảo sát ứng dụng AI, không liên quan cổ phiếu",tnck,2026,12
+S02926,0fb2e905e8bab47fe8b6322f080c1b95,positive,2,"Tín dụng chứng khoán tăng, không gây rủi ro hệ thống",cafef,2025,12
+S02252,800f8b7b6fb66aabb56cdf902a399bc2,neutral,3,"Xếp hạng nơi làm việc, không tác động",vnexpress,2022,12
+S02865,889f9ed3cd70b528483da5e1c46e7243,positive,3,"Mục tiêu lãi kỷ lục, cổ tức 20% cổ phiếu",cafef,2026,12
+S03389,8c7f027d8070ace1b19edcc791701e9f,neutral,3,Câu chuyện cá nhân mua nhà,cafebiz,2022,12
+S00654,704232df23430f6fdc07b1e2792498b8,positive,2,"Ký RCEP, thị trường thương mại tự do lớn",cafebiz,2020,12
+S00125,16f7e95cb7779e9f9337e271d862a2c1,negative,3,"VN-Index giảm mạnh 23,7 điểm, áp lực bán",vneconomy,2026,12
+S01501,3d757eb75aeb2002aaf90aee806fdbf0,positive,3,"VN-Index tăng hơn 1%, dòng tiền mạnh",vnexpress,2020,12
+S00649,4af1a86415c24fd36fcee26b8577537a,neutral,2,"P/E thấp nhưng lãi suất tăng, chưa hẳn hấp dẫn",cafef,2022,12
+S02133,6610a9e1afc4a823935a67afa7d586a0,positive,3,"VN-Index tăng vọt 33 điểm, tâm lý cải thiện",cafef,2026,12
+S02223,3bf9babc78f68bcf75bfb479d1efdf13,neutral,1,Giá nhà tăng nhưng chi phí đất dự án cũng tăng,cafebiz,2024,12
+S00744,22d89c66ee4dbed311aa50cc38b095e7,positive,3,Lợi nhuận ngân hàng tăng trưởng ấn tượng,vietnamnet,2021,12
+S01853,fdf6556b24d443578dfd763a5019c2a9,negative,1,"Ngân hàng tăng lãi huy động, chi phí vốn tăng",vietnamnet,2024,12
+S02589,c73db74f3a79fadbd202f5f239c86174,positive,3,"VN-Index tăng 5,6%, quỹ mở sinh lời tốt",cafef,2026,12
+S00352,60027d09ae9bfea6c15add523d657de6,negative,3,"VN-Index mất gần 80 điểm, xung đột Trung Đông",cafef,2026,12
+S00015,ee8947e1338826d69aba043dabc36a6f,neutral,3,"Tin quân sự, không liên quan chứng khoán",vnexpress,2021,12
+S00066,c22da82a6169585bc9d32437a68bfbfd,negative,3,PVOil báo lỗ kỷ lục 373 tỷ,vnexpress,2022,12
+S02599,05b3bf1cab41820a36e9c820d44d7c5f,neutral,2,Bài gợi ý du lịch nghỉ dưỡng,vietnamnet,2021,12
+S01474,fc7d30d44aff2c156725098ef272af10,positive,1,Giá vàng SJC lập kỷ lục mới,vnexpress,2023,12
+S01710,803b691bbd4a12a95a4f3c01853cbe44,positive,3,"VN-Index tăng, CTCK lạc quan mục tiêu 1.150",cafef,2023,12
+S02951,c5fd3fd29a83d509b88376e088df28f3,positive,1,"NVL hồi phục tăng 3,93% sau giảm mạnh",cafef,2026,12
+S01443,fdd03553055e81d75b59e198542399d2,negative,3,"Bị thu hồi thuế, phạt 396 tỷ, cổ phiếu bị bán tháo",cafebiz,2020,12
+S02167,c7ff045a99952c56b782cc25a5f5770a,positive,2,VinSmart sản xuất điện thoại cho AT&T,cafef,2020,12
+S00600,ec19139cd9fa00c384761189d1714ad7,neutral,2,Doanh nghiệp tìm thị trường mới giữa sức mua yếu,vietnamnet,2023,12
+S02950,84364b1acf2a83cd7712615142d0f883,neutral,2,"Ủng hộ chống dịch, không tác động kinh doanh",vnexpress,2021,12
+S00172,20e1ac6fb48837d9d25896983dbc0881,negative,2,Nhiều doanh nghiệp lên kế hoạch lỗ lớn,cafef,2023,12
+S02613,687cb79e16e896a20917c9d536d27127,positive,2,HDBank vào top doanh nghiệp niêm yết xuất sắc,vnexpress,2020,12
+S01374,dfbe492578ca916f802f5b52397c06c3,positive,3,"Doanh thu PGV quý I tăng 23,85%",cafef,2022,12
+S00565,4300fd77bdbd7076112fab0e64b7407c,neutral,3,Xếp hạng tỷ phú Forbes,cafef,2025,12
+S02581,b68c87fbe3d64a54ba1e69c31e878a24,neutral,2,"Vinmec vào top thương hiệu, tác động nhẹ",cafef,2025,12
+S00315,e955129ca2e01adc547c18058297903e,positive,3,"VN-Index tăng 15,9 điểm, ngân hàng bứt phá",cafef,2025,12
+S01872,5bcbd289e8d6e0d5e2d8484d5f321c56,neutral,1,Thúc đẩy BĐS nhưng lo ngại sốt đất,cafebiz,2020,12
+S02742,cd6bf8759b9b101b021d53ca12377f91,positive,3,Doanh thu quý III tăng mạnh nhờ phân phối Apple,cafef,2020,12
+S00602,91c89457e5dce87b90d1870115cd911d,positive,1,Giá vàng thế giới tăng tuần mạnh nhất,vietnamnet,2021,12
+S02015,eea510952025624d75c1b875bc8114dd,negative,3,"Vietnam Airlines lỗ 3 năm, nguy cơ hủy niêm yết",vietnamnet,2023,12
+S01683,27b0d394de8120dc413b09cdb6211ec1,negative,2,"Định giá đất bất cập, dự án có nguy cơ tắc",cafebiz,2023,12
+S03367,7871e0246414e426b50401722266f89c,negative,3,"HBC lỗ lũy kế gần 3.000 tỷ, nợ cao",cafef,2023,12
+S02717,e9264d1f696bd87c110af102e04a918a,negative,2,"Thị trường căng thẳng, lợi tức trái phiếu và lạm phát",cafef,2021,12
+S02516,fb30e34ae5d42285a6fe23b071e607e0,neutral,2,"Xuất khẩu dầu Nga giảm, tác động không rõ",vnexpress,2023,12
+S00684,d270f29eb32693b19ea1fbced0337fe5,positive,3,Chứng khoán Việt Nam được FTSE nâng hạng,vietstock,2026,12
+S01361,72b0097a533281564c39f1de1e378f7b,neutral,3,Dự thảo nghị định hành chính về xếp hạng tín nhiệm,vneconomy,2026,12
+S03293,bcb8dfa0bfad4f26df2192c81344869b,positive,3,"VPBank lợi nhuận quán quân, thoái vốn thu lớn",vietnamnet,2022,12
+S01078,f24746513841f4c104d2ed6e9d875318,neutral,3,Bài bình luận về euro và USD,vietnamnet,2021,12
+S02802,e3569d035d84c47a0d11cc46e8b97774,positive,2,"BĐS Vân Đồn nhiều lợi thế, dư địa tăng giá",cafef,2022,12
+S03386,4683ac2530a40bbc700facae349d7c77,neutral,3,"Tin lừa đảo cá nhân, không liên quan thị trường",cafef,2025,12
+S01041,a1270a9806949fcf3ac741d01269d538,positive,2,VNDIRECT vào top doanh nghiệp nộp thuế lớn,cafef,2023,12
+S01625,3c8d892b5e03d50770b61989994f9757,neutral,1,"Giá nhà tăng, người mua khó tiếp cận",cafebiz,2022,12
+S03456,5e45e99cd90457dc69d50317945bd8f5,positive,2,"VN-Index tăng 1,83% dù khối ngoại bán ròng",cafef,2026,12
+S01888,4a897ecd85a0ee3cf0393ee0868181b1,neutral,2,"Triệt phá sàn lừa đảo, không liên quan doanh nghiệp niêm yết",cafef,2025,12
+S01843,46ee2837e6a26742cfdf4ecd8aebd6ef,negative,2,"Thị trường BĐS đìu hiu, giá giảm, thanh khoản thấp",cafebiz,2021,12
+S02273,37d5204f9cfe3acd3ee1747f4ade047f,positive,2,Dung Quất tăng công suất lên 109%,vnexpress,2022,12
+S03078,1b8ab507260cfb43406f01277be201fd,negative,1,Ngân hàng thanh lý tài sản đảm bảo hàng loạt,vietnamnet,2020,12
+S03383,2542736804c07ef43c5c1fcd774fffb0,positive,2,"Novaland doanh thu, lợi nhuận lớn, mở rộng quỹ đất",vietnamnet,2022,12
+S03256,fbb5f1ff2443a47490aa64b3503a29f0,neutral,2,"VN-Index giảm nhẹ, tự doanh mua ròng",cafef,2025,12
+S03243,cee4441e9c11259f647c537b09e64b29,neutral,2,Thay đổi nhân sự HĐQT SCB,vnexpress,2026,12
+S00658,4c7dc72228e8739a3545550db76f057d,negative,3,"KOS giảm sàn, mất hơn 5.000 tỷ vốn hóa",cafef,2026,13
+S02537,2fb33e5527f0a815fcfc71786e1c8cd9,neutral,2,Thông báo ngày giao dịch đầu tiên trên UPCoM,cafef,2026,13
+S00993,66203a06dce5cf8dbb1a3aaebfa5dec5,positive,2,Ký thỏa thuận hợp tác hàng tỷ EUR Việt-Pháp,cafef,2021,13
+S01341,255f4a834f397c9bea544e98a5fde3ef,negative,3,"Nvidia mất gần nửa vốn hóa, giảm liên tiếp",vneconomy,2026,13
+S02997,60f3d5cd6e80287b3c3352e6a1acd44f,neutral,2,"Phát hành trái phiếu thông thường, không rõ tác động",cafef,2025,13
+S01023,dcf0dbc6008613460c50b7ea00b539df,neutral,3,Bài tư vấn tài chính cá nhân chung chung,vnexpress,2021,13
+S01810,6a4a5843eb33de55d391d4c37c75aef9,neutral,2,"Giá vàng miếng hạ nhẹ, không tác động rõ",vnexpress,2024,13
+S03232,720966b57d6d38ab808d9fa39aab675c,negative,2,"Covid khiến doanh nghiệp cắt giảm lao động, ít hỗ trợ",cafebiz,2020,13
+S03035,88f66acfea525479a21f6aff94d9d1b1,neutral,1,"So sánh lạm phát nhiên liệu, Việt Nam tương đối thấp",cafebiz,2022,13
+S01469,b74a0e79ce99092f838550ce0ad0c1e3,negative,2,"Bán tháo cổ phiếu công nghệ, tài sản tỷ phú bốc hơi",cafef,2022,13
+S00119,23101192aa47d5ee0850f4cece797ced,positive,3,"GDP quý 2 vượt kỳ vọng, kinh tế phục hồi",cafebiz,2024,13
+S01774,f16e579cdb84d537f3979a1361da6bea,negative,3,"Chứng khoán Mỹ giảm mạnh, Nasdaq đáy 7 tháng",vneconomy,2026,13
+S02184,0788d4df78ea2b5d3e25c84f2122263a,neutral,2,"Đề xuất đầu tư trung tâm thương mại, chưa rõ tác động",vnexpress,2020,13
+S03160,dfab861c5f2a3094171ea9967f45c374,positive,2,Căn hộ giá cao vẫn bán tốt,cafebiz,2021,13
+S01210,7638d4c29df91f07f97c4ad7d60436d4,negative,3,Doanh thu VHC giảm mạnh tất cả thị trường,vietnamnet,2023,13
+S02168,afb1d16cd53bedc6d05a2b9fbe777228,positive,2,"SSH, KSF kịch trần liên tiếp, VN-Index tăng",cafef,2025,13
+S00811,cd50961c6e4dd8ea5c3384dbe0ef58b9,positive,2,Tỉnh đón 200.000 tỷ vốn đầu tư,cafebiz,2023,13
+S01001,01d0402208cc3c079bd94f0a5d3a13bd,negative,2,Đề xuất tăng thuế doanh nghiệp Mỹ lên 28%,vnexpress,2024,13
+S00837,829f4f0858d195128c6ee12a3dd71d54,positive,2,"VN-Index vượt đỉnh, tăng 60 điểm một tuần",cafef,2026,13
+S01825,e9b531904d93b822a59f7f6cfef1ff55,positive,2,"Đề xuất cấp sổ đỏ condotel, officetel tháo gỡ bất động sản",vnexpress,2022,13
+S00096,badc38193e8b3873e48fa10aa64a6573,neutral,3,Chuyện lạ không liên quan thị trường,vnexpress,2021,13
+S00572,256491fd25ae1c354976d9ac70500c79,positive,2,"Vietnam Airlines đạt chuẩn an toàn IATA, đăng cai hội nghị",vnexpress,2023,13
+S03165,c4f6efb533d153e193ae91b4e8bd8886,neutral,2,"Hội thảo chuyển đổi số ngành dược, không số liệu",cafef,2024,13
+S00050,d31a9254be9941f3667ba0349d5fc840,neutral,2,Giá vàng giảm nhẹ,vnexpress,2021,13
+S02158,93793ada1cd20b5017fdbe38055d610b,negative,3,"Kinh tế toàn cầu hỗn loạn, lạm phát, Fed tăng lãi suất",vnexpress,2022,13
+S01137,623a33bc65ed119b7e489dbfcefdf521,negative,2,77% doanh nghiệp bất động sản vi phạm tiêu chí đòn bẩy,cafebiz,2021,13
+S01524,6fd48187aa16b573e5b9085c9264d335,positive,3,"VHC cổ tức tiền cao nhất 8 năm, kế hoạch doanh thu kỷ lục",cafef,2026,13
+S01676,79a47e92a6a20a1cf9929cd9f03db421,neutral,3,"Bán bánh Trung thu qua app, không tác động",vietnamnet,2020,13
+S03185,d2a1979e18a22ca8c176b38164c7489c,positive,2,CEO TCBS lạc quan dư địa tăng chứng khoán 2026,cafef,2026,13
+S02935,c3539ce82b31052a94dce521526bb96e,neutral,2,"Thoái vốn bất thành, tác động không rõ",vietstock,2026,13
+S02735,d6018a2a43b7d333cb103acf0ac296e2,neutral,2,"Giá vàng tăng, không liên quan trực tiếp chứng khoán",vnexpress,2024,13
+S02500,47b5797402196143ac196b70e2a83d5d,neutral,2,"Bàn về bất cập thuế hàng nhỏ, chưa có chính sách",vnexpress,2024,13
+S02207,f1f6174e6b9ce4f47746f611203e973b,negative,3,"Nasdaq mất 5,28%, bán tháo dữ dội",vneconomy,2026,13
+S01971,f8021c86a17c52453f81a9192da1f9ec,positive,2,Xuất khẩu tháng 8 tăng nhờ điện thoại,cafebiz,2020,13
+S03332,0dbc076fbbcda53fcf4a175bd936fa2a,positive,3,Doanh nghiệp thủy sản báo lãi kỷ lục,vietnamnet,2023,13
+S01254,be86f7b2e5aa8a10a623d3f003f28069,positive,2,Chủ tịch APG đăng ký mua 2 triệu cổ phiếu,cafef,2022,13
+S01109,554ef6e23c4c955e4573de6847dfda0f,negative,3,"Đất nền ế ẩm, nhà đầu tư bán cắt lỗ",cafebiz,2022,13
+S01113,551145304c5a40ae37bc5f10c1acebe4,positive,2,Dự án đường dẫn sân bay Long Thành triển khai,cafebiz,2024,13
+S00717,a2cff761209485c62ed70b1bdd6d89d0,neutral,2,"Giá vàng trong nước tăng, không liên quan chứng khoán",vietnamnet,2022,13
+S02585,5b37a06bff1bb89ff62bd6bfeed88226,positive,3,"Chuyên gia dự báo VN-Index lên 1.800-1.900, nâng hạng gần",cafef,2025,13
+S01155,0cbf06e6dbff31a14ce5b59d96e4b1aa,neutral,1,"USD tự do biến động, ngân hàng ổn định",cafebiz,2022,13
+S03161,77766489bd680055abd69e726c03fae0,positive,2,"Khối ngoại mua ròng, VN-Index tăng tuần",cafef,2025,13
+S02135,941874371c59504f06516aec939b08e8,neutral,1,"Dự báo thị trường ô tô bùng nổ, chung chung",vietnamnet,2020,13
+S01517,e248645c3b19b1e3b74dd7fa4ecbca96,negative,3,"VN-Index giảm sâu, khối ngoại bán ròng đột biến",vneconomy,2026,13
+S02649,8d2298b5930b8410924b3cfb51dae4db,neutral,2,"Chuyện tỷ phú Hồng Kông, không liên quan thị trường Việt",cafebiz,2020,13
+S00083,18ea3c9fa7717dc41008a3a0b44b2a00,positive,1,Bài quảng bá dự án bất động sản đô thị đảo,vnexpress,2020,13
+S00033,be1429d1651eaf8b427b057eeaf98439,neutral,2,Doanh số cho vay cao nhưng tăng trưởng tín dụng thấp,cafef,2023,13
+S00115,b1887910dff51b6d5da49c423b231b01,positive,1,Ngân hàng giảm lãi suất cho vay mua nhà,vietnamnet,2024,13
+S00738,e0a42417944d0c2e4bda2c85e160cd33,negative,2,"HQC công bố thông tin chậm, vi phạm công bố",cafebiz,2023,13
+S00014,8253236cde6f819fa4899ae100b0def3,neutral,3,Chuyện cá nhân nước ngoài,vnexpress,2022,13
+S00543,d49ef4a43b6925ee58aa6f5a0a24819d,neutral,3,Bổ nhiệm nhân sự hành chính,vnexpress,2023,13
+S00426,70589759e90fd7b61b17edbe00af27f1,neutral,2,"Ứng dụng AI ngân hàng, không số liệu tác động",vietnamnet,2020,13
+S00469,c3287e706da8faba8903d12706ec567b,negative,3,"Bất động sản TP.HCM giảm tốc, trầm lắng",cafebiz,2022,13
+S00596,fa8c6b163f8afc9051c730147ee4875c,positive,2,Hậu Giang tăng trưởng kinh tế cao,cafebiz,2023,13
+S01015,a4cc697901fa4af32196d02e8485447f,neutral,2,"Đổi tên, tăng vốn, dự án; chưa rõ tác động",cafef,2026,13
+S00025,1bf14690295c99416cc50ec74c405a0a,neutral,3,Giá vàng tăng nhẹ,vnexpress,2021,13
+S00776,dd8a63fd9d78ac0e2e1868f90f335cb9,negative,2,VEFAC lỗ gộp hơn 44 tỷ dù doanh thu tăng,cafef,2026,13
+S01260,225384041c4bfbc16d630467d51d6a18,neutral,2,Dịch vụ mua trước trả sau mở rộng,vnexpress,2022,13
+S03267,a657bea5fc15d51d2da9d351adfbf311,neutral,2,"Nâng cấp dịch vụ thẻ, tác động nhỏ",vietnamnet,2023,13
+S03100,b1b57564bfc68c4cccf9915ad30e4387,negative,2,"Tín dụng thắt chặt, lo ngại đà phục hồi",vietnamnet,2022,13
+S00073,7dea56ff3550ce845471ad081ddeeb39,neutral,2,MB thoái vốn MBS sau chốt cổ tức,cafef,2025,13
+S02791,fa7fb440d84f2dd4923a574c8f10a9d2,negative,2,Kiểm toán nghi ngờ khả năng hoạt động liên tục,cafef,2025,13
+S00627,1a6c789dbcee311d27959eebdf65a57d,negative,1,Lãnh đạo VPBank đăng ký bán cổ phiếu,cafef,2020,13
+S01211,51f26ca5ddd96bf3e9968d092f713d4f,positive,2,Nhiều đại gia bất động sản đầu tư vào Bảo Lộc,cafebiz,2020,13
+S01396,24ce4f8cca587ac2e21188c07e9a0abe,positive,2,Mirae dự báo VN-Index lên 1.280-1.300,cafef,2025,13
+S03278,cdb106abc5087d895989634679b224fb,neutral,2,"Thị trường phân hóa, định giá ngân hàng thấp",cafef,2026,13
+S00273,b88255733b9e031937d240b0448a2681,positive,2,Sacombank và Bamboo Airways hợp tác toàn diện,cafef,2021,13
+S01166,57661bd76946211d0613912010bb8633,negative,1,"Thị trường biến động mạnh, có lúc xuống dưới 900",cafef,2022,13
+S01122,12eca78515b011d6fbc96af5c6e6a883,negative,2,Cảnh báo bong bóng AI vỡ gây suy thoái,vneconomy,2026,13
+S02247,793c154efe5355aa6348dde25d09a1d1,negative,3,"KHD ngừng sản xuất, thua lỗ",cafef,2023,13
+S00743,c541a603a484099721d3a65df0f224bf,neutral,3,Cuộc thi đầu tư của công ty chứng khoán,cafef,2026,13
+S01425,0325daaebbceb46dced6f28e7b757c8d,neutral,3,Thay Chủ tịch HĐQT thuần hành chính,cafef,2026,13
+S02205,5c1275579bd1b4c9fe457597d5e9b29f,neutral,1,"Chi phí thuê máy bay, thuế nhiên liệu bay",vietnamnet,2020,13
+S02361,c63b04a01f57fc41a28f0923c3f3944c,positive,2,"Quốc hội thông qua luật, chính sách bất động sản lành mạnh",tnck,2026,13
+S03093,a8f04f61fd07c38b75e0523f41f3ba0b,neutral,1,"VN-Index tăng, khối ngoại mua nhưng tự doanh bán",cafef,2026,13
+S01315,6faef76de4993809fdbfec1601674a95,neutral,1,M&A dự án nở rộ do khó khăn dòng tiền,cafebiz,2023,13
+S01576,7e5029cdffec3ba48e33eac24cb81724,positive,3,"Hòa Phát lãi kỷ lục, Techcombank tăng giá",vietnamnet,2020,13
+S00283,596b142db5cb588488293359f5b32315,positive,3,Masan huy động 400 triệu USD tiền mặt,vietnamnet,2021,13
+S02681,cf911b377165afc71a11efe17824c555,negative,3,"VN-Index mất 58 điểm, áp lực bán",cafef,2026,13
+S00117,0e7cfe2690c877d2b5bf7ad7b7c21d27,neutral,3,"Nhân sự, người đại diện pháp luật",cafef,2026,13
+S01202,5864aa6bdbb355bea0d9e90df61388ff,negative,2,Kiểm toán Nhà nước nêu tên ngân hàng tăng lãi suất,cafebiz,2023,13
+S01064,a7481dca53491336aafa0d25dc8acb34,positive,1,Thông tư eKYC mở tài khoản ngân hàng thuận tiện,vnexpress,2020,13
+S01423,a51bd9abcface24084fc42cea1e152ef,neutral,2,Thông báo ngày đăng ký quyền mua cổ phiếu quỹ,vietnamnet,2021,13
+S02746,fedb421597309b26b03c456fd6b54499,positive,2,Giảm thuế bảo vệ môi trường xăng dầu,cafebiz,2022,13
+S03017,c6770aee9fc43dd8e631a4e2b1fcecb4,negative,2,Lô hàng xuất khẩu nghi bị lừa đảo,vietnamnet,2023,13
+S01947,b257f485798cf1d4e1d937c85795749c,negative,1,Cảnh báo lừa đảo mạo danh ngân hàng,cafef,2024,13
+S02037,9396e15292b3418ec6f334147a8a4518,negative,2,"Cổ phiếu Adani bốc hơi 104 tỷ USD, nợ phình to",cafef,2023,13
+S01533,2929a7d61a232d1406f99fbaead60e11,positive,1,HSC phát hành tăng vốn đón thị trường sôi động,vietnamnet,2021,13
+S02793,bf4496ced2916bbdb142901821943cbc,neutral,2,Bảo hiểm tạm ứng bồi thường vụ cháy,vietnamnet,2020,13
+S00326,a693b6b905fee31bd91c469b07ee6529,negative,1,"VN-Index giảm tuần, khối ngoại bán ròng hơn 1.500 tỷ",cafef,2026,13
+S03339,ea7e64e57365d04879a3b76be888bc91,negative,3,VND bị bán mạnh về sàn,vnexpress,2023,13
+S01548,dde12d63c0be1f7b675307aca88f5399,positive,2,5 hồ sơ sàn tài sản mã hóa đạt yêu cầu,cafef,2026,13
+S00517,ac2c1f60c49a2a216e83e75c20f730c4,positive,2,Khánh thành nhà máy tôn Nam Kim 6.200 tỷ,vnexpress,2026,13
+S02353,72dee20ed15e6d76b884aa2ec6d4a366,negative,3,"Phố Wall giảm điểm, tuần đỏ lửa",vnexpress,2022,13
+S00339,6e0f83c3556f7c4537c3ded7c6050217,negative,2,"Mỹ nêu VND định giá thấp, nguy cơ gán nhãn thao túng",cafef,2020,13
+S03364,1ac330bcf529c901b87cf4c55cf91e2b,positive,2,NHNN dự kiến giữ nguyên lãi suất điều hành 2023,cafef,2023,13
+S01716,b76f017520f00870304c608a85a6459e,positive,2,"Dư nợ tín dụng bất động sản tăng, vốn bơm vào thị trường",cafebiz,2024,13
+S00884,c53f1385e4231606865f084ae64deda5,neutral,1,VN-Index tăng 6% nhưng khối ngoại bán ròng kỷ lục,cafef,2025,13
+S02446,471949633d4f49b9b26dc0a6e94d1fd9,positive,2,Nghị định mới kỳ vọng tháo nút thắt bất động sản,cafebiz,2020,13
+S02302,a19efaf6b8afe7991ab052ccdd434c8b,positive,1,"VIC tăng trần, dù thị trường bị bán cuối phiên",cafef,2025,13
+S03042,4921e43f298c66818c231c1dcfaa8cd6,neutral,2,"đổi nhận diện thương hiệu, không số liệu",cafef,2023,14
+S00379,cf8041817c9da302eb93dda284e1538e,positive,3,cổ phiếu khoáng sản tăng trần hàng loạt,cafef,2025,14
+S01802,92cbbc2066f74e4cac41016c85d870a7,neutral,3,"hướng dẫn thuế TNCN, không liên quan thị trường",cafebiz,2022,14
+S02321,0ab4dd885096e51531214f62a3fc64f2,neutral,2,"VN-Index giảm nhẹ, ngoại bán, tự doanh mua cân bằng",cafef,2026,14
+S03095,df61cda3bc1ca02257e415010b25e762,positive,2,"xuất khẩu tôm tăng mạnh, nhu cầu lớn",cafebiz,2024,14
+S00218,7a67bf6c15d5e61aaf044fb8a128fe48,positive,2,"BĐS Khánh Hòa khởi sắc, vượt khó",vnexpress,2024,14
+S01667,fd6b4c6eceefa0820af6749168e2b7a2,neutral,2,nhận định chung về chuyển đổi số,cafebiz,2020,14
+S03385,9ffe29e22cbdd8a580d8489f57cb0814,positive,3,"VN-Index bật tăng, ngân hàng chứng khoán tăng trần",cafef,2025,14
+S01427,50a4e1fa6bbb04e21966e85fb85e451f,positive,3,"Vinamilk tăng hạng, doanh thu lớn",vnexpress,2021,14
+S01740,62399f8a55bb744e78000134471e4999,negative,2,IMF cảnh báo lãi suất cao kéo dài,vnexpress,2024,14
+S02653,a2fa7a7f649bb611bbc21989efea5810,negative,2,"giao dịch BĐS khó khăn, chênh lệch kỳ vọng",cafebiz,2023,14
+S00174,982f121f29ee6ffd096413f3dc9ad9f4,positive,2,VCB đạt vốn hóa lớn nhất thị trường,vietnamnet,2020,14
+S00394,687327535a117156659cfb090ec22d6c,negative,2,"chủ tịch bán cổ phiếu, giá thấp nhất 7 năm",vietstock,2026,14
+S00914,3e82a20eec9575f2530f35326976969d,neutral,2,quỹ rót vốn vào công ty chưa niêm yết,vnexpress,2021,14
+S00166,fb3ec3301348a4be7ee4cc43dd25a03a,neutral,1,thủ tục điều kiện công ty đại chúng,cafef,2026,14
+S01048,69deef764061988177f49a621fdb0876,negative,3,nguy cơ mắc kẹt trái phiếu nghìn tỷ,cafef,2024,14
+S02771,a724ff3842420ebcff657ab3930c9c4f,negative,2,"Novaland báo lãi giảm, chi phí tăng vọt",cafebiz,2022,14
+S01879,ca5eeea47f14e321da54e0293cedaba1,neutral,3,giới thiệu tiện ích căn hộ,vnexpress,2022,14
+S01700,80a7bf811fbcfd88860e122d458a4ffb,negative,2,"giá dầu tăng mạnh, rủi ro vĩ mô",cafebiz,2022,14
+S01952,ea7add50b3e049e3d3387283f1509adb,neutral,2,"luật mới có hiệu lực, thị trường chưa đột biến",cafebiz,2024,14
+S00869,dfdefd3d91c7dc5f1381baf66eacb28e,neutral,2,"xếp hạng kinh tế các nước, không rõ tác động",vnexpress,2023,14
+S01811,db20875b9c489f472296701b916c8214,neutral,3,bàn về tiền kỹ thuật số,cafef,2020,14
+S01720,cbd1d550e4d14f89203a78ab86cbfab2,negative,2,"đầu cơ F0, chứng khoán giảm sâu, nghẽn lệnh",cafebiz,2021,14
+S02823,682e55cf9d6719ede69a3ca8ef0187ad,neutral,2,chương trình kết nối thuê căn hộ,vnexpress,2021,14
+S02066,28befee6f5ce07cd27d1b6f61285d487,neutral,1,"NHNN hút ròng thanh khoản, tác động không rõ",cafebiz,2024,14
+S02478,121b4d942489c2faa8ee088aadff3c69,neutral,2,"tin cổ phiếu Mỹ, không liên quan trực tiếp",cafebiz,2024,14
+S02390,231a6dbc325c95c1c1e52b815aa2051e,neutral,2,ngân hàng khẳng định chưa cấp tín dụng,cafef,2022,14
+S02028,3cb8a469b53fa6e85312d9ee6db90f27,neutral,2,sự cố giá cục bộ trên một sàn,vnexpress,2026,14
+S00183,3e9c5e10771eede3d260888cf4961136,positive,2,đề xuất giảm thuế môi trường xăng,cafebiz,2022,14
+S02833,14dab9696f3f1f200c35b09c98774ba6,neutral,2,họp bất thường thay nhân sự,cafef,2026,14
+S01052,edb47e3532d1736f15b8bc2e11575674,positive,1,cổ phiếu Evergrande NEV tăng vọt,vnexpress,2021,14
+S01741,2bf66af6a377b1af45e422816cb31c2d,positive,2,ngân hàng giảm lãi vay hỗ trợ SME,cafef,2023,14
+S00400,63bc445f3765a61fcb25f6fd3b2a49d6,neutral,3,tin xuất khẩu của Nga,cafef,2020,14
+S02800,892881c48179b8b706e9283a24b109e6,neutral,2,"VN-Index tăng nhưng ngoại bán, tự doanh bán ACB",cafef,2026,14
+S03426,03dbaee2532970998cca34611769fcd4,negative,3,chủ đầu tư chậm trả lãi trái phiếu,tnck,2026,14
+S00623,39c40dc6c30c20f1c25e47e7c108d1ff,neutral,3,giá vàng ít biến động,vietnamnet,2020,14
+S01803,a383771fc02634ad83fe3fcfe38435e1,neutral,3,thống kê nhập khẩu từ Trung Quốc,cafebiz,2023,14
+S03265,a72ad5f6f100b0f42c03e933813245d8,neutral,2,Nga dỡ cấm xuất khẩu xăng,vnexpress,2023,14
+S01025,53dc893fc875e3b6e74164b2135f0f35,neutral,2,"môi giới giả mạo, ảnh hưởng nhỏ",cafebiz,2021,14
+S03041,e130d1ff17961d1336e1e0eda8b60776,neutral,1,"mô hình mua chung BĐS, nhận định mơ hồ",cafebiz,2020,14
+S03318,0647b2877afd7595bd58510cd25190ac,neutral,3,quảng bá thương hiệu đồng hồ,cafef,2022,14
+S02008,7a3a2a4669c1fdc86c0885bb0f280976,negative,2,"quý 1 yếu nhất 3 năm, thị trường điều chỉnh",cafef,2025,14
+S00752,6bbef11ed77782cc4fcd8cbcaa6afc7c,positive,1,kế hoạch niêm yết cổ phiếu ngân hàng,cafef,2024,14
+S01157,16190d54b8e63e5e54b27b21fdf7f731,neutral,2,"giá xăng dầu biến động, tác động không rõ",vietnamnet,2024,14
+S00555,c44c6b2f4e51f4f966da9349ede9bb63,negative,3,"VN-Index giảm, tự doanh bán ròng, mã giảm gấp 3",cafef,2023,14
+S01380,8bd29b7fa6b7e31be4ed0c0da4ad0e23,negative,2,"dự án đô thị chậm trễ, hoang vắng",cafebiz,2023,14
+S00560,4079ddc0b19f37fee060242ecaadd501,positive,2,"VN-Index hồi phục, xu hướng tăng bảo toàn",cafef,2025,14
+S00342,5b4aa4a90fd9f7c8e26f9394fb047f03,negative,3,"ngoại bán ròng đột biến, VN-Index giảm mạnh",cafef,2026,14
+S01729,a6d6f6f3fc75de6aae30db113514483f,negative,3,HBC đối mặt hủy niêm yết bắt buộc,vnexpress,2024,14
+S01616,404bbe83763c14395464e8de0e01e7d2,neutral,3,đề xuất sửa luật BHYT,cafef,2024,14
+S02640,e5554533fe0758dd9f72d08659e707ce,neutral,2,giải thích về REIT,cafebiz,2022,14
+S02813,282f0d4dbfde515a2350af672a6f55e4,positive,2,ABS tăng vốn thành công lên 3.000 tỷ,cafef,2026,14
+S03192,7929a6e7cc96b60e95dcd72ab15bc3bc,neutral,3,thông báo nghỉ giao dịch,tnck,2026,14
+S00513,c7667c277a09963b83eb86f4b5551c3c,neutral,2,câu chuyện cá nhân vay mua nhà,vietnamnet,2021,14
+S02435,63e0ab2a2453ee6d4a90e97ff2fb094e,neutral,3,giới thiệu tuyển dụng tập đoàn,vietnamnet,2021,14
+S03087,a568a1abe7407f12dd0c05a6dce7df71,positive,2,"nhiều doanh nghiệp chia cổ tức, thưởng",cafef,2020,14
+S00466,7bfc73d2a77ef74a38dda9f212970620,positive,3,"VIC tăng trần, tăng 40% một tháng",cafef,2025,14
+S01887,04d74471117fd56ab3ded90553f13ea8,negative,2,bị xử phạt vi phạm công bố thông tin,vietstock,2026,14
+S02267,d8d4070688d20e01654fbaf9285c4f78,negative,2,cảnh báo sụp đổ đầu tư mạo hiểm,cafef,2022,14
+S00624,2896e32ac5f2f67c7d79603941e7cf26,negative,2,rủi ro dịch bệnh chiến sự đe dọa phục hồi,cafebiz,2022,14
+S00301,5797f6858809d94f11435ce26801bf35,neutral,2,"giá vé hạ nhiệt, tác động không rõ",vietnamnet,2022,14
+S01283,bcf6be4810cb8bdbb1da76db6a7abb27,positive,2,"kế hoạch lợi nhuận tăng 7,7%, đầu tư mở rộng",cafef,2021,14
+S02102,d5fca95590fda82d619cac0356b93e37,neutral,3,định hướng phát triển địa phương,vietnamnet,2022,14
+S01958,e61e8dc0ab2b01a077a60b5e49ffce3f,neutral,3,tin đám cưới,vietnamnet,2020,14
+S01669,c08f866f4da55ce298d18328ebe86ddd,neutral,3,giới thiệu hệ sinh thái tập đoàn,cafebiz,2020,14
+S00804,353ddb3ba9ec8ef1aa39e5dee6935d54,neutral,3,"kim chi Trung Quốc, không liên quan",cafebiz,2024,14
+S01194,da0a312366b93ba38e9e8bc4f3a9847a,negative,3,lợi nhuận giảm một nửa sau kiểm toán,vnexpress,2024,14
+S01592,13ac4e2a036df51f4522efb20f1f939e,positive,2,vốn hóa chứng khoán Trung Quốc tăng mạnh,vnexpress,2020,14
+S01306,1ee08d6663748254d7800314658ec3c6,neutral,3,tài sản cá nhân chủ ngân hàng,vietnamnet,2021,14
+S00712,2714bd9ea0320c691e46469ccc5a95ae,neutral,3,giá vàng nhẫn biến động,vietnamnet,2023,14
+S00359,cae51479e66fc359d631370e3f30818a,neutral,3,"đề xuất dự án khó tin, không tác động rõ",cafef,2025,14
+S00694,deb7976278a3e6a8e50b0888478aa295,negative,2,"dự án bị tạm ngừng, nguy cơ trượt",cafebiz,2022,14
+S03428,11ca4b1051c1ac641bb9ad94b5adc5fb,neutral,2,bài nhận định chung về AI,cafef,2026,14
+S02670,d29fc862e37e182b715f66c75d8808f2,negative,2,dự án vườn không nhà trống,cafebiz,2021,14
+S00797,de5397a665631847cb03637a071ab3b8,neutral,2,lý do chọn địa điểm nhà máy,cafebiz,2022,14
+S02980,d04748a786ed51b4a2232884b7d05d0a,negative,2,"số liệu bất ổn, lợi nhuận giảm, tài chính xấu",vietnamnet,2020,14
+S01000,8ff2ea9b863020dbe9727c038a8e528a,negative,2,lo ngại suy thoái kinh tế toàn cầu,vietnamnet,2023,14
+S03430,1bd60d46a87111a37a044b9ee5dbb9ba,negative,2,"L61 vốn chủ âm, lỗ lũy kế lớn",vietstock,2026,14
+S00428,90b582e3006b0549bd253ab65283e354,neutral,2,phát biểu chung về thị trường 30 năm,cafef,2026,14
+S00643,0366c7b1e1e7a4bc694ca6c08c927a4e,positive,3,"lợi nhuận thị trường tăng 46%, ngân hàng tăng 24%",cafef,2026,14
+S01014,34f89352b32f67774fa580e7d3e684e8,neutral,3,so sánh giá xăng các nước,cafef,2022,14
+S00401,1e62573a7a8c21726cbc211c011a056a,positive,2,"giá phân bón tăng, doanh nghiệp lãi lớn",cafef,2022,14
+S00736,88546dc91e1a0c7c16775be84e49e47a,negative,1,chủ tịch đăng ký bán gần hết cổ phần,cafef,2025,14
+S02784,4c67318792bcbb2a9bb66a3453ba2607,positive,2,Hòa Phát ký hợp đồng 1.000 container,cafef,2025,14
+S03134,9e7a2607847fe7f0e0d20054a51dc0a2,negative,3,"VN-Index giảm mạnh lịch sử, mất 26 tỷ USD",vietnamnet,2021,14
+S02574,68b70d839fe7e8055fce9d0df20d5a7f,positive,2,"VN-Index chốt tuần tăng, nhiều mã xanh",cafef,2020,14
+S00041,5cac6e1a19764789907b803512582128,neutral,3,"phụ cấp công chức, không liên quan",cafef,2024,14
+S00827,a3533169358bbdab5a82d0f1d9051992,positive,2,ngân hàng giảm mạnh lãi suất cho vay,cafef,2023,14
+S00646,cfa73d55a377c253e73ceb88dec18c1a,neutral,2,"chuyển nhượng công ty con, tác động không rõ",cafef,2021,14
+S00127,a59ba24760ad29c1e048677763c60f7e,negative,2,khối ngoại bán ròng mạnh,vnexpress,2024,14
+S03195,a8481eeb888449ca1fc5e5b78963ad7b,neutral,3,phát biểu quân sự Trung Quốc,vnexpress,2021,14
+S01728,fad90e8c52f469403182cd602a6bacb5,neutral,2,lỗi bảng giá nhưng thanh khoản kỷ lục,cafef,2020,14
+S03422,7b229874cb34504bc979d7955f5f5944,negative,2,chính sách bán hàng đẩy nợ cho người mua,cafef,2020,14
+S01865,f376f4c9c4bfaaa4ab9767809e7c330a,negative,3,"BĐS nguy cơ suy thoái, thanh khoản giảm sâu",vnexpress,2022,14
+S02651,e0d41849b5a94c1004e64af92348afaf,neutral,2,kế hoạch lãi cao nhưng quý I lỗ,cafef,2026,14
+S01808,2717e6e1db98c1e604f606141d9b05cb,positive,1,GDP bình quân tăng bậc,cafebiz,2023,14
+S00310,edb6efb7f9982b64c96b6145a215ef3f,neutral,2,"phục hồi nhưng đối mặt thách thức, cân bằng",cafef,2022,14
+S03415,a30b3146a47f8a42ccb49059b7037be1,positive,3,DVP chia cổ tức tiền mặt 30%,cafef,2026,14
+S01190,f03e050a8ab1a5331d90d3b4f8347700,neutral,3,"bổ nhiệm nhân sự, hành chính",cafef,2026,14
+S00095,3aca00feb64aa2f2092ff2710b32f1c6,neutral,2,"giới thiệu khu đô thị, mang tính quảng bá",vnexpress,2024,14
+S03347,2642a34f3e67dd5ddc1f6e31ac517652,positive,2,nghị định giúp trái phiếu bớt áp lực,vnexpress,2023,15
+S02496,2da21e56404a98ff22a8d2a039cbfdcd,neutral,3,"vụ cướp ngân hàng, không tác động thị trường",cafef,2020,15
+S00277,1b86da2c9b66b51a006d35df0eaf0f98,positive,2,Foxconn đầu tư 270 triệu USD vào Việt Nam,cafebiz,2021,15
+S01791,1ab8c39653c79d55778ef889f5961c0a,negative,2,"bên bán áp đảo, chứng quyền giảm giá",vietstock,2026,15
+S00201,10c401f924463fad5b3474ee95865e3c,positive,2,"lãi suất huy động giảm, tiền dễ chảy vào chứng khoán",vietnamnet,2020,15
+S00755,3880635647a86b079c9f0cc6d354b44b,negative,2,"hủy trái phiếu Tân Hoàng Minh, siết kiểm soát",cafebiz,2022,15
+S02018,0eb57a8bdf133a18ca8d1f1af7c10c80,neutral,3,"sự kiện blockchain, tặng token",vnexpress,2022,15
+S00358,83e5a9cbdc40ee786317e43828da6cbe,negative,3,TPS bị UBCK xử phạt vi phạm công bố thông tin,cafebiz,2022,15
+S01957,bf4cc2100377c55a4fbf0bf720177be4,negative,2,"Bitcoin lao dốc, thanh lý phái sinh",vnexpress,2026,15
+S02883,428e8f57a624c147583e2cdf1dda50fc,neutral,1,"giá chung cư tăng, tác động hai chiều",vnexpress,2024,15
+S00665,ae122543b98e5eead55c4b6f4d14fe9c,neutral,3,sự kiện hội thảo đầu tư,vneconomy,2026,15
+S00493,8d8a27616eb1ea517392040ca6a93ec2,neutral,2,"từ nhiệm thành viên HĐQT độc lập, hành chính",cafef,2026,15
+S01818,b7bc938adc83b1f6c1e9951c90bdfbed,neutral,1,ý kiến chuyên gia về giải pháp vốn BĐS,cafef,2023,15
+S03297,74943a76ea0ff0ef8ade6f96ffe23fbc,positive,2,con chủ tịch mua 25 triệu cổ phiếu HAG,cafef,2025,15
+S02912,8828e954ee94c10206013204b9df175f,positive,2,tái khởi công dự án cảng 14.000 tỷ,vietnamnet,2024,15
+S01003,15bf6be3a62c729c021d755ce1ef73ea,positive,3,"BSI tăng trần, kế hoạch lãi kỷ lục",cafef,2026,15
+S03412,618610386e25001b967e3d242e35526d,neutral,2,"phát hành ESOP nhỏ, 0,5% cổ phần",cafef,2025,15
+S01529,89a36ae282a739b9dad5a1a02e01c12b,neutral,2,"hãng dầu Mỹ phản hồi, không rõ tác động",vnexpress,2022,15
+S02483,ce7af13506c6d621d84edf39ffd38a9a,positive,2,"VN-Index tăng 1%, tự doanh mua ròng mạnh",cafef,2026,15
+S01483,27bce9fd217e5d4a3b51f5685a13ad44,positive,2,BĐS Bình Dương sôi động cung cầu,cafef,2021,15
+S00208,2a02f0f436475ebaa785da7da632792c,positive,2,"VN-Index phục hồi cao nhất từ 2022, quỹ có lãi",cafef,2025,15
+S01642,5dbcef4362b2c775198060dde5ca502e,positive,3,"dòng tiền đổ vào cổ phiếu chứng khoán, tăng giá",vnexpress,2023,15
+S02616,fc935c67d763e9e7fd6c1a8baed60ffa,neutral,2,VIX trở thành cổ đông trên 1% VPB,cafef,2026,15
+S02204,872c47bd4389334ebee1030808c1aef3,neutral,1,"quy định thuế hàng TMĐT, tác động không rõ",vnexpress,2026,15
+S02248,7449695d396a8ffdaeaca6828bcd64ac,neutral,2,"bài thương hiệu VPBank, mang tính PR",cafef,2022,15
+S01077,680212b8d06df5baee18678b734bc448,negative,2,cổ đông lớn đăng ký bán sạch BSG,cafef,2025,15
+S03016,dce07db69f18918166a2ad1ad5dc7cc4,positive,2,hợp tác công nghệ pin của Masan High-Tech,vietnamnet,2022,15
+S00107,bd253d1f421c727d654fecbf850f9209,neutral,2,giá vàng ít biến động,vnexpress,2021,15
+S03246,105b0490185f4f263911851955b50d30,neutral,1,danh mục dự án nhà ở công nhân của tỉnh,cafef,2024,15
+S00741,417e7f5ee5e8a15c6ddb75f582520184,positive,2,"nhiều nhà đầu tư tranh mua, cổ tức 9%",cafebiz,2020,15
+S01339,b563dc67d7277cee4d6c0354e1626527,neutral,3,chia sẻ về AI trong đầu tư,vnexpress,2026,15
+S03306,8c1163e3b264c0215989828f9cb6ad98,negative,2,OCH bị cảnh báo do lợi nhuận chưa phân phối âm,cafef,2026,15
+S00844,c3620cb23ddcae670b295757ef101ed9,positive,3,"siêu dự án sân bay, doanh nghiệp hưởng lợi",cafef,2026,15
+S03362,483ac7bc80f0ae124d34f379a88cdd72,positive,3,"nâng hạng, VN-Index lập đỉnh, tổ chức lạc quan",cafef,2025,15
+S02217,5d2f0b399b5f55cec3146e967fcbb5cd,neutral,2,"BRICS phi đô la hóa, không liên quan trực tiếp",cafebiz,2024,15
+S02940,f0b4d8ad5a94dcfaf1422fcc01e1bd05,neutral,1,Keppel lãi kỷ lục nhưng bán nhà Việt Nam bằng 0,cafebiz,2024,15
+S01475,7ebd433b40a5bee2e40fdec18dcc81c4,neutral,3,bài quan điểm AI trong ngân hàng,tnck,2026,15
+S02439,a7a6eb9f60631f97fdc815cd28e64995,neutral,2,"cảnh báo lừa đảo, quy định định danh",cafef,2026,15
+S00859,b99796dd290503e538b8e4f5bf2367f4,positive,2,giảm 30% thuế TNDN hỗ trợ doanh nghiệp,cafebiz,2020,15
+S00006,e82874787f1b70b615bb40b7da7414fc,neutral,2,"Bộ trưởng giải thích chính sách thuế, ý kiến trái chiều",vnexpress,2020,15
+S01299,fbf69953c3bc6df0e45efd2560dc066a,neutral,1,một ngân hàng tăng lãi huy động nhẹ,vietnamnet,2024,15
+S03455,9a57fc6a093598a1b402e73afbb8e965,neutral,2,"nhìn lại 10 năm, hỗn hợp",cafef,2020,15
+S03244,e39f47a5cf5e5a653d1e4a5ac8cacf38,neutral,2,"tăng vốn công ty tư nhân, không rõ tác động",cafef,2026,15
+S01744,b5a90ec79043ddc0df59e1a577839ce9,neutral,1,giá xăng giảm nhẹ,vnexpress,2024,15
+S00550,273293a804fbc800a3addbddfe8deff6,neutral,1,"kế hoạch đầu tư công tăng, áp lực giải ngân",vnexpress,2022,15
+S01386,8528c5ccbb347f03df985ae24f138461,negative,2,"cổ phiếu AI giảm mạnh, lo bong bóng",vneconomy,2026,15
+S01133,2cb8f0fef14f83d81ce8462b9d2f64d5,positive,3,"MWG doanh thu tăng 14%, Bách Hóa Xanh tăng 47%",vnexpress,2024,15
+S01459,3bfa8ff16a616f47dfdd6fa82f64a04e,neutral,2,tin hành chính bảo hiểm xã hội,cafebiz,2024,15
+S02011,cb4aeeb6ce291c0e98fb01c2893b5d49,positive,2,OGC tăng mạnh ngược thị trường,vietnamnet,2022,15
+S03445,e3959a40f9cb20727d5b9051e4d45687,positive,2,tổ chức ngoại mua 25% STG gần 1.300 tỷ,cafef,2023,15
+S02948,cec749fb6c3d3ade40152c3c3d133140,negative,2,"lãi suất huy động tăng, nhiều ngân hàng trên 6%",vietnamnet,2024,15
+S03069,3d8916fe3750ff56839c6da330dd1634,neutral,2,Bộ Công Thương giải thích nguồn cung xăng dầu,cafebiz,2022,15
+S01468,03adfdfb1a30a7692a6f67a2651b5877,negative,3,lãnh đạo DIC bị call margin giải chấp cổ phiếu,cafef,2026,15
+S00158,3bcb3fa6fb5d58241c9f7d27f4aa9c4e,neutral,2,TCBS chào bán trái phiếu thông thường,cafef,2026,15
+S01579,687b223928cca01a449c4aa1d6457a48,neutral,2,giá vàng giảm sau đấu thầu,vietnamnet,2024,15
+S02397,73abdc01b7528e65617f361d2f02afec,neutral,1,"doanh nghiệp xăng dầu khó khăn nguồn hàng, giá giảm",vietnamnet,2022,15
+S00471,4623c6d9f0dba69d55bd82324b147075,neutral,2,"FLC mới đề xuất, chưa có kết quả",cafebiz,2022,15
+S00209,d0b726ddb7b1eebd5d9003096b783899,neutral,3,"tín dụng đen, không liên quan chứng khoán",vietnamnet,2022,15
+S02644,45e98032e5d9087a8d68ce8b93efe497,neutral,3,"nhà 1 euro ở Ý, không liên quan",cafef,2021,15
+S00134,069b65730b0b03103c944bd1d0caf0e3,negative,3,"Ngôi Sao Việt lỗ nặng, nợ gấp 8 lần vốn",cafebiz,2022,15
+S02907,60eaaf8b4437bc09aaab13504e64aa5d,neutral,3,chuyện khởi nghiệp nông sản,vnexpress,2023,15
+S02510,002f1ca270380c8c1dbf69021d47f4af,negative,2,cựu Phó Chủ tịch bán sạch vốn XMC,vietstock,2026,15
+S02375,0303551c0a61b4793ebcb1c83f2dff64,neutral,1,"lo ngại thâu tóm xăng dầu, tác động không rõ",vietnamnet,2020,15
+S03226,a1c9d3c98e6c53dae32fc3aca57249bb,neutral,2,"tỷ giá USD giảm, tin quốc tế",vietnamnet,2021,15
+S00618,2ac94b537d785c86decdd0a5866d923f,neutral,1,"ESOP giá ưu đãi cho lãnh đạo, pha loãng nhẹ",vnexpress,2022,15
+S00645,dd5e044e2ce5181f06dba671db5ade2c,negative,1,nhiều lãnh đạo PNJ xin từ nhiệm,vnexpress,2026,15
+S00713,81bac872e16d46afad2dfdb47caad139,positive,3,"NHNN giảm lãi suất, ngân hàng tung gói tín dụng",vietnamnet,2023,15
+S03091,54fb7f63927695b73a803db3857688c8,neutral,3,mẹo dùng điều hòa,vietnamnet,2021,15
+S02277,0b47619971fdcfe0712981fb6fd9f42f,neutral,2,giá vàng trong nước lên cao,vietnamnet,2024,15
+S02355,0acaf35bb1bc5b00a039d2f0c6c71576,neutral,1,"SSI dự báo đi ngang, có yếu tố hỗ trợ và hạn chế",cafef,2026,15
+S03119,a442e48941ea732aeda90b38e024a7a7,neutral,1,giá xăng dầu dự kiến tăng,vnexpress,2020,15
+S01854,bf34fc50c370f1619c23dd0d051be40d,neutral,2,chỉ số tăng nhờ VIC nhưng độ rộng yếu,cafef,2025,15
+S02472,ba7bd4d568f46e98365a3a1b8388b829,neutral,2,giá vàng ít biến động,cafebiz,2023,15
+S02994,1a226e0bad8b0c4d3c5da140acd22853,positive,2,xuất khẩu tôm sang Trung Quốc có thể phục hồi,vnexpress,2024,15
+S02603,60fdec3c325d9a4ff8ae73dea11b1ff6,positive,3,TCW chia cổ tức tiền mặt 23%,cafef,2025,15
+S00365,9c507f78b280c9a55e29fc933e0df200,neutral,2,giá dầu hồi phục nhẹ từ đáy,vietnamnet,2022,15
+S02990,406f221b0471b633d3e02a11fd3fcc0d,positive,1,đề xuất giảm thủ tục hóa đơn khi giảm VAT,vnexpress,2022,15
+S01213,ea74dcf2bc3a664990ac4a445a7f0b69,neutral,3,chia sẻ cá nhân đầu tư nhà ở Mỹ,cafebiz,2021,15
+S02615,ddea9f36d2dd3e35540cd0993194325f,negative,3,"doanh nghiệp xăng dầu nợ thuế, bị hoãn xuất cảnh",vnexpress,2023,15
+S01250,55788d9ff22a92931b118aa0c2d07a05,neutral,2,"dự báo giá vàng, lạm phát Mỹ cao",vnexpress,2021,15
+S02966,e0829d854713013f8c943d342c584807,neutral,2,giá xăng dầu biến động nhẹ,vietnamnet,2024,15
+S02611,e2398cf1f78efe06f218f58a44dc0162,positive,2,"chuyên gia dự báo uptrend, VN-Index lên 1.600",cafef,2022,15
+S02627,74bb64a09f5bb62754e1e59216eaebc7,neutral,1,"chỉ đạo rà soát nhập khẩu thép, chưa có biện pháp",vietnamnet,2024,15
+S01935,834071bbec05efb70077d6af8ca384b3,negative,3,MWG cắt giảm một nửa cổ tức,vietnamnet,2021,15
+S01089,caeb1070da63f31bf1de53b013ef1ac1,negative,1,"Thaco trả lãi trái phiếu 12,5%, chi phí vốn tăng",vnexpress,2026,15
+S03164,2a8889bfc37131084a0270bccd808517,neutral,2,"quỹ bán nhỏ, đồng thời có cổ tức cổ phiếu",cafef,2026,15
+S01294,d1913c0c0c55838766bf366fd3aa7bef,negative,3,ITA bị hủy niêm yết bắt buộc,cafef,2025,15
+S00250,6852cacfe87395dff0c884fbb8460142,positive,2,"chuyển cổ phiếu về HOSE, hoàn thiện thị trường",vneconomy,2026,15
+S00907,88eb76955f43bac47e8a485920ba9902,neutral,2,"phân tích kỹ thuật, hồi phục nhưng chưa đảo chiều",tnck,2026,15
+S01772,834762296ca8b9202d6ba84b48bc9f04,neutral,1,BĐS ven TP.HCM hấp thụ tốt nhưng có đầu cơ,cafebiz,2022,15
+S00011,f332157ad7362820fa7de1c394491374,positive,1,"Vinhomes nhận giải IR, tác động nhỏ",vnexpress,2023,15
+S01226,bef5f8950beaf7b7b3994ce169ba4824,neutral,2,"cơ cấu nguồn cung căn hộ, không rõ tác động",cafef,2020,15
+S00040,9d2ba71da826f80fdb76953b865410f7,positive,3,lợi nhuận doanh nghiệp phục hồi hình chữ V,vnexpress,2020,15
+S02358,36466f4ac9efc46a0ae93288187c324d,positive,2,"phân bón Việt Nam được săn đón, xuất khẩu tăng",cafebiz,2024,15
+S00026,223a2c4194a3cd96a4cf5e48a73a7ca5,neutral,1,chỉ đạo giảm ùn ứ nông sản,vietnamnet,2023,15
+S01546,f3f0b5704f271cfe1adf1bef82345607,negative,2,"DongA Bank vốn âm, kiến nghị chuyển giao bắt buộc",vietnamnet,2023,15
+S00336,19554331dd9d5797965e05dcba5f5c9c,neutral,1,"phát biểu về pháp lý BĐS, không số liệu",cafebiz,2024,15
+S01236,cf0a7580e6018959202f506f35f1861b,neutral,2,kiến nghị lãi suất nhà xã hội,cafebiz,2024,15
+S01450,82102faea8f0ce9fd23f74ee75ae1f70,neutral,2,ý kiến chuyên gia về tái cơ cấu,cafef,2021,15
+S02701,450c13df1894e05b798ce1a38b66cc24,neutral,2,"dự báo kinh tế Ấn Độ, không liên quan trực tiếp",cafebiz,2024,15

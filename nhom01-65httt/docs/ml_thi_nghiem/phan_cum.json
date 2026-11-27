@@ -1,0 +1,402 @@
+{
+ "feature_persistence_design_period": {
+  "correlation": {
+   "foreign_net_ratio": 0.6540244614411538,
+   "foreign_share": 0.5287125090851295,
+   "foreign_net_buy_day_share": 0.6591252541291119,
+   "foreign_flow_vol": 0.8738201683501672,
+   "foreign_weekly_persistence": 0.3455955195531583,
+   "foreign_active_share": 0.9143763971823826,
+   "prop_net_ratio": -0.21473772070850794,
+   "prop_share": 0.6131262493237623,
+   "price_vol": 0.6887457319510688,
+   "log_value": 0.9381746690765834
+  },
+  "kept": [
+   "foreign_net_ratio",
+   "foreign_share",
+   "foreign_net_buy_day_share",
+   "foreign_flow_vol",
+   "foreign_weekly_persistence",
+   "foreign_active_share",
+   "prop_share",
+   "price_vol",
+   "log_value"
+  ]
+ },
+ "persistence": {
+  "k": 6,
+  "n_stocks": 313,
+  "retention_rate": 0.6805111821086262,
+  "retention_if_independent": 0.2981657463075055,
+  "retention_shuffled_mean": 0.2970447284345048,
+  "ari_period1_assigned_vs_period2_assigned": 0.4082672384955574,
+  "ari_period1_vs_independent_period2_fit": 0.24612897673384995,
+  "feature_correlation_p1_p2": {
+   "foreign_net_ratio": 0.02873603670160626,
+   "foreign_share": 0.350775999726764,
+   "foreign_net_buy_day_share": 0.34808500310788876,
+   "foreign_flow_vol": 0.7746443521860029,
+   "foreign_weekly_persistence": 0.43374414409782,
+   "foreign_active_share": 0.7515871845942166,
+   "prop_net_ratio": -0.0054347634750078625,
+   "prop_share": 0.3762770943965756,
+   "price_vol": 0.6953156268899453,
+   "log_value": 0.9221724627271431
+  },
+  "r2_p2_feature_explained_by_p1_cluster": {
+   "foreign_net_ratio": 0.045529863571571405,
+   "foreign_share": 0.14395410390085384,
+   "foreign_net_buy_day_share": 0.12034536601845791,
+   "foreign_flow_vol": 0.4758758709405495,
+   "foreign_weekly_persistence": 0.15085451383584836,
+   "foreign_active_share": 0.48770596747508566,
+   "prop_net_ratio": 0.005832347100051982,
+   "prop_share": 0.36699214378139733,
+   "price_vol": 0.2383482866791804,
+   "log_value": 0.4981521076384313
+  },
+  "r2_p2_feature_explained_by_own_p1_value": {
+   "foreign_net_ratio": 0.0008257598053160619,
+   "foreign_share": 0.12304380198431072,
+   "foreign_net_buy_day_share": 0.12116316938861893,
+   "foreign_flow_vol": 0.6000738723736722,
+   "foreign_weekly_persistence": 0.18813398253915042,
+   "foreign_active_share": 0.564883296046261,
+   "prop_net_ratio": 2.9536654029279536e-05,
+   "prop_share": 0.14158445176752946,
+   "price_vol": 0.48346382099735763,
+   "log_value": 0.8504020510122442
+  },
+  "mean_r2_cluster": 0.25335905709414275,
+  "mean_r2_own_value": 0.307360374256849
+ },
+ "persistence_selected_features": {
+  "k": 6,
+  "n_stocks": 313,
+  "retention_rate": 0.6357827476038339,
+  "retention_if_independent": 0.23013402198654676,
+  "retention_shuffled_mean": 0.2311182108626198,
+  "ari_period1_assigned_vs_period2_assigned": 0.33334178514157187,
+  "ari_period1_vs_independent_period2_fit": 0.2608134806496266,
+  "feature_correlation_p1_p2": {
+   "foreign_net_ratio": 0.02873603670160626,
+   "foreign_share": 0.350775999726764,
+   "foreign_net_buy_day_share": 0.34808500310788876,
+   "foreign_flow_vol": 0.7746443521860029,
+   "foreign_weekly_persistence": 0.43374414409782,
+   "foreign_active_share": 0.7515871845942166,
+   "prop_share": 0.3762770943965756,
+   "price_vol": 0.6953156268899453,
+   "log_value": 0.9221724627271431
+  },
+  "r2_p2_feature_explained_by_p1_cluster": {
+   "foreign_net_ratio": 0.011471149979967787,
+   "foreign_share": 0.1392852768765399,
+   "foreign_net_buy_day_share": 0.1158296147770298,
+   "foreign_flow_vol": 0.47034451495588203,
+   "foreign_weekly_persistence": 0.27830191010600536,
+   "foreign_active_share": 0.47135235972887257,
+   "prop_share": 0.44232170047353636,
+   "price_vol": 0.1986993325070744,
+   "log_value": 0.5004932732318457
+  },
+  "r2_p2_feature_explained_by_own_p1_value": {
+   "foreign_net_ratio": 0.0008257598053160619,
+   "foreign_share": 0.12304380198431072,
+   "foreign_net_buy_day_share": 0.12116316938861893,
+   "foreign_flow_vol": 0.6000738723736722,
+   "foreign_weekly_persistence": 0.18813398253915042,
+   "foreign_active_share": 0.564883296046261,
+   "prop_share": 0.14158445176752946,
+   "price_vol": 0.48346382099735763,
+   "log_value": 0.8504020510122442
+  },
+  "mean_r2_cluster": 0.2920110147374171,
+  "mean_r2_own_value": 0.3415082451016067
+ },
+ "gmm": {
+  "bic": {
+   "diag_2": 8859.52354492942,
+   "full_2": 7941.325453865491,
+   "diag_3": 8179.776754723752,
+   "full_3": 6940.848639592171,
+   "diag_4": 7154.896113968545,
+   "full_4": 6867.393935221455,
+   "diag_5": 6948.3586778180625,
+   "full_5": 7471.155544000163,
+   "diag_6": 6059.064794660651,
+   "full_6": 6838.635949302564,
+   "diag_7": 5907.634446036387,
+   "full_7": 6585.59786668698,
+   "diag_8": 5982.863526965313,
+   "full_8": 6963.19689943108
+  },
+  "best_k_diag": 7,
+  "best_k_full": 7,
+  "gmm_k": 6,
+  "covariance": "diag",
+  "mean_max_membership": 0.9798793926584791,
+  "share_membership_below_0.6": 0.00516795865633075,
+  "share_membership_above_0.9": 0.917312661498708,
+  "ari_vs_kmeans": 0.31004039920433607,
+  "cluster_sizes_hard": [
+   59,
+   74,
+   65,
+   59,
+   53,
+   77
+  ],
+  "silhouette_hard": 0.02683413508451304
+ },
+ "hdbscan": {
+  "explained_variance_5pc": 0.8114700123999752,
+  "min_cluster_size_8": {
+   "n_clusters": 3,
+   "noise_share": 0.896640826873385,
+   "sizes": [
+    12,
+    14,
+    14
+   ],
+   "silhouette_excl_noise": 0.49956044522077275
+  },
+  "min_cluster_size_15": {
+   "n_clusters": 0,
+   "noise_share": 1.0,
+   "sizes": [],
+   "silhouette_excl_noise": null
+  },
+  "min_cluster_size_25": {
+   "n_clusters": 0,
+   "noise_share": 1.0,
+   "sizes": [],
+   "silhouette_excl_noise": null
+  }
+ },
+ "yearly": {
+  "years": [
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "transitions": {
+   "2022->2023": {
+    "n": 284,
+    "stay_share": 0.7746478873239436,
+    "matrix": [
+     [
+      104,
+      7,
+      7,
+      7
+     ],
+     [
+      3,
+      21,
+      2,
+      1
+     ],
+     [
+      0,
+      9,
+      35,
+      0
+     ],
+     [
+      22,
+      1,
+      5,
+      60
+     ]
+    ]
+   },
+   "2023->2024": {
+    "n": 301,
+    "stay_share": 0.7774086378737541,
+    "matrix": [
+     [
+      116,
+      5,
+      3,
+      5
+     ],
+     [
+      3,
+      32,
+      3,
+      0
+     ],
+     [
+      11,
+      5,
+      32,
+      3
+     ],
+     [
+      24,
+      3,
+      2,
+      54
+     ]
+    ]
+   },
+   "2024->2025": {
+    "n": 333,
+    "stay_share": 0.7597597597597597,
+    "matrix": [
+     [
+      132,
+      5,
+      8,
+      10
+     ],
+     [
+      13,
+      28,
+      2,
+      2
+     ],
+     [
+      8,
+      2,
+      24,
+      7
+     ],
+     [
+      17,
+      2,
+      4,
+      69
+     ]
+    ]
+   },
+   "2025->2026": {
+    "n": 315,
+    "stay_share": 0.7333333333333333,
+    "matrix": [
+     [
+      124,
+      8,
+      5,
+      32
+     ],
+     [
+      9,
+      25,
+      2,
+      1
+     ],
+     [
+      4,
+      0,
+      23,
+      8
+     ],
+     [
+      10,
+      0,
+      5,
+      59
+     ]
+    ]
+   }
+  }
+ },
+ "tail": {
+  "n_candidates": 952,
+  "n_with_enough_data": 951,
+  "k": 3,
+  "k_report": [
+   {
+    "k": 3,
+    "silhouette": 0.1972995817314462,
+    "smallest_share": 0.24710830704521555,
+    "stability_ari": 1.0
+   },
+   {
+    "k": 4,
+    "silhouette": 0.19497225837200755,
+    "smallest_share": 0.0904311251314406,
+    "stability_ari": 0.9460812385139025
+   },
+   {
+    "k": 5,
+    "silhouette": 0.19645071062646433,
+    "smallest_share": 0.08517350157728706,
+    "stability_ari": 0.9782319831446176
+   },
+   {
+    "k": 6,
+    "silhouette": 0.18053331431310987,
+    "smallest_share": 0.08517350157728706,
+    "stability_ari": 0.9320776297612241
+   },
+   {
+    "k": 7,
+    "silhouette": 0.16893221749874548,
+    "smallest_share": 0.08201892744479496,
+    "stability_ari": 0.8156365291437727
+   },
+   {
+    "k": 8,
+    "silhouette": 0.15976164483689487,
+    "smallest_share": 0.07781282860147214,
+    "stability_ari": 0.6880014272196374
+   }
+  ],
+  "silhouette": 0.1972995817314462,
+  "sizes": [
+   235,
+   323,
+   393
+  ],
+  "centers_z": {
+   "0": {
+    "price_vol": -0.7,
+    "log_value": 1.04,
+    "beta": 0.93,
+    "amihud": -1.32,
+    "ret_autocorr": 0.99,
+    "up_day_share": 0.23,
+    "pv_corr": 1.09,
+    "skew": 0.78
+   },
+   "1": {
+    "price_vol": 1.13,
+    "log_value": -0.38,
+    "beta": -0.41,
+    "amihud": 0.87,
+    "ret_autocorr": 0.14,
+    "up_day_share": 0.03,
+    "pv_corr": -0.54,
+    "skew": -0.54
+   },
+   "2": {
+    "price_vol": -0.51,
+    "log_value": -0.31,
+    "beta": -0.22,
+    "amihud": 0.08,
+    "ret_autocorr": -0.71,
+    "up_day_share": -0.16,
+    "pv_corr": -0.2,
+    "skew": -0.03
+   }
+  },
+  "mixed_rule_labels": {
+   "it_khoi_ngoai": {
+    "0": 188,
+    "1": 8,
+    "2": 23
+   },
+   "thanh_khoan_thap": {
+    "0": 47,
+    "1": 315,
+    "2": 370
+   }
+  }
+ }
+}

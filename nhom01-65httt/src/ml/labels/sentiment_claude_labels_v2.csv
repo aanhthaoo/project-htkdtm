@@ -1,0 +1,1501 @@
+sample_id,article_id,label,c,why,year,period,strategy,batch
+N00001,f45b07c31425a8f94248929b883be323,positive,2,MPC chốt trả cổ tức tiền mặt,2025,post,random,1
+N00002,8803533f09cafa1b46b32ae2b4561da0,neutral,3,"Câu chuyện doanh nghiệp nước ngoài, không tác động",2020,pre,random,1
+N00003,88a43cebedeb6eaf106fe79da1bbcf15,neutral,3,"Chân dung doanh nhân, không số liệu",2023,pre,random,1
+N00004,066975f8471f453440971137680e12f6,neutral,2,"Tranh chấp thâu tóm, thông tin chưa xác thực",2020,pre,uncertain,1
+N00005,942f4b994cd6fc47001b8dfe264313dd,neutral,3,"Tin hoàng gia Anh, không liên quan",2021,pre,random,1
+N00006,dc25077ce578da7647b23a64816c114e,neutral,1,"Mua lại ESOP hành chính, kế hoạch tăng nhẹ",2025,post,random,1
+N00007,aebbe7dd609eb6b9598735ac170b4d46,neutral,1,TPDN giảm nhưng ngân hàng phát hành nhiều,2023,pre,uncertain,1
+N00008,c95b5a604a93c7c245490c840415bcbe,neutral,1,Tăng điểm nhưng khuyến nghị thận trọng,2025,post,uncertain,1
+N00009,ee37161c23046e8f8f3dc73e61b38941,neutral,1,"Cho vay đảo nợ lãi thấp, tác động lẫn lộn",2023,pre,random,1
+N00010,51c4abbe2e06534c2f8ca05f700d478c,positive,2,"Giá chung cư tăng, hấp thụ tốt",2024,pre,random,1
+N00011,9bb64aad8a7535a169455026d3f28155,neutral,3,"Chính trị Trung Quốc, không tác động",2021,pre,random,1
+N00012,68f17e799509cafefbab759e4293f377,positive,1,Tỷ giá hạ nhiệt có lợi thị trường,2023,pre,uncertain,1
+N00013,9c5a535dd74e9d5618e38b396ab79d4b,positive,2,Cam kết môi trường đầu tư thuận lợi,2023,pre,random,1
+N00014,36506f8ae6d89c7a755d02b5a5a3ccc6,negative,2,Pha loãng cổ phiếu ngân hàng gây áp lực giá,2022,pre,uncertain,1
+N00015,25576ef19ea0bab80209c3e1fe7ac0c9,positive,2,Adani tăng mạnh nhờ SEBI bác cáo buộc,2025,post,uncertain,1
+N00016,cd2a1ee8f01f932c9f4ec583da0a7a62,positive,2,"Thị trường chứng khoán Mỹ tăng, tài sản tăng",2021,pre,uncertain,1
+N00017,9e5d9b7be4caab45209cb3f146c49812,negative,1,Tự doanh và khối ngoại bán ròng,2025,post,uncertain,1
+N00018,ea5cc0fb667626958b92586e7f96ec1b,negative,2,Giá và thanh khoản BĐS dự báo giảm,2022,pre,random,1
+N00019,525b6bc64045f8c314f4d07f28e008df,neutral,1,Lạm phát giảm nhưng Fed có thể tiếp tục tăng,2022,pre,uncertain,1
+N00020,be474d5ae9388ba957b2747e6ec32e39,positive,2,Adani muốn đầu tư năng lượng tại Việt Nam,2024,pre,random,1
+N00021,f735e5b85d9c5b5824f61296b33a67c9,neutral,1,"Lợi nhuận 2023 giảm, kỳ vọng 2024",2024,pre,uncertain,1
+N00022,55573014908b87a411695f12c5740169,positive,3,"Lãi tăng 280%, cổ phiếu kịch trần",2025,post,random,1
+N00023,d2c7c0d9b75c1ca99e944bfb9395f45f,positive,1,Thêm căn hộ đủ điều kiện mở bán,2024,pre,uncertain,1
+N00024,5674ac2a513ac77761058fe731c76040,positive,2,HPX giao dịch trở lại sau đình chỉ,2024,pre,random,1
+N00025,5a03f44db50584029bf417e3ac0fec45,neutral,3,Hội thảo hợp đồng lao động điện tử,2022,pre,random,1
+N00026,ebd731da0c7519b1dabfc70f5cb6ce5d,neutral,2,Chào bán cho cổ đông hiện hữu giá thấp,2021,pre,uncertain,1
+N00027,6842de04f11d7f02eb4466aa80ee4a03,positive,2,VNZ tăng mạnh 5 phiên liên tiếp,2026,post,random,1
+N00028,a928d01e9ba071b266c11d06847af7d8,neutral,2,IPO hãng xe Trung Quốc tại Mỹ,2023,pre,uncertain,1
+N00029,11c3ec468c39a47a90484925526478d5,positive,3,VN-Index vượt 1.400 thanh khoản cao,2025,post,random,1
+N00030,9d18378f4102064b7886fe15b8259380,positive,1,Ý kiến tích cực về Vinfast,2023,pre,uncertain,1
+N00031,3a4863e0d96b64949ade208e013b6e9d,neutral,1,"Index tăng, ngoại mua ròng, tự doanh bán",2026,post,random,1
+N00032,92fb3ce5c5c5bafbc65dbc2a9f9e009b,neutral,2,"Thống kê lừa đảo, hội thảo ngân hàng mở",2023,pre,random,1
+N00033,a57a1db3bc74121dedd0bf3ca60cf6a6,positive,2,"VN-Index tăng, định giá hấp dẫn",2025,post,uncertain,1
+N00034,7e869cf84a70d19d6b71316fb2735fc8,positive,3,Khối ngoại mua ròng STB liên tục,2021,pre,random,1
+N00035,0bf5a92ecf939f9bcee501bd87e5d02e,neutral,1,M&A kỳ vọng nhưng doanh nghiệp yếu vốn,2024,pre,uncertain,1
+N00036,4e5955cfb5fdc3d69fe9b83725c542c4,neutral,2,"Đăng ký dự án, chưa có kết quả",2024,pre,random,1
+N00037,c3ee803ff463396f7f5323e3d2f9f188,positive,2,Xuất khẩu nông sản sang Trung Quốc tăng,2024,pre,random,1
+N00038,bae7f4ffd4ef534be42ec3466fe583fc,negative,2,"Khối ngoại bán ròng 1.600 tỷ, VN-Index giảm",2026,post,random,1
+N00039,8ab5b69824bfa6643769513f119c7e96,positive,2,VN-Index tăng mạnh nhất tháng,2026,post,random,1
+N00040,e1ac1025e16729c0a877c0234bddd5db,neutral,1,Lãnh đạo đăng ký mua nhưng chưa thực hiện,2022,pre,uncertain,1
+N00041,265ca5765df4bf7a6fade6102c43dc86,negative,1,"Giá vé giảm do cầu yếu, dịch bệnh",2022,pre,uncertain,1
+N00042,9436a35694c08aee0bf7021b1a976653,neutral,2,"Cổ phiếu Mỹ đầu cơ, không liên quan",2025,post,uncertain,1
+N00043,50dd510658040d83b0d81a07158a301a,neutral,1,"NHNN can thiệp tỷ giá, hạ nhiệt",2024,pre,uncertain,1
+N00044,40c2624302f8fc9919eb102d0a5b9d50,positive,2,Thủ tướng duyệt chủ trương đầu tư KCN,2021,pre,random,1
+N00045,edf5d6505efbaab261750bb12b555642,positive,3,"Doanh thu, lãi quý 2 tăng",2021,pre,random,1
+N00046,330c3437602d79b37150ba275ffe49d1,neutral,3,Hợp tác tài trợ thể thao,2024,pre,uncertain,1
+N00047,e31fb927f9d0297ac95268933bda38c3,neutral,1,Lãi suất có thể giảm nhưng dư địa hẹp,2020,pre,random,1
+N00048,40d8289319eb6a753dc053951bfc2fc7,negative,2,"Chốt lời, vàng và tỷ giá cao gây áp lực",2024,pre,uncertain,1
+N00049,16b731adf63665853a06980c6e16d3f1,positive,2,Bán 20% vốn cho nhà đầu tư Nhật giá cao,2023,pre,uncertain,1
+N00050,aed0583b0a33d47bb105442b00a9b0ad,negative,1,"Giá thép giảm ba lần, dự báo giảm tiếp",2021,pre,uncertain,1
+N00051,ea1fcfdb5d362a2b7f3531c8557a17a8,positive,2,FLC cam kết trả nợ cho HBC,2021,pre,uncertain,1
+N00052,dc87bb9194e38754d2db0ef14185ff6c,negative,3,"Adani mất 110 tỷ USD, bán tháo",2023,pre,random,1
+N00053,b45de2055a001562bc9177927936d54b,positive,1,Cổ phiếu Rakuten tăng 35% nhờ huy động vốn,2021,pre,uncertain,1
+N00054,f4e2e1782ec59594cbe7517e79aa9e61,neutral,2,"Hợp tác trạm sạc, không số liệu",2020,pre,uncertain,1
+N00055,a39d9dab930635a3851b6a88aa32b617,neutral,2,"Phỏng vấn bộ trưởng, khó khăn và nhiệm vụ",2024,pre,uncertain,1
+N00056,4d2417c228a0ea01bcb058284ed27cd4,neutral,1,Tin quảng bá dự án căn hộ,2022,pre,uncertain,1
+N00057,966f1ee546f27318a02187293bbe8522,neutral,3,Hướng dẫn nạp tiền chứng khoán,2023,pre,random,1
+N00058,b33ef642fa44611ff1f139b51f70077a,positive,2,"Sàn TPDN mới, giảm lãi suất điều hành",2023,pre,uncertain,1
+N00059,c7adb7579193b8cd2110fcc975f7c7bf,positive,3,"VN-Index tăng gần đỉnh, dòng tiền lan tỏa",2026,post,uncertain,1
+N00060,b2896427a4e52cdb36fb816304f7b7e8,negative,2,Cảnh báo rủi ro cổ phiếu công nghệ lớn,2022,pre,uncertain,1
+N00061,5051bdb67c9e5272fb858db3c4e587ce,positive,2,Kế hoạch doanh thu lợi nhuận kỷ lục,2024,pre,uncertain,1
+N00062,1d7055d7dffa9dfeccb771c337bbbeeb,neutral,2,Phát biểu chính sách giá xăng dầu,2022,pre,random,1
+N00063,c927fbb839daba1fa72cf73d4dabe095,neutral,2,"Chuyển niêm yết sang HOSE, hành chính",2025,post,uncertain,1
+N00064,b249714cd1278441cb153292b64cda8f,positive,1,"Sabeco giành huy chương, mở rộng quốc tế",2023,pre,random,1
+N00065,a010536caa0125c2d7dac217a5f15d2a,neutral,1,Xuất khẩu tăng nhưng thiếu nguồn cung,2024,pre,uncertain,1
+N00066,56ddb9c42fd66b7627b4ac6a0066e1f1,neutral,1,Ngoại bán ròng nhưng chuyên gia trấn an,2025,post,random,1
+N00067,4cac6b89cd7413bd5eb85815d5d9bdb3,positive,2,Bơm thanh khoản mới cho thị trường,2021,pre,uncertain,1
+N00068,57807e0f0a8c99fd43144f6002ad0340,negative,2,Quỹ Mỹ mất hàng chục tỷ USD,2022,pre,random,1
+N00069,d3ab4fcb76761bcc4bb6d922b043a869,negative,2,Lãi suất liên ngân hàng tiếp tục tăng,2021,pre,random,1
+N00070,8e674692b584d6db3d0a4807f0c639cf,negative,2,Thiếu điện cho khu công nghiệp,2023,pre,uncertain,1
+N00071,9c173f3f020dd89b21f8c5ed3df99b9d,neutral,2,"Hoạt động từ thiện, tác động không rõ",2021,pre,random,1
+N00072,2e76096de4ffe740579e9ee631321dbb,negative,2,"VN-Index giảm, FPT bị ngoại bán ròng",2025,post,random,1
+N00073,1e389e04f904357e13e69849ef92c3d9,neutral,2,Doanh nghiệp nộp hồ sơ dự án,2021,pre,uncertain,1
+N00074,40c4a422fc97489f442930a3020144cf,positive,1,Yêu cầu ngân hàng hỗ trợ lãi suất,2021,pre,uncertain,1
+N00075,a95e0f7c77e48d6169e3e0d89e51624f,neutral,1,Nguồn cung tăng nhưng thiếu nhà giá rẻ,2024,pre,random,1
+N00076,3b867cda7e833a14b4ebbe0edfb4ae0a,positive,2,Vietjet được cấp thêm đường bay,2021,pre,uncertain,1
+N00077,00bbe2e141861d7932249dadcc3355be,neutral,1,"Giảm lãi suất huy động, tác động chưa rõ",2024,pre,uncertain,1
+N00078,8edd0d4b886159c00d0f2cda602f5a4e,neutral,2,"Lễ kỷ niệm, nhận huân chương",2022,pre,uncertain,1
+N00079,8f3788bb62a8817d5ff5729ba4c2313d,neutral,2,Cuộc đua sàn tài sản mã hóa,2026,post,uncertain,1
+N00080,cc88d7f43b1cd072f5a833dd8dae7e7a,positive,2,Cơ hội xuất khẩu yến sào chính ngạch,2023,pre,uncertain,1
+N00081,33b31656b97983f6803d3355f5d90f0f,negative,2,Tỷ giá chịu áp lực tăng do Fed,2021,pre,uncertain,1
+N00082,e731b3122ce9aee8608d4e2180608ed5,positive,1,Lãi vay mua nhà thấp kỷ lục,2020,pre,uncertain,1
+N00083,6261948104473de6aa71a7f3f8d7686d,neutral,2,"Bảo lãnh nợ công ty con, thông thường",2023,pre,uncertain,1
+N00084,e2be2f9614109a71d6f4cd69a8309b41,neutral,3,"Từ nhiệm do nghỉ hưu, sức khỏe",2025,post,uncertain,1
+N00085,75ceeec4227b43efbaed795ad0beca63,negative,2,Tỷ giá tăng mạnh trở lại,2023,pre,uncertain,1
+N00086,f40af110982c596ec6ddd7c23d10e86b,negative,1,Khối ngoại và tự doanh bán ròng lớn,2026,post,random,1
+N00087,c9ff4512a41f0e625803cb22261c2655,positive,1,Quỹ VinaCapital mua vào NLG,2026,post,uncertain,1
+N00088,72e1b4180d71c25bf000082b80bfaf37,positive,1,Chính sách miễn giảm thuế hỗ trợ,2024,pre,uncertain,1
+N00089,d5b820d7a7ae560ade9ae4dfdc3d237c,positive,2,Quan hệ Việt Mỹ thúc đẩy đầu tư,2023,pre,uncertain,1
+N00090,9ac924955c0f1aa8e0c1639af6e4d22a,positive,2,Nhiều doanh nghiệp chốt chia cổ tức,2025,post,random,1
+N00091,9be59ce2ffe9b3c5eb9bfc44c1af9467,positive,1,Chứng khoán được đánh giá sáng giá,2025,post,uncertain,1
+N00092,ef21753d3733d5c00ce36bc311d4664b,positive,2,Đề xuất tiếp tục giảm VAT hỗ trợ,2024,pre,uncertain,1
+N00093,98e9cfd89ca55fd0e73f1b030fa19f4c,negative,2,Tỷ giá USD tiếp tục tăng mạnh,2022,pre,random,1
+N00094,bab3bcd38839409396025dc2f49cc669,negative,2,"Đại án Vạn Thịnh Phát, SCB",2024,pre,uncertain,1
+N00095,df7f17788da855dba251d3bb3ad05870,negative,2,"BĐS nghỉ dưỡng nhiều rủi ro, vốn chôn chân",2022,pre,random,1
+N00096,c7c2fa66cdcfcb51bd5b775dc1b2ada6,positive,2,"Top 50 hiệu quả, vốn hóa lớn",2025,post,uncertain,1
+N00097,bd4a81e7da482fda07320c572ed4e1db,neutral,1,BĐS kẹt thanh khoản nhưng giá khó giảm,2022,pre,random,1
+N00098,009bd17c4b9e7813442b98f90024f231,neutral,3,"Danh sách tỷ phú trẻ, không liên quan",2022,pre,random,1
+N00099,87e34d9ef2c0b56c5df73e7343115a50,neutral,1,"Amazon sa thải, tác động không rõ",2022,pre,uncertain,1
+N00100,13ceeccc0d09242b6d2ecaa553c01a43,neutral,1,"Dự báo GDP khác nhau, không lạc quan",2021,pre,uncertain,1
+N00101,40aac844b71f7580874015171820853e,negative,2,cảnh báo lạm phát toàn cầu tăng cao,2021,pre,uncertain,2
+N00102,3790ecfda4fbd6f82c9d97c15192e6ec,neutral,1,"tự doanh FPTS đăng ký bán nhỏ MSH, tác động không rõ",2025,post,uncertain,2
+N00103,7997530792733d1626e985814a530dd1,positive,2,"chính sách nới lỏng, cơ hội đầu tư dài hạn",2023,pre,uncertain,2
+N00104,e7959fd16efe15c48e21f42fd72c6999,negative,2,"triển vọng kinh tế Trung Quốc u ám, dự báo hạ",2022,pre,uncertain,2
+N00105,e6b8c538fe93cba94fc1b8559c4cfff6,positive,2,dự báo thanh khoản thị trường tăng thêm 20%,2020,pre,uncertain,2
+N00106,fdc2eb0f67ddd4e4f48865a20e2d9cf0,neutral,2,kiến nghị bổ sung chi phí vào quy định giá đất,2024,pre,random,2
+N00107,9050eb651da27afaf270ee487d23f17f,neutral,2,"giảm thuế xăng dầu nhưng giá kỷ lục, tác động lẫn lộn",2022,pre,uncertain,2
+N00108,d242dcf266848df9054bd6e6dfbac768,positive,2,"FPT tăng giá, chia cổ tức tiền và cổ phiếu",2023,pre,random,2
+N00109,52b3342f48db6baa3ceb50159b591ecf,neutral,2,giải trình việc thu phí cao tốc do giãn cách,2021,pre,uncertain,2
+N00110,e9044655ed8d1404fc445b0b514045ce,negative,3,EVN lỗ đột biến hơn 31000 tỷ,2022,pre,uncertain,2
+N00111,f10b829d6d8c8f5d2e86b1a807ff016f,neutral,2,"lập quy hoạch khu đô thị, thủ tục hành chính",2021,pre,uncertain,2
+N00112,14c02bf43ef8483b2abceef5e5c9157d,positive,2,"Agribank mở rộng tín dụng, dịch vụ tài chính",2021,pre,random,2
+N00113,6e9af7b832ffb44cda6a10fb433b1983,negative,2,"lạm phát làm giảm sức mua, kinh doanh ế ẩm",2023,pre,uncertain,2
+N00114,da30e560bdc4e5e67bbdc5183c737f35,positive,2,"MWG vượt kế hoạch lợi nhuận 155%, phát hành ESOP",2025,post,uncertain,2
+N00115,e9c1af906b9a86b74adf86f796ccd2be,positive,3,KDH trả cổ tức cổ phiếu 10% và ESOP,2025,post,random,2
+N00116,8d4b8fbf038eafe1778a892475fa6703,neutral,1,lãi tăng 84% nhưng chỉ đạt 21% kế hoạch,2021,pre,uncertain,2
+N00117,3ced69d3c4025fba5b18782afd76abbf,positive,3,"thanh khoản cao nhất tháng, VN-Index tăng điểm",2021,pre,random,2
+N00118,b9e0434be5f82343a1ea5e5381120b06,positive,2,Vingroup phát triển dự án quy mô lớn,2026,post,uncertain,2
+N00119,37e1f5b24a04bd62f3871f16c97a48d3,negative,2,"VN-Index giảm 5,47%, khối ngoại bán ròng",2025,post,uncertain,2
+N00120,7ae8207edba9e1f9713a9d501c9f5f4a,negative,2,"địa ốc giảm giá, chiết khấu sâu để kích thanh khoản",2023,pre,uncertain,2
+N00121,ee09b85d8f5e7c7137f5e55bd795c610,positive,2,"nhu cầu mua chung cư tăng mạnh, khó giảm giá",2023,pre,random,2
+N00122,9f5e75f2e779e1eb41794e324e5eeee4,negative,2,"MBS cảnh báo rủi ro điều chỉnh, độ rộng yếu",2026,post,uncertain,2
+N00123,b683e991327519303a756397faa72e88,negative,2,"nợ xấu Vietcombank tăng mạnh, phát mại tài sản",2021,pre,random,2
+N00124,e11bcd5634848e6c9efe5cdd8eff8d31,neutral,2,"doanh nghiệp bất động sản thận trọng, âm thầm hoạt động",2023,pre,random,2
+N00125,895e960757eec8ed731e2456cc241af5,positive,2,"VIX tăng vốn, cổ tức, kế hoạch kinh doanh lớn",2024,pre,random,2
+N00126,5fa5c5e9f43caf879f3249beabafff8c,neutral,2,"giá vàng biến động, ít liên quan cổ phiếu",2022,pre,random,2
+N00127,e9f6c321197388e893ec4a44774599b2,neutral,2,"HĐQT không mua thêm cổ phiếu, tác động không rõ",2025,post,random,2
+N00128,c8c11892460fb852f04675c299337efa,positive,2,"dòng tiền, hạ tầng thúc đẩy bất động sản Bàu Bàng",2021,pre,random,2
+N00129,204b1404162c1f7fe0c7874c54d166df,neutral,3,bổ nhiệm nhân sự thuần hành chính,2021,pre,random,2
+N00130,2871dcfbac5f66c1c32074a64acc8602,neutral,1,khối ngoại mua ròng nhưng HNX Index giảm gần 10%,2025,post,uncertain,2
+N00131,0ef4d3fe6396a4495aa4f19a4a1f61d4,neutral,2,"quỹ Mỹ lãi lớn, không liên quan thị trường Việt",2023,pre,random,2
+N00132,7e1a2aef664f0c958d9e313d4c64791c,neutral,2,vừa lãi HPG VHM vừa lỗ cổ phiếu ngân hàng,2026,post,uncertain,2
+N00133,f4b6a6ee08aff040d86c7a84ba2c37c3,positive,2,"LPBS hoàn tất tăng vốn, phân phối hết cổ phiếu",2025,post,random,2
+N00134,234e022d7d1443ade163e9d9e5374f57,negative,3,"VN-Index giảm sâu, bán tháo lan rộng",2025,post,random,2
+N00135,d7591565bc8956ce4707b4380fff99d4,neutral,2,"kỷ luật cán bộ, không tác động rõ lên thị trường",2024,pre,uncertain,2
+N00136,2a1632600f8795b6aa6b187c1e2e6e10,neutral,2,Sabeco tìm vắc xin cho người lao động,2021,pre,uncertain,2
+N00137,11e6c1fc1b24accb31ebeff98f68d0f0,positive,2,"GDP quý I tăng 5,66% cao nhất từ 2020",2024,pre,random,2
+N00138,ef96938e9f191a3e33047f49251c3138,positive,1,bất động sản huy động được 25 nghìn tỷ qua chứng khoán,2022,pre,uncertain,2
+N00139,88ee19916af033acc650d3c907f9a622,neutral,3,bài giải thích về tiền mã hóa,2025,post,random,2
+N00140,936b6c134584ed38ebc5d761da102f5d,neutral,2,xuất khẩu cá tra giảm mạnh nhưng có tín hiệu tích cực,2023,pre,random,2
+N00141,246585aac54e891e738d55efb0d84222,positive,2,cơ hội ngành bán dẫn cho FPT và Việt Nam,2024,pre,uncertain,2
+N00142,abe42bf0a344f552e65b540d00fe3cb7,neutral,2,giá bất động sản tăng nhưng dự báo hạ nhiệt dài hạn,2022,pre,random,2
+N00143,987ae673adb51127bc8bc08b04ec2f9d,neutral,2,"kinh tế Nhật, lạm phát cao, không rõ tác động",2022,pre,uncertain,2
+N00144,435e3d50b324f795cc47cfc7e1ace047,neutral,3,"lạm phát Campuchia thấp, không liên quan",2023,pre,random,2
+N00145,40f6e9f95cd45eb31977b337ebb634cc,neutral,2,"vụ nhôm tồn kho, ý kiến luật sư",2021,pre,uncertain,2
+N00146,623b2d61e0fa16427371fe14d4c34dd3,negative,2,chuyên gia cho tỷ trọng điện tái tạo quá cao,2020,pre,random,2
+N00147,4ab958b97b71125b26695f19e8f76a89,positive,3,"SSI nhận định chu kỳ tăng trưởng mới, VN-Index đỉnh",2025,post,random,2
+N00148,292b6cbbbdbf0f4b475d9cffbc0a71cc,negative,2,"thị trường nhà ở nhiều nghịch lý, thách thức kéo dài",2024,pre,random,2
+N00149,175530d14a4248be9aef91e6c15dc374,negative,2,"giá gạo giảm do dư thừa, cạnh tranh khốc liệt",2022,pre,uncertain,2
+N00150,020581200bf7a4028abee73a1a6b223f,neutral,2,"giá vàng trong nước, đề xuất nhập khẩu vàng",2022,pre,random,2
+N00151,69770a6ba3e74c2c79990bb6a4bc3696,positive,1,biệt thự Novaland được khách hàng ưa chuộng,2021,pre,random,2
+N00152,5a2c5eb53e213cc7d59fd228d800246e,negative,3,"bán tháo toàn cầu, tài sản tỷ phú sụt mạnh",2021,pre,random,2
+N00153,8e0040a8c63d489ea47b21c7d5f5e80a,neutral,1,"giá vật liệu tăng, lợi hại lẫn lộn",2021,pre,uncertain,2
+N00154,282c2c7ee25b0101ffad7e220960733b,neutral,2,"VNG đầu tư nước ngoài, tác động nhỏ",2022,pre,uncertain,2
+N00155,a093b5538081333fa7009be0a4e1272c,negative,2,chuyên gia cho rằng nhịp điều chỉnh chưa kết thúc,2024,pre,uncertain,2
+N00156,4e46d4402451f6187b78c39144f5aa62,positive,3,"BSR vượt kế hoạch, lợi nhuận và doanh thu lớn",2025,post,random,2
+N00157,ac31eb853f83a448432cda524b91248f,neutral,2,"VN-Index tăng nhưng khối ngoại bán ròng, thanh khoản thấp",2026,post,uncertain,2
+N00158,2f29cc3ec90d8256d4023cc91e92927c,negative,1,"VN-Index giảm nhẹ, khối ngoại bán ròng 883 tỷ",2025,post,uncertain,2
+N00159,df8e71ee7660cce1200a1ae660017db2,neutral,2,"lừa đảo lan đột biến, không liên quan chứng khoán",2021,pre,random,2
+N00160,13f2201356997d1ac82607138023def7,negative,2,"VN-Index chưa tạo đáy, NHNN hút tiền gây lo ngại",2023,pre,uncertain,2
+N00161,74f56085a91b5002b89a7edf660c69cf,positive,2,FTI hợp tác mở rộng thị phần giải pháp số,2023,pre,uncertain,2
+N00162,cb1b9dc00dbc48b0364f7342a56f5c62,neutral,2,"dự báo xếp hạng GDP, thông tin trung tính",2022,pre,random,2
+N00163,1ed60fe1e409ac9ebabc91475cf6cb8c,neutral,2,hàng hóa quốc tế biến động trái chiều,2021,pre,uncertain,2
+N00164,95b3f52d5eb2ac4e22c3bce26000bafd,negative,3,"HOSE cắt margin BCG, TCD, ORS do vi phạm, cảnh báo",2025,post,random,2
+N00165,fbe1a2d26256d103bf5e540f0fa184b9,neutral,3,bài giới thiệu doanh nghiệp tư nhân,2020,pre,random,2
+N00166,09b7870ba1694090ef9e81aab17f3ea2,positive,2,"VN-Index bật tăng, khối ngoại mua ròng trở lại",2026,post,random,2
+N00167,4885451319c74d64975de957ac93e6c0,positive,3,gói hỗ trợ tài khóa tiền tệ gần 340000 tỷ,2022,pre,uncertain,2
+N00168,ac4a5039ead6416811437f4f89d143f8,neutral,3,"chuyện kinh doanh Starbucks, không liên quan",2024,pre,random,2
+N00169,1727d801503b2c7f33074967bba9e7e2,positive,3,"VN-Index vượt đỉnh lịch sử, khối ngoại mua ròng",2021,pre,random,2
+N00170,c1f71fa7100f522003b25b943ceef287,neutral,2,"triển khai Mobile Money, tác động chưa rõ",2021,pre,uncertain,2
+N00171,7f5d0763f95fb00ea012a6f77191376a,positive,2,miễn giảm gia hạn thuế hỗ trợ doanh nghiệp,2022,pre,uncertain,2
+N00172,23fbf44693aef8b03672a5ce50cea389,neutral,2,"giá xăng dầu tăng, tác động hai chiều",2024,pre,random,2
+N00173,c429a31ae696963c0723b562577a2f79,neutral,2,"thu thuế nhà cung cấp nước ngoài, trung tính",2023,pre,uncertain,2
+N00174,5c70cb582949dc5ba79d643276a65c7e,positive,2,An Phát thanh toán đúng hạn gốc lãi trái phiếu,2025,post,random,2
+N00175,fe22a799bf11ea4483ddb77759d99734,positive,3,"NHNN giảm lãi suất, nhóm cổ phiếu hưởng lợi",2023,pre,uncertain,2
+N00176,626e6c992550f0a987418125d3e3c4db,positive,2,lịch chia cổ tức tiền mặt nhiều doanh nghiệp,2025,post,random,2
+N00177,0d1a1bedcc65eebf18053c56d218f2ab,positive,1,"dự án 1,5 tỷ USD được Thủ tướng chấp thuận",2025,post,uncertain,2
+N00178,0ea09fc540b51027f6bd50fb36e2d2fc,negative,1,chuyên gia cảnh báo nhịp tăng chất lượng thấp,2026,post,uncertain,2
+N00179,3caa9f38ce05e48309f0b57654aba93d,neutral,3,"tin thời sự Afghanistan, không liên quan",2021,pre,random,2
+N00180,3f0b2b402de258cd7b39e3253d96c7c7,positive,1,"S&P 500 lập đỉnh, vàng tăng",2021,pre,random,2
+N00181,bb6f333fd0b2131ab8a571c88c0af87f,neutral,2,"tỷ giá USD giảm, tác động không rõ",2024,pre,uncertain,2
+N00182,4657defcb2c38286d92495972489b8e5,positive,3,"SMDS lãi trước thuế 804 tỷ, đảo chiều từ lỗ",2026,post,uncertain,2
+N00183,3592eb56704aa9322e9fa1d2564125c4,neutral,2,"cắt điện do nắng nóng, tác động không rõ",2023,pre,uncertain,2
+N00184,c50c0db8ee4dfce761bdf85116dcd386,neutral,1,Bitexco đăng ký thoái toàn bộ vốn IDC,2021,pre,uncertain,2
+N00185,10c6f322a5f6499661cd6674af9eaf97,neutral,2,"MWG thu lãi tiền gửi, thông tin trung tính",2022,pre,random,2
+N00186,94796b3329ed239d05ad4f595a3b76d2,positive,3,"Fubon ETF tăng quy mô, mua ròng cổ phiếu Việt",2022,pre,random,2
+N00187,f3a088d4193a7f1cda7466139b2442a7,positive,2,"mở hoàn toàn đường bay, lợi cho hàng không",2022,pre,uncertain,2
+N00188,8c329133549c452a7b5330a85e6fb30a,negative,2,cúp điện ảnh hưởng sản xuất kinh doanh,2023,pre,uncertain,2
+N00189,cfb2e63c92b4e658eef9792575d06b4f,positive,2,"Vietcombank nộp thuế lớn nhất, vị thế dẫn đầu",2020,pre,uncertain,2
+N00190,7028685c1ddf24cf4fd8b6bc8f8f4213,neutral,2,"Buffett đầu tư dầu khí, không liên quan trực tiếp",2023,pre,uncertain,2
+N00191,13625b0c380a4240ae55d04b2fd5a8b2,neutral,2,VN-Index tăng nhưng khối ngoại quay lại bán ròng,2025,post,uncertain,2
+N00192,9761ed9ec8a4c014946cee3fd02e790f,positive,2,"VN-Index tăng 20 điểm, khối ngoại mua Vingroup",2023,pre,random,2
+N00193,385729b3e7c0ba3e055991a3ffedeffd,positive,2,"SHS lợi nhuận tăng 81%, doanh thu tăng 36%",2025,post,random,2
+N00194,f68b3127d34b7f9229c928466813b275,neutral,1,dòng tiền dịch chuyển từ chứng khoán sang bất động sản,2022,pre,random,2
+N00195,b049e8fb8623af7843e3114a90672c91,neutral,2,khối ngoại bán ròng nhưng VN-Index kết phiên xanh,2021,pre,random,2
+N00196,489290f243dd4e0ee241280d72e8b1d0,neutral,2,bài quảng bá dự án căn hộ Hải Phòng,2024,pre,uncertain,2
+N00197,ca38ae4626b5ec55b8c3697c500e2497,neutral,3,"SpaceX IPO Mỹ, không liên quan thị trường Việt",2026,post,random,2
+N00198,3e5a319e1108df37acf6e8c7a76683ed,negative,2,"ngân hàng, chứng khoán giảm, sắc đỏ lấn át",2025,post,uncertain,2
+N00199,a11fe6549fa7e320faff730075a451bd,positive,2,"ba chỉ số tăng, khối ngoại giảm bán",2021,pre,uncertain,2
+N00200,0eda95e4f5061b5f5978836136ceb623,neutral,2,"APG khai trương trụ sở, tái cấu trúc",2025,post,uncertain,2
+N00201,02187d74397e1b68031a3c8ba8add0b5,neutral,1,"Bộ trưởng nêu khó khăn và giải pháp, tác động không rõ",2023,pre,uncertain,3
+N00202,80d2dbd04cf09c1f522d34654d2abbce,positive,2,"Chuyển sàn HoSE tăng thanh khoản, thanh lọc chất lượng",2026,post,random,3
+N00203,967ae5c47b8e22b62fc75eb0ec31de0d,positive,2,"Thanh khoản lớn nhất ASEAN, FTSE xét nâng hạng",2025,post,random,3
+N00204,e142e604cc5b89aa1e14b0d2245aa9dd,negative,2,"RoE, NIM, tăng trưởng tín dụng ngân hàng giảm 2023",2023,pre,uncertain,3
+N00205,f65217298cc89cd4c4d1118736af44f2,neutral,2,"Tin Twitter-Musk, không liên quan thị trường Việt Nam",2022,pre,uncertain,3
+N00206,e1a9152517bde1c6a1e1f829cdbb99de,positive,3,"VN-Index tăng 3 phiên, nhiều nhóm ngành tăng mạnh",2025,post,random,3
+N00207,58677e4f15cbe9f84a80a0f8e0e1452e,neutral,2,"VN-Index tăng nhẹ, khối ngoại bán, tự doanh mua",2024,pre,random,3
+N00208,e7f6c27dc45f7983e9ea8c6f4a880985,negative,1,"USD chợ đen tăng, áp lực tỷ giá",2024,pre,random,3
+N00209,6cf6597da456910c664839ce4f866d9a,neutral,2,"Bài quảng bá căn hộ, tác động không rõ",2020,pre,uncertain,3
+N00210,4a51e39a62cfff468c313588946bd1db,negative,2,"Vietnam Airlines lỗ, phụ thuộc hỗ trợ, gia hạn nợ",2024,pre,uncertain,3
+N00211,6b475c4cb6d0da8a2d25c598fd012929,negative,2,SCS đặt kế hoạch doanh thu lợi nhuận giảm,2023,pre,random,3
+N00212,6c1c98dad650611ce66929ec2b214dea,negative,2,"Ô tô tồn kho lớn, doanh số giảm",2020,pre,uncertain,3
+N00213,f120a96498cb0534b86c0940555188bb,positive,1,"Bài nhìn lại, giọng tích cực về vốn hóa và chương mới",2026,post,uncertain,3
+N00214,40be2b77432f64568f3156454ffb6e4c,neutral,2,"Phân hóa: bất động sản tăng trần, bank chứng thép giảm",2021,pre,uncertain,3
+N00215,5e1b0cb36dd99dceca7a947c6d7deb56,positive,3,"DFC cổ phiếu đỉnh lịch sử, cổ tức tiền 32,4%",2025,post,random,3
+N00216,dc3be1030df73ce82614c00b6e147dac,negative,1,"Đề xuất tăng thuế xuất phôi, bất lợi cho ngành thép",2021,pre,uncertain,3
+N00217,1da1f9a7ce156208129d9bd0fe52f1b6,positive,2,"Novaland hợp tác nhà ở xã hội, bàn giao 3000 căn",2024,pre,random,3
+N00218,fd0ae6e370341670d78954c629444d3d,negative,2,"HNG dự kiến lỗ, thiếu vốn, nợ lương, giảm sản lượng",2021,pre,uncertain,3
+N00219,6b9c2bee2d550ed0087946ee97459a00,negative,2,"VN-Index giảm, khối ngoại bán ròng 2.541 tỷ",2025,post,uncertain,3
+N00220,cd92d79482977ef7e1fc843ffff911f2,neutral,1,Gạo tốt nhưng xuất khẩu nông sản chung giảm,2023,pre,uncertain,3
+N00221,4dd663cd6ff04df74c38607bcfb773b5,neutral,1,Hạ lãi suất hỗ trợ nhưng số liệu kinh tế yếu,2022,pre,random,3
+N00222,1b68aa20ed7cedc573834cfe21e46cc6,neutral,2,Doanh thu tăng 13% nhưng lãi sau thuế giảm 13%,2021,pre,random,3
+N00223,39dd95d084d089e1a48fb3da70eb2953,positive,1,"Trung Quốc mở lại visa, tour nhộn nhịp trở lại",2023,pre,random,3
+N00224,a38a3f6ae2a740c98d28883de818fde9,negative,2,Ủy viên HĐQT đăng ký bán 7 triệu cổ phiếu TCM,2024,pre,uncertain,3
+N00225,d2190ce6dd50ed077168752bbfa7d8f9,positive,2,Nhiều ngân hàng giảm lãi suất vay mua nhà,2023,pre,uncertain,3
+N00226,97494141d9fb8ac38ab63251172f31bb,neutral,3,"Xu hướng ví điện tử, không tác động thị trường",2022,pre,random,3
+N00227,4191fc38664823bfced19b61c4b283d2,negative,3,"YEG bị kiểm soát, lỗ liên tiếp, giá lao dốc",2021,pre,uncertain,3
+N00228,ede2c288ac2276e7a66bae00eb7c3ee2,neutral,2,"Chương trình khởi nghiệp, tác động không rõ",2023,pre,uncertain,3
+N00229,4a39ed99d3edf79301711872438e7142,neutral,2,Vĩ mô cải thiện nhưng chưa đủ tạo xu hướng tăng,2026,post,uncertain,3
+N00230,dcbe22d3cb1b187cd25eeaa7e6fd970e,neutral,2,Tin tỷ giá và tiền tệ quốc tế,2022,pre,random,3
+N00231,338d8e6f9c0c0da19d5b16267ac8c545,positive,2,"Lạm phát Mỹ thấp, Fed có thể tạm dừng tăng lãi suất",2023,pre,random,3
+N00232,e992ff5a61a53dadd49bb615b799d813,negative,3,"Thanh khoản thấp, VN-Index giảm, khối ngoại bán ròng",2026,post,random,3
+N00233,52dd7f6d1fd8339e4b0c57dfadc79800,neutral,2,Thông tin dư nợ bất động sản các ngân hàng,2023,pre,uncertain,3
+N00234,590512fb6c20cb67ab87d8fd23ef04fe,positive,1,"Ký hợp tác chiến lược, mở rộng hợp tác",2022,pre,random,3
+N00235,dc060ef463962e6ce4957f20d299fdbb,neutral,2,"Giá vàng thế giới, không liên quan trực tiếp",2021,pre,random,3
+N00236,fce29bb9cf14463732704e80e7cff49a,neutral,1,Lãi thoái vốn lớn nhưng doanh thu thuần giảm một nửa,2021,pre,random,3
+N00237,fdedf114f65176220bfd17fe414a3466,negative,2,Doanh nghiệp gián đoạn sản xuất vì giấy đi đường,2021,pre,uncertain,3
+N00238,a2f0c2a289c9176aab5ba3baabcd1c37,negative,2,Ngân hàng nhỏ nợ xấu và rủi ro thanh khoản,2024,pre,random,3
+N00239,1fa1b68714bb5d069b07cdd2e3965ac9,neutral,3,"Kiện toàn nhân sự HĐQT, thông tin hành chính",2026,post,random,3
+N00240,e3e36df1c4210dac52e041eb58e301da,negative,1,"Tương lai Apple ảm đạm, không liên quan trực tiếp",2024,pre,uncertain,3
+N00241,89c00762296e3bfe2e130b283f9c5314,neutral,1,"MBS lãi tăng nhẹ, doanh thu giảm",2025,post,uncertain,3
+N00242,c8cc8dd52ec0037d6d9cf57dc3fdf095,positive,2,"GDP quý 3 tăng, chuyên gia kỳ vọng bứt phá",2024,pre,random,3
+N00243,150a91c7f02730c8c18dbba0d800f1b8,negative,2,Hàng hóa ùn tắc biên giới Việt Trung,2021,pre,uncertain,3
+N00244,2d3e52e81c97699641d1335d4d2db24c,neutral,1,"Kế hoạch thấp hơn nhưng 9 tháng lãi tăng 22,6%",2020,pre,random,3
+N00245,3ed2612b9fe11185090a0afe421ac1f3,positive,3,"TPS kế hoạch lợi nhuận tăng 190%, nâng hạng tín nhiệm",2026,post,random,3
+N00246,2f79b25b1b55c8c3910a2dccfd5a33d4,neutral,2,"Tin vắn tổng hợp, có tốt có xấu",2024,pre,uncertain,3
+N00247,dc141da46e1885fc2b5d2237b0d2a6e4,neutral,3,"Cảnh báo lừa đảo thuế, không liên quan thị trường",2024,pre,uncertain,3
+N00248,f9f4b14455f88b067f398bc05c0ef6c0,negative,2,Xuất khẩu nông lâm thủy sản giảm mạnh,2023,pre,uncertain,3
+N00249,de8e7b8bbbc300ef3433a0182ed8964f,positive,2,Lãnh đạo mua vào nhiều cổ phiếu,2021,pre,uncertain,3
+N00250,7209f1d77bf280098dc36aa9383d70a2,neutral,2,"Trái phiếu Hàn Quốc, không liên quan Việt Nam",2020,pre,uncertain,3
+N00251,f4871b37f054d976e460396326e7ea99,positive,2,Báo quốc tế đánh giá cao VinFast,2022,pre,uncertain,3
+N00252,5332aee93a5b90bacb6e46beeea891db,neutral,2,Bài quảng bá dự án bất động sản,2021,pre,random,3
+N00253,3a988753083b2511db1ee013b9e9e5a1,positive,2,"Tín dụng dự báo tăng khả quan, vĩ mô phục hồi",2021,pre,random,3
+N00254,0658617d32874895d2ddf94786c18a7c,positive,3,"VHM kế hoạch lãi tăng 24%, cổ tức 45%",2021,pre,random,3
+N00255,a53dd276a625cd74108df5a2da0d4a22,positive,3,"VN-Index tăng hơn 28 điểm, ngân hàng chứng khoán bứt phá",2021,pre,random,3
+N00256,c138501f6f3b6c6156c73a530b3ec692,positive,3,"22/25 nhóm tăng, ngân hàng dẫn sóng",2024,pre,random,3
+N00257,5c4e7143923f040a2097115b3c30967d,positive,2,"Định giá thị trường rẻ, nhu cầu cổ phiếu mạnh",2021,pre,random,3
+N00258,cd5914bc1fe8ad78946521d6771529a4,neutral,2,Dự báo giá xăng giảm nhẹ,2023,pre,random,3
+N00259,d7a381d14f6dea551cb0d01eb20e6e49,neutral,2,Quy định xác thực sinh trắc học chuyển khoản,2024,pre,random,3
+N00260,9802bb63e464899df581e7d3ac254c7f,neutral,2,Thủ tướng kiểm tra dự án metro,2024,pre,uncertain,3
+N00261,1c4f8638629bdfbbf17aa10d920a26b1,neutral,1,Giá dầu có thể tăng nếu Trung Quốc phục hồi,2023,pre,uncertain,3
+N00262,041ca5cb6f1a05798cad78103e78d439,neutral,1,Dịch chuyển nhu cầu từ TP.HCM sang tỉnh lân cận,2024,pre,uncertain,3
+N00263,e1f2a3265c9d706e989a9053be1326e8,positive,3,Lợi nhuận ngành chứng khoán phục hồi mạnh,2023,pre,random,3
+N00264,2ecd73d8c3e47a73c5293011750e2a47,positive,3,"Ngân hàng chứng khoán tăng trần, VN-Index tăng 12 điểm",2024,pre,uncertain,3
+N00265,6b53475eb035082f7012f1bf8419af6d,positive,2,"VN-Index tăng 2,18%, khối ngoại bán ròng hạ nhiệt",2025,post,uncertain,3
+N00266,724ccee08826ad5785d9381af74f2832,neutral,2,Điều chỉnh danh mục dự án địa phương,2022,pre,uncertain,3
+N00267,09d6c9867b2f53d3db04ba7729a8c38b,neutral,2,"Giải trình ngân sách, giảm thuế, tác động không rõ",2023,pre,random,3
+N00268,abd17b3e3db7c2032b4f8e47a6fdfcae,negative,2,BII bị UBCKNN xử phạt mua vượt mức,2022,pre,random,3
+N00269,d656d3c8af6fc838afd7599cda4324a2,neutral,2,"Hủy giấy phép hãng không hoạt động, ít tác động",2020,pre,uncertain,3
+N00270,ee807e01c0cf85da85c17d0867eb10ed,negative,2,Hàng trăm nghìn tài khoản chứng khoán đóng,2023,pre,random,3
+N00271,16d3963231cc34a898b956f431ff4068,positive,1,"Thủ tướng mục tiêu phục hồi kinh tế, mở cửa",2022,pre,uncertain,3
+N00272,bb7c8b6bdf08cc65b7bf0a29b39a2e78,negative,2,"Bất động sản thách thức nhiều, cơ hội ít, tín dụng khó",2022,pre,uncertain,3
+N00273,b46bd535709eca182460102bc50a7a40,neutral,1,"Đấu giá đất bị thao túng, tác động không rõ",2024,pre,random,3
+N00274,dbe9b95399108b4dbf9f9690c5ab7525,neutral,2,Khối ngoại bán ròng nhưng vài mã được mua thêm,2022,pre,uncertain,3
+N00275,f5ab857e2762818905154b2181cfbdc9,negative,2,"Giá dầu cao, chứng khoán giảm mạnh",2026,post,uncertain,3
+N00276,35ca18d4741dbd241948a0942bbc2500,positive,1,"FLC khánh thành, khởi công nhiều dự án",2022,pre,random,3
+N00277,7649f8e122a2a4d558efa2f54867b680,negative,1,"FLC biến động mạnh, giảm 6,2%, bảng giá lỗi",2022,pre,uncertain,3
+N00278,43236bd973505bfde0fe308bc8a98eff,neutral,2,Lời khuyên chuyên gia về bắt đáy,2026,post,uncertain,3
+N00279,d08c2b626a68fec22c79778b05955562,neutral,3,"Vụ án hình sự, không liên quan thị trường",2026,post,random,3
+N00280,f6a2fbadce3f93da3f7d2617ff551b1d,neutral,3,"Đóng góp quỹ phòng dịch, thông tin xã hội",2021,pre,uncertain,3
+N00281,0b91cce8e7a779f1ef86796a4d6e8cbd,neutral,2,Hợp tác quản lý cho thuê căn hộ nhỏ lẻ,2020,pre,uncertain,3
+N00282,a7bc5d3ed3f88d15324f246746f149fd,negative,1,Đề xuất siết bán bảo hiểm qua ngân hàng,2022,pre,uncertain,3
+N00283,471344691177f4e67be1100ffe2710a1,positive,1,"Đơn hàng dệt may đổ về, nhu cầu tuyển dụng bùng nổ",2021,pre,uncertain,3
+N00284,79188f2ca5ad6c0a00f6415199f6bbde,positive,3,"Bất động sản công nghiệp nóng, FDI và M&A tăng",2020,pre,random,3
+N00285,028562d4ed9ff9a8ff4983f3d37ce429,negative,2,Ricons đề nghị mở thủ tục phá sản Coteccons,2023,pre,uncertain,3
+N00286,de3a75fc5a626af801c8935c0d75ac3a,positive,2,VNG IPO Nasdaq huy động 150 triệu USD,2023,pre,uncertain,3
+N00287,47b21b6dd4b3f488784f53b948888840,negative,1,"Sự cố, vi phạm tại dự án điện gió",2021,pre,uncertain,3
+N00288,d30ad2ffedce761fe6ee6dcb47b96d75,positive,2,Giao dịch nhà đất hồi phục 20-30%,2021,pre,uncertain,3
+N00289,d685a4b67ac539b7f679e344ae5247a4,negative,2,Chủ tịch HQC bị hoãn xuất cảnh vì nợ thuế,2024,pre,random,3
+N00290,022d8e78f54c3d649b0d677d766de085,negative,1,"Mở khóa gần 8 triệu cổ phiếu ESOP, áp lực cung",2022,pre,random,3
+N00291,d8a91eab154bf2afb25c29a96f4f3ce1,neutral,2,"Cơ chế lương lãnh đạo DNNN, tác động không rõ",2021,pre,random,3
+N00292,eb6f032711db6df10fbb7b4c9758a374,negative,2,"Khối ngoại bán ròng 4.946 tỷ, áp lực điều chỉnh",2026,post,random,3
+N00293,19e89029d5425b8b3e2f3da138d1fabe,neutral,2,"Giảm vốn ThaiSpace, đánh giá trái chiều",2023,pre,random,3
+N00294,faabd6e0a86d4045425472531943ad3c,neutral,2,Thị trường điều chỉnh nhưng có cơ hội tích lũy,2022,pre,uncertain,3
+N00295,fd0349db7e9dbc801d2933d9456c9457,neutral,2,"Vẫn downtrend, kỳ vọng thoát, tuần tăng nhẹ",2022,pre,uncertain,3
+N00296,4d5c213fcb1495211f1050e0710315f6,neutral,1,Cổ phiếu Apple giảm 1% nhưng chiến lược giá khôn,2021,pre,uncertain,3
+N00297,f9e8b0fde5d7dbb39fd6802247a4349a,negative,1,"Quỹ ngoại tiếp tục bán 6,45 triệu cổ phiếu MWG",2020,pre,uncertain,3
+N00298,6f6a63aa71ae3dc7ff1dcc0400d892c3,positive,2,Tuyến đường tạo trục bất động sản nóng,2024,pre,uncertain,3
+N00299,06e6a82c071be9a77a73b60a0ea80871,neutral,2,"Vingroup thoái vốn CrownX, tác động không rõ",2021,pre,uncertain,3
+N00300,1d14927afc0448d1f8fca74a03308983,positive,3,TCX được thêm vào rổ MSCI ngay sau niêm yết,2025,post,uncertain,3
+N00301,aaae90bc727b73cfb01c0419dddada5f,neutral,2,"BĐS Trung Quốc, không liên quan trực tiếp thị trường VN",2022,pre,uncertain,4
+N00302,52da80102f3a60adc3b4b1e2d6214735,neutral,2,"Vụ án hình sự, không rõ tác động cổ phiếu",2023,pre,uncertain,4
+N00303,ca6b344790c92a3bbd6fd9696bed8336,neutral,1,"Giá đất tăng nhẹ nhưng thanh khoản thấp, lẫn lộn",2023,pre,uncertain,4
+N00304,30b02eee816aa546528837c8c2d7f00c,neutral,2,"Quảng bá dự án căn hộ, không số liệu",2022,pre,uncertain,4
+N00305,1ea7ddb34884eedf160752179f20a125,positive,3,"FPT lập đỉnh, DGC tăng nhờ xu hướng công nghệ",2024,pre,uncertain,4
+N00306,9ed43d589ab719c0e696cfb8e1ec498f,positive,2,GELEX hợp tác bán vốn dự án với Sembcorp,2023,pre,random,4
+N00307,929711c7e74b7ad8d835493f9a7bc6c5,negative,3,"VN-Index giảm 3,9%, khối ngoại bán ròng",2024,pre,uncertain,4
+N00308,7bbafbd533559ee8766d906210abf3ed,neutral,1,"USD mạnh, tác động tới VN không rõ",2022,pre,random,4
+N00309,b80c2c84a0c543757c80d982448600ba,negative,3,"BOT Cầu Thái Hà lỗ, doanh thu rất thấp",2021,pre,uncertain,4
+N00310,e96b95819ffc61687db561b36da1776b,negative,2,Quỹ ngoại bán gần 4 triệu cổ phiếu CEO,2021,pre,uncertain,4
+N00311,6ce2b204ec5901f99a514ab3b695ade8,neutral,3,"Chuyện thiện nguyện cá nhân, không liên quan",2021,pre,random,4
+N00312,531380fbd220709167a5536673ac9da6,positive,3,TCBS chi cổ tức tiền mặt 5%,2026,post,random,4
+N00313,1ca2722572a4efad3569d393eee027b5,negative,3,"Fubon ETF rút ròng kỷ lục, khối ngoại bán mạnh",2024,pre,random,4
+N00314,671cf52f3d59456b0cfe55facf5126f6,negative,2,Tổ chức liên quan lãnh đạo đăng ký bán CII,2021,pre,uncertain,4
+N00315,2ab81b46f92234400712b445e4f63d3a,neutral,2,"Tình huống cá nhân về nợ xấu, không tác động",2023,pre,random,4
+N00316,52fa5a4546c58e67387e39d1a7d06568,neutral,3,"Xếp hạng tỷ phú thế giới, không liên quan",2022,pre,random,4
+N00317,3cd5434f0917cdb57e6b1eb5a5495343,positive,2,Thị trường trái phiếu DN cải thiện,2023,pre,uncertain,4
+N00318,310410e251b5e0292fed8de88598192f,neutral,2,"Giá vàng giảm sau kỷ lục, không liên quan cổ phiếu",2024,pre,random,4
+N00319,d234d3982d7f6306b364db29ae60daf8,neutral,2,"Đường sắp thông xe, tác động gián tiếp nhỏ",2024,pre,random,4
+N00320,5467b41f4ea45b8c22378cd9a8535bd9,positive,2,Quỹ liên quan lãnh đạo đăng ký mua thêm OCH,2023,pre,uncertain,4
+N00321,839bdaf0cd984870f50162c44b4bff1b,neutral,2,"M&A nóng nhưng khó chốt, cân bằng",2023,pre,uncertain,4
+N00322,2dd19566b74070e51e5b52e0e43f3794,negative,3,"DN bất động sản ngộp thở, chính sách chưa hiệu quả",2023,pre,random,4
+N00323,68c869adcdf302c650a13d6a32cecc10,negative,2,Cảnh báo rủi ro tín dụng năng lượng tái tạo,2021,pre,uncertain,4
+N00324,f630a4b9990208e336bc97a9136cc22e,negative,3,"VIC, VHM giảm sàn do chốt lời",2025,post,uncertain,4
+N00325,890561e83c9221a8fece1cdf79d58414,neutral,2,Phát hành trái phiếu số liệu lẫn lộn,2022,pre,uncertain,4
+N00326,79251c43d122703b4bcbbf5d92a78382,neutral,2,Định giá hấp dẫn nhưng nhiều biến số rủi ro,2026,post,uncertain,4
+N00327,3158f262cf24cd7cbc9e4c2fc992cd8a,positive,2,"VN-Index tăng 18 điểm, tự doanh mua ròng",2024,pre,uncertain,4
+N00328,2e9e66cf39ce1e53536e4ae2050b0664,positive,2,VIB tăng trưởng thẻ tín dụng mạnh,2022,pre,random,4
+N00329,a01b8fc324e6650e8f81d52b3dc32e5f,neutral,2,Fed tăng lãi suất nhưng có ngành chống chịu,2022,pre,uncertain,4
+N00330,5a630b677f7ebd73f63ccbc9eb0737d3,negative,2,"CEO CII nói chỉ cần tồn tại, khó khăn",2023,pre,random,4
+N00331,9889591b3f4ee674980c22942876089d,neutral,3,"Chuyện vay app đen, không liên quan",2020,pre,uncertain,4
+N00332,d5312efd1006350219dde390479d5359,positive,2,"Sân bay được duyệt, hưởng lợi BĐS quanh vùng",2022,pre,uncertain,4
+N00333,57ad3a53d5730932a37de0d4d54fb8ec,neutral,3,Bàn về tâm lý chia sẻ cổ phiếu,2025,post,random,4
+N00334,59397a19beed8050ab9ef1dd6675e225,neutral,2,"Chỉ đạo thận trọng tín dụng, không rõ tác động",2022,pre,uncertain,4
+N00335,fcb0c186a52cd704b1024536ce1affb3,negative,2,"DNNN lỗ lũy kế, nợ lớn, HVN lỗ",2023,pre,uncertain,4
+N00336,dbf52e627c05e8b2ec5d21cc7c006ccb,negative,2,Giảm lãi suất có thể giảm lợi nhuận ngân hàng,2021,pre,random,4
+N00337,4d40298d1d846191f2c1039d44a367af,neutral,2,"Tin đại lý phân phối dự án, thông tin hành chính",2024,pre,uncertain,4
+N00338,8b7762d5eed0fec68e0855db24ae090f,positive,2,Vntrip chuyển đổi mô hình thành công,2022,pre,uncertain,4
+N00339,ce7c1ef4f931f8c72ce6cfef6f59d77c,positive,2,Nhiều nhà đầu tư lớn quan tâm KKT Vân Phong,2023,pre,uncertain,4
+N00340,2f925867c3f13418756c3e929abe68e3,negative,3,UBCKNN cảnh báo HBS bán thanh lý tài khoản,2026,post,random,4
+N00341,b1b1ad9e9f87243593cec69f6c1aabea,neutral,2,Cắt giảm thuế xe nhập theo lộ trình dài,2021,pre,uncertain,4
+N00342,ccd0dee7fe9b9c5fe52c24d9de9c749d,negative,3,"FLC nợ trái phiếu, lãnh đạo Ocean Group từ nhiệm",2024,pre,uncertain,4
+N00343,d13c3beac75092c210b054bbcb17d00a,negative,2,"Đầu cơ đất khó quay lại, thị trường trầm lắng",2023,pre,uncertain,4
+N00344,d1698947f860b3dc123f83103f67daaf,neutral,2,"Thị trường EV Ấn Độ, tác động không rõ",2022,pre,uncertain,4
+N00345,deee8325b95fa4bd73db00eefeee1cc7,neutral,2,Thay đổi sở hữu cổ đông lớn OGC,2024,pre,random,4
+N00346,b47e12eae9bd14e3668e9032ae7380cc,positive,3,Cổ phiếu ngân hàng tăng mạnh trong tuần,2024,pre,random,4
+N00347,4e4644324e056aa7eb77f4675a6d468c,neutral,1,"Chào bán riêng lẻ gần giá thị trường, pha loãng",2021,pre,uncertain,4
+N00348,605c5527f7faeb31cfe7ddf162fb9583,positive,2,FPT Software hợp tác hiệu quả với đối tác Phần Lan,2022,pre,random,4
+N00349,23fe38e9a3f439f3c2de1927a1c59324,positive,2,"Chỉ số tăng 10%, vốn hóa HOSE tăng",2026,post,random,4
+N00350,1d0aa87e128c195e1f2d4aeb02d83839,positive,2,VND lên giá so với USD,2021,pre,uncertain,4
+N00351,dc50b553f134e94ebe73fc080c8c8d30,neutral,2,"Tasco đổi hướng sang ô tô, có rủi ro",2024,pre,uncertain,4
+N00352,d2c34824353f64f5786d5fce2c57f812,neutral,3,"Ra mắt xe Trung Quốc, không liên quan",2024,pre,random,4
+N00353,9f2afe26e182b6e499158f5f724029a7,neutral,3,Dự thảo thông tư hành chính về lãi suất,2024,pre,random,4
+N00354,77efd2e7d4ad440105fbe7a22221eda9,negative,2,Chủ tịch Vinhomes nêu khó khăn tín dụng BĐS,2023,pre,uncertain,4
+N00355,30b7c23691ba707253045d8870c2cf54,positive,3,"QCG chuyển nhượng thủy điện, cổ phiếu tăng trần",2024,pre,random,4
+N00356,bc1873145bb70bdd4e97e3099215b251,neutral,2,Tiền mặt tăng nhưng nợ cũng tăng,2022,pre,random,4
+N00357,e1742fd54d6c2855fedd4888d7db0fe0,neutral,2,Số liệu xuất nhập khẩu dầu thô,2023,pre,random,4
+N00358,ddb9964914e09b7f35877db92aa5c9e5,neutral,2,"Ký hợp tác ứng dụng AI, chưa rõ tác động",2023,pre,random,4
+N00359,a980101bea42174d04901554c06096cd,negative,3,"Vinaconex lãi giảm 69%, không đạt kế hoạch",2022,pre,uncertain,4
+N00360,2c5a186df24f7306f4474ad711c7cc77,positive,2,"Hội nghị thu hút vốn ngoại, hướng nâng hạng",2026,post,random,4
+N00361,01fb6515c2fd47213c34a84eb884454d,neutral,3,Xét xử án hình sự bệnh viện,2022,pre,random,4
+N00362,21c8eca9b70db4a7eaf095a275249992,neutral,2,Doanh thu tăng nhưng lợi nhuận trái chiều,2022,pre,uncertain,4
+N00363,34c42bbdd62e49fbd7ef6bfe1feed149,negative,2,NHNN tăng lãi suất điều hành 1%,2022,pre,uncertain,4
+N00364,96d29ba7036ba7b9948d7a25291aa0aa,positive,2,Lãi suất liên ngân hàng xuống thấp,2023,pre,random,4
+N00365,c6e2741bd8f1ea015055137cefa567b4,negative,2,"Bitcoin lao dốc, dự báo mất thêm giá trị",2022,pre,random,4
+N00366,c0fa7942888ab29b8f5ebcb35ecff0e0,negative,2,"Chứng khoán Mỹ giảm, căng thẳng Mỹ Iran leo thang",2026,post,uncertain,4
+N00367,5a45c0a09bfbd13e26c21f19e8438c1e,positive,3,"Dự báo VN-Index tăng mạnh, định giá hấp dẫn",2025,post,random,4
+N00368,8a9b0056eafa72fd54c215a68a8c6597,negative,3,"Biên lợi nhuận hóa chất giảm, nhu cầu yếu",2023,pre,uncertain,4
+N00369,7a50f8629656a54f94a70aaf9f28a584,neutral,2,Danh sách giao dịch cổ đông lẫn lộn,2020,pre,random,4
+N00370,4a28c1a48600184a6f7e2f6444b35889,neutral,2,"Điều chỉnh sau tăng mạnh, chuyên gia cho là bình thường",2026,post,uncertain,4
+N00371,9fe940ed79473bbaae9c97a5a635c9c2,positive,2,iPhone giúp nhà bán lẻ có doanh thu tốt,2021,pre,uncertain,4
+N00372,24263eea82d5ace6de1b9a1911f58440,neutral,1,"Vàng dầu tăng vì xung đột, tác động không rõ",2022,pre,random,4
+N00373,d96a014bf39150fa9f271e703494117a,positive,2,Hỗ trợ thuế phí 225 nghìn tỷ cho doanh nghiệp,2022,pre,uncertain,4
+N00374,81ae0592ceb0b700c2c2229b998a5691,negative,2,Cảnh báo cú sốc thị trường dầu do trừng phạt,2022,pre,uncertain,4
+N00375,0fdfebbbddbe0b6354dc2f3e5e71d971,neutral,2,Giao dịch lớn mua bán lẫn lộn,2021,pre,uncertain,4
+N00376,00167832b45d3892c14a9d9b1365472a,positive,2,"VN-Index tăng, khối ngoại mua ròng",2024,pre,random,4
+N00377,635e5e8e8a171d59ba8fd826956dfada,neutral,3,"Xử lý cổ phiếu IPO còn lại, thủ tục",2025,post,uncertain,4
+N00378,e4d0b13e33c8dc65b676df57759542aa,negative,2,"Vướng giải phóng mặt bằng, mất đơn hàng",2021,pre,uncertain,4
+N00379,af356c14adfa8aad510d30f4bd0b5cb4,neutral,2,"Xếp hạng quy mô GDP, thông tin chung",2022,pre,random,4
+N00380,9961cdf8a961d6a6e4ebed7f489be0a2,neutral,2,Hàng thông quan trở lại sau tạm dừng,2023,pre,uncertain,4
+N00381,b76fe0d29c268c679d5de426c9bf9401,negative,3,"VN-Index giảm, thanh khoản thấp, khối ngoại bán ròng",2025,post,uncertain,4
+N00382,eaadb85f478fcd14c7f15818c3b109e8,positive,2,"Trung Quốc nhu cầu sầu riêng lớn, có cảnh báo",2024,pre,uncertain,4
+N00383,42e06d4f827e716b9076a3a5dbb3d6cf,positive,2,SSI Research nhận định lợi suất hấp dẫn,2025,post,random,4
+N00384,56c41318745c22ca8e3212e11e18ae76,neutral,2,Đóng cửa hàng nhưng doanh số không giảm,2024,pre,uncertain,4
+N00385,3ad4f20338dd71fdbb85800a42383210,positive,2,"LG khảo sát lập văn phòng R&D, đầu tư vào VN",2020,pre,uncertain,4
+N00386,8d70a5469c3cc44ef45ce88b72a8616c,neutral,2,Thị trường giảm nhưng triển vọng dài hạn tích cực,2026,post,uncertain,4
+N00387,0f24dd09bbedaa41f4b278a52e3ed6fa,positive,1,Bài quảng bá tiềm năng BĐS Hội An,2024,pre,uncertain,4
+N00388,00c6b6c699890c496c9a244f966fd1b6,negative,2,"Sabeco lãi thấp nhất 6 quý, doanh thu giảm",2023,pre,uncertain,4
+N00389,c4f912fd298559cc13491e3e4e4a11c0,neutral,3,"Xung đột Gaza, không liên quan",2023,pre,random,4
+N00390,991f0d319d923ca947726f093e8b3f13,neutral,2,Xếp hạng GDP bình quân đầu người,2022,pre,uncertain,4
+N00391,0c866556d0b5f81ca25edf77a1519fa0,neutral,2,"Xuất khẩu nông sản địa phương, không liên quan cổ phiếu",2021,pre,uncertain,4
+N00392,33bda1dddb337e4ff4d40a15099f8d4b,positive,3,"Dòng tiền vào, cổ phiếu dầu khí tăng mạnh",2025,post,random,4
+N00393,06c000f5c7d3f4dfc98d79b0efe80b90,neutral,2,Giới thiệu quy hoạch tổ hợp thương mại,2023,pre,uncertain,4
+N00394,1810ffde9c2d3abe837c03751d5b1f6a,neutral,2,Chính sách hỗ trợ khách hàng sau mưa lũ,2025,post,random,4
+N00395,321123ec12763e8f4e63e0a21a694b5f,negative,3,"VN-Index giảm, tâm lý thận trọng sau phiên giảm lịch sử",2026,post,uncertain,4
+N00396,d521556c10ed183c1327a70b7ea42102,neutral,2,"Vụ lừa đảo ngành điều, không liên quan cổ phiếu",2022,pre,uncertain,4
+N00397,839301c0742f9520ba6ca4f0e215312b,negative,2,Khối ngoại bán ròng mạnh gây áp lực VN-Index,2024,pre,uncertain,4
+N00398,16771a2102e7321533b009fd66039f7e,positive,2,SIC đăng ký mua thêm cổ phiếu FPT,2026,post,uncertain,4
+N00399,ff9b7ba9064ec2593e62e3c62173b53b,positive,1,"Doanh thu tăng, lỗ thu hẹp mạnh",2021,pre,random,4
+N00400,adc1498fdf201620349f1dc359a07734,negative,2,"Tòa trả hồ sơ, DGC bị truy thu lợi bất chính",2024,pre,uncertain,4
+N00401,86f5038d30b3acd09df05097fae7dcd3,positive,2,"HAH bán cổ phiếu quỹ lãi lớn, cổ phiếu tăng 4 lần",2021,pre,uncertain,5
+N00402,d02d7584ec746b4956b8b1e6f1abc553,positive,2,"Thanh khoản cao, tiền đổ vào, VN-Index tăng nhẹ",2021,pre,uncertain,5
+N00403,dc169288be1a80d952cb638d30f591ed,neutral,1,"Lãi suất tiết kiệm giảm, tác động không rõ",2023,pre,uncertain,5
+N00404,5e2cf3d882d3d23c7fc1a866c5f4d8ca,negative,2,"Margin kỷ lục, rủi ro đòn bẩy và chi phí vốn",2026,post,uncertain,5
+N00405,06ab4f3d0a48ce20fad658837eec6660,neutral,2,Sang tay cổ phiếu nội bộ gia đình,2022,pre,uncertain,5
+N00406,8bf5bff9c528f2ac3887f289f58fc18a,neutral,3,"Ủng hộ quỹ phòng chống dịch, không tác động giá",2021,pre,random,5
+N00407,bc35b6f2f32dfe1b59c48ed079167158,neutral,2,"Khoản đầu tư trái phiếu trong BCTC, không rõ tác động",2026,post,uncertain,5
+N00408,0ed17bdc462f5c4e9cc3e6e460e85a59,positive,2,Công ty liên quan đăng ký mua 10 triệu KBC,2020,pre,uncertain,5
+N00409,f3fc97ab06b2f395497e71258e896833,positive,2,Cơ hội xuất khẩu lớn nhờ EVFTA,2020,pre,uncertain,5
+N00410,4bea58de37caee9ce17681128abeebe7,positive,2,Gói tài khóa tiền tệ mạnh hỗ trợ phục hồi,2021,pre,uncertain,5
+N00411,1380f57d08899c3495926c7c0ebc693d,neutral,1,"Phát hành trái phiếu lãi cao, tác động không rõ",2021,pre,uncertain,5
+N00412,041953ef30a51bd3ea9941ec6e742e79,neutral,2,Thoái vốn CC1 sau nhiều lần thất bại,2021,pre,random,5
+N00413,a7d23f8df5e9e2dc0f77ea098ae46adf,neutral,1,"Bài quảng bá dự án, không rõ tác động cổ phiếu",2024,pre,uncertain,5
+N00414,1c96a0df6abb7ae5250b6a5e98d75ce4,neutral,2,"Xu hướng tiêu dùng trả góp, trung tính",2022,pre,random,5
+N00415,485acf647b8f423dec5d85112ad771f2,neutral,1,Thị trường giảm nhưng một số cổ phiếu tăng ngược dòng,2022,pre,uncertain,5
+N00416,92183b195566c2077161749b5c368685,neutral,2,Phát hành trái phiếu trả nợ và đầu tư BOT,2021,pre,uncertain,5
+N00417,f546d6594cb1cc273dc556a48c89cd6a,neutral,1,"Lãi suất giảm nhưng tín dụng tăng chậm, trái chiều",2023,pre,uncertain,5
+N00418,098ca3011a434bfc83cbf5c608f8ca62,neutral,2,"Người gửi tiền chuyển dịch kênh, tác động không rõ",2020,pre,random,5
+N00419,9aadc5b5d41425b9c05eadc66ad030ad,negative,3,"Hai đời chủ tịch bị bắt, cạn tiền trả lương",2024,pre,uncertain,5
+N00420,5227265bcc1f0b45dbff9782741fc03f,neutral,2,"Xe AITO Trung Quốc, không liên quan chứng khoán VN",2023,pre,uncertain,5
+N00421,31b1ca6435837982da0603e63f5a4a58,negative,2,"Thị trường BĐS đóng băng, giao dịch nhỏ giọt",2021,pre,random,5
+N00422,7b88975eadc653ebb0af4b8999e72441,positive,2,Quảng Ninh hút đầu tư nhờ cải cách,2021,pre,random,5
+N00423,5abe141d78aebcebfbbf28a531c9fbc9,neutral,2,"Khó nhập xăng Malaysia, giá xăng cao nhưng không rõ",2022,pre,random,5
+N00424,dcc6308d762c01841e0060b5cad07f40,neutral,3,"Thái Lan thu phí nhập cảnh, không liên quan",2023,pre,uncertain,5
+N00425,f90a37f31661e45ed498e54dcd72f271,neutral,2,"Fed thận trọng, chưa cam kết cắt giảm lãi suất",2024,pre,random,5
+N00426,a65bdeda6428c23125650ed82e86e0a7,neutral,2,Chỉ số bật tăng nhưng cảnh báo bẫy tăng giá,2025,post,uncertain,5
+N00427,fc0c33b8ab1865e3b36e5ff7cdc9bdd5,positive,2,"BĐS công nghiệp giá thuê tăng, lấp đầy ổn định",2021,pre,uncertain,5
+N00428,076b91bbec0e6c45e234ec39d86e2f3a,positive,2,Dự báo nhiều cổ phiếu được thêm vào rổ ETF,2021,pre,uncertain,5
+N00429,eff813d550671e68de441732f29d3a99,neutral,2,"Dự báo phân hóa, vừa cơ hội vừa rủi ro",2026,post,random,5
+N00430,0a307dfc42838c39b8c7f1f96520e57c,neutral,2,"Tin cổ phiếu Mỹ UnitedHealth, không liên quan VN",2025,post,random,5
+N00431,5f4471c8017ae947e2a8352020c0663b,positive,3,Lãi sau thuế cả năm tăng 23%,2022,pre,uncertain,5
+N00432,a99bc78d1282c933dd17fa006d996ac1,neutral,1,"Không cổ tức, giá giảm nhưng chủ tịch lạc quan",2023,pre,uncertain,5
+N00433,e1b1d290775df88c93fbe4b52c4878c1,neutral,2,"Thông tin doanh nghiệp và dự án, không rõ tác động",2022,pre,uncertain,5
+N00434,f7a0b16b964b9bfdabf5314b4376d003,positive,2,"Dự báo VCI, PDR, HSG được ETF thêm vào",2021,pre,uncertain,5
+N00435,28fd8179ab9e21e6417c2e56f7332b86,neutral,2,"Giải thưởng nhà tuyển dụng, tác động không rõ",2022,pre,uncertain,5
+N00436,3c36d489bf49d66e2c5873da582e3726,neutral,2,"Giá vàng đi ngang, không liên quan cổ phiếu",2021,pre,random,5
+N00437,d2be8c5777e4b87f75e69adf2843aedb,positive,2,Đặt mục tiêu doanh thu lợi nhuận tăng vọt,2022,pre,random,5
+N00438,65412b0b88cd14ec7a3eb2a02785aac0,positive,2,"Cắt giảm ngành nghề có điều kiện, thuận lợi kinh doanh",2026,post,random,5
+N00439,7d227e1959ccbc9039fa350ddd071f92,neutral,1,"Ngân hàng tăng lãi huy động, tác động không rõ",2024,pre,random,5
+N00440,3f50153c64af8fc95c8b87ae4daa8dde,neutral,2,"Phiên tòa vụ lừa đảo cũ, tác động không rõ",2023,pre,random,5
+N00441,241581c03e3f8c2dbd8778ced65139ac,negative,2,"Thị trường BĐS khó khăn, nguồn cung giảm, thổi giá",2021,pre,uncertain,5
+N00442,a756a783582d51010210ae7d3aa0039f,positive,2,Chuyên gia dự báo BĐS 2023 phục hồi,2023,pre,uncertain,5
+N00443,6e9fe037ea4788bf6b6fc90b7a4339c2,positive,2,"Kỳ vọng lợi nhuận quý 3 tăng, nâng hạng cải thiện dòng tiền",2024,pre,random,5
+N00444,260d3960f3aa518d17c569ae5c95072c,neutral,1,"Rủi ro người dân gửi tiền, tác động chứng khoán không rõ",2023,pre,random,5
+N00445,d05618bb31bf1ac3d81e4f46112271d5,neutral,2,"Thay đổi nhân sự ngân hàng, hành chính",2023,pre,random,5
+N00446,d0d68041fbc04eadc5c5b08d766ae27c,positive,3,Lợi nhuận ngân hàng tăng mạnh 3-5 lần,2021,pre,uncertain,5
+N00447,c4ff5461e840d1a7344e61206cdf81d0,negative,3,Novaland chậm trả gốc lãi trái phiếu,2025,post,random,5
+N00448,b6e5c13d8122d2020aafbfcb55c67b3a,negative,2,"Thiệt hại hàng chục nghìn tỷ cho SCB, vụ án",2023,pre,uncertain,5
+N00449,8d41566ee3a278c71d2877464c3b8d44,neutral,1,"Quỹ ngoại bán nhỏ, trước đó có mua",2026,post,uncertain,5
+N00450,613a75a89763605cc88638ae795f3b68,negative,2,"VN-Index giảm, chốt lời sau chuỗi tăng",2025,post,random,5
+N00451,8ccd99a411e77c211da5704dfe33cc1c,neutral,2,Phân tích quỹ mở ít thu hút nhà đầu tư,2024,pre,random,5
+N00452,07d831de00183131754b5c0fda0e22db,neutral,2,"Đóng chi nhánh nhỏ, tác động không rõ",2026,post,random,5
+N00453,5b2ce18dacb6703f3e687ea35eeb071b,positive,2,Kế hoạch mở lại du lịch quốc tế,2021,pre,uncertain,5
+N00454,4094b94b943d2a8c08f8b198cc01abf5,neutral,2,"Cuộc họp Fed, kết quả chưa rõ",2026,post,uncertain,5
+N00455,b38977468f8fb6ba35fefba74db3609b,positive,2,Cổ phiếu BBH tăng hơn 100% một tuần,2022,pre,uncertain,5
+N00456,63d5d223167f76e17be344dfc2c92a86,negative,3,"Giá thuê căn hộ dịch vụ giảm mạnh, tỉ lệ trống cao",2021,pre,random,5
+N00457,b4c2f638aab62a7c605cedf958068c36,negative,2,"Ngành thép khó khăn, tiêu thụ giảm, dừng lò cao",2022,pre,uncertain,5
+N00458,adcd632af1d970abe47163484f4498f2,neutral,2,"Thị trường Ấn Độ, không liên quan Việt Nam",2024,pre,uncertain,5
+N00459,2078d437db661503370804e48274fb5e,positive,2,Tổ công tác tháo gỡ vướng mắc BĐS,2022,pre,uncertain,5
+N00460,4f207e50471e61d2fab3dd26bd62b4bf,positive,2,"VN-Index tăng, khối ngoại mua ròng",2025,post,uncertain,5
+N00461,8135eb2e4368c1afcbb8000c2a526940,positive,3,"Kỳ vọng nâng hạng FTSE, dòng vốn thụ động",2026,post,random,5
+N00462,371c3cf4f3838a14c8fb3ec8c08428ca,neutral,2,"Công ty Anh phá sản, không liên quan thị trường VN",2022,pre,uncertain,5
+N00463,e8aa940cb2bc07b82fba3aa026d22997,neutral,3,"Thị trường chứng khoán Thụy Điển, không liên quan",2024,pre,uncertain,5
+N00464,d2a39bcd7cb0e48de71e0d56cdbb2cd5,positive,3,"VN-Index tăng gần 4%, được nâng hạng",2026,post,random,5
+N00465,018b8cda4e7f6a99da0344758cf394e0,positive,3,Loạt ngân hàng chia cổ tức tiền mặt và cổ phiếu,2023,pre,random,5
+N00466,f890f63232434c3de215d6fd1f871f68,negative,2,Văn Phú Invest bị phạt mua chui cổ phiếu,2022,pre,uncertain,5
+N00467,968ae76a03c86b4392937996d1b6f5f1,positive,3,"Cổ phiếu họ FPT tăng kịch trần, thanh khoản lớn",2026,post,random,5
+N00468,208c240000550b71a5991d2f5dee1a0d,neutral,2,"Giải thưởng thương hiệu, không rõ tác động giá",2023,pre,uncertain,5
+N00469,5c9bb3f9f08a8ddecabc040bfe20e5ba,neutral,1,"Chiêu trò livestream, thị trường BĐS đóng băng",2023,pre,random,5
+N00470,b315f7d81f2be4ec32d43be2830fa9de,negative,2,EVN lỗ hơn 26.000 tỷ đồng,2023,pre,uncertain,5
+N00471,5ec11c13e5e98c5b8922472d575d2656,neutral,2,"Xu hướng mua trước trả sau, trung tính",2022,pre,random,5
+N00472,92d0e349df34985a40bad662a9e7f0b3,positive,2,"Tài chính quốc gia lành mạnh, ứng phó thuế quan",2025,post,uncertain,5
+N00473,d8acfa8c524fd32b8435d164cc351db3,neutral,2,"Câu chuyện cá nhân đầu tư đất, giá tăng ít",2021,pre,random,5
+N00474,4dfefc90000b9fce9373ef5cd3d93605,positive,1,"Thúc đẩy hệ sinh thái bán dẫn, định hướng tích cực",2023,pre,random,5
+N00475,39aec0be77fbb1da07d3ad6101342802,positive,2,Nông sản Việt rộng cửa thị trường Singapore Malaysia,2020,pre,uncertain,5
+N00476,ea2095d200aa353fe8fa624b53f75cdc,negative,1,"Hủy phương án phát hành, nhu cầu vốn và nợ",2026,post,random,5
+N00477,dfe6a218fac556f00dce975418f6ed0e,positive,2,"Đấu giá thoái vốn giá cao, SHG tăng trần",2023,pre,random,5
+N00478,2d349cf34e23d2659557dc80847163f5,negative,1,"BĐS tắc dòng tiền, bán hàng chậm",2022,pre,uncertain,5
+N00479,8f889578965389bf3edaa6447f3ca34f,negative,2,TEG bị phạt và truy thu thuế,2024,pre,random,5
+N00480,f5d58d3e48f02b805ffee4e94c116ff3,negative,3,"Xu thế yếu, khuyến nghị giảm tỷ trọng",2021,pre,random,5
+N00481,587bd6e537748971ca5ab18f81386a15,neutral,2,"Cam kết khí hậu COP28, không tác động trực tiếp",2023,pre,uncertain,5
+N00482,eef42886a6ff8b9365a10b6ad2c97c97,positive,3,Dòng vốn ngoại tỷ USD kỳ vọng sau nâng hạng,2025,post,random,5
+N00483,8d2e46d32ed4e214fe420b7180c8d3d7,neutral,2,Phân tích chiến lược giữ tiền mặt doanh nghiệp,2021,pre,random,5
+N00484,f5d93954e9d7bc834ffc02e5387940a4,positive,2,ETF dự kiến mua vào SHB NLG khi thêm mới,2022,pre,uncertain,5
+N00485,220e7c04838a408a0a29e28e4d22e39d,positive,3,"VN-Index tăng 4,81%, khối ngoại và tự doanh mua",2022,pre,uncertain,5
+N00486,54a6492bba13342b5c76013b2abfe287,positive,2,KBC nhận cổ tức tiền mặt lớn từ công ty con,2023,pre,uncertain,5
+N00487,2915c3e8508f8913bb52a0090a082d3d,negative,2,"Thanh khoản thấp, đà giảm có thể chưa kết thúc",2024,pre,random,5
+N00488,378ab4240b6b44eeaf3f199506bab1c9,neutral,1,"Điều chỉnh, khối ngoại bán nhưng CTCK vẫn tích cực",2023,pre,uncertain,5
+N00489,de46e6ed149e0e10f444a90bf6378dfc,neutral,3,"Xếp hạng tiền tệ, không liên quan",2024,pre,random,5
+N00490,ea2e13dc5c3c112d2b18e701b7ec10e1,neutral,3,"Thương mại Vùng Vịnh Trung Quốc, không liên quan",2023,pre,uncertain,5
+N00491,db4ccb5e86269d7db23f8fe23cd934ea,neutral,3,"Hạn mức rút tiền ATM, thông tin phổ thông",2024,pre,random,5
+N00492,002bf098ad3f1c7d3913abf4c9c458e5,neutral,2,"IPO Coupang tại Mỹ, không liên quan VN",2021,pre,uncertain,5
+N00493,24a25f4335405f3e5ad6922c89fdab14,neutral,2,"Triệu tập họp cổ đông, hành chính",2024,pre,uncertain,5
+N00494,0ae9d8e7b21414e8c42f7e6b553cb31b,positive,1,"Bài quảng bá, kỳ vọng chu kỳ BĐS mới",2024,pre,random,5
+N00495,353dc492f5053c06ba71ad95dc8d6ceb,positive,2,"VN-Index tăng 57 điểm trong tuần, dòng tiền lan tỏa",2025,post,random,5
+N00496,65a0db2f050e85f28062539adfc9b017,positive,2,Nhiều nhà đầu tư quan tâm mua lại dự án VietinBank Tower,2021,pre,uncertain,5
+N00497,db992a0e72268a0a427ebad4e0a73da9,neutral,2,Vụ lừa đảo cá nhân cán bộ ngân hàng,2023,pre,uncertain,5
+N00498,7b51fcde9ee79600b922a97978136721,negative,2,BĐS bị tác động tiêu cực nặng bởi dịch,2021,pre,random,5
+N00499,0ae72e92c7dc682785845903c89feb1e,neutral,2,"Phát hành quyền mua tăng vốn, pha loãng nhưng thêm vốn",2024,pre,uncertain,5
+N00500,abee4786c029093050b94b63a9d0afd6,positive,3,"ACB mục tiêu lợi nhuận 22.000 tỷ, cổ tức 25%",2024,pre,uncertain,5
+N00501,d172fcca28898148558759fe1fed8dfa,negative,3,"chủ tàu sắp phá sản, nợ lớn",2021,pre,uncertain,6
+N00502,77032ee8a3072fa94407043b343bfbdb,positive,2,chuyên gia kỳ vọng BĐS tiếp tục tăng giá,2022,pre,uncertain,6
+N00503,0ca1f811bed3957a69ea6fe72c670c58,neutral,1,"tăng vốn gấp đôi, pha loãng và mở rộng",2022,pre,random,6
+N00504,1e3e18376823c250d1862a684390f2f9,neutral,3,"trao kỷ niệm chương, không tác động",2023,pre,random,6
+N00505,4a19fc5ededc8290f4fdf420402bf9ea,negative,2,"xét xử vụ án cao tốc, đòi bồi thường",2024,pre,uncertain,6
+N00506,28ebe42bf2ec82c0a7bd75f7a84d7c70,negative,2,"Jack Ma mất 35 tỷ USD, rủi ro Alibaba",2020,pre,random,6
+N00507,f3da04568e072245db2e218d4bb73221,neutral,2,"bài học cá nhân về FOMO, không rõ tác động",2024,pre,random,6
+N00508,5028575b9ec6567407bf527dbbc6a0cd,negative,2,quỹ ngoại Dragon Capital bán ra DXG,2026,post,uncertain,6
+N00509,be87b072bc8cfc98f3c7bf5e3d2f98c9,positive,2,giá BĐS Bình Dương tăng kỷ lục,2021,pre,random,6
+N00510,41e55dea18c6ca20a76726c31c02905e,negative,3,"KRX lại hoãn, nhà đầu tư thất vọng",2024,pre,uncertain,6
+N00511,1bf46528c11231c392a204d4e46e9e8d,positive,1,LPBank nhận giải thưởng uy tín,2023,pre,uncertain,6
+N00512,c9b9471124c93c51c8f713a8bab5aa85,negative,3,"Evergrande vỡ nợ, phải phá dỡ dự án",2022,pre,uncertain,6
+N00513,6ec912f9673e10c2bf13882914ccb99e,neutral,2,"ngành sữa khó khăn, vài doanh nghiệp tăng trưởng",2022,pre,random,6
+N00514,301a3ee8ea0b96d27ad1c5b98a206561,positive,2,"giá thuê đất KCN tăng, lấp đầy cao",2022,pre,uncertain,6
+N00515,f477c1b08963d6d6895f3989cf7c04f1,negative,2,Eximbank vướng vụ nợ thẻ tín dụng gây tranh cãi,2024,pre,uncertain,6
+N00516,b692d8856a077b41679bb15de7a62665,neutral,1,FIT giảm sâu nhưng chủ tịch cho là rẻ,2023,pre,random,6
+N00517,035094a80c9cf03e6a6e34d60ac71c31,positive,1,Bảo Việt hợp tác bảo hiểm nhúng,2022,pre,uncertain,6
+N00518,acfb2aa7b1150aae1a22e0209827d280,positive,1,chuyên gia khuyên đầu tư cổ phiếu dài hạn,2022,pre,random,6
+N00519,f26bbca59df5020342a3a13957a345b4,neutral,1,giá đất tăng nhanh nhưng có cảnh báo sốt đất,2022,pre,random,6
+N00520,11b6b5061256a390a5e84c4912710c3f,positive,2,FLC khởi công dự án 10000 tỷ,2022,pre,uncertain,6
+N00521,482a2f813f26ae0fc3567907c1745058,positive,1,MSB nhận giải thưởng ngân hàng,2020,pre,random,6
+N00522,66e1d461cb4e6a4d5927ae8260f76da6,neutral,2,quảng bá tiết kiệm online VietinBank,2021,pre,random,6
+N00523,9e1b1a2a51d47c6af63c05c8c0ac672f,neutral,1,VNG chuyển cổ phần cho pháp nhân Cayman,2022,pre,uncertain,6
+N00524,4287daa18f3ff550b75cf6c1f6299711,positive,3,"gỡ ký quỹ 100%, hỗ trợ nâng hạng",2024,pre,uncertain,6
+N00525,4e85774761fa5e3dc7653d4f4481f1d1,positive,2,tăng vốn 3000 tỷ cho công ty chứng khoán,2026,post,random,6
+N00526,38e43542812a0452564a89d9e191cb06,positive,2,"BĐS Thanh Hóa sôi động, nhiều dự án mới",2021,pre,random,6
+N00527,c596f8b666a7b9de13a9209e2ebca6a5,neutral,1,tín hiệu tích cực nhưng dòng tiền chưa quay lại,2023,pre,uncertain,6
+N00528,bc322011bd343f96e11dabab127fd458,negative,2,"VN-Index giảm, khối ngoại và tự doanh bán ròng",2026,post,random,6
+N00529,0e94cf801cb27b9b0f214991fd84e9d6,negative,3,"Dow futures giảm, căng thẳng Mỹ-Trung",2020,pre,random,6
+N00530,c61039267f10fb4ba3934998ce01126e,negative,3,"chứng khoán châu Á giảm, lo lãi suất",2022,pre,random,6
+N00531,2a3d141716364194550e51bfda7fc988,positive,1,Viettel IDC hợp tác chiến lược AI,2023,pre,uncertain,6
+N00532,d6ffbc2acb356d844e597d3766975f25,positive,2,"Nvidia doanh thu lợi nhuận kỷ lục, cổ phiếu tăng",2024,pre,uncertain,6
+N00533,352d5ae7b84eb796584f15ae0aa95b1a,positive,1,"metro đủ tàu, sẵn sàng vận hành",2021,pre,random,6
+N00534,42f83821797dc153d67b76ba1c117eae,neutral,2,chỉ thị hành chính về chuyển đổi số,2024,pre,random,6
+N00535,7f6de05cf3c40632f87cd0baf0ec42fa,neutral,1,"VN-Index giảm nhẹ, ngoại bán, tự doanh mua",2025,post,uncertain,6
+N00536,fd368a2d1d0bfa0e49167b1becb05ae2,negative,2,"lạm phát tăng, giá dầu leo thang",2022,pre,uncertain,6
+N00537,5adaa3fa7855622db47ac7f705602d61,positive,2,"TAL chuyển niêm yết HoSE, chia cổ tức",2025,post,random,6
+N00538,7909e2fd61616b9b2571dade640646b1,positive,3,Fitch nâng hạng 8 ngân hàng,2023,pre,uncertain,6
+N00539,ebaa5274bc7701645feb704aebe94997,positive,2,"mùa đại hội, cơ hội đầu tư, điểm sáng Hòa Phát",2023,pre,uncertain,6
+N00540,71dceb1465e60d87aa53c79ecf1ccc5f,positive,1,VN-Index tăng mạnh nhờ nâng hạng dù ngoại bán,2025,post,random,6
+N00541,d2778da7fab5032a6d8c169c10a56e5a,neutral,2,chuyển nhượng dự án cho công ty con,2023,pre,uncertain,6
+N00542,ca10c4cee3da1873a887d8059df85043,neutral,2,"giá vàng, không liên quan trực tiếp cổ phiếu",2021,pre,random,6
+N00543,b145ca2c60b128632c3d1c92e41987cb,neutral,1,"doanh nghiệp nhập kit test, chưa rõ vi phạm",2022,pre,uncertain,6
+N00544,08ec1901a8ece3d8959b8fddef1e513c,neutral,2,"xu hướng tiện ích dự án, không tác động rõ",2021,pre,random,6
+N00545,0245a5c4282a93b3ed12bb4a32f04ddd,negative,2,"VN-Index giảm gần 1%, ngoại bán ròng 1.210 tỷ",2025,post,uncertain,6
+N00546,eb382cc0d881a6af1ace643e85baa97a,negative,2,nguy cơ vỡ nợ BĐS văn phòng châu Âu,2023,pre,random,6
+N00547,9d2c4dbae75a2eb1dea59457bb00b988,neutral,1,VN-Index tăng nhưng FPT bị bán ròng lớn,2026,post,random,6
+N00548,dfd970916fc03c112b6e151c0e813be1,negative,2,dự thảo gây rào cản thị trường trái phiếu,2024,pre,uncertain,6
+N00549,1046223953b6dd1ac553e7c8d49d682d,neutral,2,"bắt giữ vụ lừa đảo, không liên quan cổ phiếu",2025,post,random,6
+N00550,83eb38750e20fcd4b69fa5e1bfb445e1,neutral,2,"bão giá ở Đức, không liên quan thị trường VN",2022,pre,random,6
+N00551,7f419870e54b20bba5ded4e2f4bf8660,neutral,2,thoái vốn khoản đầu tư ghi sổ 0 đồng,2020,pre,uncertain,6
+N00552,1fdf62854cdc5b66578a18470157e82f,negative,1,cổ đông lớn bán ra cổ phiếu MSB,2021,pre,uncertain,6
+N00553,fcfcc6f1b17030635f7107a830d321b2,positive,2,nhu cầu mua BĐS cao hàng đầu khu vực,2023,pre,uncertain,6
+N00554,74a9eff64decf48baec65ff0fe28a07c,positive,2,ngân hàng lãi lớn năm 2020,2021,pre,uncertain,6
+N00555,db154a9b6299b7146f4a3849ecfdf100,positive,2,đề xuất gói kích thích kinh tế,2021,pre,uncertain,6
+N00556,60e4453d664286f70cd93bd405eb36d8,positive,3,"23/27 cổ phiếu ngân hàng tăng, ngoại mua ròng",2021,pre,random,6
+N00557,7afacd609180462cb58f726fe2f0ed8e,negative,2,dự báo lãi suất và tỷ giá tăng cao hơn,2022,pre,uncertain,6
+N00558,5280a801153c71bce2988ee7e38ff742,positive,2,"HAGL giảm áp lực nợ, tín hiệu lạc quan",2021,pre,uncertain,6
+N00559,53808e6c910bbd6460405176a36713f4,negative,2,giá gạo xuất khẩu giảm sâu,2024,pre,uncertain,6
+N00560,e2ef419e81df054157b963f3840d030a,positive,2,chuỗi Erablue của MWG tăng trưởng doanh thu,2023,pre,uncertain,6
+N00561,b2121858f0ed22e5f59ea1fc112e67c0,positive,1,"trái phiếu chính phủ đặt thầu cao, lãi suất thấp",2021,pre,random,6
+N00562,aa5e5e57ccd37ef5715f1357aec48453,positive,2,Vietjet đón hành khách thứ 200 triệu,2024,pre,uncertain,6
+N00563,e65e00723dc5323f4463be38e33a6fd7,neutral,1,FPT đáy 2 năm nhưng khuyến nghị mua,2026,post,uncertain,6
+N00564,2e47af88355227bb6eb67b9400a74dc9,positive,2,"Việt Nam là điểm sáng M&A, kỳ vọng phục hồi",2020,pre,random,6
+N00565,11b396e5654f857efce04c8c0c85eb12,neutral,2,"địa phương ra quân kinh tế số, hành chính",2021,pre,uncertain,6
+N00566,57500986e0936862fcbd149bf5e8230c,negative,2,Mỹ đưa công ty Trung Quốc vào danh sách đen,2020,pre,uncertain,6
+N00567,b80336c5b8f43177ce1928bf5327b2e8,positive,2,cổ phiếu XMD tăng 143% trong hai tuần,2022,pre,uncertain,6
+N00568,2b054860cc5ae29f45cc79a413bd23e8,positive,2,nhiều doanh nghiệp chốt cổ tức cao,2026,post,random,6
+N00569,a41ce2346248b01b2c4e093f264ae8e0,negative,2,"VN-Index giảm 1,13%, ngoại bán ròng 2.190 tỷ",2026,post,random,6
+N00570,c9ce37d0886c84c225d4b95fc4944a29,neutral,2,cảnh báo lừa đảo mạo danh ngân hàng,2021,pre,uncertain,6
+N00571,03d26661fd9a1540d9bcac4bf784a388,positive,2,NHNN giảm lãi suất điều hành,2023,pre,uncertain,6
+N00572,96fd3d8dd1396d66096b1c0ae720a32c,neutral,2,chương trình hỗ trợ y tế của BIDV,2021,pre,uncertain,6
+N00573,e10495f41b16012875ffc66b02ee28b8,negative,2,cổ phiếu SHB và ngân hàng giảm mạnh,2022,pre,uncertain,6
+N00574,abc31de592db17ff504335af18a013b8,neutral,3,"CEO Pandora thăm đối tác, không tác động",2024,pre,uncertain,6
+N00575,9da1a5a4484ac06bc0e1e891c2e5a448,neutral,2,"giá vàng tăng nhẹ, không liên quan cổ phiếu",2021,pre,random,6
+N00576,7e09fd509a562509e04e8912f324f3dd,positive,1,giá biệt thự nghỉ dưỡng tăng,2022,pre,random,6
+N00577,25c40cdcf7f1d7db0c64750e393ab41d,positive,2,"VN-Index đỉnh lịch sử, dòng tiền dồi dào",2025,post,random,6
+N00578,791aacdd59b19edd590e682d858c74ce,negative,2,"Fed tăng lãi suất mạnh, tác động xấu",2022,pre,random,6
+N00579,9b6804c2130d8fab70784b89fe68f203,positive,2,"CTCK khuyến nghị cổ phiếu, VCB lợi nhuận tăng mạnh",2026,post,random,6
+N00580,3b584026b55d9f7da9ccb5473904d380,neutral,1,tỷ trọng trái phiếu doanh nghiệp khiêm tốn,2022,pre,uncertain,6
+N00581,9cf72bbe0d4dcb750d278d4f720ec9f4,negative,2,hạn chế sản xuất KCN do Covid,2021,pre,uncertain,6
+N00582,7aabbc61d3bfa4b418d1db75d0a93b6e,negative,2,"giá dầu tăng, chứng khoán khó khăn",2026,post,uncertain,6
+N00583,368845c9b3750e7793dfa80be96541a5,negative,3,"Fed tăng lãi suất, lạm phát Mỹ 9,1%",2022,pre,random,6
+N00584,dfc8f81a4a6a5232ad465153df3008dc,positive,2,"Thông tư 120 mở đường bán khống, T0",2021,pre,random,6
+N00585,c1f2e9bb12f34341e68c84bc54d9d0fd,positive,1,Rồng Việt nhận giải tư vấn M&A,2025,post,random,6
+N00586,9a15d14259bbabb5bdb6e9d5daa508fd,negative,3,"NYCB lỗ nặng, cổ phiếu lao dốc",2024,pre,random,6
+N00587,649d80a0d3eaa29628636a832a30b311,negative,2,chủ đầu tư lỗ hai năm liền,2024,pre,random,6
+N00588,7985ea39dd82074d134f496ab8646d42,neutral,2,"xuất khẩu chuối tháng tăng, lũy kế giảm",2023,pre,random,6
+N00589,65dba9b15a339fecfb0df01a5c0690eb,neutral,2,SHB ra mắt tiện ích thanh toán,2024,pre,random,6
+N00590,62d7be1d27edd6b3552a180f388868fc,positive,2,NSI đăng ký mua thêm cổ phiếu SAM,2025,post,random,6
+N00591,de44340e82184ce9ecca8efa82dc2d77,neutral,2,lừa đảo đầu tư cá nhân,2024,pre,uncertain,6
+N00592,15ddee196bfa627cf1a48fe899befc04,positive,3,VIX đặt mục tiêu lợi nhuận tăng 184%,2025,post,random,6
+N00593,0446ee52b3846f265386585c2becfab0,positive,1,Vietcombank nhận Thương hiệu Quốc gia,2020,pre,uncertain,6
+N00594,8389e79074d1761fc19f2948db930f73,neutral,2,"chủ mới Hồng Hà chưa rõ, đã hủy niêm yết",2023,pre,uncertain,6
+N00595,d5c45710d58505b8ac9cf59934572acf,positive,2,"VN-Index tăng điểm, dòng tiền vào ngân hàng",2023,pre,random,6
+N00596,ae59f2baff665544becc65b38bc19989,positive,1,"giá xăng dầu giảm, giảm chi phí",2020,pre,random,6
+N00597,3f0d54cffa8ed10aafde2200fdd1e5f3,neutral,1,"bán đấu giá nợ lớn, thu hồi thấp hơn giá trị",2022,pre,uncertain,6
+N00598,bc6702ce3594117f5e78b62d8611ed31,neutral,2,"vay nội bộ công ty con, hành chính",2025,post,uncertain,6
+N00599,db754045fd451f7ed966a1aa01528e0e,neutral,2,"tin vắn tổng hợp lẫn lộn xử phạt, cổ tức",2023,pre,uncertain,6
+N00600,82ffa3d56224e77606e5925e7e4d57bd,negative,3,"cổ phiếu lao dốc, giá dầu tăng vọt vì căng thẳng",2026,post,uncertain,6
+N00601,71c424cd31b58811a32829977c463d51,neutral,2,"quảng bá thẻ tín dụng, không tác động rõ",2023,pre,random,7
+N00602,ef6c9f14ce27a84ca7498026cf3c0d00,neutral,1,"tăng vốn hoán đổi nợ, vừa tốt vừa pha loãng",2023,pre,random,7
+N00603,cafe6c9d2752d8d1f71007c73744391c,negative,2,người nhà lãnh đạo đăng ký bán gần 3 triệu cổ phiếu,2022,pre,random,7
+N00604,72c9985609503b744591656e343198ae,neutral,1,"cạnh tranh lãi suất vay, tác động ngân hàng không rõ",2023,pre,uncertain,7
+N00605,bd3ec178305c0e572d2a024b16b68f6c,negative,2,"đối tác nghi lừa đảo, doanh nghiệp xuất khẩu rủi ro",2023,pre,uncertain,7
+N00606,1470f78a1eb41ad555f958979dbc2bae,negative,2,JPMorgan cảnh báo kinh tế Mỹ tăng trưởng âm,2020,pre,uncertain,7
+N00607,6a7216b5158ea075cb2d0e0d96a20f8e,negative,3,"chỉ số rơi khỏi đỉnh, nhóm Vingroup giảm sâu",2026,post,uncertain,7
+N00608,894583086b87f2343a991c8bd11d3dd5,negative,3,"bán tháo dầu khí, VN-Index mất hơn 15 điểm",2026,post,random,7
+N00609,58928fc6e668cd475af7b41420db2740,positive,2,Vingroup khai trương siêu quần thể 66.000 tỷ,2021,pre,random,7
+N00610,342f077f2728d9a720eb668c3cdc4388,neutral,2,"IMF khuyến nghị chính sách, không tác động rõ",2024,pre,uncertain,7
+N00611,d87ad656e0cb67531382f3f1007ada43,neutral,3,"chuyện nhầm giá xe, không liên quan chứng khoán",2023,pre,random,7
+N00612,1e73f7de882e9b3383321ccb916ddd7c,negative,1,dự báo cổ phiếu ngân hàng bị bán khi cơ cấu quỹ,2025,post,uncertain,7
+N00613,efc47c8b6781ddfebbda581f34271ac3,positive,2,BIDV nhận giải ngân hàng số tốt nhất,2024,pre,uncertain,7
+N00614,27ad5688814ca4cb7956ec91c3996fad,neutral,2,chuyển nhượng nội bộ sang công ty riêng,2021,pre,uncertain,7
+N00615,7794fa87cca79bd17a0d68394471479a,positive,2,ACV được kỳ vọng quản lý tài sản 22 sân bay,2020,pre,uncertain,7
+N00616,c4c992e058705293f16697963e2541b4,negative,2,lợi nhuận không đáng kể do cuộc chiến giá,2023,pre,uncertain,7
+N00617,c387101dd5496952df974dd6b4b135a7,neutral,3,"thảo luận dự thảo luật, không tác động rõ",2025,post,uncertain,7
+N00618,0cd4d8918aca6fc8ddf41f3563719a2d,neutral,1,VN-Index giảm nhưng khối ngoại mua ròng,2022,pre,random,7
+N00619,224c579d9fcbab2b3053721b26721131,negative,3,"đất nền thanh khoản yếu, giá giảm sâu",2023,pre,random,7
+N00620,13d5f8c60a185e8092be699f7c7aa36e,neutral,2,"chỉ số giảm nhẹ, khối ngoại mua ròng",2023,pre,random,7
+N00621,c6a51735a6b94e30cb0e8f2fcc9203e0,neutral,3,tin cá nhân co-founder rời công ty,2021,pre,random,7
+N00622,e928e0bec74b2707d8e6726a8a1ae8d5,positive,3,"mục tiêu lợi nhuận kỷ lục, tăng vốn",2025,post,random,7
+N00623,1515d296016c397f7cc19380ea533080,positive,2,"Artex được cấp phép dịch vụ margin, hết kiểm soát",2026,post,uncertain,7
+N00624,a8c4ca22637e47e6f19b4413cc2db870,neutral,2,"tin lừa đảo hình sự, ít liên quan thị trường",2025,post,uncertain,7
+N00625,d695c112e152e81a013e38e4ea0533a1,positive,2,Bình Dương đầu tư 45.000 tỷ nhà ở xã hội,2022,pre,random,7
+N00626,496a02fafdd3f245372af341e4fa2fbd,negative,2,"bất động sản ngộp, bán lỗ, lãi suất cao",2022,pre,uncertain,7
+N00627,c17d6a6a2671e4d12cb00e11195c2e1d,positive,3,VN-Index tăng kỷ lục nhờ nâng hạng,2026,post,uncertain,7
+N00628,ee551fcc3b2f6e325fb2924b606657a5,positive,2,"quỹ hiệu suất tốt, chia cổ tức tiền mặt",2025,post,random,7
+N00629,a97cd29e83d684cd70bea0f98b1432ec,neutral,1,"đàm phán M&A, chưa có quyết định",2023,pre,uncertain,7
+N00630,3c1e65490231b399ce15db430ffb700f,positive,3,"dòng vốn ngoại quay lại, Việt Nam hưởng lợi",2025,post,random,7
+N00631,71659e517f541912ad3a592957b024da,negative,2,"MWG vay nợ lớn, rủi ro gia tăng",2020,pre,uncertain,7
+N00632,7aa9119813e4600fba76c2b8f62ba598,negative,3,VIC VHM VRE giảm mạnh kéo thị trường,2025,post,random,7
+N00633,1a2ca24ee4e7121c059247432e3080a5,negative,2,cảnh báo Mỹ suy thoái,2022,pre,uncertain,7
+N00634,4bb483ba42f250f41029007e0a8884ba,neutral,3,"chuyện chuyển khoản nhầm, không liên quan",2024,pre,random,7
+N00635,5ce443047dce33cc82bf9219611d56fe,positive,2,SSI bán hết riêng lẻ hơn 3.200 tỷ cho quỹ lớn,2025,post,random,7
+N00636,58e747634c4a7097509c98687a473674,positive,3,"lãi tăng vọt, cổ tức cao nhất 7 năm",2026,post,random,7
+N00637,23d0c73cbd7010419b1c3aeba3f9fb1b,neutral,3,"giá xe máy, không liên quan chứng khoán",2021,pre,random,7
+N00638,c84ccb271aae235ce15f18dc56a1df77,neutral,2,"giá rao biệt thự, tác động không rõ",2023,pre,uncertain,7
+N00639,8151d0e415d66d9abedecf68471ca875,negative,2,CASA toàn ngành giảm gần 11%,2023,pre,uncertain,7
+N00640,555061970e1e15280b0808021b8f09a7,neutral,2,"lời khuyên đầu tư, xu hướng chung vẫn tăng",2026,post,random,7
+N00641,0d41a407ca9ae2e0c2ee2244e17a0e74,positive,3,"Sabeco, Bình Minh lợi nhuận đỉnh, cổ tức cao",2023,pre,random,7
+N00642,28942087133e3b1feb5d7965129246b7,positive,3,HAH trả cổ tức cổ phiếu và tiền mặt,2025,post,uncertain,7
+N00643,549767a5cf9545608ce772ef744b116e,negative,2,chuyên gia cảnh báo rủi ro điều chỉnh gia tăng,2026,post,uncertain,7
+N00644,0e759bedb65370b6fee0d0a59ea02300,positive,3,"VN-Index tăng 4,71% nhờ FTSE giữ lộ trình nâng hạng",2026,post,random,7
+N00645,19c7135578197bae2fdbb785fdd5e630,positive,3,"FPT lập đỉnh, vốn hóa vượt 200.000 tỷ",2024,pre,random,7
+N00646,9ef6810299675e4cefd3ce417c28cfcb,neutral,1,"dự báo cơ cấu rổ, vừa mua vừa bán",2025,post,uncertain,7
+N00647,e3f5aa3b33657cb80dc7746d2bf94c4e,negative,2,"VN-Index thủng 1.320 điểm, công nghệ giảm mạnh",2025,post,uncertain,7
+N00648,3e22a91022988e5a95443881e51f79ad,negative,2,thành viên HĐQT đăng ký bán 3 triệu cổ phiếu MWG,2020,pre,uncertain,7
+N00649,b9e2b91656ca6fa875f4011dd5d64533,positive,1,"chiến lược tăng trưởng doanh thu gấp 4, phát hành ESOP",2021,pre,uncertain,7
+N00650,6bc58f1cba9610d5caec94d11f86c759,neutral,2,tin nguyên liệu than chì toàn cầu,2023,pre,uncertain,7
+N00651,16190aebd3badd3f3b8ad6eda1558a7b,neutral,1,"dự báo tỷ giá ổn định, tác động không rõ",2024,pre,uncertain,7
+N00652,9444e732018c59b8038f5a37b6d405f3,positive,1,"M&A bất động sản, vốn ngoại chuyển vào",2023,pre,uncertain,7
+N00653,4f68b71ee9b6f61a7791bc614121df4b,neutral,3,thủ tục xác thực sinh trắc học hành chính,2024,pre,random,7
+N00654,73c120d3ab47d982185b34d74c76bc0a,positive,2,"kéo dài thời hạn xử lý nợ xấu, hỗ trợ ngân hàng",2022,pre,uncertain,7
+N00655,fab91977039b1cb93d8a989055336f47,positive,2,triển vọng tăng giá dự án Vinhomes,2021,pre,uncertain,7
+N00656,5c8c19549fdfe1dac06eff4f1cd420b4,neutral,3,"giá xe cũ Toyota, không liên quan chứng khoán",2022,pre,random,7
+N00657,3fdc7d9165cd7b711327d1c97dcd76d8,positive,2,số tài khoản chứng khoán tăng vượt mục tiêu,2026,post,random,7
+N00658,d74e76eddfbd5511f877068792a400fd,positive,2,"VN-Index đảo chiều tăng, thanh khoản cao nhất nhiều tháng",2026,post,random,7
+N00659,67e365728ec6351c9c9b8fff3daeac19,neutral,1,chủ tịch thoái vốn nhưng doanh thu quý tăng mạnh,2026,post,uncertain,7
+N00660,b57622232bd8bbdac7e6558fe1fcb59b,negative,1,cảnh báo giả định bong bóng bất động sản,2021,pre,uncertain,7
+N00661,cae884e37f9f12386cfb061e609a7c0f,negative,3,"công ty chứng khoán báo lỗ ròng, doanh thu thấp",2024,pre,uncertain,7
+N00662,723c2d25b4f8592b56a470e9e48d47a8,neutral,2,"thiếu lao động sau Tết, tác động không rõ",2021,pre,uncertain,7
+N00663,24010bd4e72f2e93ced8b0b35d6d02d6,neutral,1,chuyển sàn HoSE nhưng kế hoạch lợi nhuận giảm,2026,post,random,7
+N00664,00ce4431b3dba6957001f5e097b209d0,neutral,2,"câu chuyện lao động công nghệ Mỹ, ít liên quan",2023,pre,random,7
+N00665,01028be2cbe391fad8f5afb7d888a461,neutral,2,"nhận định phong thủy, không rõ tác động",2022,pre,uncertain,7
+N00666,89f653823ce36c6d964ab0c8f64156f7,neutral,2,"khách gửi tiết kiệm đầu năm, tin thường nhật",2021,pre,random,7
+N00667,d07632e34e2daaa4ed86287cf5fb652f,positive,2,lãi suất vay mua nhà thấp nhất 10 năm,2024,pre,uncertain,7
+N00668,aa17c816a80bc57a8e3f8c294b4371a0,negative,2,lãnh đạo tiếp tục đăng ký bán 13 triệu cổ phiếu,2021,pre,uncertain,7
+N00669,a9f323592fd80ad13bf23cccdd9bdbcb,positive,2,Phó Chủ tịch đăng ký mua thêm cổ phiếu QNS,2025,post,random,7
+N00670,d07c79b538f447e5531f9a696b3e56c9,positive,2,xuất khẩu qua Amazon tăng 70%,2024,pre,random,7
+N00671,0b89b5cf2c491457eecc16c16c8826a3,negative,2,"căng thẳng thương mại Mỹ Trung, Phố Wall lo ngại",2025,post,uncertain,7
+N00672,deeb528bdb0b5d0127d3df129fa4dd12,negative,2,"bỏ cọc đất Thủ Thiêm, hệ lụy cho thị trường BĐS",2022,pre,random,7
+N00673,52972cf166bbcdda956ebc8508833b3d,neutral,2,"thống kê người giàu, không tác động rõ",2021,pre,random,7
+N00674,9615659e327025b710062643a4c59c93,positive,3,"VIC tăng hơn 4%, dẫn dắt thị trường",2023,pre,random,7
+N00675,2c7566ddffaa4b1fb8402ef3246bf6c0,negative,2,Fed có thể tăng lãi suất trên 5%,2023,pre,uncertain,7
+N00676,5ea9ed30853a7a4840e8a7c396d53505,negative,2,lạm phát cao phủ bóng kinh tế thế giới,2023,pre,random,7
+N00677,3e9bdc7ff995889773a98a1182e068c3,negative,2,ngân hàng hạ kỳ vọng tăng trưởng tín dụng,2021,pre,uncertain,7
+N00678,4d4e4026622e3310311948a083960359,neutral,2,xu hướng đầu tư giới siêu giàu Trung Quốc,2024,pre,random,7
+N00679,80538f628c4a73beea1d37e0dbda8af8,neutral,2,"huy động trái phiếu lãi suất cao, tác động không rõ",2021,pre,random,7
+N00680,c0ade1c8180edad00925518d855ab8ce,positive,3,HAG tăng trần nhờ giá heo tăng mạnh,2022,pre,random,7
+N00681,97261ff9025bdd3705ab236d93cdf5e9,negative,2,ThaiBev hoãn IPO mảng bia gồm Sabeco,2021,pre,random,7
+N00682,19b03afd1d22efe6529b173a2dc06713,neutral,2,giá xăng dầu biến động trái chiều,2024,pre,random,7
+N00683,ed1db5ecdecff5b9382cd95be7255833,negative,2,"giá dầu lao dốc gần 8%, bất lợi dầu khí",2020,pre,uncertain,7
+N00684,eb23b2f1435ab4ef8d3eb8e3f1d33c1f,negative,2,"Loship thiếu vốn, thị trường vốn mạo hiểm khó khăn",2022,pre,random,7
+N00685,345de0986208382e34c66892e8626ef6,neutral,2,"sự kiện vinh danh đại lý, tin quảng bá",2022,pre,uncertain,7
+N00686,dfa15a467efec796c9cf8774badc2bac,positive,1,chỉ số giằng co rồi bật tăng nhờ dòng tiền bắt đáy,2025,post,random,7
+N00687,d7e0e6f735848b70adc46f6a4d7f9359,neutral,1,"tăng vốn gấp 22 lần, tác động không rõ",2025,post,uncertain,7
+N00688,9da44670a2f3ff34dd93f640590a9911,negative,2,tỷ giá tăng mạnh gây áp lực,2022,pre,uncertain,7
+N00689,9b56ab6033aa06bcb144262b7b7c99c3,negative,1,doanh nghiệp nhỏ khó tiếp cận vốn ngân hàng,2022,pre,uncertain,7
+N00690,c1a6b7682afc6f1a6589a2c0dd04027b,positive,2,nâng quan hệ Việt Hàn lên đối tác chiến lược toàn diện,2022,pre,uncertain,7
+N00691,af0ff8f3339c32121ee4722fde6f5c32,negative,3,"VNDIRECT bị tấn công, hệ thống ngừng giao dịch",2024,pre,uncertain,7
+N00692,428f9b6fab09a8358ba01384fdde58c7,neutral,2,tin đồn Vingroup muốn mua mảng điện thoại LG,2021,pre,uncertain,7
+N00693,d6b065d23f53968d995ac12d0877a63e,neutral,2,khắc phục bão vừa thiệt hại vừa hỗ trợ phục hồi,2024,pre,uncertain,7
+N00694,a0e22b017441ba5377c8bc9e94c09fc6,negative,2,"dòng tiền vào bất động sản yếu, rủi ro trái phiếu",2023,pre,uncertain,7
+N00695,ba6e174b5015d1b312f694f4ea111168,neutral,2,"sự kiện đầu tư, không số liệu cụ thể",2026,post,uncertain,7
+N00696,f46d3907ef1f9437283c440daf74fc98,positive,2,TP.HCM gỡ vướng 113 dự án bất động sản,2023,pre,uncertain,7
+N00697,d9bda488293d40e269701f6560abdf6b,negative,2,"cổ phiếu ngân hàng bị hạ tỷ trọng, có thể bị bán mạnh",2025,post,uncertain,7
+N00698,893361b0ee451484db1a85208ff6e533,neutral,1,"quỹ nâng tiền mặt kỷ lục, tăng trưởng thấp hơn VN-Index",2023,pre,random,7
+N00699,30020a96e2a1c054768a986deba7a691,neutral,2,dự án tháp tài chính mới ở giai đoạn đề xuất,2021,pre,random,7
+N00700,d796e76b92a3dcd0177854a1b6c60cae,neutral,1,"dự báo giá dầu tăng, lợi dầu khí nhưng bất lợi vĩ mô",2022,pre,uncertain,7
+N00701,0b268a2157cf947656fa29b1160a4abd,neutral,2,"Hàng hóa tăng giảm lẫn lộn, tác động không rõ",2021,pre,uncertain,8
+N00702,65888e9fd3671902e3d8466174e5930f,neutral,2,"Khan hiếm nguồn cung, giá cao kỷ lục, tác động lẫn lộn",2021,pre,uncertain,8
+N00703,f28a8f312e7230dfaefa323ba3e468a8,positive,2,Dòng tiền và chính sách hỗ trợ phục hồi bất động sản,2023,pre,random,8
+N00704,fe07203c9b65425498379bea60d19ffd,neutral,2,"Thành lập đoàn giám sát, thông tin hành chính",2023,pre,random,8
+N00705,3fc54c59049449081dff5afdf1c9d9bc,positive,3,"Ngân hàng thống nhất giảm lãi suất, lợi cho bất động sản",2023,pre,uncertain,8
+N00706,eee67b5a4563df68c37a7c5f74d4e748,neutral,2,"Chuyển cổ phiếu nội bộ trong gia đình, không đổi sở hữu",2021,pre,random,8
+N00707,0cbb15a344ac348768dc830ff34d1f5f,positive,3,Nghị định gỡ rào cản vốn ngoại vào chứng khoán,2025,post,uncertain,8
+N00708,5b1ef982c888163afdddc77416acf685,neutral,2,"Lời khuyên đầu tư chung, không tác động rõ",2025,post,uncertain,8
+N00709,3198c8d64f913b20f056a2b029de5d67,neutral,3,"Giải thích khái niệm GDP, không liên quan thị trường",2024,pre,random,8
+N00710,43cf55a0bb46272d552181a2bf71a0bb,negative,2,"Berkshire bán cổ phiếu BYD, cổ phiếu đã giảm 35%",2022,pre,uncertain,8
+N00711,bb9cf893a1e090d057afb5d6ed846516,negative,2,"Cảnh báo sốt đất ảo, rủi ro cho nhà đầu tư",2022,pre,uncertain,8
+N00712,4b9f3514b71f3160204476daa1986acd,neutral,2,"Giá tăng nhưng nhà đầu tư e ngại, không rõ tác động",2022,pre,uncertain,8
+N00713,dac5167005d13dfd091b04e619b2df8b,neutral,1,"OPEC+ tăng cung, tác động giá dầu không rõ",2022,pre,uncertain,8
+N00714,e55a79837506215f68c1ae224f1645b1,neutral,1,"OPEC nội bộ bất đồng, tác động giá hạn chế",2024,pre,random,8
+N00715,185d95510ce767b0325ebdbe14a04c0e,neutral,2,"Giới thiệu sản phẩm thẻ, mang tính quảng bá",2023,pre,random,8
+N00716,80c5d29037788ce393d8c6677354656e,positive,1,"Lãnh đạo đăng ký mua, nhưng người nhà đăng ký bán",2025,post,uncertain,8
+N00717,45dd7e6f462cccf030b1e2fed03c23f5,neutral,2,"Chênh lệch giá vàng thu hẹp, không liên quan cổ phiếu",2022,pre,random,8
+N00718,a8385ae62d19cd5628de70a84e0da35a,negative,3,"Nguy cơ hủy niêm yết, ngân hàng bán cổ phiếu thu nợ",2022,pre,random,8
+N00719,fce2247f4f38db5a756a37c968c86b98,neutral,2,"Lời khuyên kỹ năng chốt lời, không tác động thị trường",2025,post,random,8
+N00720,8a94f3b0f00cb2d90873dbc61a04be63,positive,2,Bất động sản phục hồi sau dịch với chính sách hỗ trợ,2021,pre,uncertain,8
+N00721,3cffac61f70c002813ec33d0bb2515d8,neutral,2,"Giá điện thoại giảm, xe máy ế, tác động không rõ",2023,pre,random,8
+N00722,5c698108207e0f2c60dbaa2a4e5ec556,neutral,2,"Cạnh tranh nhà cung cấp vệ tinh, Hòa Phát mở rộng container",2021,pre,uncertain,8
+N00723,a9e51d97409cdd7fadd0da21d59dc959,positive,3,"Dự báo VN-Index vượt 1.500 điểm, động lực tích cực",2021,pre,random,8
+N00724,fbeac6af957609641910b1b638b16870,positive,3,"Kế hoạch lãi lớn, chia cổ tức, mở rộng đầu tư",2026,post,random,8
+N00725,4ce8e46add9a714fd18ef4f5f8f930ac,negative,2,"Quỹ tiền số lớn vỡ nợ, rủi ro thị trường",2022,pre,uncertain,8
+N00726,fa69f9f9a8082f0885bd48488d7b7ca0,neutral,2,"Đề xuất nâng sở hữu không chào mua, thủ tục",2021,pre,random,8
+N00727,d5ac508051fe557925f36889952703ed,neutral,2,Tin vắn lẫn lộn lỗ và cổ tức,2023,pre,random,8
+N00728,5b7cf76a9d853408d20459cfbad7283e,positive,2,Lãi suất giảm hỗ trợ tăng trưởng kinh tế,2023,pre,random,8
+N00729,7fafc01c1ca3d8f15655bf87f62844e1,neutral,2,Hồi phục nhưng khối ngoại bán ròng 11 phiên,2025,post,uncertain,8
+N00730,14d759081d25f647f2c001fe1c9ba6ef,positive,2,Lãnh đạo SSI mua mạnh cổ phiếu,2026,post,uncertain,8
+N00731,8cc4a41466c994c1945f87759a8cda73,positive,2,Cổ phiếu họ Bamboo Capital tăng trần,2025,post,uncertain,8
+N00732,3831050fe78a697bd6d5686c838c48b9,positive,3,Bất động sản phục hồi nhờ chính sách và giảm lãi suất,2023,pre,random,8
+N00733,1412eca565892c07b40c5dae46eac650,neutral,2,"Ký MOU hợp tác, chưa rõ tác động",2021,pre,uncertain,8
+N00734,b86f09795171c6172f8ccb7a76b04f61,neutral,2,"LG mới tìm hiểu, chưa cam kết đầu tư",2021,pre,uncertain,8
+N00735,ef652960c72bb28b298978f9ddf715fd,negative,3,"Chủ tịch thoái sạch vốn, cổ phiếu giảm sàn",2024,pre,random,8
+N00736,5f314a3d1ae0f89f20837f4cfad61a58,neutral,2,"Ra mắt dịch vụ QR, tác động không rõ",2021,pre,random,8
+N00737,11bd2409f456ff6fb4fe612efbeca887,neutral,2,"Rung lắc ngắn hạn, rủi ro điều chỉnh sâu không cao",2026,post,uncertain,8
+N00738,e9d7d0fa982ffeb310f31b2cebbbff2c,negative,3,Đề nghị truy tố Chủ tịch Tân Hoàng Minh,2023,pre,random,8
+N00739,ee940ead127ca1afa510d998f74ec77c,negative,2,"Lạm phát toàn cầu tăng, áp lực chi phí",2021,pre,uncertain,8
+N00740,376f006aad152f46932f4ec01980023c,neutral,1,Lạm phát kiểm soát nhưng còn nguy cơ dài hạn,2021,pre,uncertain,8
+N00741,b77ba9727b1d99b47a9a6c7808d80d24,negative,2,"VN-Index giảm mạnh, nhiều mã giảm sàn",2022,pre,random,8
+N00742,c88b085737ca1f93ad2a67ba016e198d,positive,2,Tin vắn cổ tức tiền mặt tỷ lệ cao,2025,post,random,8
+N00743,30d7c89792558b3582c961d09e590f7d,positive,2,"VN-Index tăng lên 1.600 điểm, dòng tiền tích cực",2025,post,random,8
+N00744,d18fdff44ab3b7db539e2a1cf8e62b7b,positive,2,"Khách Trung Quốc tăng mạnh, lợi du lịch hàng không",2023,pre,random,8
+N00745,3e9b57209ebfd7917b9adf31a0d7c065,neutral,2,Trình diễn giải pháp công nghệ tại sự kiện,2024,pre,uncertain,8
+N00746,a085405655cdd4aa24bf391cd997a910,neutral,2,"Phá đường dây tội phạm, không tác động thị trường",2023,pre,random,8
+N00747,9a946d66dcb928977d9b198327e2c583,neutral,1,"Nhận định lạm phát thấp, chính sách nới lỏng, chưa rõ",2025,post,random,8
+N00748,5876d163da70100c2bcf5e7c9b9fb909,negative,2,"Lãi suất tăng, chứng khoán lao dốc, tiền rút khỏi kênh khác",2022,pre,uncertain,8
+N00749,71356a69608ae5d08aa35567006a84f1,positive,2,"VinFast mở rộng quốc tế, mở cửa hàng châu Âu",2022,pre,uncertain,8
+N00750,24d5e19022084b270a9f625289a79ae3,positive,2,Chứng khoán bùng nổ làm tài sản người Mỹ tăng,2021,pre,uncertain,8
+N00751,4e453cad78ddc7e6fc39fc61d736349a,neutral,2,"Bài học thanh lọc Nasdaq, tác động không rõ",2026,post,uncertain,8
+N00752,afad3fff13a94c467211abb7135e5fa6,positive,2,"Lạm phát trong tầm kiểm soát, kinh tế phục hồi",2022,pre,random,8
+N00753,ccf89d6116f6014a1529de1c37b5f831,neutral,2,"Giá vàng yếu, không liên quan cổ phiếu",2023,pre,random,8
+N00754,fb6cc1080bd313e2e1b7ec5679f05403,neutral,2,"Long Châu có lãi, các chuỗi khác tái cấu trúc",2024,pre,uncertain,8
+N00755,82c0632c4a60e3dea1b84b69932d8cf7,positive,2,Cổ phiếu Nio tăng 21% nhờ giao xe tăng mạnh,2024,pre,random,8
+N00756,7dce9681022aa20b3cb0a06c27b4030c,neutral,2,"Mạo danh Hòa Phát lừa đảo, tác động không rõ",2024,pre,uncertain,8
+N00757,cee1ede97d194ce58ba96ff3e37d63b5,positive,2,"Lãi vay giảm, bất động sản có dấu hiệu phục hồi",2023,pre,uncertain,8
+N00758,77b70ed4b8a0640876d396bfa2bde81a,positive,2,"VN-Index bật tăng, khối ngoại và tự doanh mua ròng",2023,pre,uncertain,8
+N00759,cb328fab32732f66ad103df8bbb4955f,positive,2,Ngân hàng chia cổ tức cao bằng cổ phiếu,2024,pre,random,8
+N00760,73c9e3094b6ebbdc6639178d52d25b92,negative,2,Doanh thu POW 9 tháng giảm 17%,2020,pre,uncertain,8
+N00761,69af54ea5c93bb1b656f777ca9806134,neutral,2,"Quỹ Mỹ mua cổ phiếu dầu khí, không liên quan Việt Nam",2023,pre,random,8
+N00762,bed1d67fe225a27ddf5fe533480254c8,positive,2,KHG được đánh giá cao về tiềm năng tăng trưởng,2021,pre,uncertain,8
+N00763,c81afdc9704bcc414f53b54fb572ef50,positive,2,Vietcombank phát hành cổ phiếu trả cổ tức tăng vốn,2025,post,random,8
+N00764,8ea2518fc87a27bf2f085268c092cdc2,positive,3,"HAG lãi cao nhất 5 năm, gấp 66 lần",2022,pre,uncertain,8
+N00765,ea5415c5478456bec0adef5898048e06,positive,2,"Triển khai trung tâm tài chính quốc tế, hỗ trợ thị trường",2025,post,random,8
+N00766,c7a1037d45ad583c9b9986928e091463,neutral,1,"NHNN hút thanh khoản bằng tín phiếu, tác động không rõ",2024,pre,uncertain,8
+N00767,60c95c45e8abcb70f0b04a8413db7079,neutral,2,"Sếp bán lượng nhỏ, cổ phiếu ở vùng đỉnh",2021,pre,random,8
+N00768,e6c29376349f946fbe651fb45bf5be01,negative,2,Rủi ro trái phiếu doanh nghiệp bất động sản yếu kém,2023,pre,uncertain,8
+N00769,e54a94b06f9f8dcfd0f4849f99a99c2f,positive,2,SHB nhận khoản vay 120 triệu USD từ IFC,2023,pre,random,8
+N00770,37df9ec8f606108d1edcece0abdbb2d1,negative,2,"Nhà đầu tư lo lắng, cảnh báo rủi ro trái phiếu",2022,pre,uncertain,8
+N00771,d1420506d3aecbfb822d813faa061984,negative,2,"Lạm phát Mỹ nóng, nguy cơ suy thoái",2022,pre,random,8
+N00772,eaa605e8bcc897a28ebcf7945232dd8f,positive,2,"Niềm tin tiêu dùng Mỹ cải thiện, lạm phát hạ nhiệt",2022,pre,random,8
+N00773,9447b1a2d5596eed1a1dc94e42cf7492,neutral,2,"Dự án kênh đào, tác động doanh nghiệp không rõ",2023,pre,uncertain,8
+N00774,a3005553b32b0f5f7228e679e732dcc4,neutral,1,Việc làm Mỹ mạnh nhưng tăng áp lực lãi suất Fed,2022,pre,uncertain,8
+N00775,f3153b5b41d75fcc0925efa5a80fab41,negative,2,"VN-Index giảm 4 tuần liên tiếp, thanh khoản giảm",2026,post,random,8
+N00776,e916dbb97d93e86b2ccbec35e28a5780,neutral,2,Tổng hợp giao dịch lớn cả mua lẫn bán,2021,pre,uncertain,8
+N00777,88a0c433400f7bd8b5e6f119c841f03a,negative,3,"VN-Index giảm do áp lực bán, Fed tăng lãi suất",2023,pre,random,8
+N00778,e86cb0855e17150d8558a530a00d112f,negative,2,"Bất động sản nghỉ dưỡng hồi phục chậm, công suất thấp",2020,pre,random,8
+N00779,68fb6dfcf7c921c2cae98d709d68ca2c,positive,3,"Giá dầu tăng, doanh nghiệp dầu khí hồi phục tích cực",2021,pre,random,8
+N00780,09a9dadf90ce31bd6dcddb4906ba5fca,neutral,1,"Bán HNG trả nợ, tác động không rõ",2024,pre,uncertain,8
+N00781,ab06d889bf17df07b430756f26752959,neutral,2,"Chủ tịch trấn an cổ đông, VIC đã giảm một nửa",2023,pre,uncertain,8
+N00782,6dc0bc16cd66381f7c9b79fd922adac1,negative,3,Công ty chứng khoán lỗ 15 quý liên tiếp,2026,post,random,8
+N00783,2c92379882dc7d6a7dd0411d706aafe1,positive,2,"SSI tăng vốn, kế hoạch phát hành cổ phiếu thưởng",2026,post,uncertain,8
+N00784,d810de09b09259fe15965b3e24c3966b,neutral,2,"Phục hồi nhưng thanh khoản kém, chưa chắc tạo đáy",2024,pre,uncertain,8
+N00785,d327e0bf0d011adcd06eda685ed90464,neutral,2,"Lịch sự kiện kinh tế tuần tới, tác động không rõ",2022,pre,uncertain,8
+N00786,0a9633b9bad885eca8189b7d1b5fce8a,neutral,2,Bài quảng bá thương hiệu chứng khoán Kafi,2024,pre,random,8
+N00787,e91fdb31f7a89df813c9e1578563a4e9,positive,3,"Gói tín dụng 120.000 tỷ, kế hoạch lãi gấp 7,4 lần",2023,pre,random,8
+N00788,39c853883d7ee22894fd128106769691,positive,2,"ABS tăng vốn gấp 3 lần, bổ sung nguồn lực",2025,post,uncertain,8
+N00789,f117defd42f85ce34fd7f52d8acdb57c,neutral,1,"Lãi huy động tăng, lãi cho vay giữ ổn định",2022,pre,random,8
+N00790,f0168f17cbb82f23b36a826836505963,negative,2,"Giải ngân đầu tư công chậm, lãng phí vốn",2020,pre,uncertain,8
+N00791,f495030c703e76b2a01e847c357355a5,positive,2,Quy hoạch điện VIII tạo chắc chắn cho dự án LNG,2023,pre,uncertain,8
+N00792,1fe3e7528b325f4d1cd4c573c7d44159,positive,2,KBC phát hành cổ phiếu thưởng tỷ lệ 3:1,2021,pre,uncertain,8
+N00793,c3b31e280cf7004fca1cede6fd103b49,neutral,2,"Vietcombank bán vàng miếng, thông tin dịch vụ",2024,pre,random,8
+N00794,5dbd8907d5ebef59fe3e4e2f94e0c419,neutral,1,"Dự thảo quy định mới, tác động chưa rõ",2024,pre,random,8
+N00795,276d5473abe12f4bb549a9e6c2da6f02,neutral,2,"Niêm yết QNP lên HSX, thông tin hành chính",2024,pre,random,8
+N00796,092bbe0da905182bef216eda383c0331,positive,3,"Bất động sản khu công nghiệp lãi lớn, giá cổ phiếu tăng",2021,pre,random,8
+N00797,411b69bc6397f9b713f4220a770f68ee,neutral,1,"SSI cắt lỗ ELC, doanh nghiệp suy giảm",2020,pre,random,8
+N00798,e39356e2606d4fbb1851ab4a1350121c,positive,2,Chủ tịch mua vào thành cổ đông lớn EVS,2025,post,uncertain,8
+N00799,d9b11d2080d59d395ab32c75e85db30d,neutral,2,"Chỉ là kiến nghị giảm lãi, chưa quyết định",2021,pre,random,8
+N00800,a775f0ce59e141946c2906bb41160e1d,positive,3,NHNN tiếp tục giảm lãi suất cho vay,2020,pre,random,8
+N00801,59ee1b8ea627a63d26db823b6f416519,positive,1,"Huy động 150 tỷ trả nợ, quỹ lớn mua vào",2025,post,uncertain,9
+N00802,efe350013083799a40fe805691c159fb,negative,2,"Quỹ tiền số vỡ nợ, thị trường tiền số mất hàng nghìn tỷ USD",2022,pre,random,9
+N00803,7932b0ce6244041eb27ec678205de1a2,neutral,2,"Biến động nhân sự lãnh đạo, thuần hành chính",2022,pre,uncertain,9
+N00804,e2663c3dce3b5a345eda7f872fecd49a,neutral,2,Chỉ số giảm nhẹ nhưng tự doanh và khối ngoại mua ròng,2022,pre,uncertain,9
+N00805,92be2742ec4c2ddb06a5b7f64f979e90,neutral,3,Vụ án hình sự không liên quan thị trường,2022,pre,uncertain,9
+N00806,189d1d079072f9c7af71e85d9e69ad82,neutral,1,"Tỷ giá biến động, tác động không rõ",2022,pre,uncertain,9
+N00807,31f44840f69c3b5da34edd0e8709af85,neutral,2,"Đại hội cổ đông đủ điều kiện, tặng quà, không số liệu",2024,pre,uncertain,9
+N00808,791939f048884eb5028de84c5ac81777,neutral,2,Chứng khoán Mỹ giảm nhẹ sau khi lập đỉnh,2020,pre,uncertain,9
+N00809,620d19084bb6db2b6000cb856c406875,neutral,2,USD tăng vừa lợi vừa hại doanh nghiệp xuất khẩu,2022,pre,uncertain,9
+N00810,2935e164a2afa02c354b6383539d5135,neutral,1,Chỉ số tăng nhưng khối ngoại bán ròng mạnh MSN,2021,pre,uncertain,9
+N00811,b58a5b83d3e21cd6753c873b11ed5893,positive,3,"Cổ phiếu ngân hàng tăng, hút dòng tiền lớn",2021,pre,random,9
+N00812,dd383ef415834b6854e408e450b27930,positive,3,"Dự báo VN-Index lên 1.500, nâng hạng, hút vốn ngoại",2025,post,random,9
+N00813,124009bee4ad0379b8fbb2d1aa6d135f,positive,3,Cổ tức tiền mặt cao kỷ lục,2025,post,random,9
+N00814,7629820bae8406f53f4704054fc65598,neutral,2,"Thẩm định hồ sơ khu công nghiệp, chưa rõ tác động",2023,pre,uncertain,9
+N00815,630b870c2ddc318baa2c76d807c69077,negative,2,"POW lãi giảm mạnh, SCD lỗ liên tiếp",2024,pre,uncertain,9
+N00816,ee3fc809c2fce0cf6abcd75e01100e84,positive,3,"Cổ tức 15% tiền mặt, cổ phiếu TAL tăng",2024,pre,random,9
+N00817,68d31fca1639d45e24c1e735066da484,positive,2,Hạ tầng thúc đẩy bất động sản khu Đông Hà Nội,2022,pre,random,9
+N00818,8e174bc39d418340b668421b85140933,neutral,3,Bảng lãi suất tiết kiệm thông tin thuần,2024,pre,random,9
+N00819,34175e5c0edce59479bd5cc85b099561,neutral,2,"Phiên biến động mạnh rồi hồi phục, cân bằng",2025,post,uncertain,9
+N00820,19e4515819f8a79270b17e2e85a6dde0,neutral,2,"Giá vàng giảm, không rõ tác động cổ phiếu",2023,pre,random,9
+N00821,72f159417459f201a70dbb68de1e06e4,positive,3,Nới room ngoại đón nhà đầu tư chiến lược SMBC,2023,pre,uncertain,9
+N00822,acefc1c4e6535bc7f53dd88b8ba3a620,positive,2,Giá gạo xuất khẩu Việt lập đỉnh,2023,pre,uncertain,9
+N00823,4d11b5c5d710ebc1b4096215ad280055,neutral,2,"Mục tiêu kế hoạch tài chính chung, tác động không rõ",2021,pre,uncertain,9
+N00824,6677108360cbab82765762aa9216496c,positive,2,Lãnh đạo đăng ký mua cổ phiếu khi giá thấp,2023,pre,uncertain,9
+N00825,7e2e2c065cf5a0838af0634c530cd9e8,neutral,1,Thị trường trái phiếu ấm dần nhưng còn nhỏ và tập trung,2023,pre,uncertain,9
+N00826,70da6f4d9dd9962a6ce6b3fe21c8fbd8,negative,2,Nhà đầu tư Thái bán ròng mạnh ETF Việt Nam,2026,post,uncertain,9
+N00827,e23b9f41d2a287eeb9e3bb77fd6a9ad9,neutral,2,Bitcoin tăng nhưng được cho là tạm thời,2023,pre,uncertain,9
+N00828,ffc257bb2797aa56fbb81ece6776fe1c,positive,1,Khởi công trường và đẩy mạnh dự án,2024,pre,uncertain,9
+N00829,017fe64796eecc711111948d88d2e3cf,negative,1,Gói vay vẫn chưa đến người dân,2023,pre,uncertain,9
+N00830,42bbf71d45308a517087dbc8f45140d4,positive,2,"Giá cà phê xuất khẩu cao, kim ngạch tăng 55%",2024,pre,uncertain,9
+N00831,cc38921f93a965659b47faf4066be102,neutral,3,"Tranh cãi du khách, không liên quan thị trường",2024,pre,random,9
+N00832,409bb2effe9335fe7a3de4030bf2064a,negative,1,Hàng hóa đồng loạt giảm giá,2024,pre,uncertain,9
+N00833,15a40cb544279dd0f1e11ff449b144b0,positive,1,Cổ đông mới mua gom thành cổ đông lớn,2026,post,random,9
+N00834,56ed42b73ce9e750047ee193fd525972,positive,2,"Ngành bán dẫn tăng trưởng nhanh, triển vọng",2023,pre,uncertain,9
+N00835,07b279bec9f1798ef40bcac8c964a641,neutral,2,"Xếp hạng tài sản doanh nhân, không tác động giá",2021,pre,random,9
+N00836,7eb535f2c1ac78639fdb8d2181b7384d,positive,2,Mục tiêu mở rộng doanh thu quốc tế,2024,pre,uncertain,9
+N00837,35fa8b403d48b2f9e7616a6646acbcd3,neutral,1,"Giá dầu có thể tăng, tác động không rõ",2024,pre,uncertain,9
+N00838,0aaa8e9f5c86a394e4ce97523c3d41b2,neutral,1,"Doanh nghiệp đổ vào Long An, giá đất mềm, tin đăng giảm",2024,pre,uncertain,9
+N00839,c6965d933d9a6b0fc5ad8b419582e4d8,positive,1,Hòa Phát giữ vị trí dẫn đầu ngành VLXD,2023,pre,random,9
+N00840,88d3d1eea5162d4c78f1b68e0a40c0c2,neutral,2,"Số ca Covid hằng ngày, không tác động trực tiếp",2021,pre,random,9
+N00841,99e1c65cf04270ee859604a7089570a8,neutral,3,Câu chuyện cá nhân CEO nước ngoài,2021,pre,random,9
+N00842,a8e609c723e1aea6fb70607b6b631b0d,neutral,2,Ngân hàng điều chỉnh lãi suất huy động trái chiều,2023,pre,uncertain,9
+N00843,16fc64786cf545a89362aa27036f8bed,negative,2,Phát hành trái phiếu giảm mạnh sau nghị định,2020,pre,uncertain,9
+N00844,f4a340d6fe2beb775e3e68c9e0b38843,neutral,2,"Bài về chuyển đổi số, không tác động giá",2023,pre,uncertain,9
+N00845,c69dca9ac67af528c39a75de5964f6aa,neutral,2,"Thị trường phân hóa gần đỉnh, có cơ hội và rủi ro",2026,post,uncertain,9
+N00846,07814d293b05ee28e99f7a6357e9953c,positive,2,Chứng khoán Trung Quốc tăng mạnh nhờ kỳ vọng nới lỏng,2022,pre,uncertain,9
+N00847,273b72d2c546b148f6dedfc0c2274062,positive,2,"Niềm tin tiêu dùng Mỹ tăng, lạm phát hạ nhiệt",2024,pre,uncertain,9
+N00848,1767b7ca167674ee58a59cfbf151bb56,neutral,2,"Cảnh báo lừa đảo mạo danh, không tác động giá",2024,pre,random,9
+N00849,931abb9d3c29161e74abbaea6f49a3cc,negative,2,Gạo Việt mất cơ hội do thiếu thương hiệu,2022,pre,random,9
+N00850,2a7062167225e80800a4e44ee3c843b1,negative,2,"PG Bank không chia cổ tức, cổ đông lớn thoái vốn",2023,pre,uncertain,9
+N00851,124a48b260351d1d9834f166f108506f,negative,2,Bitcoin bị bán tháo về đáy hai tháng,2024,pre,random,9
+N00852,138e5b4a852e8f462183437498aa430b,negative,2,"VN-Index giảm 3,47% tháng 9, áp lực bán",2026,post,random,9
+N00853,7b6ade47e50d36382bc525edd0e240ad,neutral,3,"Vụ kiện quân sự Mỹ, không liên quan",2021,pre,uncertain,9
+N00854,ba36dfe15ea4e0333d3f94eaac76db1b,negative,2,"Khối ngoại bán ròng rất mạnh, chỉ số giảm",2025,post,random,9
+N00855,8abb31d50f05bfd8361365d1c482417f,positive,3,"Casa kỷ lục, được JP Morgan đánh giá cao",2021,pre,random,9
+N00856,0ff02dba813afe46abada4244bec3f81,neutral,2,Tháng tăng 3% nhưng lũy kế 8 tháng giảm,2022,pre,random,9
+N00857,bf07b859194d475e92b4c610df94a96d,positive,1,Ra mắt dòng sản phẩm mới,2023,pre,uncertain,9
+N00858,5e8ab01efb550c8b3cd543926c29cdac,negative,1,Giá bất động sản có nguy cơ giảm nếu lạm phát cao,2022,pre,uncertain,9
+N00859,b8145d15ff0ca4f2d3669d3531604f9a,neutral,2,"Từ nhiệm nhân sự và họp bất thường, hành chính",2025,post,uncertain,9
+N00860,4ca525412df31a7b9a690239191e8848,negative,2,"OGC bị hạn chế giao dịch, giao dịch bất thường",2022,pre,random,9
+N00861,6d6db900f1fd2c0055386b7383278a39,neutral,2,"Thay đổi cổ đông lớn, tác động không rõ",2023,pre,uncertain,9
+N00862,3c01ee76e478455a172419cd935d4860,neutral,2,"Lãnh đạo chia sẻ chiến lược, không số liệu",2021,pre,uncertain,9
+N00863,a8b35c57c358359c6f0c92b18f22ef4a,positive,3,Luật bất động sản có hiệu lực sớm hơn,2024,pre,random,9
+N00864,b70b83e0063493efc4bf93018b00dd73,positive,2,"NHNN khẳng định không siết tín dụng, hỗ trợ lãi suất",2022,pre,random,9
+N00865,95a95e1598f7233c6f496bc6d8a9b7a5,negative,1,"VN-Index giảm, Fed tăng lãi suất, dù có cơ hội dài hạn",2022,pre,random,9
+N00866,5da2d62c1c614be5f26b6e8ce7888ea5,positive,2,Bất động sản hội tụ xung lực tăng trưởng,2021,pre,uncertain,9
+N00867,7b2eb3bec94f0ce55d99c9604eb99382,neutral,2,"Hoán đổi trái phiếu thành cổ phiếu, tác động không rõ",2021,pre,uncertain,9
+N00868,87c40c6b6476fdfc646e503b8cca912b,neutral,2,"GameStop Mỹ tăng do short squeeze, không liên quan",2021,pre,uncertain,9
+N00869,d26eaa95471042cdeeb7b2fe367ca16c,positive,1,"Chào bán riêng lẻ giá cao hơn 1,5 lần sổ sách",2025,post,uncertain,9
+N00870,51136201a037e13a9fd5f5247e3c3843,negative,3,"Doanh thu xuất khẩu VHC giảm 45%, 3 tháng liên tiếp",2023,pre,uncertain,9
+N00871,0b3d3c5f546fa5b87a43dc4f7a2c502d,positive,3,Dragon Capital mua ròng liên tục DGC,2022,pre,random,9
+N00872,847bf8e636b45e23e2f712fec3eeb7e8,negative,2,"VNDirect bị tấn công, ngừng giao dịch 5 ngày",2024,pre,random,9
+N00873,04dcafcab2c868ff3f7ea223cb8cc11e,negative,1,Cảnh báo đổ vỡ kinh tế Mỹ nếu Fed không giảm lãi suất,2024,pre,uncertain,9
+N00874,17f8b3314fea0c0000f71ef64fd8a737,positive,3,VN-Index tăng mạnh vượt 1.300 điểm,2022,pre,uncertain,9
+N00875,42a6f875d4b90461f43b7421140b9e04,neutral,2,"Quy hoạch đất vàng của SHB, hành chính",2022,pre,random,9
+N00876,afd0851704b2fb44d8348387e41659a1,neutral,2,"Chia sẻ về tiền mặt Hòa Phát, tác động không rõ",2022,pre,random,9
+N00877,53d536e3489cffcd57a9de400c645deb,neutral,2,Chương trình ưu đãi khách hàng thông thường,2023,pre,random,9
+N00878,52531436442dc68353cd2d043632641c,positive,3,F88 có lãi trở lại sau năm lỗ lớn,2024,pre,uncertain,9
+N00879,315b0ef7c0899e8717ee9b08a141d479,negative,2,"Xuất khẩu cá tra yếu dần, thấp nhất năm",2022,pre,random,9
+N00880,c5e874ce5f6cd3f3a3593cf6676fcc0f,positive,3,"MWG có tin tích cực, EraBlue có lãi",2024,pre,random,9
+N00881,c45854a15facba24dd381b96887e9c7f,neutral,2,Cảnh báo giả mạo tài liệu HoSE,2025,post,uncertain,9
+N00882,4ee60d24323873a1098817667bbbaf2c,neutral,1,"Thuế bất động sản thứ hai khó thực hiện, chưa rõ",2024,pre,uncertain,9
+N00883,4367da3b635a13f9c0949df0585d3493,neutral,1,"Giá niken tăng đột biến, tác động Việt Nam không rõ",2022,pre,uncertain,9
+N00884,0c4c0c25acdca06f2545a8ca6c0d42a4,negative,2,"Thị trường bất động sản trầm lắng, thanh khoản yếu",2023,pre,random,9
+N00885,54569639315856c009a5d233bb6abb7c,negative,2,"Novaland thu hẹp phương án phát hành, bỏ nhà đầu tư chiến lược",2023,pre,uncertain,9
+N00886,7d533e2d5d655c1ed3b63ba0c7a70a78,neutral,2,UBCKNN cảnh báo tài liệu giả về DSC,2023,pre,random,9
+N00887,66c4d7e7be55160c1ffb87ce6ce92694,negative,1,Cổ đông lớn bán sạch AAV giá thấp hơn thị trường,2021,pre,random,9
+N00888,09755cc735e166dc92c04703d529483d,positive,2,Làn sóng M&A công ty tài chính hấp dẫn khối ngoại,2021,pre,uncertain,9
+N00889,1aa7d2328ac0fa91c11675e7fd46e475,neutral,3,"Ra mắt xe tại Ấn Độ, không liên quan",2023,pre,random,9
+N00890,d7566fc46e6dcfe299e58366d3a857c1,negative,2,"Đầu tư chứng khoán thua lỗ, danh mục đang lỗ",2023,pre,random,9
+N00891,5385d5971927e4f0d2e695a3118611e1,negative,1,"Thị trường điều chỉnh, dòng tiền thận trọng",2026,post,uncertain,9
+N00892,ff12dd97ebd9284a5a4ff47375756e34,positive,1,Mở rộng lập công ty con 800 tỷ tại VIFC,2026,post,random,9
+N00893,7d7f091a2013b916fe487c8ad167e92b,neutral,2,Phát hành trái phiếu thường lệ,2022,pre,uncertain,9
+N00894,d03f9551c5f2ded2625a72ec64695d50,positive,2,Nhà phân phối ICT hưởng lợi từ cao cấp hóa,2021,pre,random,9
+N00895,b1bfeb62898c596729b8f932d0576eb3,negative,2,Đấu thầu nhà ga Long Thành thất bại phải hủy,2023,pre,random,9
+N00896,5a59dd1da5534269d98feeb7754a9231,positive,2,Metfone tăng trưởng thuê bao băng rộng mạnh,2024,pre,random,9
+N00897,b96c820daf8159994477808cd842b046,negative,2,"Dự án bất động sản vướng mắc, nguồn cung hạn chế",2023,pre,random,9
+N00898,534193adb05c5c726c27ac8e2d0aa7da,positive,1,"Vinhomes tất toán trái phiếu, cổ tức tuần này",2025,post,uncertain,9
+N00899,00603d76c309a53212f60c06dabfa63d,positive,3,"Xuất siêu cao nhất từ 2014, đơn hàng kín",2024,pre,random,9
+N00900,f435492a515c06911a9459f9a648317c,positive,2,"VN-Index tăng kỷ lục, tâm lý giải tỏa",2025,post,uncertain,9
+N00901,348c7f1733b5d34b3efd3f1914e902bb,neutral,2,"chương trình khuyến mại hoàn tiền, không tác động giá",2022,pre,random,10
+N00902,cad465c62ae2a853155d2dc658d86ee8,neutral,2,"tiền tệ Singapore, không liên quan trực tiếp",2024,pre,random,10
+N00903,2b8138419763dfd6843c2d31c4159371,negative,3,30 dự án nhà ở dừng thi công,2023,pre,uncertain,10
+N00904,15bcae231015eb31b1357b8ddedc6235,neutral,1,giá cà phê cao nhưng dự báo xuất khẩu giảm,2023,pre,uncertain,10
+N00905,a70f66073b2dd455c4a051f9ecd2a5b7,positive,2,"cổ phiếu ngân hàng còn dư địa tăng, VN-Index tăng",2024,pre,uncertain,10
+N00906,583cfdaeb336b55bafbcceae5b617121,neutral,1,"hỗ trợ bất động sản Trung Quốc, tác động không rõ",2022,pre,uncertain,10
+N00907,0598f26cb3bcdc34058c00ffa8a6b608,neutral,2,kêu gọi đầu tư dự án địa phương,2021,pre,uncertain,10
+N00908,95b724ed9f94af82b12937d992a025e3,negative,2,"ACV xin lùi tiến độ, hủy thầu 35 nghìn tỷ",2023,pre,uncertain,10
+N00909,312c3ae7cea01f4e3ffd9a904c6ecb44,negative,1,giá xăng dầu tăng gây áp lực chi phí,2021,pre,random,10
+N00910,95dd4fc98eb59ba6dc50d1b43d645834,negative,2,xuất khẩu thủy sản giảm 23%,2021,pre,uncertain,10
+N00911,364dd5d8486c2a27eccb4475b3cd8f81,neutral,2,chỉ đạo hành chính của NHNN dịp Tết,2021,pre,uncertain,10
+N00912,9e99a48737d78b7d064d3245bcad7695,neutral,2,quy định rủi ro ngân hàng Trung Quốc,2023,pre,uncertain,10
+N00913,a1d64f4806d64c3915d2d16387a0ec2e,negative,2,"doanh nghiệp bị phạt, truy thu thuế",2023,pre,random,10
+N00914,e63ad2d99ea3e74b4a435b11957b2ba7,positive,2,"lợi nhuận tăng mạnh, định giá hấp dẫn",2026,post,random,10
+N00915,02e386bd38ae6e9ba1631d885b8800ff,neutral,1,lãi suất cao kéo dài nhưng thông tin chưa rõ,2026,post,uncertain,10
+N00916,182732fa8002260b43b356d00149d398,neutral,2,"diễn biến tỷ giá, tác động không rõ",2022,pre,uncertain,10
+N00917,5da10625b11402d7fe72b45fbe43719f,neutral,1,bài về chuyển đổi số ngân hàng,2021,pre,random,10
+N00918,023eb0d9962303779e5087c6bcf971f5,neutral,2,"khó mua nhà ở xã hội, không tác động giá",2023,pre,uncertain,10
+N00919,0767279af7be1f5d3de8d495ae3fe75b,neutral,1,thị trường giảm nhưng quỹ thấy cơ hội,2026,post,uncertain,10
+N00920,9723d190c79a414a599385e12fd49c95,neutral,2,"kỷ luật cán bộ, không liên quan thị trường",2022,pre,uncertain,10
+N00921,a52356a296cefd6809c27501a8959bce,neutral,2,giá vàng biến động trái chiều,2020,pre,random,10
+N00922,bccf363450c3e78e3a935bb631c4e35c,positive,2,VinFast xuất khẩu lô xe đầu tiên sang Mỹ,2022,pre,uncertain,10
+N00923,0ef6f81743f46f5844d4644c610c9fd2,positive,2,NHNN giao hết room tín dụng 15% từ đầu năm,2024,pre,random,10
+N00924,e6b3b0651ba7511c69933e737091d5c2,neutral,2,"ngành lọc dầu Mỹ, không liên quan",2022,pre,random,10
+N00925,08a9d5e14233c6a3dbb5069320ba8fd5,positive,2,GHC được chấp thuận niêm yết HoSE,2026,post,uncertain,10
+N00926,7fc8a95e2164a3add305fa9921d584b1,negative,1,giá vật liệu tăng gây khó nhà thầu,2021,pre,uncertain,10
+N00927,a78ef47f7ae1c54ed5c814226bc42415,neutral,2,chỉ đạo đẩy nhanh thu phí không dừng,2022,pre,uncertain,10
+N00928,74ec23936e5f85d0884c077b332586df,negative,1,"bỏ cọc lô đất, mất gần 600 tỷ",2022,pre,uncertain,10
+N00929,780bd750d0383c3b0d945da4b00e58e9,neutral,2,bài quảng bá sản phẩm,2022,pre,random,10
+N00930,e8de2908633c811316a294f8dd37e825,neutral,2,từ nhiệm thành viên HĐQT vì sức khỏe,2021,pre,uncertain,10
+N00931,287fd8fa1d11429a1a1045e90b1f5596,positive,1,Nga tăng nhập hạt tiêu Việt Nam,2021,pre,uncertain,10
+N00932,ef4ae9a63b861d042bbc77ef1d0f4b6a,negative,2,"tín dụng thấp, dư địa tài khóa thu hẹp",2020,pre,random,10
+N00933,07e79d5c72c967c5e3773a1cd5834ddd,negative,2,cho vay tiêu dùng chững lại thấp nhất 5 năm,2024,pre,uncertain,10
+N00934,8fb82348325051c70a3b9592baace059,neutral,2,"giải thích CPI thấp, không rõ tác động",2022,pre,uncertain,10
+N00935,b12779e0fce93e4eb0970467366650ea,neutral,2,"đóng chi nhánh, thủ tục hành chính",2026,post,uncertain,10
+N00936,73525de53bfbae61eef1c6e18f257a1b,neutral,2,"nới room chỉ tạo tâm lý, tác động hạn chế",2022,pre,uncertain,10
+N00937,5b77fba6706f71324790c96a6660303d,neutral,1,dự báo Fed tạm dừng nhưng vẫn có thể tăng,2023,pre,uncertain,10
+N00938,58eaeaf1ed564bfd88f870025c8d1ac7,neutral,2,thảo luận chính sách nhà ở xã hội,2022,pre,random,10
+N00939,b7df3cbfba72f37b44f52cf0fd9b7097,neutral,2,hàng hóa tăng giảm trái chiều,2023,pre,uncertain,10
+N00940,3e558cfded7d549f87056027df14fadf,neutral,2,bài giới thiệu dự án,2021,pre,random,10
+N00941,053232ade41e38e5fc541bf6089f2810,positive,3,DPM nâng kế hoạch lợi nhuận gấp 5 lần,2022,pre,random,10
+N00942,69a1bb40b2f6373029ad0158d1733c81,negative,2,"Fed giảm kích thích, tăng lãi suất nhiều lần",2021,pre,uncertain,10
+N00943,d79ebbf9fcfb401e9655548ae5678f0a,positive,2,"VinFast niêm yết Mỹ, tích cực cho doanh nghiệp Việt",2024,pre,random,10
+N00944,3647d1ece69abdda49c9bb559cd63531,positive,1,SCIC thu cổ tức lớn nhiều năm,2022,pre,uncertain,10
+N00945,3591643fd781dbd391e0128be69a83b8,negative,2,"lạm phát cao nhất 40 năm, nguy cơ suy thoái",2022,pre,random,10
+N00946,998dda9127d7e663cabfbc00af85459c,positive,2,ngân hàng tăng vốn dựa trên thực lực,2021,pre,uncertain,10
+N00947,c324bfa9e38723f59357c7d9ad82adf4,positive,2,cơ chế đặc thù hỗ trợ phát triển TP HCM,2023,pre,uncertain,10
+N00948,84b3220341a094eabaa646cd14f3d7cd,positive,1,"SBS tăng vốn, đón nhà đầu tư chiến lược",2022,pre,random,10
+N00949,fa3665a6bd88fa6a7c988cce0d7c8b06,negative,3,"NSS lỗ 9 tháng, cắt thù lao",2024,pre,random,10
+N00950,0e4b0cd3626079f05ccf188c15017594,negative,3,"VN-Index giảm, khối ngoại bán ròng mạnh",2026,post,uncertain,10
+N00951,44fbe3b07b240d760dde3bf7817e573f,neutral,1,giới thiệu quy hoạch bất động sản khu vực,2024,pre,uncertain,10
+N00952,4a1a8b9c57147892894db0c841e75ba6,neutral,2,"cảnh báo lừa đảo, không tác động thị trường",2025,post,uncertain,10
+N00953,40e8f9a78cd3255e4f973e9d374d6056,neutral,2,bài về giao dịch thuật toán,2026,post,random,10
+N00954,c721f03bd56d1242d5bdc99542334b3a,neutral,1,"khuyên giữ cổ phiếu, thị trường đang điều chỉnh",2021,pre,random,10
+N00955,af5997466e335ded929e24564b5cd89b,positive,1,lãi suất huy động giảm hỗ trợ chứng khoán,2024,pre,uncertain,10
+N00956,37120129ea658ff21bbcba08e18b795d,neutral,2,"Apple giảm giá tại Trung Quốc, không liên quan",2024,pre,random,10
+N00957,c5fac35fa8d5497005461c5fdc4513a8,positive,2,CTR mở rộng lĩnh vực tăng trưởng mới,2021,pre,uncertain,10
+N00958,86f402bbcb7f5178d62fd00a4d984480,negative,2,lợi suất trái phiếu Mỹ cao nhất từ 2008,2022,pre,uncertain,10
+N00959,a5946d35fb856c42df3534e049c8d54a,neutral,2,đề xuất xuất khẩu trái cây sang Trung Quốc,2022,pre,random,10
+N00960,58c2dece8e67deedeb337caabbdb93ac,neutral,2,tư vấn cá nhân về đầu tư bất động sản,2021,pre,random,10
+N00961,59a5a0e928f351812bb0630c171ad15a,neutral,2,kiểm tra vi phạm tiệm vàng nhỏ lẻ,2024,pre,random,10
+N00962,0fbf38a0c9c6c1c8a5ccb50be93679e8,positive,2,"IPO TCBS đăng ký gấp 2,5 lần lượng chào bán",2025,post,uncertain,10
+N00963,373513f9d38e309485f3b067a4442257,neutral,2,"giá lúa mì nước ngoài, không liên quan",2021,pre,random,10
+N00964,572927874cebc6157372379c7af5002a,neutral,2,"bài giới thiệu công ty, giải thưởng",2024,pre,random,10
+N00965,16e2b8ca5173876f3b29c7a29d89b6fd,neutral,1,"thanh long giảm, sầu riêng tăng, trái chiều",2024,pre,uncertain,10
+N00966,301c34973eca8675f4290485ad007542,neutral,2,"lùi họp ĐHĐCĐ, chào bán thêm cổ phiếu",2026,post,uncertain,10
+N00967,5cffa8718b97b0a6b9341b07e66c1f65,negative,2,"PPI cao, USD tăng, lo Fed thắt chặt",2022,pre,uncertain,10
+N00968,6baa3305e2d33784fd2ad4870062f4da,positive,1,lãi suất huy động giảm có lợi chứng khoán,2023,pre,uncertain,10
+N00969,0928fe3fbcdeb84227e0507a5bdd607c,positive,2,Fed cam kết tiếp tục kích thích,2021,pre,uncertain,10
+N00970,f0341548427e626f245ce3dbd9fd048d,neutral,1,"VN-Index giảm nhẹ, ngoại bán ròng, tự doanh mua",2025,post,uncertain,10
+N00971,07b2ba8d84c40c046dd6380fe2dd8b11,neutral,1,ngoại mua ròng nhưng VN-Index giảm nhẹ,2023,pre,uncertain,10
+N00972,0084ac12cdc0c80ace8ccc582e298202,neutral,2,báo cáo dự án nhà ở xã hội địa phương,2022,pre,random,10
+N00973,98ba62d2d727a80522093c4c2c89a266,negative,2,"Facebook bị kiện chống độc quyền, đòi thoái vốn",2020,pre,uncertain,10
+N00974,e914242c5a595c91381ca16e3e526f78,neutral,2,"vụ tham ô cá nhân, không liên quan",2023,pre,uncertain,10
+N00975,58be72aa443be3906f6e75b3f638f5fc,neutral,2,Bộ Tài chính giữ nguyên chính sách VAT,2023,pre,random,10
+N00976,e74b3401f29cbf33e973783e14c62425,negative,2,"Fed tăng lãi suất 0,75 điểm, tác động chứng khoán",2022,pre,uncertain,10
+N00977,a0cd94b3f0a906e724b3b35afc198367,positive,1,doanh nghiệp lạc quan triển vọng bất động sản,2021,pre,random,10
+N00978,2fb8f3678f9c962aa86acd4e0b66f249,neutral,1,"lạm phát có thể ảnh hưởng ngân hàng, chưa rõ",2022,pre,random,10
+N00979,14ab45d971637e783a98dc10093fe1e3,neutral,2,"doanh số xe Hyundai tại Mỹ, không liên quan",2023,pre,random,10
+N00980,20278c9badfa4fd598bb00c5b3ca9265,positive,3,lợi nhuận doanh nghiệp bảo hiểm tăng mạnh,2022,pre,random,10
+N00981,84057d0949b7a6a2b6e59b0934309f4d,neutral,3,bài hướng dẫn tố chất nhà đầu tư,2024,pre,random,10
+N00982,d799ae45e6f98d325a139159ad47c42a,positive,2,"doanh số Samsung kỷ lục, lợi cho nhà bán lẻ",2021,pre,uncertain,10
+N00983,a87de045a08a9b7930e84fe4da566460,neutral,2,"yen giảm, tác động tới VN không rõ",2024,pre,uncertain,10
+N00984,91fd071fdbdbea641e1ce3a1b45f76b7,neutral,1,chỉ đạo khắc phục nghẽn lệnh,2021,pre,uncertain,10
+N00985,e5b73e6212b78ac614c62d7d083370dd,positive,2,chuyên gia nhận định thị trường lập đáy,2022,pre,uncertain,10
+N00986,378bd5c3dbe2d2efbc48989285be2dc7,neutral,1,"kịch bản trung tính, thách thức và cơ hội",2022,pre,uncertain,10
+N00987,f9af28e70315ebc620b89794b725f1c8,neutral,2,giá tăng nhưng thanh khoản căn hộ giảm mạnh,2021,pre,random,10
+N00988,be3c48d2825ec23567bdcd9e36cac492,neutral,2,giá vàng trong nước biến động nhẹ,2021,pre,random,10
+N00989,2396afab16556e6c34e2e4badf0ed186,positive,2,"chứng khoán Việt Nam vững, phục hồi, nền tảng tốt",2025,post,uncertain,10
+N00990,a2b3ebc2de07648ecf223fad26d59bf6,neutral,1,"ngân hàng tăng nhưng thị trường giảm, ngoại bán",2022,pre,uncertain,10
+N00991,9f8056778b63721a4f24ed13a6f291c6,neutral,2,"tăng nhẹ mong manh, tâm lý thận trọng",2026,post,random,10
+N00992,88f919df96ab6278c661a8a7a167a709,neutral,2,bài quảng bá xu hướng khu đô thị,2023,pre,uncertain,10
+N00993,27a228fe2f6652c0c61a5040573adb65,neutral,2,"nhận định kháng cự 1.200 điểm, rung lắc",2023,pre,uncertain,10
+N00994,fbb4bf7c97dec0743353f95b571b5d06,positive,2,dự báo VN-Index có thể vượt 2.300 điểm,2026,post,uncertain,10
+N00995,f66b3ef693cf68487b0e29d47816399e,neutral,2,bài quảng bá sản phẩm tư vấn,2023,pre,random,10
+N00996,eb91d3b740606b5f7ad190448e9933b0,neutral,3,thông báo hành chính nghỉ hưu,2024,pre,random,10
+N00997,b6f09ba89b80ee66d31107ada7449861,negative,3,"ITA hạch toán sai, tạm ứng lớn cho chủ tịch",2022,pre,random,10
+N00998,9d970ca5abd118a141459c01a4c8c5d3,neutral,1,phát hành trái phiếu nhưng lợi nhuận quý I giảm,2024,pre,uncertain,10
+N00999,cb9d7c782028382c1533051cec21f854,negative,2,"thanh khoản yếu, môi giới khó doanh thu",2026,post,random,10
+N01000,c3391d8da1f08b213cd52562b53239ba,neutral,3,"nhà hoang Nhật Bản, không liên quan",2023,pre,random,10
+N01001,0b991f26ff178fe0fb39d2d842606548,neutral,1,"Báo cáo giá đất nền vùng ven, tác động không rõ",2021,pre,uncertain,11
+N01002,1c505f74e7c0f20e27b495fac0667027,neutral,2,"ETF mua VIB bán PNJ, cân bằng",2022,pre,uncertain,11
+N01003,cd9483ad5e251deffbd6de4c01a0b483,positive,3,"LNST quý 4 gấp 11 lần, cả năm vượt kế hoạch",2021,pre,random,11
+N01004,0545850b5b642c3a386e6c8f90b0ece4,neutral,1,"Giá xe máy tăng, không rõ tác động cổ phiếu",2022,pre,uncertain,11
+N01005,d2340726c4c310de9a16efa6189abf72,positive,2,"Giảm thuế xăng dầu hỗ trợ kinh tế, hạ giá",2022,pre,uncertain,11
+N01006,2c0cf8f05d01982411cf718c10edb661,neutral,2,"Thư chúc mừng mang tính hành chính, lễ kỷ niệm",2026,post,random,11
+N01007,761fcf63783c3d1e9ae1723f59234d80,positive,2,Cơ hội tăng xuất khẩu gạo khi thế giới thiếu,2024,pre,random,11
+N01008,476e0cb104ec16311c4941922f38d107,negative,2,"NVL, PDR dự kiến bị bán khi rời VN30",2023,pre,uncertain,11
+N01009,852bd5d35afd77b6f0deada8ad25f9fe,neutral,1,"Số liệu nhập khẩu điều, tác động không rõ",2023,pre,random,11
+N01010,6856a1116c2c323f93a1d6545f3f73ad,neutral,3,"Kiểm tra vận hành hồ thủy điện, hành chính",2024,pre,random,11
+N01011,4b5cf328acd4c30ab088d3c3d7006eaf,neutral,1,Xuất khẩu tháng tăng nhưng lũy kế giảm,2023,pre,random,11
+N01012,ff7cf9942a8368f7e988e9e0f5612f8d,neutral,1,"Trấn an rủi ro Evergrande, còn lo ngại lan rộng",2021,pre,uncertain,11
+N01013,0db4bf6f1752af8738c3cd62fb8a0f0e,positive,1,Lượng khách bay kỷ lục dịp Tết,2023,pre,uncertain,11
+N01014,87269b9794b8dda8dd86c7a745e3632d,neutral,2,"Lợi nhuận tăng nhờ giảm dự phòng, thu nhập lãi giảm",2022,pre,uncertain,11
+N01015,d3a45d9c285ff17e832acb9c3088a1fd,positive,2,ACV được giao quản lý khai thác hạ tầng hàng không,2020,pre,uncertain,11
+N01016,a8a7fd7555620f181560424d4ff2fef0,neutral,1,"Tăng vốn gấp đôi, vừa pha loãng vừa trả nợ",2020,pre,uncertain,11
+N01017,7df904ca813ea82a7e6f86abaa35faa9,positive,3,"Lợi nhuận vượt 111% kế hoạch, nợ xấu thấp",2022,pre,random,11
+N01018,410a58457af4523a6e3706c8f41f16e6,positive,2,"Thị trường trái phiếu có tín hiệu tích cực, chi phí giảm",2023,pre,uncertain,11
+N01019,0eb01df264aed75b7685b3c7b39b4f36,neutral,1,"Ngân hàng giảm lãi suất huy động, tác động không rõ",2020,pre,uncertain,11
+N01020,f10d19815e0c9d09f0b79e64db94f0e7,positive,2,"FPT thâu tóm Base, mở rộng hệ sinh thái",2021,pre,random,11
+N01021,3b93d35a702f8c9924bc6f3ab61ffbbe,negative,2,Doanh nghiệp hạ kế hoạch kinh doanh phút chót,2024,pre,uncertain,11
+N01022,4179e07675fd88412b8ff2e741427e8b,negative,2,Cảnh báo lạm phát và chuỗi cung ứng đứt gãy,2022,pre,random,11
+N01023,6fab6ce154c3d79d14e58faa5bca0180,neutral,2,"Bài về ngành cà phê, không rõ tác động",2022,pre,uncertain,11
+N01024,74e492e2595ea46d098a3d3dc6338c1a,negative,2,"Dự án bị yêu cầu rà soát vốn, pháp lý",2024,pre,uncertain,11
+N01025,9a63e045c5804d4066d4ffd6289e3b9f,negative,2,"BSR hạ mục tiêu doanh thu, lỗ lũy kế lớn",2020,pre,random,11
+N01026,3bf4a1edcd8719ff090d2c0b3d154661,neutral,3,Bổ nhiệm nhân sự HĐQT,2022,pre,random,11
+N01027,9bea7ea14837b1117c78d460e61fc3f6,positive,1,"Giá biệt thự tăng mạnh, thuận lợi chủ đầu tư",2022,pre,uncertain,11
+N01028,35ae70a30eef13b671743f249452dec9,neutral,1,"Tăng vốn liên tục, vừa pha loãng vừa mở rộng",2021,pre,random,11
+N01029,97110c0dec7e5fb0c4ef991577aee960,negative,3,"LDP biến động lãnh đạo, mẹ thoái vốn, từ nhiệm",2021,pre,uncertain,11
+N01030,c6d801141d07977b3480f73b404a807f,positive,3,"VN-Index phá đỉnh lịch sử, dòng tiền lan tỏa",2026,post,random,11
+N01031,096e0fc083d72bc502ec134571ed1114,positive,2,Quỹ ngoại mua thêm cổ phiếu PVI,2021,pre,uncertain,11
+N01032,07549d5a3307ad5adb70bfd1bfcbfde0,positive,2,Kinh Bắc dự kiến mở rộng khu công nghiệp,2023,pre,uncertain,11
+N01033,47b5143b598d2d454b10e120b37a731d,negative,2,Chủ tịch Phú Quý bị khởi tố trốn thuế,2023,pre,uncertain,11
+N01034,dcc7eec7251d43e088ecfb76d0c2a2fb,neutral,3,Bổ nhiệm tổng giám đốc,2024,pre,random,11
+N01035,b9e681e15486171839e5eedd1ce230f9,neutral,2,"Bài giới thiệu thương hiệu, không số liệu",2021,pre,uncertain,11
+N01036,8ec584f5d1c5c513d12f1efefc03ca59,positive,2,"LPB tăng trần, cổ phiếu ngân hàng đỡ thị trường",2023,pre,uncertain,11
+N01037,4b522bd91683528a1a1134c5283e5f27,neutral,1,Thỏa thuận lớn nhưng khối ngoại bán ròng,2022,pre,uncertain,11
+N01038,4ab2802a569ba31aa412b4c1c3f6c7d7,positive,1,"Phe long chiếm ưu thế, tâm lý tích cực",2021,pre,uncertain,11
+N01039,648ff9e8a843001911951b4fe4de55f0,neutral,2,"Ý kiến Musk về Fed, tác động không rõ",2023,pre,uncertain,11
+N01040,de2e0007184e27d5903f3f02ade42eae,positive,2,Lãi 9 tháng vượt 160% kế hoạch dù quý 3 giảm,2021,pre,random,11
+N01041,a0968dfd3aac8cdd0c48bdf6449029c9,positive,2,Nhiều doanh nghiệp chốt chia cổ tức tiền mặt,2025,post,random,11
+N01042,fba2f1526e31c83b9ad41a8b1ad88fe4,positive,2,"DNSE tăng vốn thành công, có cổ đông lớn mới",2026,post,random,11
+N01043,f12a92d6f9af183282df159898ccf102,neutral,1,Triển vọng tốt nhưng cảnh báo bong bóng tín dụng,2025,post,uncertain,11
+N01044,58a2d98da36f65aff4902dd96cd976bf,neutral,2,Biến động giá vàng nhẹ,2024,pre,random,11
+N01045,6bd08bb6ed2c854407651784012e0b93,neutral,3,"Phong thủy, không có căn cứ thị trường",2022,pre,random,11
+N01046,77677887af2a01971f0059b50de35c5b,positive,1,"Lãi suất giảm thuận lợi, margin cao",2026,post,random,11
+N01047,772cd3fb8c266aeeb229f6d2a0c40665,neutral,1,Tư vấn bất động sản khi tín dụng khó,2022,pre,uncertain,11
+N01048,b3f98ff267da0030abd66442780b3364,neutral,3,"Tài trợ sự kiện âm nhạc, truyền thông",2023,pre,uncertain,11
+N01049,62c43517ea3a0fbdec88bd98c338f6b2,negative,1,Lãi suất liên ngân hàng tăng mạnh,2022,pre,uncertain,11
+N01050,3a2d4b1e744bb0c5a5a9eb0b440f972a,positive,2,"Dự báo VN-Index sớm về 1300, khối ngoại mua ròng",2024,pre,uncertain,11
+N01051,f90ec63872a2af2db2bad38a629ddbf0,positive,1,Việt Nam là điểm sáng bất động sản hàng hiệu,2024,pre,random,11
+N01052,ff42620c4aef0a69550d9c4cebdf575b,positive,2,Gói giảm phí lệ phí hỗ trợ doanh nghiệp,2021,pre,uncertain,11
+N01053,69dc626075ff007ea76c2f531919a02b,positive,3,Doanh số laptop MWG tăng mạnh 15-40%,2024,pre,uncertain,11
+N01054,dc64beac96bfc389ed6c93ba6e39cb51,positive,1,"Nhận giải thưởng, tăng trưởng kinh doanh",2023,pre,uncertain,11
+N01055,d8ba6eac3b7001201831c964aa9b300b,negative,2,"Cửa hàng di động ế ẩm, doanh số giảm",2021,pre,random,11
+N01056,c404245610059f238512a33c58d9ae89,positive,3,Hòa Phát không bị EU áp thuế chống bán phá giá,2025,post,uncertain,11
+N01057,7c97d2c86c3973adfdef6472b5d9f2b4,positive,2,Ngân hàng lớn có tiềm năng tăng trưởng,2022,pre,uncertain,11
+N01058,997968c1b0ff499141bafc5eafd3ae63,negative,3,"Cổ phiếu IBC bị bán giải chấp, hạn chế giao dịch",2023,pre,random,11
+N01059,ec688080149dc60d5961dd9d166cc32d,positive,2,"Yeah1 trả cổ phiếu thưởng 72,2%",2023,pre,uncertain,11
+N01060,d6cda9d654f7e8ef21b406da1d42c042,negative,1,Vingroup và KKR đăng ký bán lượng lớn VHM,2021,pre,uncertain,11
+N01061,6455c49a5159c138cdb93371033e7ae9,positive,1,Hợp tác chiến lược Kafi và VIB,2025,post,uncertain,11
+N01062,9395d428a2bd2a21f9cc919c947ec9ce,neutral,2,"Vụ lừa đảo tài khoản, không tác động cổ phiếu rõ",2022,pre,random,11
+N01063,4a70869c6b2a88d63b7bcc4bb19891cc,negative,2,Phần lớn quỹ ngoại có hiệu suất âm nửa đầu năm,2026,post,random,11
+N01064,cd05c724c7a3de1415cb08a0cce0daaf,neutral,2,"Lãnh đạo SC5 qua đời, thay nhân sự",2023,pre,uncertain,11
+N01065,3ac8a8a86797a94489598ea4ef4bf33a,negative,1,"Giá ure hạ nhiệt, lợi nhuận phân bón giảm tốc",2022,pre,uncertain,11
+N01066,af3f773363e691443ba7acbc821699b5,negative,2,"Doanh nghiệp thực phẩm thiếu vốn, khó tiếp cận hỗ trợ",2021,pre,uncertain,11
+N01067,64f291f127e8c03bb53dd12b93ed0bf7,neutral,3,Trao giải cuộc thi viết,2023,pre,random,11
+N01068,905b20aafe53721f5c326df49dcb4318,positive,3,"LIX thưởng cổ phiếu 100%, cổ tức, giá sát đỉnh",2024,pre,random,11
+N01069,5df2e5261de9ea551441960b58e0100a,positive,3,Moody's xem xét nâng hạng VPBank,2021,pre,uncertain,11
+N01070,d29c0547995087068fa878a8f230f7be,neutral,2,"Trạm BOT thu phí: lợi chủ trạm, bất lợi logistics",2024,pre,uncertain,11
+N01071,aae410db83b3ecfd5d5560d7522144af,neutral,2,"Đại biểu kiến nghị, chưa thành chính sách",2023,pre,uncertain,11
+N01072,7ef19cf80c97f4727ebbaa4917fd8a54,positive,2,"HPX khắc phục xong, đề nghị giao dịch trở lại",2024,pre,random,11
+N01073,a0e9e91e72b55a2e1407e97560e5312b,positive,1,"Evergrande trả lãi kịp hạn, cổ phiếu tăng 4,3%",2021,pre,uncertain,11
+N01074,c2b86ebe732931e29af98ba0758ed604,positive,1,Bản Việt mở rộng mạng lưới chi nhánh,2022,pre,uncertain,11
+N01075,de6142d33b1432068a748f2999d6420a,positive,2,"Giá phân bón tăng, thuận lợi doanh nghiệp phân bón",2021,pre,random,11
+N01076,c8334a2345fbc74f1539b6ec99ad9988,positive,1,Techcombank nhận giải nơi làm việc xuất sắc,2023,pre,uncertain,11
+N01077,4d226b749a775052f750b257f41e9ed8,positive,2,Thị trường được FTSE Russell nâng hạng,2026,post,random,11
+N01078,0f870ef698b971aab6674af41a28d594,neutral,1,Gạo được giá nhưng thiếu hàng chất lượng,2023,pre,uncertain,11
+N01079,c2607749fc59085ebaf2da74f7fb817b,neutral,1,"Biến động giá vàng, bitcoin, USD sau phát biểu Fed",2021,pre,random,11
+N01080,0f5c126f3afae030fca12f9265fadb8b,positive,2,Việt Nam được ví như con hổ châu Á mới,2022,pre,uncertain,11
+N01081,8b7b495385120b8e3a8173f2fd02f59d,neutral,3,"Chuyện lạ ở Anh, không liên quan thị trường",2022,pre,random,11
+N01082,7a59902d153fa80f8dbf29e0e49297d4,negative,2,"VN-Index giảm sâu, khối ngoại bán ròng",2024,pre,random,11
+N01083,b7026180738ff9fad3b34c38ba4130c0,negative,2,"HAG lãi nhờ thuế hoãn lại, phải giải trình",2022,pre,random,11
+N01084,1551227de4db2b618ef786c54a3e8c2d,negative,2,Cảnh báo các thị trường có thể cùng lao dốc,2026,post,uncertain,11
+N01085,9b658596edbcd484aea6b34766d7dc0c,neutral,1,"Lãi nhờ thoái vốn, doanh thu giảm mạnh, lỗ gộp",2023,pre,uncertain,11
+N01086,13da7216ac6fd6de61ca9073fb7d229f,negative,2,"SCB bị kiểm soát đặc biệt, đóng nhiều phòng giao dịch",2024,pre,uncertain,11
+N01087,d3ebeccbc543d39e01dbf1615abef89c,neutral,2,Giá vàng thế giới biến động nhẹ,2021,pre,random,11
+N01088,c206fa8e94b4d6b1cc7dd37b65e70a5f,positive,2,Mỹ tiếp tục xác định Việt Nam không thao túng tiền tệ,2023,pre,uncertain,11
+N01089,d14faaa45fb9a4210bece11fb0ba12ce,neutral,1,Giá xăng giảm nhẹ,2024,pre,random,11
+N01090,6c7d53fe52ce5b7e1c77a0eec9d2ae0a,positive,1,HDBank triển khai gói vay 10.000 tỷ ưu đãi,2022,pre,uncertain,11
+N01091,634fcf1deda3150e19f65a6f71f7f751,positive,2,"Nghị định 08 tác động tích cực, giảm nguy cơ vỡ nợ",2023,pre,uncertain,11
+N01092,05a0a499b2b1b6264c4e28b2e2129965,negative,2,Doanh nghiệp khó khăn thiếu lao động thẻ xanh,2021,pre,uncertain,11
+N01093,4a432a5b81d506f7bb64bde5641b85b6,neutral,2,"Vàng thế giới giảm, chứng khoán Mỹ kỷ lục",2020,pre,random,11
+N01094,1b9f6132de4c0c8f586537a13b25b5a7,neutral,1,Cổ đông bán cổ phiếu nhưng giá FIR tăng,2022,pre,uncertain,11
+N01095,8e746d146e450547e087aa4c5ce9ad6f,neutral,1,"Cạnh tranh bán lẻ, đầu tư lớn, tác động không rõ",2023,pre,uncertain,11
+N01096,f8f14941eeeecae6bfd0dfd59fab505c,positive,3,"HSC doanh thu tăng 40%, vượt kế hoạch",2026,post,random,11
+N01097,9525816249b7b1f410bc6f47e92cd972,negative,1,"Chuyên gia cảnh báo bong bóng tài sản, chứng khoán",2021,pre,uncertain,11
+N01098,f8458e4e3dad4bbe5b2751b924ac78c0,negative,2,Doanh số ô tô giảm mạnh,2020,pre,uncertain,11
+N01099,f12cbbe7fb173b3cb8392e965244b6f5,positive,2,"FPT định hướng chiến lược, cổ đông tham dự kỷ lục",2025,post,uncertain,11
+N01100,e62ff517a1c6cb0b9bf1bfe9004c8989,positive,1,Quỹ đầu tư mới ra mắt vốn 106 tỷ,2021,pre,random,11
+N01101,7b8b7f29ffed6cc9acfdd03eff908b47,positive,1,"giải thưởng nơi làm việc, thành tựu doanh nghiệp, tác động yếu",2022,pre,random,12
+N01102,ecf5edc6c54b83dc387d4c9ba05cb88e,positive,2,"dự báo BĐS Móng Cái bứt tốc, hạ tầng hoàn thành",2021,pre,uncertain,12
+N01103,61b5209208d340bbdfd9e23eae92af43,neutral,2,"chờ phát biểu của Powell, chưa rõ tác động",2024,pre,random,12
+N01104,4681491fae532a2cd2eced3bc06c4a74,negative,2,"kiện đối tác lớn nhất, rủi ro lớn cho GIL",2022,pre,random,12
+N01105,75867f7077784935c4eb2d995f8a16f1,negative,3,"VN-Index giảm, khối ngoại và tự doanh bán ròng mạnh",2025,post,uncertain,12
+N01106,cf66cc6e3c1a0215d83052cd497d6812,neutral,1,"giá xăng tăng, tác động thị trường không rõ",2024,pre,random,12
+N01107,2cf66ca459571daed250502a365c33db,positive,1,"BĐS trụ vững, vùng giá hấp dẫn, kỳ vọng phục hồi",2021,pre,uncertain,12
+N01108,ba9a547130f5263f738da6b337bda5d6,neutral,2,"bụi công trường, vấn đề môi trường giao thông",2024,pre,uncertain,12
+N01109,bea1ccd0aeedb120f3b032cb6f66e7f8,positive,2,"thị trường BĐS phục hồi, giao dịch tăng, dự án được săn đón",2024,pre,random,12
+N01110,5d674547255b4c3e0f3302f6636ade9a,neutral,1,"bán cổ phiếu quỹ, mục tiêu lợi nhuận tăng cân bằng",2021,pre,uncertain,12
+N01111,864140c376a2428f2ca711e9a686ddc7,positive,1,"tháo gỡ vướng mắc dự án nhiệt điện, thúc đẩy tiến độ",2024,pre,uncertain,12
+N01112,6d43bd1685d366ad6840c1cb0007697e,neutral,2,"nhìn lại năm 2024, tốt rồi xấu, cân bằng",2025,post,random,12
+N01113,59a495ffd83cfc984c26cf1a83b50d2b,positive,1,doanh nghiệp thực phẩm tăng trưởng 50% giữa đại dịch,2021,pre,random,12
+N01114,c73b79fc2830acfb726f35c360ad04aa,positive,2,"châu Á, Việt Nam tăng trưởng dương, vĩ mô thuận lợi",2020,pre,uncertain,12
+N01115,8dbfbc3b6ad1bd346be533eed7765aa4,neutral,1,tháng 9 giảm mạnh nhưng thống kê tháng 10 thường tăng,2022,pre,uncertain,12
+N01116,18d33dfad9b22459b79ff2d423304ffd,neutral,2,"khuyến mãi điện thoại, tác động tài chính không rõ",2020,pre,uncertain,12
+N01117,612a8d904a812e7bcf2ab509a0d8ce8c,neutral,1,"dự báo sốt đất tương lai, không rõ tác động",2023,pre,uncertain,12
+N01118,315ebf1f09444ff80c053677501855fa,positive,2,"PVOIL tăng trưởng sản lượng 29%, cam kết tăng trưởng",2024,pre,random,12
+N01119,c886707999dc8c99c082ff5a189ef121,positive,1,mở rộng mạng lưới chi nhánh Vietcombank,2024,pre,uncertain,12
+N01120,14120604da971b49eb1303e8a4cd64fa,negative,1,cảnh báo chính sách vĩ mô Mỹ rủi ro,2021,pre,uncertain,12
+N01121,4bd10039c6b2efd04860d9834319022e,neutral,2,"phản hồi thiết kế ga ngầm, thông tin hành chính kỹ thuật",2024,pre,uncertain,12
+N01122,d6d8874d65e9b7dcc999e1e7cdf8a333,positive,2,tăng room ngoại ngân hàng đem lại nhiều lợi ích,2021,pre,uncertain,12
+N01123,a11af9ff5fd01721e674098458367155,neutral,1,"thay đổi nhân sự HĐQT, không có số liệu",2023,pre,uncertain,12
+N01124,f55d3335ab8067b0dbe37c67591d97e4,neutral,1,"Thủ tướng yêu cầu đánh giá thông tin, chưa rõ tác động",2023,pre,uncertain,12
+N01125,38cdee497ac461f646816838f84f706f,neutral,1,"phân tích phân hóa ngành kèm cảnh báo rủi ro, cân bằng",2025,post,uncertain,12
+N01126,9644986fcf89da69a77e6439bd2fbdef,neutral,3,"biển số xe đẹp, không liên quan chứng khoán",2023,pre,random,12
+N01127,51c97b0a9716b1424923e65d4baff8cb,positive,1,"cổ phiếu dược Hồng Kông tăng mạnh, không phải thị trường VN",2022,pre,uncertain,12
+N01128,47cbf61a82b28c8fb1723d0f179722f7,neutral,2,"bê bối nhân sự ngân hàng nước ngoài, không tác động rõ",2022,pre,uncertain,12
+N01129,4ed5b4b139bccb29d796af0b95ac7f09,neutral,1,"ruble mất giá, không liên quan trực tiếp thị trường VN",2023,pre,random,12
+N01130,ca0d236ffa7f6932b3af1f41f2885968,neutral,1,"vàng và Bitcoin tăng 2020, không phải cổ phiếu",2020,pre,random,12
+N01131,1e6039a2c5e7be50dee379232585c321,neutral,2,"chính sách tiền tệ Nhật, tác động không rõ",2022,pre,uncertain,12
+N01132,d67a003170d28c326cb2d68e26a6c2e8,neutral,2,"ủng hộ từ thiện mua vắc xin, tác động không rõ",2021,pre,random,12
+N01133,d92504b6e2ba178df31f132ffe3493f4,positive,1,"ngân hàng huy động vốn rẻ, lãi suất thấp",2021,pre,uncertain,12
+N01134,0b834e1c991669399b122409cc8e81f5,neutral,2,"tăng nhẹ 1,36 điểm, xanh vỏ đỏ lòng",2024,pre,uncertain,12
+N01135,c7ce2fbb22267f7877b6bc932bba11d2,negative,2,"đề nghị truy tố cựu lãnh đạo, vụ án lớn",2022,pre,uncertain,12
+N01136,34b0d6f235b3f4c337b400f77b23a85d,neutral,1,"tăng điểm nhưng phân hóa, áp lực bán cuối phiên",2025,post,uncertain,12
+N01137,c4546957e8201811d9c77c20bf08c786,positive,3,"EIB tăng gần 6%, lên đỉnh lịch sử, ngân hàng ổn định",2022,pre,random,12
+N01138,ef4b0ad0be4d8306ba8c89a80bc9b706,neutral,1,"OPEC+ có thể cắt giảm, tác động chưa rõ",2023,pre,random,12
+N01139,bc7a51365b487f41310b97a289030b01,neutral,2,"so sánh kênh đầu tư, lãi suất tiết kiệm giảm",2024,pre,uncertain,12
+N01140,7393fee0d228881e7a74fec6929cdcda,negative,2,"tỷ giá USD tăng cao kỷ lục, áp lực vĩ mô",2023,pre,uncertain,12
+N01141,eecdddbaa191d2af792cc62fb789e494,neutral,1,"ngân hàng giảm lãi suất huy động, tác động không rõ",2023,pre,random,12
+N01142,243b056c653c1c43c704312b6fe6109e,neutral,2,tỉnh Hà Nam nói không đủ đất quy hoạch sân bay,2021,pre,uncertain,12
+N01143,e209e838da9a5ff25bbb3a38a6323456,negative,2,"lỗ ròng lớn, hủy niêm yết bắt buộc, dù có cổ tức",2023,pre,random,12
+N01144,17e50a1011ce011122c25fd265e6842d,positive,1,"tỷ giá giảm, DXY giảm, bớt áp lực",2022,pre,uncertain,12
+N01145,d14c794c6cee320e1ca73e3e20c78450,neutral,1,"giảm thuế xăng dầu, ngân sách hụt, tác động hai chiều",2024,pre,uncertain,12
+N01146,fb7bc0e0af094ee5e4a747f640923344,positive,2,"dự phóng VN-Index tăng 6-23%, khuyến nghị cổ phiếu",2025,post,random,12
+N01147,46eaadf9e6b20cd4351dbeaac3c03faf,negative,3,"hủy niêm yết BCG, TCD do chậm công bố BCTC",2026,post,random,12
+N01148,94a87749eeff8d3fa993810f5764f541,positive,2,"dòng tiền vào VN30, VN-Index kỳ vọng lên gần 1.400",2021,pre,random,12
+N01149,e7600d76d8ee2d90241279c909b2be85,neutral,1,"chỉ đạo ngăn nóng hoặc đóng băng, tác động chưa rõ",2023,pre,uncertain,12
+N01150,28adf81a38b8a5b858cc43b68ba1e332,neutral,2,"phát hành ESOP quy mô nhỏ, thông tin thủ tục",2025,post,random,12
+N01151,41854bce1961a9535ce2be043fa76c74,positive,2,"nhiều ông lớn vào Long An, thị trường chuyển biến tích cực",2023,pre,uncertain,12
+N01152,e48552ccae6a216dd67ba93f2a8ee177,positive,1,được phát hành riêng lẻ 1.300 tỷ để tái cơ cấu nợ,2024,pre,uncertain,12
+N01153,4ba52a4a5b86d945ca63c9d32cc7bf60,negative,2,"cổ phiếu giảm hơn 50%, nhà đầu tư thua lỗ",2022,pre,random,12
+N01154,27d2588cf78a1ff608e8531f4a3f3413,positive,2,"lãnh đạo đăng ký mua cổ phiếu, cổ phiếu đang tăng",2021,pre,random,12
+N01155,6b1f006f6aa917bcabb62a38ff141df8,neutral,1,"VN-Index tăng nhưng phân hóa, ngoại bán ròng nếu loại VIC",2026,post,uncertain,12
+N01156,0acf3bccb3b647454f52854505eb6421,negative,1,"nhà đầu tư mất tiền vì memecoin, rủi ro cao",2021,pre,uncertain,12
+N01157,de8f980d32bb058323c3bc6f65052f33,neutral,1,"giá vàng thế giới lập đỉnh, không phải cổ phiếu",2024,pre,random,12
+N01158,0e4b2b67df2ddbd38ae05e23bbdb87a1,neutral,3,"tàu ngầm Mỹ, không liên quan thị trường",2024,pre,uncertain,12
+N01159,ee3d210d6fc721451f851b9e4c14b759,negative,2,"SoftBank bán cổ phần, Alibaba giảm gần 3%",2023,pre,random,12
+N01160,def177390e5d590c74ae11d4b8ca2349,positive,1,dự thảo nới điều kiện khu công nghiệp,2021,pre,uncertain,12
+N01161,6fce74ef0097e97944aedaaad6287d69,negative,2,"BĐS ế ẩm, thanh khoản sụt mạnh, môi giới khó khăn",2023,pre,random,12
+N01162,9d4b2ee5411a3ac4c1ad8eaff5b8fdb8,neutral,2,"kết luận họp Chính phủ, chỉ đạo điều hành chung",2023,pre,uncertain,12
+N01163,f4d36b93159126a4e3a7eb9a30c67b35,negative,2,"ngành điện máy khó khăn, thu hẹp, nguy cơ phá sản",2021,pre,uncertain,12
+N01164,fc731969366bc4a5d3f29f8cf8ae6cf3,positive,2,"VN-Index tăng gần 12% tháng, thanh khoản kỷ lục",2025,post,random,12
+N01165,0af1ab5a4abc75202ea00d5250591f6b,neutral,1,cảnh báo rủi ro lướt sóng đất nền nhưng vẫn có dư địa,2021,pre,random,12
+N01166,63db93240c6d7be652e401b23c1923fe,positive,2,"gói hỗ trợ 350 nghìn tỷ, kinh tế hồi sinh",2022,pre,uncertain,12
+N01167,aa908c6c4d3a3cf5cb983d526cefa098,negative,2,đề xuất đánh thuế nhà thứ hai bất lợi cho BĐS,2024,pre,random,12
+N01168,173e3f4caef9ae3bcd57812038ab9c5f,negative,2,"cổ phiếu giảm 75% từ đỉnh, bán cổ phiếu quỹ thất bại",2023,pre,uncertain,12
+N01169,6582b143ba78ea0299293e129a4a3ece,negative,2,"lãi suất liên ngân hàng tăng, thanh khoản căng",2023,pre,random,12
+N01170,2914bac7ca7d9d77999c670eaa69db0b,negative,2,"cảnh báo FED thắt chặt, tài sản rủi ro giảm mạnh",2022,pre,random,12
+N01171,a6164c0cb5fb12b2a70d15dabf2d0588,neutral,3,"tiêu chí chọn nhà cung cấp máy chủ, không liên quan",2021,pre,random,12
+N01172,e8e74803dd662b4d9e3478fb6eeeaea4,negative,2,"chủ tịch bán sạch cổ phiếu, lãnh đạo từ nhiệm",2025,post,uncertain,12
+N01173,d67531f0e2ea8d806503881991d80208,positive,1,"ra mắt sản phẩm công nghệ mới, mở rộng",2021,pre,uncertain,12
+N01174,d2be1563ff2c4d0b3350fde2a29e94c1,neutral,2,"gọi vốn tiền mã hóa, không liên quan cổ phiếu VN",2022,pre,uncertain,12
+N01175,6a1488b10ce3a1e586afac16aaf1b11e,positive,2,"người nhà lãnh đạo mua HAG, HNG trả hết nợ",2025,post,uncertain,12
+N01176,929842e448eb0aa3c6cda609d31728ea,positive,1,"chỉ số tăng, thanh khoản cải thiện, dù ngoại bán ròng",2022,pre,uncertain,12
+N01177,b5976f72c87a591bb32639144dc0ed9e,positive,3,"mua lại cổ phiếu quỹ, lợi nhuận kỷ lục tăng 73%",2025,post,random,12
+N01178,01a3dce7aaf896566b03b68778ffd1cc,neutral,2,chiến dịch quảng bá của công ty chứng khoán,2025,post,random,12
+N01179,1e08c8b01fdd0baaadb2ec6b184a7b0c,positive,2,Ả Rập Xê Út mở lại nhập thủy sản Việt Nam,2020,pre,uncertain,12
+N01180,589510c6091b19b40e01ccc75853ecea,neutral,1,"giá xăng tăng, tác động không rõ",2024,pre,random,12
+N01181,a913ff320773f4069c665265675df24c,neutral,1,ngành gạo xuất khẩu tốt nhưng nhà đầu tư ngần ngại,2023,pre,uncertain,12
+N01182,8894a14a4dbe56174e987111ee6320e2,negative,3,PLC giảm mạnh mục tiêu lợi nhuận 30%,2023,pre,uncertain,12
+N01183,36d12a8da74cc4c651d7e40c76ba1c7b,positive,1,"FPT Retail doanh thu tăng 22%, Long Châu tăng 67%",2024,pre,random,12
+N01184,6fb41d930590c567d84e5cfb7288709d,negative,2,AMP bị xử phạt vi phạm công bố thông tin,2023,pre,random,12
+N01185,c1e33458a21ce082aef23f7ea65467c3,positive,2,"chiến lược tăng trưởng, mục tiêu lợi nhuận 17.500 tỷ",2025,post,random,12
+N01186,9769aa7abe7084fb0cc832803e0bfcf5,neutral,2,"vụ án xăng giả, không tác động rõ tới thị trường",2021,pre,random,12
+N01187,49f93fe9f12a73583b6758835abc7d0f,neutral,1,"kế hoạch tăng 8-10% nhưng cổ phiếu giảm, cân bằng",2025,post,random,12
+N01188,3a41c689e0692724f595beac4a2f27f6,neutral,3,"thông tin sở hữu cổ phần, hành chính",2025,post,uncertain,12
+N01189,95c6ddacde3648c5a243e9fedf0f3793,positive,2,"khánh thành nhà máy mới, mở rộng thị trường",2020,pre,random,12
+N01190,bf0daaf3d2ddb0620badb30653d0739d,positive,1,"cao tốc đạt gần 70% tiến độ, đầu tư công thuận lợi",2023,pre,random,12
+N01191,049fb4ed984542b9d935ef759fef91e9,negative,2,VNG bị UBCKNN xử phạt vi phạm,2024,pre,random,12
+N01192,8e3c452b5e8c4a598a79a03ded3040ee,positive,3,"chính sách thuế có lợi ngành phân bón, VNDirect tích cực",2020,pre,uncertain,12
+N01193,cb297ccc8c9ecd7df4779fab3df3dceb,neutral,1,"phát hành riêng lẻ, pha loãng nhưng thêm vốn",2021,pre,uncertain,12
+N01194,0660fbcd85a19a9722b1324c82c7d2a7,positive,1,người nhà lãnh đạo gom thêm cổ phiếu HAG,2021,pre,uncertain,12
+N01195,f1ea97ae75b66b5c5e919072a78e13b4,neutral,2,"chính trị Mỹ, không liên quan thị trường VN",2020,pre,random,12
+N01196,f6f4c7113ad649bda5e30be6819331ad,positive,2,"VPBank nhận cọc, sắp nhận thêm vốn lớn từ SMBC",2023,pre,random,12
+N01197,d19d07d23c7f10d1848210aef492fde2,positive,1,đầu tư nhà máy 150 tỷ mở rộng sản xuất,2022,pre,uncertain,12
+N01198,db29640d9ab27a5ae8cfa29fb9735506,neutral,3,"thông báo chốt quyền họp ĐHĐCĐ, hành chính",2026,post,uncertain,12
+N01199,5e54a18a584b79a04944c19f9c9f49ca,neutral,2,"hoàn tất phát hành ESOP, thông tin thủ tục",2026,post,random,12
+N01200,50ce9766f658eaaed8562fde7ae69893,negative,2,"thị trường điều chỉnh, Fed tăng lãi suất, chưa thấy đáy",2023,pre,uncertain,12
+N01201,d7de00bb33fa1e36b479dd9fb65aeb72,negative,2,"Kinh doanh suy giảm, kế hoạch 2023 thấp hơn 2022",2023,pre,uncertain,13
+N01202,b954206e277e9e61d51eb457492afefa,negative,2,"Bán tháo toàn cầu, vàng lao dốc hoảng loạn",2024,pre,uncertain,13
+N01203,66c129aae40dbed37060b1e3614de8b9,negative,2,"Bitcoin bị bán tháo, chuyên gia cảnh báo giảm tiếp",2022,pre,uncertain,13
+N01204,a993d8413dc2ecfab5f516845d863800,neutral,3,"Diễn đàn hacker ngừng hoạt động, không tác động cổ phiếu",2022,pre,uncertain,13
+N01205,09ba77d53c15c032e07c750414849a90,neutral,2,"Amazon bị kiện ở Mỹ, không liên quan trực tiếp cổ phiếu Việt",2022,pre,random,13
+N01206,19f0d90a65b01c5ae3e63db7f2de8707,positive,2,Hải Phát muốn đầu tư 4 dự án lớn,2021,pre,uncertain,13
+N01207,6d4e34803a3437b42926229a81d22646,neutral,2,"Siết thu thuế nền tảng số, tác động không rõ",2021,pre,random,13
+N01208,bfa4f7e1a8254707122b01b803bfddeb,neutral,2,Thông báo kế hoạch mua lại trái phiếu trước hạn,2022,pre,uncertain,13
+N01209,f15dce1ef090ea9cb4dfa119e5bb3e58,neutral,2,"Vingroup chuyển nhượng cổ phần One Mount, cơ cấu lại",2022,pre,uncertain,13
+N01210,bf3c6e83f447d02d2ce5b1bf71f4a082,neutral,2,"Miễn phí dịch vụ nộp phí, tác động nhỏ",2022,pre,random,13
+N01211,dd4a5610b99a91b27e86091dfe6bbe9f,neutral,1,"Phản ánh bán chéo bảo hiểm, tác động không rõ",2021,pre,random,13
+N01212,727c15a7575dd17422cdeed136f853e6,neutral,3,"Bộ sưu tập thời trang, quảng bá",2022,pre,random,13
+N01213,e8da407d53b444cbc21cad23fffd6225,neutral,2,NHNN chấp thuận VNPost chuyển nhượng cổ phần LPB,2022,pre,uncertain,13
+N01214,b818c49c9be5d35fb422fefde07c6665,neutral,3,Bài PR thương hiệu VPBank,2024,pre,uncertain,13
+N01215,cb164c78fc1ea04e12ddb933c271c4b3,positive,2,Thủ tướng đôn đốc nới quy định tín dụng,2023,pre,uncertain,13
+N01216,43f2ff2a08e8559c7be934ac67ca1e6b,positive,1,"Doanh thu tăng mạnh, giá tăng; cổ đông ngoại bán",2022,pre,uncertain,13
+N01217,bc2f5baec316105bc087ddec8f2617fd,positive,3,"VN-Index tăng 1,7%, nhiều nhóm xanh",2026,post,random,13
+N01218,08a4a88fe81542ebac9a2622ad5c584f,neutral,2,"Giá vàng trong nước tăng, không liên quan cổ phiếu",2023,pre,random,13
+N01219,a7322290c28fca7619e9aa91445c0500,negative,2,"Rủi ro lạm phát, dư địa chính sách tiền tệ hẹp",2021,pre,random,13
+N01220,1e10d4f11ca95181d469b5bac920313e,neutral,3,Thống kê số khu công nghiệp,2022,pre,uncertain,13
+N01221,9f4e6ceb9762a2ffa0c447f456fccb70,neutral,2,Cập nhật cơ cấu cổ đông Eximbank,2023,pre,uncertain,13
+N01222,98cf95b831ec30d954f7d20417ac817a,neutral,1,"Ngân hàng tăng lãi suất tiết kiệm, tác động lẫn lộn",2024,pre,uncertain,13
+N01223,fb0317c7d3d48278a9d63a31c954b5dc,negative,2,Tỷ giá USD lên đỉnh mới,2022,pre,uncertain,13
+N01224,01953873b998c4d3640836e442048016,negative,2,Xét xử vụ lừa đảo liên quan cổ phiếu TOP,2026,post,uncertain,13
+N01225,7032b43d9d1826f48131bacbb994498c,positive,1,Ký hợp đồng lớn với Mỹ giảm rủi ro thuế,2025,post,uncertain,13
+N01226,c28cbb2a905fe57eaa3dcf224f5a785e,positive,2,"Giao dịch bất động sản tăng, giá có thể tăng",2024,pre,random,13
+N01227,138d680cc76ac77d834697708ce585d5,positive,2,"Xe điện vượt xe dầu ở châu Âu, lợi cho VinFast",2022,pre,uncertain,13
+N01228,eee6c14de976ade9dd781212c3b4d6c3,positive,2,"Masan thâu tóm thành công, mở rộng thị trường",2021,pre,random,13
+N01229,1c432c4d13b96081ec0f217bfd3e0020,negative,2,"Khối ngoại bán ròng đột biến, tự doanh bán ròng",2025,post,uncertain,13
+N01230,ff3a8cd34d53beb97c5d529af14c1a02,positive,2,Thành viên mới VIFC dự kiến huy động 5 tỷ USD,2026,post,uncertain,13
+N01231,0b42c7f3aaa6b7ade031fbc834dd6c9b,neutral,2,"Giá vàng giảm, không liên quan cổ phiếu",2022,pre,random,13
+N01232,abfc09d98e74ff28e9bec54bf99af612,positive,2,VinFast nộp hồ sơ IPO tại Mỹ,2022,pre,random,13
+N01233,eb00394a512c4fef3ef43c47f52e66c0,neutral,2,"Vingroup bổ sung ngành nghề, thủ tục hành chính",2025,post,random,13
+N01234,a9b5b425fd4e00c260c33922171d66e9,positive,2,Đề xuất nới room ngoại cho ngân hàng,2021,pre,uncertain,13
+N01235,21411e34035c3052e9a828ad5771ccbc,positive,2,Đất nền Huế sôi động trở lại,2022,pre,uncertain,13
+N01236,384104de3ce68d02de204ac465cbdf4d,neutral,2,"Thù lao ban lãnh đạo, lãi nhỏ",2023,pre,random,13
+N01237,6046895245c2cf772100e64ba20864e7,neutral,1,"Hội thảo phục hồi kinh tế, ý kiến trái chiều",2021,pre,random,13
+N01238,39263494111432a4ea0e6325e3e17c76,neutral,2,"Tổng hợp giao dịch nội bộ, mua bán lẫn lộn",2022,pre,uncertain,13
+N01239,516492d2c3eab7a406c291be7d568bbe,negative,3,Yeah1 lỗ nặng quý IV và cả năm 2020,2021,pre,random,13
+N01240,77efd1a05183bf0d79900bd2194c0f44,neutral,2,"Ký hợp tác chuyển đổi số, tác động nhỏ",2021,pre,random,13
+N01241,c55618535eeb5a54e27ebd21929e207f,neutral,1,Nhiều ngân hàng tăng lãi suất tiết kiệm,2024,pre,uncertain,13
+N01242,d42f788a78c5c13fd6dacfc5bc9bcd7c,neutral,3,Tin địa chính trị Nga-Trung,2022,pre,random,13
+N01243,cf68ee577ecd1f13c464216745266e80,positive,3,"VN-Index hồi phục, nhiều nhóm tăng mạnh",2022,pre,uncertain,13
+N01244,b4e0a1c38abc11a7e330f018a4957e6e,negative,2,"Khối ngoại bán ròng hơn 11.000 tỷ, lãnh đạo bán cổ phiếu",2025,post,uncertain,13
+N01245,9d4027325582f0484167b8ef9eb44ae5,neutral,2,"Sốt đất địa phương, tác động không rõ",2021,pre,uncertain,13
+N01246,6cb15f42ddfef57edc109e63344aed4c,neutral,2,Phân tích hướng đi doanh nghiệp bất động sản,2022,pre,random,13
+N01247,26f43c178b2402ed3925c1a287a28216,neutral,3,Hướng dẫn gửi tiết kiệm online,2022,pre,random,13
+N01248,9b72d085cdaa73a8ec33093ebb744db2,negative,1,"Nợ nghìn tỷ, bổ nhiệm nhân sự lẫn lộn",2022,pre,uncertain,13
+N01249,3d47bd2b43af249d1ea26b0dfac4ff84,positive,2,"Thoái vốn PG Bank, cổ phiếu PGB tăng 22,6%",2023,pre,random,13
+N01250,7ae587724fd7261bbef0a7fb8cd67e4f,positive,2,Việt Nam dự báo tăng trưởng cao nhất ASEAN,2024,pre,random,13
+N01251,99e16ff105cbb979dad3228daa72237c,negative,2,"Lợi nhuận VHC giảm 44%, doanh thu giảm",2020,pre,random,13
+N01252,1ae0d0980da097535cda6489ef0fd3a8,negative,2,Giá xăng tăng đè nặng chi phí vận tải,2022,pre,random,13
+N01253,0fa117403d80dd8eef1b3439977322ff,positive,1,"Ngân hàng lớn giảm lãi huy động, giảm chi phí vốn",2023,pre,uncertain,13
+N01254,625173b78894e158286d7dce89970eb8,neutral,2,"Suất đầu tư đường sắt cao tốc, báo cáo tiền khả thi",2024,pre,uncertain,13
+N01255,5bd90e0682062fe102124556ae13f843,positive,2,AeonMall thuê sỉ 4 tầng thương mại TTC Plaza,2024,pre,uncertain,13
+N01256,06dfc2a99d8574b0f585f9640ebec98f,negative,2,"Các vụ lùm xùm, lao lý của đại gia địa ốc",2021,pre,uncertain,13
+N01257,4c8ee8171f38a30ec793cb9981a83cdd,neutral,2,Tin vắn tổng hợp tốt xấu lẫn lộn,2024,pre,uncertain,13
+N01258,64eebd0fa4f935b956a333a8eef2c606,positive,2,VN-Index hồi phục hơn 80 điểm sau đáy,2026,post,random,13
+N01259,abc3f3b8f5c660b3ee51133c67ebb7ae,negative,2,"Bất động sản nhà ở còn nhiều thách thức, giá đi ngang",2023,pre,uncertain,13
+N01260,283b2b2bccd03f4b3b4a3bccf9401581,negative,1,HoSE nhắc nhở chậm công bố thông tin,2026,post,random,13
+N01261,8a1c428f20a0a857715eeb3915f2c2f6,neutral,3,Số liệu CPI TP.HCM,2021,pre,uncertain,13
+N01262,73adabe280cb0d40f8d8197bc24854f1,positive,2,"Chia cổ tức 200%, lợi nhuận tốt",2021,pre,random,13
+N01263,2969dbfd0860e68cfef49f392659a9c6,neutral,1,"Kết quả ngân hàng phân hóa, có tăng có giảm mạnh",2023,pre,random,13
+N01264,9f578c7a275ad3d9184efb7e6ff67470,positive,3,"TDH thắng kiện hoàn thuế, tăng trần",2025,post,random,13
+N01265,fe086738d6bfc8b45c0adaeb26747bc6,positive,1,Dòng tiền đổ vào cổ phiếu doanh nghiệp nhà nước,2026,post,random,13
+N01266,6d1467e3c4ef9e1464455a7e33dde8e6,negative,2,TTC bị phạt vi phạm công bố thông tin,2025,post,random,13
+N01267,c7634f5eeb34e71ff985df0b13fbfa96,neutral,1,"Bình luận triển vọng 2022, không rõ chiều hướng",2021,pre,uncertain,13
+N01268,a622f5b9ec3449eabcf1118529b0fcb5,positive,2,Hàng loạt ngân hàng giảm lãi suất cho vay,2023,pre,uncertain,13
+N01269,9cab7579cf32afd392472130f405c701,negative,3,"Lãi quý 4 giảm mạnh, nhiều doanh nghiệp lỗ",2022,pre,uncertain,13
+N01270,71b6f0759a9d90b2ea50d33e526fbb5d,positive,2,"Kỳ vọng lợi nhuận Q4 tăng, chính sách hỗ trợ",2024,pre,random,13
+N01271,f62a3ce52ed9c40f5642b259ea27a38f,neutral,3,Giải thích cơ chế điều chỉnh giá sau cổ tức,2021,pre,uncertain,13
+N01272,cc4d5c6fe9592a47c775ee2ca0dee2c6,neutral,3,"Cuộc thi công nghệ, hoạt động thương hiệu",2021,pre,random,13
+N01273,fd10b43556933dc0e808e6f19f42b0ee,neutral,3,"Tin chính trị Thái Lan, không liên quan",2023,pre,random,13
+N01274,d1d56db456e14f631905cafcf16b20ee,positive,2,STB tăng mạnh nhờ kinh doanh chuyển biến tích cực,2020,pre,random,13
+N01275,f15fefb6ae79e0b64f308deeda104c33,positive,2,"Gelex hợp nhất Viglacera, tác động tích cực",2021,pre,random,13
+N01276,abfa7ce69c8313c37e2a8dd1519243ec,neutral,2,"Thúc tiến độ dự án đường dây điện, tác động không rõ",2024,pre,uncertain,13
+N01277,ede0821383be9f38544ef4af791556f0,negative,2,Tỷ giá USD tăng mạnh vượt 24.700,2023,pre,uncertain,13
+N01278,87181f6b1007ec1ec2741d7cae6a8155,positive,2,Bất động sản Nam Hà Nội hưởng lợi quy hoạch,2024,pre,uncertain,13
+N01279,f1543aa27993881874b99688853fcd58,positive,2,"iPhone 15 bán chạy, MWG đạt 500 tỷ ngày đầu",2023,pre,uncertain,13
+N01280,98ee88d5d0006e44aede405c42e84bdf,neutral,1,Sốt đất hạ nhiệt nhưng giá căn hộ tăng,2021,pre,uncertain,13
+N01281,6af788025bf9e9d40a5adbf91da0ec94,neutral,1,Tin vui gói thầu nhưng cổ đông lớn đăng ký bán,2023,pre,random,13
+N01282,84d9da44d4f53eb1ee134c4bc5cde5fd,negative,2,"Đầu cơ thoát hàng, rủi ro cho nhà đầu tư mới",2022,pre,uncertain,13
+N01283,020caec56b212ec12a4fd8e5ca5e20ef,neutral,2,"MSB phát hành ESOP, hành chính",2021,pre,uncertain,13
+N01284,086f038bcbfb1f54eed548b9a339340e,positive,2,Fubon ETF mua ròng liên tục cổ phiếu Việt,2023,pre,random,13
+N01285,415db2b9027871d6c66243046138ffec,positive,2,FPT IS hợp tác chiến lược với Oxford,2024,pre,random,13
+N01286,0557c75112fa920bf2a53d1f137da532,neutral,1,"So sánh ngành trước lạm phát, không rõ tác động",2022,pre,uncertain,13
+N01287,8a30e55a0217323d1f27a65ac3894bbe,neutral,2,"Đón khách đầu năm, tín hiệu du lịch nhẹ",2024,pre,uncertain,13
+N01288,bfb08bee6aaf18160744abb4198571a2,negative,2,"Sàn môi giới kiệt quệ, nợ lương, đóng cửa",2021,pre,uncertain,13
+N01289,43a8aec1a596e5cedc128318dff70de0,positive,1,Vinamilk ra sản phẩm mới được quan tâm,2020,pre,uncertain,13
+N01290,c8864161ebc2c4e16b34efe719a426dc,positive,2,"VinFast niêm yết Nasdaq, cổ phiếu tăng mạnh",2023,pre,uncertain,13
+N01291,ba9ef398bdd0edb1a7713c423f2fcea6,positive,2,Giá quặng sắt và thép tăng trở lại,2021,pre,uncertain,13
+N01292,549c342f317eee8994d37bfdb37d1629,negative,3,"Hai cựu CEO bị khởi tố, liên quan PGI",2025,post,uncertain,13
+N01293,2181cae85993cf212303b169775d3dc3,negative,1,Sự cố gián đoạn giao dịch tại EVS,2024,pre,random,13
+N01294,e21c68265bc6ce4cab4c33e54c1610a1,positive,2,Giảm 2% VAT hỗ trợ tiêu dùng,2023,pre,uncertain,13
+N01295,68adfdcb8a99b7caf9864a9e38907c16,positive,2,Người nhà chủ tịch đăng ký mua 50 triệu HPG,2026,post,random,13
+N01296,58dc19a6cc0246a87babac9b9374957c,positive,2,"VnIndex tăng sát 1.100 điểm, thanh khoản cao",2020,pre,uncertain,13
+N01297,5b3a4950d182806fa35c1cd57596928a,negative,2,Doanh thu MWG giảm 23-30% so cùng kỳ,2023,pre,uncertain,13
+N01298,9d64c072697d721c41dddcf42c78071f,neutral,2,"Thị trường tăng nhẹ, khối ngoại bán, nhận định trung lập",2025,post,random,13
+N01299,ab86d39c8ec45691873ab0187fdf1c71,negative,2,"Dự án sân bay không hiệu quả, không chấp thuận ACV",2020,pre,random,13
+N01300,a1043ef0b575223a8bc876ff87ac59af,neutral,2,"Phân tích hiệu ứng Sell in May, không rõ rệt",2026,post,uncertain,13
+N01301,cef3ab850061f005ac8d1b4e0726f541,neutral,3,"Thay đổi nhân sự nghỉ hưu, hành chính",2024,pre,random,14
+N01302,a4081df03b5e3abc2ee961ea1e002f7f,neutral,2,"VN-Index giảm nhẹ, ngoại bán ròng, tự doanh mua ròng",2025,post,uncertain,14
+N01303,a447b5f35d8eac850f1ca6802e5f6246,neutral,2,"Mua lại trái phiếu trước hạn, tác động không rõ",2025,post,uncertain,14
+N01304,57780c30cebaeb613d6fecc3e2c6ff58,negative,3,"Giá đất nền giảm sâu, thanh khoản kém",2023,pre,uncertain,14
+N01305,6a3861fae3584dfc6956e6efd5292562,positive,3,"VN-Index bứt phá, cổ phiếu chứng khoán tăng mạnh",2025,post,random,14
+N01306,e46a028f8f8051fcab806dd25d575cca,negative,2,"VN-Index giảm, khối ngoại bán ròng mạnh",2025,post,random,14
+N01307,a37841e0235da53b8531dd56bcc8f403,positive,3,"Lãnh đạo mua vào, cổ phiếu tăng mạnh",2021,pre,uncertain,14
+N01308,a2d361b98c4055e38677dcefd099ed41,neutral,2,"Thanh khoản kỷ lục, không rõ hướng giá",2025,post,random,14
+N01309,3f1a5a72598ace82d4fe6b23aea77cea,negative,3,"Doanh thu sụp giảm, không có hoạt động kinh doanh",2024,pre,uncertain,14
+N01310,a09593bb64d31b768da6d5e5fb747258,neutral,2,Câu chuyện cá nhân đầu tư bất động sản,2021,pre,random,14
+N01311,853f38013e48532a9d5f82d6cb420b78,positive,2,"Kỳ vọng Fed giảm lãi suất, dòng tiền vào tài sản rủi ro",2024,pre,uncertain,14
+N01312,a5f8c72e869dbbd9847db83adcb9aa61,neutral,2,Nhận định cơ hội kèm rủi ro cân bằng,2026,post,uncertain,14
+N01313,8bb340a7a039f788e10f83945ac6d7f1,neutral,3,"Lời khuyên khởi nghiệp, không liên quan giá",2022,pre,random,14
+N01314,2a26d4f6355f32bb51e88dfcadf9fb59,neutral,2,"Sốt đất địa phương, tác động cổ phiếu không rõ",2021,pre,uncertain,14
+N01315,015c47182ca43c50c83d63e0a8a73a31,neutral,2,"Bảo lãnh khoản vay cho công ty con, tác động không rõ",2026,post,uncertain,14
+N01316,4c2cc47fc324f9f3ae93ab860ff96324,neutral,3,Bổ nhiệm nhân sự thuần hành chính,2022,pre,uncertain,14
+N01317,98bbdb345a062d06ad0a5c7eea9cc360,neutral,1,VN-Index tăng nhưng khối ngoại bán ròng lớn,2025,post,uncertain,14
+N01318,1b7d859d5b0a18f425d06e7c6c5fda16,negative,2,"Việt Nam chưa được nâng hạng, thiếu tiêu chí",2022,pre,uncertain,14
+N01319,884ea68716d87fcebf6af7bfc524b5b7,positive,2,"VN-Index tăng, ngoại mua ròng, ngân hàng giảm lãi suất",2023,pre,uncertain,14
+N01320,31b362185d2136d6830e9a96688920dc,negative,2,"USD tăng, lo lạm phát và tăng lãi suất",2021,pre,random,14
+N01321,d9d0d8c5550b1890bcb30a919b02ccfe,neutral,2,Sabeco gần thị phần nhưng ngành suy giảm,2024,pre,uncertain,14
+N01322,25bceb16b60c2e054ce202dffe1ab060,negative,2,Doanh nghiệp bị xử phạt vi phạm công bố thông tin,2026,post,random,14
+N01323,afa3ea6d812222ddde0a4300527635ee,negative,2,"Cổ phiếu dầu khí, phân bón giảm mạnh",2022,pre,uncertain,14
+N01324,4607ef96497b3aecbde181db9535195a,positive,2,Tín dụng tiêu dùng còn nhiều dư địa tăng trưởng,2021,pre,random,14
+N01325,a7ebdda1a4679b63781fa3296c25e08d,neutral,2,"Tin nhân sự, thưởng đề xuất, không rõ tác động",2022,pre,uncertain,14
+N01326,321513f77260e5afec45c4f516c6eb41,negative,3,"Hàng không ế ẩm, sản lượng sụt mạnh do Covid",2021,pre,uncertain,14
+N01327,3670c340609de9685e29ca148d578cf6,positive,3,"GDP, PMI, FDI tăng mạnh, dự báo nâng",2026,post,random,14
+N01328,813d60eca43031f6bc3791e400f8d6eb,positive,2,"VN-Index tăng, lập đỉnh, ngoại bán ròng giảm mạnh",2021,pre,uncertain,14
+N01329,e8f856c11e4b75978b1f987975c519cb,negative,2,"GDP đầu người không đạt mục tiêu, vĩ mô chưa vững",2021,pre,uncertain,14
+N01330,2497dbe660c01b0c4f710e5887f66b35,positive,2,VN-Index tăng ấn tượng nhờ dòng tiền nội,2023,pre,uncertain,14
+N01331,fed19e6c0d83022ee20b28f2969a020d,positive,2,VN-Index trên đỉnh lịch sử,2025,post,uncertain,14
+N01332,f37a727a677df609d5abd426f6882538,positive,2,"Thị trường tăng, ngoại bán ròng hạ nhiệt, tự doanh mua",2025,post,random,14
+N01333,c0074168b0d15fe93d2160e91be60345,positive,2,"Phố Wall lập đỉnh, tuần và tháng tăng",2021,pre,uncertain,14
+N01334,b9b2833bf931b53a2bb75572a6917dd8,neutral,2,"Quảng bá công nghệ, không liên quan giá cổ phiếu",2025,post,random,14
+N01335,1500f3b95cf29507a4ad475dcc3e8f75,positive,2,"Dự trữ ngoại hối kỷ lục, vĩ mô thuận lợi",2021,pre,random,14
+N01336,37a0030a0726324462410c55b61cd67f,neutral,1,VN-Index tăng tuần nhưng ngoại bán ròng 2.500 tỷ,2026,post,random,14
+N01337,d51e580e28267db235a8c70afa3067b7,neutral,2,Giá hàng hóa tăng giảm đan xen,2021,pre,random,14
+N01338,1779fa0ab6a0c8a3944f52a03f9f9154,positive,3,"FPT lợi nhuận tăng gần 20%, MSB cổ tức cổ phiếu",2021,pre,random,14
+N01339,26eaf52ffe9c7aa933f9dd0074baa6b1,neutral,2,"Điều tra hành vi cạnh tranh, tác động không rõ",2021,pre,random,14
+N01340,1e64adb61ebdec8e0c666ec0029f2369,positive,2,Giá dầu và hàng hóa đồng loạt tăng,2021,pre,random,14
+N01341,6e6ae552c890116a6ce2f97b32cb5d6e,neutral,2,Xử lý nợ nhỏ lẻ của một khách hàng,2024,pre,uncertain,14
+N01342,8c88dd79a0b9f3579daadd9354422378,positive,3,Việt Nam được FTSE nâng hạng thị trường mới nổi,2025,post,random,14
+N01343,c991642930260fdf26ae4a89663245da,negative,3,"Vụ án Vạn Thịnh Phát, nợ nhóm 5 SCB",2024,pre,uncertain,14
+N01344,c1bc14df07e7df28314c13278c1e12ee,neutral,1,VN-Index tăng tuần nhưng ngoại bán ròng gần 5.000 tỷ,2026,post,uncertain,14
+N01345,d3d284978934be66ee3f880b7a512afd,neutral,2,"Tiêu chí chọn mua bất động sản, tư vấn chung",2024,pre,uncertain,14
+N01346,a453f233542432f4c95999842a2417c8,positive,3,"Ngân hàng lãi lớn, tăng trưởng hai con số",2022,pre,random,14
+N01347,7ecff5280884a8e98cc3b78dc7f20137,neutral,3,Sự kiện Libya không liên quan thị trường Việt Nam,2024,pre,random,14
+N01348,9bbda53fa52cb9d21d384cb215433bb6,negative,2,Xét xử phúc thẩm vụ án AIC,2023,pre,random,14
+N01349,398ee0ce3d375520951d19a208d538ae,neutral,2,"Đồng sáng lập Grab nghỉ, thông tin nhân sự",2023,pre,random,14
+N01350,934eaec3ba8a7a3e256784691f03496f,negative,2,Thanh khoản bất động sản sụt giảm mạnh,2022,pre,uncertain,14
+N01351,9f94d334070d58d03a5211cd803fc078,positive,2,"VN-Index tăng 1,73%, chỉ số bùng nổ",2020,pre,uncertain,14
+N01352,da0ee41022953b24ad914621a2bca1ed,neutral,2,"Thay đổi tổng giám đốc, hành chính",2025,post,random,14
+N01353,ed8bc027afa36a4d6e970efdb7116fb9,neutral,2,Giá hàng hóa tăng giảm đan xen,2023,pre,uncertain,14
+N01354,d95a39dc9cf842fd76c71a38329e10e9,neutral,1,Nhận định chuyên gia về chứng khoán Mỹ,2024,pre,uncertain,14
+N01355,67278a363efd33e12ee9e2e98ec1e956,positive,2,Gói tín dụng ưu đãi lớn hỗ trợ doanh nghiệp,2021,pre,uncertain,14
+N01356,b2a0e1cfef4f7627f819abb95ba30634,positive,2,Chủ tịch đăng ký mua 10 triệu cổ phiếu,2021,pre,uncertain,14
+N01357,a5acc3cb09798b82982f27ed1a1109ed,neutral,3,"Kỷ niệm thành lập, hoạt động sự kiện",2022,pre,uncertain,14
+N01358,fee8697713f4e5d2376856e1be4cd47b,negative,3,"FPT và nhóm công nghệ giảm mạnh, vốn hóa bốc hơi",2025,post,uncertain,14
+N01359,653921cef421fed509f85593a54a41fb,neutral,3,Bổ nhiệm chủ tịch thuần hành chính,2025,post,uncertain,14
+N01360,f2ab589ab069bc0e6afe47c025fa5487,neutral,3,Chương trình ưu đãi dịch vụ ngân hàng,2023,pre,random,14
+N01361,04301b6837358431c01fed7b30d489b6,neutral,2,Lãi suất giảm nhưng khoản vay cũ chưa giảm,2023,pre,uncertain,14
+N01362,58a4a4295f5aa75d4725874b9d8bdfa3,neutral,2,"Họp cổ đông, mục tiêu tăng nhưng thị trường giảm",2022,pre,uncertain,14
+N01363,a995c022c9f9afafec807c7c7c6bb4bb,negative,2,"Lạm phát, Fed siết tiền tệ, cuộc chiến tiền tệ",2022,pre,uncertain,14
+N01364,28103582b4d457a5f418862757164fe9,positive,2,"Lãi suất thấp, thanh khoản dồi dào, nới lỏng",2021,pre,random,14
+N01365,24318b72e2a5eb4e890c87515d1ffdcc,neutral,2,Tin quảng bá chương trình và AI của Vietcap,2026,post,random,14
+N01366,413d017c3ef72e257a626cce565a57cc,positive,3,"Quỹ ngoại mua thêm, nâng sở hữu PNJ",2026,post,uncertain,14
+N01367,2d2738e58f2a36cdb3f3e97d66197dd9,neutral,2,"Kế hoạch ĐHCĐ, phát hành riêng lẻ",2023,pre,random,14
+N01368,a9cdfc14556805b5202d70b18aea3e0b,negative,2,"Quỹ Dragon Capital bán ra 4,2 triệu cổ phiếu",2021,pre,uncertain,14
+N01369,ccd2a4b87a6a86c4540c398e5ab168cb,positive,3,"Luật Dầu khí sửa đổi thông qua, cơ sở pháp lý vững",2026,post,uncertain,14
+N01370,162440bb34c630c36f8155ecc22b7745,negative,3,"Cổ phiếu HSG giảm, ngành tôn thép đối mặt khó khăn",2021,pre,uncertain,14
+N01371,6e859fd1754365674681ba01aeadb366,positive,3,Chủ tịch đăng ký mua thêm 6 triệu cổ phiếu,2021,pre,random,14
+N01372,1f84bb24ca23c1b9478b1a7d19afb68e,positive,2,"BSR ra mắt sản phẩm mới, sản xuất thành công",2024,pre,uncertain,14
+N01373,144be2196d7d391cef8ea15b7bb24577,neutral,3,"Hoạt động trồng cây, không liên quan giá",2023,pre,uncertain,14
+N01374,f9536cba2d28c9709a69c20def49b996,positive,3,PNJ doanh thu lợi nhuận tăng mạnh,2022,pre,random,14
+N01375,737f424351606a1d493a62194218a543,positive,2,"Lợi nhuận kỷ lục, dù dự báo giảm",2023,pre,random,14
+N01376,d9531017c7d0afcb7093d8f2d9107c18,neutral,2,Khuyến nghị điều hành chính sách tiền tệ,2022,pre,uncertain,14
+N01377,6dfd650c2f24c7e83225b94ca0c99734,neutral,2,"Cơ cấu ETF thêm bớt cổ phiếu, tác động không rõ",2021,pre,uncertain,14
+N01378,bab460dc1dc625ac1ddacc69c004db72,neutral,3,"Vinh danh thiết kế, không liên quan giá",2021,pre,uncertain,14
+N01379,a856bf85e999ab826d57aa35aa18ff4a,neutral,1,Thành viên HĐQT bán lượng nhỏ cổ phiếu,2026,post,random,14
+N01380,b5980d9db1d8d2f490584870e8dc3de3,positive,2,"Giá thép tăng lần thứ 5, tốt cho doanh nghiệp thép",2023,pre,uncertain,14
+N01381,b4b50ebb54faeba5a2bf4bc499a921c2,neutral,2,"Bitcoin tăng, không liên quan cổ phiếu Việt Nam",2023,pre,random,14
+N01382,ee00d8f582c1ff6ea3514159fd0287d2,negative,2,"Trái cây Việt tắc biên, xuất khẩu khó khăn",2022,pre,uncertain,14
+N01383,bed37a2e36c4c99679f3fef4fed89cd3,neutral,2,"Dự báo cơ cấu rổ ETF, EIB có thể bị loại",2023,pre,uncertain,14
+N01384,e0c49175ba27df874df55e4ee924d88e,positive,3,"Cảng Gemalink kỷ lục, cổ phiếu đỉnh lịch sử",2022,pre,random,14
+N01385,62877392a5c1ab28789f455dbd0cad8b,positive,2,"VN-Index vượt 900, ngoại bán giảm",2020,pre,uncertain,14
+N01386,0b486461932531b27b7702705681611f,positive,2,"Shophouse khan hiếm, lợi nhuận cho thuê cao",2022,pre,uncertain,14
+N01387,7d9896a694537dcd5a17da480d6e5356,negative,2,"Đất nền trầm lắng, siết điều kiện phân lô",2023,pre,random,14
+N01388,0eaaa19d7e6a8396b74b114abd566c1b,negative,2,"Thị trường đỏ, thanh khoản thấp nhất 4 năm",2025,post,random,14
+N01389,991022d086c64f8c567788edf5242ba2,neutral,2,"Giảm giá ô tô, tác động cổ phiếu không rõ",2024,pre,random,14
+N01390,1a2cfba560192649b611ccc0cdb9b510,neutral,2,"Bài chia sẻ tinh thần doanh nghiệp, chung chung",2021,pre,uncertain,14
+N01391,a62a19a3491c08026378c949d3a80d1d,neutral,3,"Ứng dụng nền tảng số kế toán, quảng bá",2024,pre,uncertain,14
+N01392,a8df86cb9c49550016eb42dbf1599bb6,negative,1,"Dự báo lãi suất huy động tăng, áp lực tỷ giá",2024,pre,random,14
+N01393,8fbd07237ae5a01885d5252c50dd4c8d,positive,2,"Cổ phiếu bất động sản tăng mạnh, thuận lợi huy động vốn",2021,pre,random,14
+N01394,b8929dad1fa6aadd96c955164d9c9a68,positive,2,"Cổ phiếu ngân hàng đồng loạt tăng, VN-Index tăng",2021,pre,random,14
+N01395,4c602c23fcda83e50d7054e63b53a8aa,neutral,2,Kiến nghị điều chỉnh gói tín dụng nhà xã hội,2023,pre,random,14
+N01396,82c14c92d45535f9496d299c258c4c51,positive,2,Chính sách hỗ trợ lãi suất kích cầu bán căn hộ,2023,pre,uncertain,14
+N01397,926c9aab477fb52f72579568af037353,negative,2,"Masan doanh thu giảm 14%, lợi nhuận giảm 53%",2023,pre,random,14
+N01398,5997bb5140946b6cf6663bcb75de0b12,neutral,2,Bài quảng bá dự án bất động sản,2022,pre,uncertain,14
+N01399,caf2b24c2c39056887d386feb2bd3009,neutral,2,Áp lực tỷ giá nhưng điều chỉnh là cơ hội mua,2024,pre,uncertain,14
+N01400,528a65b0b46764b44c296d90ce488b5d,positive,2,"Lợi nhuận TMB tăng mạnh, lũy kế doanh thu tăng 50%",2024,pre,uncertain,14
+N01401,fff965c73ffc108230668b67371179c4,negative,2,"Vĩ mô yếu, thanh khoản giảm, chốt lời",2023,pre,uncertain,15
+N01402,787fb78febb4ade5dafd8c024a8f222b,negative,2,"Không phát hành trái phiếu, áp lực đáo hạn lớn",2023,pre,uncertain,15
+N01403,7c3efe0e6e2b4a5bcbc714aa03b6fdf6,positive,1,Huy động thành công 2.200 tỷ cho dự án,2021,pre,uncertain,15
+N01404,065cfe4b6be3d1c05c1d94c0189121b0,neutral,3,Tin Trung Quốc không liên quan thị trường VN,2022,pre,uncertain,15
+N01405,a883abef366887ed53acf20772bb9420,positive,3,"HAGL trả nợ, được miễn giảm lãi 1.425 tỷ",2023,pre,random,15
+N01406,f89548ec1c50b2ca47c8515deaaf2ab9,negative,2,"Ngân hàng tăng lãi suất huy động, bất lợi chứng khoán",2022,pre,uncertain,15
+N01407,a3edffb61314cfc16d2f14a307c7213d,positive,1,"Chuyển niêm yết sang HoSE, thanh khoản tăng",2021,pre,uncertain,15
+N01408,fc45a210e6bf24ae232ce057851a36e0,positive,1,"Nhu cầu bay tăng, giá vé cao có lợi hãng bay",2023,pre,random,15
+N01409,e61327b614410d9263981a6cbd4ab850,positive,1,Kỳ vọng biên lợi nhuận sữa phục hồi,2022,pre,uncertain,15
+N01410,8a522df6265f83d0c1221127954ba381,neutral,1,Lãi suất dễ thở nhưng khó tiếp cận tín dụng,2023,pre,random,15
+N01411,f98232c9f4331cf0c53065b1d89383fb,neutral,1,"Đỉnh lịch sử nhưng khối ngoại bán ròng, cảnh báo chỉnh",2026,post,uncertain,15
+N01412,69599e547fea86bb61b48f840ed7a350,positive,3,"Lợi nhuận ngân hàng khả quan, Moody nâng triển vọng",2021,pre,random,15
+N01413,83dde427fb0ecddcab1b0e2a881de665,negative,1,"Giải ngân đầu tư công chậm, chỉ đạt 7,5%",2024,pre,uncertain,15
+N01414,08a584495ce48edad140a3597748d2a7,neutral,2,"Tự doanh mua nhẹ, khối ngoại bán, VN-Index tăng",2023,pre,random,15
+N01415,7b5d0ef20f1ca4e162742187d627e81c,positive,1,"Gia hạn thành công trái phiếu, giảm áp lực trả nợ",2023,pre,uncertain,15
+N01416,ba72f9f5b0289c0fcf4ad43fbc11472c,positive,3,Ngân hàng đặt mục tiêu lợi nhuận tăng mạnh,2021,pre,random,15
+N01417,9fa2b826aff611492e2cc4fd8918317c,neutral,2,"Lịch sử Amazon, không tác động thị trường VN",2022,pre,random,15
+N01418,ecbf95c9e95fde6230450fd172bc6cdd,positive,3,S&P 500 tăng 19% năm đầu Biden,2022,pre,uncertain,15
+N01419,ef3448b6103f70f3d1fd12d84aa24f6b,neutral,3,Thay đổi nhân sự HĐQT thuần hành chính,2023,pre,random,15
+N01420,56f33cc95363d7aa9fdceb73a0e9de79,negative,3,"VN-Index mất gần 60 điểm, bán tháo",2022,pre,random,15
+N01421,be45ac5486be0010be95329ca1a7626e,negative,2,"Khối ngoại bán ròng, VN-Index giảm",2024,pre,random,15
+N01422,4f070dd7106686daeceab506a8b603f5,positive,2,"Hậu Giang hút đầu tư, hạ tầng được tháo gỡ",2023,pre,uncertain,15
+N01423,f6eebdd6e8cbd4814631f7437245c33f,negative,1,"Quỹ ngoại bán, không còn là cổ đông lớn",2025,post,uncertain,15
+N01424,258711c78f7085d2eaba48ca23cc994a,negative,2,"HQC kinh doanh kém, tranh quyền, chỉ số yếu",2022,pre,uncertain,15
+N01425,8f6c5a0a5b7236f9d27da2470cfd99d3,negative,2,"Khối ngoại bán ròng mạnh FPT, ngân hàng bị bán",2024,pre,uncertain,15
+N01426,5e70a591550fc87ef7f2ab1de416ce54,negative,3,"CC1 tiếp tục lỗ, biên gộp giảm, nợ cao",2020,pre,random,15
+N01427,6fee34267dcc15fbb5da2f6b11115384,positive,3,Nới room ngoại SHB lên 30%,2022,pre,uncertain,15
+N01428,f65d757b08ace684615c41d8e80f272e,neutral,2,Lãi giảm 36% nhưng chia cổ tức và thưởng,2023,pre,uncertain,15
+N01429,fd54aeb73717d07df145c7266c7a1c01,neutral,1,"Khuyến nghị thận trọng, nhưng chính sách nới lỏng",2020,pre,random,15
+N01430,444e1e40322c1f0effed142438aa0eee,positive,1,FPT IS tư vấn Trung tâm Dữ liệu Quốc gia,2025,post,random,15
+N01431,0381721cf027cc8278dbd20ed503e089,neutral,2,"Giới thiệu hoạt động đầu tư Manulife, không rõ tác động",2023,pre,uncertain,15
+N01432,2dadbbb7e4b2933bf7bed188444b7d75,positive,2,Dự án Vinhomes bán chạy chiếm 48% thị trường,2020,pre,uncertain,15
+N01433,af11ef88dde715e18074ec2c5376bc7e,positive,1,Fed lạc quan lạm phát sẽ giảm,2021,pre,random,15
+N01434,202cf08e276b1abd2bd915940eb231fc,neutral,3,Tin kinh tế tỉnh Trung Quốc,2023,pre,random,15
+N01435,01224857fea43648400b7ab6d5c55322,neutral,1,"Cổ đông lớn thoái vốn, NHNN chấp thuận",2021,pre,uncertain,15
+N01436,6adac31f83d4018641bbffb4a9a4a9ab,neutral,1,Có lãi trở lại nhưng quy mô rất nhỏ,2025,post,uncertain,15
+N01437,7d755dda739a45a7f2541bc66edae89f,neutral,1,"Doanh nghiệp vốn ảo, không rõ tác động thị trường",2021,pre,uncertain,15
+N01438,285426ed1d283a7312e872cb869a7ad2,positive,3,SZB trả cổ tức tiền mặt 30% kỷ lục,2025,post,random,15
+N01439,42ea81e1216b77dba085147549d0a2e6,positive,2,"Metro số 1 sắp hoàn thành, gỡ vướng mắc",2023,pre,uncertain,15
+N01440,d0830d96358e72e4fcb5638716f747a9,neutral,2,"Tăng vốn công ty tư nhân, không rõ tác động",2025,post,uncertain,15
+N01441,d4290da4b57475162a26be588cb61245,neutral,3,Tư vấn tài chính cá nhân,2024,pre,random,15
+N01442,e8c738bcab05e4cf0c35470fe423f3af,negative,2,"Thị trường trầm lắng, chứng khoán đỏ lửa",2022,pre,uncertain,15
+N01443,db09da6764787c56fab9c68f17014c15,positive,2,"Cao tốc đẩy nhanh tiến độ, hưởng lợi xây dựng",2024,pre,uncertain,15
+N01444,a53b4dd3f65e9b9b9e619f1e1e24897d,neutral,2,"Thị trường lập đỉnh, trấn an về nhịp giảm",2025,post,uncertain,15
+N01445,2a80578215991853bb2e6467f804bbf4,neutral,1,Tăng 4 tuần nhưng dự báo điều chỉnh về 1.310,2025,post,uncertain,15
+N01446,50bf43daeabc461d1ac319fc5d7f8d90,neutral,1,Grab lỗ nhưng nhà đầu tư vẫn kiên nhẫn,2021,pre,uncertain,15
+N01447,26d2268af42b8c35cfa938a23ba9fe99,positive,3,"VN-Index tăng mạnh nhất gần 5 tháng, dòng tiền vào",2020,pre,random,15
+N01448,d7913a71e7c986143df9d8564b4cfa4c,negative,2,"DIG giảm 66%, phải giảm giá chào bán",2022,pre,random,15
+N01449,915d5d3c1dc02b40416e3b4c626988b0,positive,1,Đầu tư 500 tỷ nâng cấp hạ tầng Dung Quất,2022,pre,uncertain,15
+N01450,2aacf8a006bd4ae6fec40d702de44ab1,negative,2,"FLC chậm BCTC kiểm toán, bất đồng kiểm toán",2023,pre,random,15
+N01451,c0328ea06cb8b103119562a0fc3a7ab8,negative,3,Cổ phiếu thép giảm sâu 20-30% từ đỉnh,2021,pre,random,15
+N01452,f6cf02c4fb6326998d3c6ddb42e7a148,negative,1,"Rung lắc, khối ngoại bán ròng, chuyên gia thận trọng",2025,post,random,15
+N01453,1c65f120f7817c2b9d4690837446a8dd,positive,1,"Khánh thành tổ hợp MEATDeli, xuất khẩu tăng",2020,pre,random,15
+N01454,e0b4982f302533630469525f742d560a,neutral,1,Thống kê trích quỹ khen thưởng phúc lợi,2022,pre,uncertain,15
+N01455,79b9053941342719e8d74b82fff3c362,negative,3,VIS bị UBCK xử phạt vi phạm,2021,pre,random,15
+N01456,305c7bd4daaefcda06a9107cbbd93dbc,positive,2,"VN-Index hồi phục, lực cầu bắt đáy mạnh",2025,post,uncertain,15
+N01457,cfb146409ba273c47e84a2a3d53f3f00,neutral,1,"Giải cứu P2P, không liên quan trực tiếp cổ phiếu",2022,pre,uncertain,15
+N01458,71a12f00db8074dbd6e8965d62ded81a,neutral,1,"Nhiệm vụ chính sách chung, vừa hỗ trợ vừa giám sát",2021,pre,uncertain,15
+N01459,059a5dd84e3a830dedbabaffdd82c3e0,positive,1,"CATL thống trị, vốn hóa và định giá tăng mạnh",2021,pre,random,15
+N01460,dff0013d761115e14bff231c7e41603a,positive,2,Gói tín dụng 20.000 tỷ lãi ưu đãi của Eximbank,2024,pre,uncertain,15
+N01461,a5e82eb7227405641a199b5115f83fc2,positive,3,"Nhiều doanh nghiệp chia cổ tức, thưởng tỷ lệ cao",2021,pre,random,15
+N01462,e9d29f3d63a6ad4a6fc4d58cc666e393,negative,2,"Novaland dời hạn tái cấu trúc lần ba, cảnh báo",2024,pre,uncertain,15
+N01463,b4538de67d1848669cd509707b5ec2f8,neutral,2,Khối ngoại mua ròng nhưng VN-Index vẫn quay đầu,2022,pre,random,15
+N01464,6ba86b4d969187f0ae3086681cfe18ce,negative,1,"PNJ bị phạt, truy thu thuế, số tiền nhỏ",2023,pre,random,15
+N01465,677cfdc137e2eea16988431d34eb2c1c,negative,1,"Khối ngoại, tự doanh bán ròng mạnh",2025,post,random,15
+N01466,dba1e07e2b645d43b45f1b1764636b4d,neutral,2,"Điều chỉnh phương án chào bán, thủ tục",2025,post,random,15
+N01467,d108025e5aca14a9b16f809a9e4c3e7c,positive,1,"Giữ lãi suất điều hành, mặt bằng lãi suất giảm",2024,pre,uncertain,15
+N01468,3f266bd14118257795fe92be66f87510,positive,3,Thủ tướng khẳng định không siết tín dụng BĐS,2022,pre,uncertain,15
+N01469,1bfcb02fb80d94d3e7aa1cc864303bb2,neutral,2,"Khuyến mãi bán hàng dự án, không rõ tác động",2023,pre,uncertain,15
+N01470,855dbd259deb222994cd713909410182,neutral,1,"Giá xăng giảm, tác động trái chiều",2021,pre,random,15
+N01471,89a3a44c5a5a6c037eab9896cf6e6cfb,positive,3,Đề xuất giãn nợ hỗ trợ doanh nghiệp BĐS,2023,pre,uncertain,15
+N01472,85634de5ef63ef76f90347df7cd1c5f0,negative,3,"ETF rút vốn, khối ngoại bán ròng kỷ lục",2024,pre,uncertain,15
+N01473,f7e1591b6b77f81a3cddbfc8fc6d3d93,negative,2,Fed tiếp tục tăng lãi suất,2023,pre,uncertain,15
+N01474,a74671d0ca51a5045da419e9e544bdb6,neutral,1,"Vay trả nợ ngân hàng khác khó, giải ngân thấp",2023,pre,uncertain,15
+N01475,61b0ae2ee11af05da47fb14feab9dcec,neutral,3,Khánh thành trung tâm tài trợ giáo dục,2023,pre,uncertain,15
+N01476,ff10c88c000f72808356ba468f7a7aad,positive,2,"VN-Index tăng lên 1.900, dòng tiền vào BĐS",2026,post,uncertain,15
+N01477,2424db0bf1141c949bfaa65dbc168b82,neutral,1,"Giá dầu tăng, tác động trái chiều",2024,pre,uncertain,15
+N01478,24a5bc1e1ba16b4cf98eab592f559ffe,negative,2,Xử phạt thao túng cổ phiếu SJS,2026,post,random,15
+N01479,5a4e8f6ac7a8339babacf5a5482ec593,negative,3,"Giá xăng kỷ lục, vận tải điêu đứng",2022,pre,uncertain,15
+N01480,90cbd227763884fb88c77d242af69e4e,positive,3,"Quỹ gom VPB, lợi nhuận quý 2 dự báo tăng",2026,post,random,15
+N01481,8fd16d6739fb7f60af6c54b7da8d530c,neutral,1,"Hoán đổi nợ thành cổ phiếu, pha loãng nhưng giảm nợ",2025,post,random,15
+N01482,021f3280c1390c7a2487186712fbcf9c,negative,2,HPG giảm sàn hai phiên liên tiếp,2025,post,uncertain,15
+N01483,c9b4b3b15527759b72c0f7ba9aa65f29,neutral,2,"VN-Index giằng co, giảm nhẹ, dòng tiền phân hóa",2025,post,uncertain,15
+N01484,573b39c4d582bd0d997dec6fcc26ecc5,positive,2,"Tự doanh mua ròng, thị trường hồi phục tháng 7",2022,pre,random,15
+N01485,e497e1288b20cbdd60ac2d42fdcd543b,positive,2,"CPI thấp, GDP 6,42%, vĩ mô thuận lợi",2022,pre,random,15
+N01486,e5e1ad3fa99cae2bc5a8ad805717fc32,positive,2,"Cảng lọt top thế giới, lưu lượng tăng",2022,pre,uncertain,15
+N01487,423a06d6a6f0d227bb275bb933e4f9ac,positive,1,Lâm Đồng kêu gọi đầu tư nhiều dự án,2021,pre,uncertain,15
+N01488,702341faf34b6d1f630f9a8511e1f384,positive,3,Lý do cổ phiếu hàng không khởi sắc,2021,pre,uncertain,15
+N01489,eb606ce6145b3703df1dc021e9972aea,neutral,2,Giải thích khái niệm room ngoại,2025,post,uncertain,15
+N01490,39e243e17087383c66a7fd3afcf399fe,neutral,2,"Tỷ phú rớt hạng, không liên quan thị trường VN",2023,pre,uncertain,15
+N01491,2bba1db77ba3badef0d45b3c91e46326,neutral,2,"Hợp tác phát hành thẻ, tác động nhỏ",2021,pre,random,15
+N01492,b7f808ebd341056a96bf3fd2ab1b5e7e,neutral,1,"Giá cà phê tăng do thời tiết, tác động trái chiều",2023,pre,uncertain,15
+N01493,2d98ce23a30dd4a28a014f3a0038ab69,neutral,1,"Huy động 2.000 tỷ cơ cấu nợ, nợ tăng",2025,post,uncertain,15
+N01494,994e0bf7586122c299abfbbd3779fccd,negative,1,"Chi phí logistics cao, xuất khẩu khó khăn",2023,pre,random,15
+N01495,cc4017574a011ba8ab1ca7ab1f8bb25d,neutral,2,"Nhận định cân bằng, bối cảnh chưa thuận lợi",2026,post,random,15
+N01496,88e77f9b5a0441ebdb935462fdcb32a3,negative,3,"Xe điện thua lỗ, sắp cạn tiền mặt",2023,pre,uncertain,15
+N01497,d21a4e0f13565162ba83ecca316ede7b,positive,2,Gói tín dụng 120.000 tỷ hỗ trợ BĐS,2023,pre,uncertain,15
+N01498,21b761af6f8a264d84487ba661c1c281,neutral,2,"Vingroup kiện, bình luận pháp lý",2025,post,uncertain,15
+N01499,400cf6ab7ad7e61d1c00f50f2dc148b5,positive,2,"HAGL kỳ vọng cà phê, mục tiêu lợi nhuận 5.000 tỷ",2025,post,uncertain,15
+N01500,439254d60b6a538c01e301c9701bfb28,negative,2,"Tổng giám đốc QCG bị khởi tố, tạm giam",2024,pre,uncertain,15
