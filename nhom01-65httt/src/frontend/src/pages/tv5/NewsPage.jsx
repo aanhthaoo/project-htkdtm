@@ -93,11 +93,9 @@ export default function NewsPage() {
             aria-invalid={invalidRange} aria-describedby={invalidRange ? "news-date-error" : undefined} />
         </label>
         <Button type="submit">Lọc tin</Button>
-        {(hasFilters || invalidRange) && (
-          <Button type="reset" variant="secondary">
-            Xóa bộ lọc
-          </Button>
-        )}
+        <Button type="reset" variant="secondary">
+          Xóa bộ lọc
+        </Button>
       </form>
       {invalidRange && (
         <Alert kind="error"><span id="news-date-error">Đến ngày phải bằng hoặc sau Từ ngày.</span></Alert>

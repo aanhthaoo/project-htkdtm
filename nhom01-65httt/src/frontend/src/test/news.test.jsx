@@ -11,6 +11,31 @@ afterEach(() => {
   tokenStore.clear();
 });
 
+it("xóa các điều kiện chưa áp dụng mà không tải lại tin", async () => {
+  const fetchNews = vi.fn(async () => ({
+    ok: true, status: 200, json: async () => ({ items: [], total: 0 }),
+  }));
+  vi.stubGlobal("fetch", fetchNews);
+  const user = userEvent.setup();
+  render(<MemoryRouter><AuthProvider><NewsPage /></AuthProvider></MemoryRouter>);
+  await screen.findByText("Chưa có tin tức.");
+  const callsBeforeEdit = fetchNews.mock.calls.length;
+  const symbol = screen.getByLabelText("Mã cổ phiếu");
+  const sector = screen.getByLabelText("Ngành");
+  const from = screen.getByLabelText("Từ ngày");
+  const to = screen.getByLabelText("Đến ngày");
+  await user.type(symbol, "FPT");
+  await user.selectOptions(sector, "9500");
+  await user.type(from, "2026-11-01");
+  await user.type(to, "2026-11-28");
+  await user.click(screen.getByRole("button", { name: "Xóa bộ lọc" }));
+
+  for (const field of [symbol, sector, from, to]) {
+    expect(field).toHaveValue("");
+  }
+  expect(fetchNews).toHaveBeenCalledTimes(callsBeforeEdit);
+});
+
 it("chặn khoảng ngày đảo ngược và cho phép lọc trong cùng một ngày", async () => {
   const fetchNews = vi.fn(async () => ({
     ok: true, status: 200, json: async () => ({ items: [], total: 0 }),
