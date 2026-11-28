@@ -8,6 +8,7 @@ import Dashboard from "./pages/Dashboard.jsx";
 import Account from "./pages/Account.jsx";
 import Admin from "./pages/Admin.jsx";
 import StocksPage from "./pages/tv2/StocksPage.jsx";
+import StockDetailPage from "./pages/tv2/StockDetailPage.jsx";
 import SectorsPage from "./pages/tv3/SectorsPage.jsx";
 import ForecastPage from "./pages/tv4/ForecastPage.jsx";
 import NewsPage from "./pages/tv5/NewsPage.jsx";
@@ -21,6 +22,7 @@ export const ROUTES = [
   { path: "/admin", element: <Admin />, minRole: "admin", label: "Quản trị" },
   // TV2: mã cổ phiếu, theo dõi, cảnh báo
   { path: "/stocks", element: <StocksPage />, minRole: "investor", label: "Cổ phiếu" },
+  { path: "/stocks/:symbol", element: <StockDetailPage />, minRole: "investor" },
   // TV3: thị trường và ngành
   { path: "/sectors", element: <SectorsPage />, minRole: "investor", label: "Phân tích ngành" },
   // TV4: dự báo, tài khoản

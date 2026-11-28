@@ -4,9 +4,11 @@ import DataTable from "../../components/DataTable.jsx";
 import PageHeader from "../../components/PageHeader.jsx";
 import Spinner from "../../components/Spinner.jsx";
 import useApi from "../../components/useApi.js";
+import { useNavigate } from "react-router-dom";
 
 // TRANG MẪU (TV2): tìm mã cổ phiếu bằng API /api/stocks. TV2 thay bằng trang chi tiết mã.
 export default function StocksPage() {
+  const navigate = useNavigate();
   const [query, setQuery] = useState("");
   const stocks = useApi("/api/stocks", { params: { query, page_size: 15 } });
   return (
@@ -26,6 +28,18 @@ export default function StocksPage() {
             rows={stocks.data.items}
             columns={[
               { key: "symbol", label: "Mã" },
+              {
+                key: "symbol",
+                label: "Chi tiết",
+                render: (sym) => (
+                  <button
+                    onClick={() => navigate(`/stocks/${sym}`)}
+                    className="text-blue-600 underline text-sm"
+                  >
+                    Xem
+                  </button>
+                ),
+              },
               { key: "name_vi", label: "Tên" },
               { key: "exchange", label: "Sàn" },
               { key: "icb_l2_name_vi", label: "Ngành" },
