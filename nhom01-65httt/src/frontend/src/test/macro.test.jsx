@@ -1,4 +1,4 @@
-import { render, screen } from "@testing-library/react";
+import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, expect, it, vi } from "vitest";
 import MacroPage from "../pages/tv5/MacroPage.jsx";
@@ -25,15 +25,23 @@ it("đổi từ chuỗi ngày sang tháng và hiển thị đúng ngày công b�
   }));
   const user = userEvent.setup();
   render(<MacroPage />);
-  expect(await screen.findByText("Chỉ số DXY (DXY)")).toBeVisible();
+  expect(await screen.findByRole("heading", { name: "Chỉ số DXY (DXY)" })).toBeVisible();
   expect(screen.queryByRole("columnheader", { name: "Ngày công bố" })).not.toBeInTheDocument();
+  await user.selectOptions(screen.getByLabelText("Chỉ số"), "DXY");
+  await waitFor(() => expect(globalThis.fetch.mock.lastCall[0].searchParams.get("codes")).toBe("DXY"));
   await user.selectOptions(screen.getByLabelText("Kỳ dữ liệu"), "monthly");
-  expect(await screen.findByText("Lạm phát CPI (CPI_YOY)")).toBeVisible();
+  expect(await screen.findByRole("heading", { name: "Lạm phát CPI (CPI_YOY)" })).toBeVisible();
   expect(screen.getByText("2026-11-05")).toHaveAttribute("datetime", "2026-11-05");
   expect(screen.getByRole("columnheader", { name: "Ngày cuối kỳ" })).toBeVisible();
   expect(globalThis.fetch.mock.lastCall[0].searchParams.get("codes"))
     .toBe("CPI_YOY,IIP_YOY,EXPORT_USD_BN,IMPORT_USD_BN");
+  expect(screen.getByLabelText("Chỉ số")).toHaveValue("");
+  expect(screen.queryByRole("option", { name: "Chỉ số USD (DXY)" })).not.toBeInTheDocument();
+  await user.selectOptions(screen.getByLabelText("Chỉ số"), "CPI_YOY");
+  await waitFor(() => expect(globalThis.fetch.mock.lastCall[0].searchParams.get("codes")).toBe("CPI_YOY"));
   await user.selectOptions(screen.getByLabelText("Kỳ dữ liệu"), "daily");
-  expect(await screen.findByText("Chỉ số DXY (DXY)")).toBeVisible();
+  expect(await screen.findByRole("heading", { name: "Chỉ số DXY (DXY)" })).toBeVisible();
   expect(screen.queryByText("2026-11-05")).not.toBeInTheDocument();
+  expect(screen.getByLabelText("Chỉ số")).toHaveValue("");
+  expect(globalThis.fetch.mock.lastCall[0].searchParams.get("codes")).toBe("USDVND,DXY,SP500,WTI,BRENT,GOLD,US10Y");
 });

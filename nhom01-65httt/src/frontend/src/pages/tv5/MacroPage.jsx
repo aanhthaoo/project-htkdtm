@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Alert from "../../components/Alert.jsx";
 import Button from "../../components/Button.jsx";
 import Card from "../../components/Card.jsx";
@@ -7,6 +8,12 @@ import useApi from "../../components/useApi.js";
 
 const dailyCodes = "USDVND,DXY,SP500,WTI,BRENT,GOLD,US10Y";
 const monthlyCodes = "CPI_YOY,IIP_YOY,EXPORT_USD_BN,IMPORT_USD_BN";
+const indicatorNames = {
+  USDVND: "Tỷ giá USD/VND", DXY: "Chỉ số USD", SP500: "S&P 500",
+  WTI: "Dầu thô WTI", BRENT: "Dầu thô Brent", GOLD: "Vàng", US10Y: "Lợi suất trái phiếu Mỹ 10 năm",
+  CPI_YOY: "Lạm phát CPI", IIP_YOY: "Sản xuất công nghiệp",
+  EXPORT_USD_BN: "Xuất khẩu", IMPORT_USD_BN: "Nhập khẩu",
+};
 
 function formatNumber(value) {
   return value == null ? "—" : value.toLocaleString("vi-VN", { maximumFractionDigits: 4 });
@@ -14,19 +21,34 @@ function formatNumber(value) {
 
 export default function MacroPage() {
   const [frequency, setFrequency] = useState("daily");
+  const [indicator, setIndicator] = useState("");
   const monthly = frequency === "monthly";
+  const availableCodes = monthly ? monthlyCodes : dailyCodes;
   const { data, loading, error, reload } = useApi("/api/macro/series", {
-    params: { codes: monthly ? monthlyCodes : dailyCodes, frequency },
+    params: { codes: indicator || availableCodes, frequency },
   });
   return (
     <div className="space-y-4">
       <PageHeader title="Vĩ mô" subtitle="Các chỉ số vĩ mô và quốc tế" />
       <label className="flex items-center gap-2 text-sm">
         Kỳ dữ liệu
-        <select value={frequency} onChange={(event) => setFrequency(event.target.value)}
+        <select value={frequency} onChange={(event) => {
+          setFrequency(event.target.value);
+          setIndicator("");
+        }}
           className="rounded-md border border-slate-300 px-3 py-2">
           <option value="daily">Theo ngày</option>
           <option value="monthly">Theo tháng</option>
+        </select>
+      </label>
+      <label className="flex items-center gap-2 text-sm">
+        Chỉ số
+        <select value={indicator} onChange={(event) => setIndicator(event.target.value)}
+          className="rounded-md border border-slate-300 px-3 py-2">
+          <option value="">Tất cả chỉ số</option>
+          {availableCodes.split(",").map((code) => (
+            <option key={code} value={code}>{indicatorNames[code]} ({code})</option>
+          ))}
         </select>
       </label>
       {loading && <Spinner />}
@@ -78,4 +100,3 @@ export default function MacroPage() {
     </div>
   );
 }
-import { useState } from "react";
