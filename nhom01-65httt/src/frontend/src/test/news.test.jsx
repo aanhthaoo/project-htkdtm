@@ -110,7 +110,7 @@ it("lọc theo mã đã chuẩn hóa và khôi phục danh sách khi xóa bộ l
   expect(screen.getByText("Tổng cộng 2 bài.")).toBeVisible();
 });
 
-it("cho nhà đầu tư chuyển trang và quay về trang đầu khi lọc theo mã", async () => {
+it("quay về trang đầu khi áp dụng bộ lọc và giữ các điều kiện khi chuyển trang", async () => {
   tokenStore.set("test-token");
   vi.stubGlobal("fetch", vi.fn(async (url) => {
     if (url.pathname === "/api/auth/me") {
@@ -128,7 +128,23 @@ it("cho nhà đầu tư chuyển trang và quay về trang đầu khi lọc theo
   await user.click(screen.getByRole("button", { name: "Trang sau" }));
   expect(await screen.findByText("Tin thị trường trang 2")).toBeVisible();
   expect(screen.getByRole("button", { name: "Trang sau" })).toBeDisabled();
+  await user.selectOptions(screen.getByLabelText("Ngành"), "9500");
+  await user.type(screen.getByLabelText("Từ ngày"), "2026-11-01");
+  await user.type(screen.getByLabelText("Đến ngày"), "2026-11-28");
   await user.type(screen.getByRole("textbox", { name: "Mã cổ phiếu" }), "fpt{Enter}");
   expect(await screen.findByText("Tin FPT trang 1")).toBeVisible();
   expect(screen.getByRole("button", { name: "Trang trước" })).toBeDisabled();
+
+  const appliedFilters = { symbol: "FPT", sector: "9500", from: "2026-11-01", to: "2026-11-28" };
+  // Ngành mới chọn chỉ có hiệu lực sau khi bấm Lọc tin.
+  await user.selectOptions(screen.getByLabelText("Ngành"), "0500");
+  await user.click(screen.getByRole("button", { name: "Trang sau" }));
+  expect(await screen.findByText("Tin FPT trang 2")).toBeVisible();
+  expect(Object.fromEntries(globalThis.fetch.mock.lastCall[0].searchParams))
+    .toMatchObject({ ...appliedFilters, page: "2" });
+
+  await user.click(screen.getByRole("button", { name: "Trang trước" }));
+  expect(await screen.findByText("Tin FPT trang 1")).toBeVisible();
+  expect(Object.fromEntries(globalThis.fetch.mock.lastCall[0].searchParams))
+    .toMatchObject({ ...appliedFilters, page: "1" });
 });
