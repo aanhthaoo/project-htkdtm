@@ -11,6 +11,7 @@ import StocksPage from "./pages/tv2/StocksPage.jsx";
 import SectorsPage from "./pages/tv3/SectorsPage.jsx";
 import ForecastPage from "./pages/tv4/ForecastPage.jsx";
 import NewsPage from "./pages/tv5/NewsPage.jsx";
+import MacroPage from "./pages/tv5/MacroPage.jsx";
 
 export const ROUTES = [
   // Lõi (TV1)
@@ -28,6 +29,7 @@ export const ROUTES = [
   { path: "/account", element: <Account />, minRole: "investor", label: "Tài khoản" },
   // TV5: tin tức, vĩ mô
   { path: "/news", element: <NewsPage />, minRole: "guest", label: "Tin tức" },
+  { path: "/macro", element: <MacroPage />, minRole: "investor", label: "Vĩ mô" },
 ];
 
 export const NAV_ITEMS = ROUTES.filter((r) => r.label);
