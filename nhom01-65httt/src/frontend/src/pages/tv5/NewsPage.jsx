@@ -14,26 +14,40 @@ const sentimentText = {
   negative: "Tiêu cực",
 };
 
+// Danh mục ICB cấp 2 từ dbt_dw/seeds/icb.csv. Giữ mã dạng chuỗi để bảo toàn số 0 đầu.
+const sectors = [
+  ["0500", "Dầu khí"], ["1300", "Hóa chất"], ["1700", "Tài nguyên cơ bản"],
+  ["2300", "Xây dựng và vật liệu"], ["2700", "Hàng và dịch vụ công nghiệp"],
+  ["3300", "Ô tô và phụ tùng"], ["3500", "Thực phẩm và đồ uống"], ["3700", "Hàng cá nhân và gia dụng"],
+  ["4500", "Y tế"], ["5300", "Bán lẻ"], ["5500", "Truyền thông"], ["5700", "Du lịch và giải trí"],
+  ["6500", "Viễn thông"], ["7500", "Điện, nước và khí đốt"], ["8300", "Ngân hàng"],
+  ["8500", "Bảo hiểm"], ["8600", "Bất động sản"], ["8700", "Dịch vụ tài chính"], ["9500", "Công nghệ thông tin"],
+];
+
 // TRANG MẪU (TV5): tin tức. Khách chỉ thấy 5 tin mới nhất, nhà đầu tư thấy đầy đủ (backend quyết định).
 export default function NewsPage() {
   const { user } = useAuth();
   const [symbol, setSymbol] = useState("");
   const [draft, setDraft] = useState("");
+  const [sector, setSector] = useState("");
+  const [draftSector, setDraftSector] = useState("");
   const [page, setPage] = useState(1);
   const pageSize = user ? 20 : 5;
   const news = useApi("/api/news", {
-    params: { page: user ? page : 1, page_size: pageSize, symbol: symbol || undefined },
+    params: { page: user ? page : 1, page_size: pageSize, symbol, sector },
   });
   const pageCount = Math.ceil((news.data?.total ?? 0) / pageSize);
 
-  function filterBy(code) {
+  function filterBy(code, sectorCode) {
     setDraft(code);
     setSymbol(code);
+    setSector(sectorCode);
+    setDraftSector(sectorCode);
     setPage(1);
   }
   function applyFilter(event) {
     event.preventDefault();
-    filterBy(draft.trim().toUpperCase());
+    filterBy(draft.trim().toUpperCase(), draftSector);
   }
   return (
     <div className="space-y-4">
@@ -53,9 +67,17 @@ export default function NewsPage() {
           <input className="rounded-md border border-slate-300 px-3 py-2" placeholder="VD: FPT"
             value={draft} onChange={(event) => setDraft(event.target.value)} />
         </label>
+        <label className="grid gap-1 text-sm">
+          Ngành
+          <select className="rounded-md border border-slate-300 px-3 py-2"
+            value={draftSector} onChange={(event) => setDraftSector(event.target.value)}>
+            <option value="">Tất cả ngành</option>
+            {sectors.map(([code, name]) => <option key={code} value={code}>{name}</option>)}
+          </select>
+        </label>
         <Button type="submit">Lọc tin</Button>
-        {symbol && (
-          <Button type="button" variant="secondary" onClick={() => filterBy("")}>
+        {(symbol || sector) && (
+          <Button type="button" variant="secondary" onClick={() => filterBy("", "")}>
             Xóa bộ lọc
           </Button>
         )}
@@ -65,7 +87,7 @@ export default function NewsPage() {
       {!news.loading && news.data && (
         <Card>
           {news.data.items.length === 0 && (
-            <p>{symbol ? `Không tìm thấy tin cho mã ${symbol}.` : "Chưa có tin tức."}</p>
+            <p>{symbol || sector ? "Không tìm thấy tin phù hợp với bộ lọc." : "Chưa có tin tức."}</p>
           )}
           <ul className="divide-y divide-slate-100">
             {news.data.items.map((n) => (

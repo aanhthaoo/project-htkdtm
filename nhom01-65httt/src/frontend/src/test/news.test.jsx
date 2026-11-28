@@ -35,7 +35,16 @@ it("lọc theo mã đã chuẩn hóa và khôi phục danh sách khi xóa bộ l
   expect(screen.getByRole("link", { name: "Tin về FPT" })).toBeVisible();
   expect(screen.queryByRole("link", { name: "Tin về VNM" })).not.toBeInTheDocument();
 
+  const sector = screen.getByRole("combobox", { name: "Ngành" });
+  await user.selectOptions(sector, "0500");
+  await user.click(screen.getByRole("button", { name: "Lọc tin" }));
+  const query = globalThis.fetch.mock.lastCall[0].searchParams;
+  expect(query.get("symbol")).toBe("FPT");
+  expect(query.get("sector")).toBe("0500");
+
   await user.click(screen.getByRole("button", { name: "Xóa bộ lọc" }));
+  expect(sector).toHaveValue("");
+  expect(globalThis.fetch.mock.lastCall[0].searchParams.has("sector")).toBe(false);
   expect(input).toHaveValue("");
   expect(await screen.findByRole("link", { name: "Tin về VNM" })).toBeVisible();
   expect(screen.getByText("Tổng cộng 2 bài.")).toBeVisible();
