@@ -37,13 +37,21 @@ it("lọc theo mã đã chuẩn hóa và khôi phục danh sách khi xóa bộ l
 
   const sector = screen.getByRole("combobox", { name: "Ngành" });
   await user.selectOptions(sector, "0500");
+  await user.type(screen.getByLabelText("Từ ngày"), "2026-11-01");
+  await user.type(screen.getByLabelText("Đến ngày"), "2026-11-28");
   await user.click(screen.getByRole("button", { name: "Lọc tin" }));
   const query = globalThis.fetch.mock.lastCall[0].searchParams;
   expect(query.get("symbol")).toBe("FPT");
   expect(query.get("sector")).toBe("0500");
+  expect(query.get("from")).toBe("2026-11-01");
+  expect(query.get("to")).toBe("2026-11-28");
 
   await user.click(screen.getByRole("button", { name: "Xóa bộ lọc" }));
   expect(sector).toHaveValue("");
+  expect(screen.getByLabelText("Từ ngày")).toHaveValue("");
+  expect(screen.getByLabelText("Đến ngày")).toHaveValue("");
+  expect(globalThis.fetch.mock.lastCall[0].searchParams.has("from")).toBe(false);
+  expect(globalThis.fetch.mock.lastCall[0].searchParams.has("to")).toBe(false);
   expect(globalThis.fetch.mock.lastCall[0].searchParams.has("sector")).toBe(false);
   expect(input).toHaveValue("");
   expect(await screen.findByRole("link", { name: "Tin về VNM" })).toBeVisible();

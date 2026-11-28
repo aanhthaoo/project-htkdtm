@@ -27,27 +27,27 @@ const sectors = [
 // TRANG MẪU (TV5): tin tức. Khách chỉ thấy 5 tin mới nhất, nhà đầu tư thấy đầy đủ (backend quyết định).
 export default function NewsPage() {
   const { user } = useAuth();
-  const [symbol, setSymbol] = useState("");
-  const [draft, setDraft] = useState("");
-  const [sector, setSector] = useState("");
-  const [draftSector, setDraftSector] = useState("");
+  const [filters, setFilters] = useState({});
+  const hasFilters = Object.values(filters).some(Boolean);
   const [page, setPage] = useState(1);
   const pageSize = user ? 20 : 5;
   const news = useApi("/api/news", {
-    params: { page: user ? page : 1, page_size: pageSize, symbol, sector },
+    params: { page: user ? page : 1, page_size: pageSize, ...filters },
   });
   const pageCount = Math.ceil((news.data?.total ?? 0) / pageSize);
 
-  function filterBy(code, sectorCode) {
-    setDraft(code);
-    setSymbol(code);
-    setSector(sectorCode);
-    setDraftSector(sectorCode);
-    setPage(1);
-  }
   function applyFilter(event) {
     event.preventDefault();
-    filterBy(draft.trim().toUpperCase(), draftSector);
+    const form = event.currentTarget;
+    const values = Object.fromEntries(new FormData(form));
+    values.symbol = values.symbol.trim().toUpperCase();
+    form.elements.namedItem("symbol").value = values.symbol;
+    setFilters(values);
+    setPage(1);
+  }
+  function clearFilters() {
+    setFilters({});
+    setPage(1);
   }
   return (
     <div className="space-y-4">
@@ -61,23 +61,31 @@ export default function NewsPage() {
           để xem đầy đủ.
         </Alert>
       )}
-      <form onSubmit={applyFilter} className="flex flex-wrap items-end gap-2">
+      <form onSubmit={applyFilter} onReset={clearFilters} className="flex flex-wrap items-end gap-2">
         <label className="grid gap-1 text-sm">
           Mã cổ phiếu
           <input className="rounded-md border border-slate-300 px-3 py-2" placeholder="VD: FPT"
-            value={draft} onChange={(event) => setDraft(event.target.value)} />
+            name="symbol" />
         </label>
         <label className="grid gap-1 text-sm">
           Ngành
           <select className="rounded-md border border-slate-300 px-3 py-2"
-            value={draftSector} onChange={(event) => setDraftSector(event.target.value)}>
+            name="sector">
             <option value="">Tất cả ngành</option>
             {sectors.map(([code, name]) => <option key={code} value={code}>{name}</option>)}
           </select>
         </label>
+        <label className="grid gap-1 text-sm">
+          Từ ngày
+          <input type="date" name="from" className="rounded-md border border-slate-300 px-3 py-2" />
+        </label>
+        <label className="grid gap-1 text-sm">
+          Đến ngày
+          <input type="date" name="to" className="rounded-md border border-slate-300 px-3 py-2" />
+        </label>
         <Button type="submit">Lọc tin</Button>
-        {(symbol || sector) && (
-          <Button type="button" variant="secondary" onClick={() => filterBy("", "")}>
+        {hasFilters && (
+          <Button type="reset" variant="secondary">
             Xóa bộ lọc
           </Button>
         )}
@@ -87,7 +95,7 @@ export default function NewsPage() {
       {!news.loading && news.data && (
         <Card>
           {news.data.items.length === 0 && (
-            <p>{symbol || sector ? "Không tìm thấy tin phù hợp với bộ lọc." : "Chưa có tin tức."}</p>
+            <p>{hasFilters ? "Không tìm thấy tin phù hợp với bộ lọc." : "Chưa có tin tức."}</p>
           )}
           <ul className="divide-y divide-slate-100">
             {news.data.items.map((n) => (
