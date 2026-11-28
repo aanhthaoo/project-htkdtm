@@ -1,5 +1,17 @@
 period_end,indicator_code,value,unit,source,published_date,note
-2026-09-30,CPI_YOY,3.40,%,Tổng cục Thống kê,2026-10-06,Mẫu minh họa - thay bằng số liệu thật
-2026-09-30,IIP_YOY,8.10,%,Tổng cục Thống kê,2026-10-06,Mẫu minh họa - thay bằng số liệu thật
-2026-09-30,EXPORT_USD_BN,36.20,tỷ USD,Tổng cục Thống kê,2026-10-06,Mẫu minh họa - thay bằng số liệu thật
-2026-09-30,IMPORT_USD_BN,34.90,tỷ USD,Tổng cục Thống kê,2026-10-06,Mẫu minh họa - thay bằng số liệu thật
+2024-07-31,CPI_YOY,4.36,%,Tổng cục Thống kê,2024-07-29,Báo cáo KTXH tháng 07/2024
+2024-07-31,IIP_YOY,11.20,%,Tổng cục Thống kê,2024-07-29,Báo cáo KTXH tháng 07/2024
+2024-07-31,EXPORT_USD_BN,35.92,tỷ USD,Tổng cục Thống kê,2024-07-29,Báo cáo KTXH tháng 07/2024
+2024-07-31,IMPORT_USD_BN,33.80,tỷ USD,Tổng cục Thống kê,2024-07-29,Báo cáo KTXH tháng 07/2024
+2024-08-31,CPI_YOY,3.45,%,Tổng cục Thống kê,2024-08-29,Báo cáo KTXH tháng 08/2024
+2024-08-31,IIP_YOY,9.50,%,Tổng cục Thống kê,2024-08-29,Báo cáo KTXH tháng 08/2024
+2024-08-31,EXPORT_USD_BN,37.59,tỷ USD,Tổng cục Thống kê,2024-08-29,Báo cáo KTXH tháng 08/2024
+2024-08-31,IMPORT_USD_BN,33.06,tỷ USD,Tổng cục Thống kê,2024-08-29,Báo cáo KTXH tháng 08/2024
+2024-09-30,CPI_YOY,2.63,%,Tổng cục Thống kê,2024-09-29,Báo cáo KTXH tháng 09/2024
+2024-09-30,IIP_YOY,10.80,%,Tổng cục Thống kê,2024-09-29,Báo cáo KTXH tháng 09/2024
+2024-09-30,EXPORT_USD_BN,34.05,tỷ USD,Tổng cục Thống kê,2024-09-29,Báo cáo KTXH tháng 09/2024
+2024-09-30,IMPORT_USD_BN,31.76,tỷ USD,Tổng cục Thống kê,2024-09-29,Báo cáo KTXH tháng 09/2024
+2024-10-31,CPI_YOY,2.89,%,Tổng cục Thống kê,2024-10-29,Báo cáo KTXH tháng 10/2024
+2024-10-31,IIP_YOY,7.00,%,Tổng cục Thống kê,2024-10-29,Báo cáo KTXH tháng 10/2024
+2024-10-31,EXPORT_USD_BN,35.59,tỷ USD,Tổng cục Thống kê,2024-10-29,Báo cáo KTXH tháng 10/2024
+2024-10-31,IMPORT_USD_BN,33.60,tỷ USD,Tổng cục Thống kê,2024-10-29,Báo cáo KTXH tháng 10/2024
