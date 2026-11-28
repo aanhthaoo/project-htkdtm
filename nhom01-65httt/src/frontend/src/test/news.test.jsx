@@ -72,6 +72,9 @@ it("lọc theo mã đã chuẩn hóa và khôi phục danh sách khi xóa bộ l
     symbol,
   }));
   vi.stubGlobal("fetch", vi.fn(async (url) => {
+    if (url.pathname === "/api/news/highlights") {
+      return { ok: true, status: 200, json: async () => ({ items: [] }) };
+    }
     const symbol = url.searchParams.get("symbol");
     const items = articles.filter((article) => symbol === null || article.symbol === symbol);
     return { ok: true, status: 200, json: async () => ({ items, total: items.length }) };

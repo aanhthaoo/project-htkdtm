@@ -4,6 +4,7 @@ import { useAuth } from "../../auth/AuthContext.jsx";
 import Alert from "../../components/Alert.jsx";
 import Button from "../../components/Button.jsx";
 import Card from "../../components/Card.jsx";
+import NewsHighlights from "../../components/NewsHighlights.jsx";
 import PageHeader from "../../components/PageHeader.jsx";
 import Spinner from "../../components/Spinner.jsx";
 import useApi from "../../components/useApi.js";
@@ -69,6 +70,7 @@ export default function NewsPage() {
           để xem đầy đủ.
         </Alert>
       )}
+      <NewsHighlights />
       <form onSubmit={applyFilter} onReset={clearFilters} className="flex flex-wrap items-end gap-2">
         <label className="grid gap-1 text-sm">
           Mã cổ phiếu
