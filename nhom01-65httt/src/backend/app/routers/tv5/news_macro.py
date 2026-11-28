@@ -1,7 +1,7 @@
 """Tin tức và vĩ mô (module TV5). Danh sách tin và chuỗi vĩ mô đọc dữ liệu thật từ dw; cảm xúc có sau N8."""
 
 from datetime import date, datetime
-from typing import Annotated
+from typing import Annotated, Literal
 
 from fastapi import APIRouter, Query
 from pydantic import BaseModel
@@ -122,6 +122,7 @@ class MacroPoint(BaseModel):
     date: date
     value: float | None
     pct_change_prev: float | None
+    published_date: date | None = None
 
 
 class MacroSeries(BaseModel):
@@ -135,25 +136,37 @@ class MacroResponse(BaseModel):
     series: list[MacroSeries]
 
 
-@router.get("/api/macro/series", response_model=MacroResponse)
+@router.get("/api/macro/series", response_model=MacroResponse, response_model_exclude_unset=True)
 def macro_series(
     user: InvestorUser,
     codes: Annotated[str, Query(description="Mã chỉ số cách nhau bằng dấu phẩy, ví dụ USDVND,DXY")],
     date_from: Annotated[date | None, Query(alias="from")] = None,
     date_to: Annotated[date | None, Query(alias="to")] = None,
+    frequency: Literal["daily", "monthly"] = "daily",
 ):
+    """Lọc theo ngày của kỳ quan sát. Chuỗi tháng trả thêm ngày công bố của từng kỳ."""
     wanted = [c.strip().upper() for c in codes.split(",") if c.strip()]
     if not wanted:
         raise ApiError(422, "validation_error", "Cần ít nhất một mã chỉ số")
+    if frequency == "monthly":
+        query = text("""
+            SELECT i.code AS indicator_code, i.name_vi AS indicator_name, i.unit,
+                   m.trade_date, m.value, m.pct_change_prev,
+                   to_date(CAST(m.published_date_key AS text), 'YYYYMMDD') AS published_date
+            FROM dw.fact_macro_indicator m
+            JOIN dw.dim_indicator i ON i.indicator_key = m.indicator_key
+            WHERE i.frequency = 'monthly' AND m.source = 'manual_csv'
+              AND i.code = ANY(:codes) AND m.trade_date BETWEEN :d1 AND :d2
+            ORDER BY i.code, m.trade_date
+        """)
+    else:
+        query = text(
+            "SELECT indicator_code, indicator_name, unit, trade_date, value, pct_change_prev FROM dw.ds_macro_daily "
+            "WHERE indicator_code = ANY(:codes) AND trade_date BETWEEN :d1 AND :d2 ORDER BY indicator_code, trade_date"
+        )
     with get_engine().connect() as conn:
         d1, d2 = default_range(conn, date_from, date_to, days=365)
-        rows = conn.execute(
-            text(
-                "SELECT indicator_code, indicator_name, unit, trade_date, value, pct_change_prev FROM dw.ds_macro_daily "
-                "WHERE indicator_code = ANY(:codes) AND trade_date BETWEEN :d1 AND :d2 ORDER BY indicator_code, trade_date"
-            ),
-            {"codes": wanted, "d1": d1, "d2": d2},
-        ).all()
+        rows = conn.execute(query, {"codes": wanted, "d1": d1, "d2": d2}).all()
     unknown = set(wanted) - {r.indicator_code for r in rows}
     if unknown:
         with get_engine().connect() as conn:
@@ -167,9 +180,10 @@ def macro_series(
             r.indicator_code,
             MacroSeries(code=r.indicator_code, name_vi=r.indicator_name, unit=r.unit, points=[]),
         )
-        s.points.append(
-            MacroPoint(date=r.trade_date, value=r.value, pct_change_prev=r.pct_change_prev)
-        )
+        point = MacroPoint(date=r.trade_date, value=r.value, pct_change_prev=r.pct_change_prev)
+        if frequency == "monthly":
+            point.published_date = r.published_date
+        s.points.append(point)
     return MacroResponse(series=list(series.values()))
 
 
