@@ -228,6 +228,16 @@ def macro_correlation(
         GROUP BY m.indicator_code
     """).bindparams(bindparam("codes", expanding=True))
     with get_engine().connect() as conn:
+        catalog = text("SELECT code, frequency FROM dw.dim_indicator WHERE code IN :codes").bindparams(
+            bindparam("codes", expanding=True)
+        )
+        frequencies = dict(conn.execute(catalog, {"codes": wanted}).tuples().all())
+        unknown = [code for code in wanted if code not in frequencies]
+        if unknown:
+            raise ApiError(404, "not_found", f"Không có chỉ số: {', '.join(unknown)}")
+        non_daily = [code for code in wanted if frequencies[code] != "daily"]
+        if non_daily:
+            raise ApiError(422, "validation_error", f"Cần chỉ số theo ngày: {', '.join(non_daily)}")
         rows = conn.execute(query, {"codes": wanted, "window_size": window})
         coefficients = {row.indicator_code: row.coefficient for row in rows if row.coefficient is not None}
     return Correlation(

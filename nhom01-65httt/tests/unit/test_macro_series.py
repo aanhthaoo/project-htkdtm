@@ -9,12 +9,14 @@ from fastapi import FastAPI
 from fastapi.testclient import TestClient
 
 from app.core.deps import CurrentUser, get_optional_user
+from app.core.errors import install_error_handlers
 from app.routers.tv5 import news_macro
 
 
 @pytest.fixture
 def macro_api(monkeypatch):
     app = FastAPI()
+    install_error_handlers(app)
     app.include_router(news_macro.router)
     app.dependency_overrides[get_optional_user] = lambda: CurrentUser(1, "tv5@example.com", "TV5", "investor")
     engine = MagicMock()
@@ -58,3 +60,37 @@ def test_unsupported_frequency_rejected_before_query(macro_api):
     response = client.get("/api/macro/series", params={"codes": "DXY", "frequency": "weekly"})
     assert response.status_code == 422
     conn.execute.assert_not_called()
+
+
+@pytest.mark.parametrize("window", [4, 251])
+def test_correlation_rejects_out_of_range_window(macro_api, window):
+    client, conn = macro_api
+    response = client.get("/api/macro/correlation", params={"window": window})
+    assert response.status_code == 422
+    assert response.json()["error"]["code"] == "validation_error"
+    conn.execute.assert_not_called()
+
+
+@pytest.mark.parametrize("bad_code,status", [("MISSING", 404), ("CPI_YOY", 422)])
+def test_correlation_rejects_invalid_code_in_mixed_request(macro_api, bad_code, status):
+    client, conn = macro_api
+    catalog = [("DXY", "daily")]
+    if bad_code == "CPI_YOY":
+        catalog.append((bad_code, "monthly"))
+    conn.execute.return_value.tuples.return_value.all.return_value = catalog
+    response = client.get("/api/macro/correlation", params={"codes": f"dxy,{bad_code}"})
+    assert response.status_code == status
+    assert bad_code in response.json()["error"]["message"]
+    conn.execute.assert_called_once()
+
+
+@pytest.mark.parametrize("window", [5, 250])
+def test_correlation_accepts_window_limits_and_valid_code_without_data(macro_api, window):
+    client, conn = macro_api
+    catalog = MagicMock()
+    catalog.tuples.return_value.all.return_value = [("DXY", "daily")]
+    conn.execute.side_effect = [catalog, []]
+    response = client.get("/api/macro/correlation", params={"codes": " dxy,DXY ", "window": window})
+    assert response.status_code == 200
+    assert response.json()["items"] == []
+    assert conn.execute.call_args.args[1] == {"codes": ["DXY"], "window_size": window}
