@@ -94,3 +94,17 @@ def test_correlation_accepts_window_limits_and_valid_code_without_data(macro_api
     assert response.status_code == 200
     assert response.json()["items"] == []
     assert conn.execute.call_args.args[1] == {"codes": ["DXY"], "window_size": window}
+
+
+@pytest.mark.parametrize("coefficient", [float("nan"), float("inf"), float("-inf")])
+def test_non_finite_correlation_does_not_break_json_response(macro_api, coefficient):
+    client, conn = macro_api
+    catalog = MagicMock()
+    catalog.tuples.return_value.all.return_value = [("DXY", "daily")]
+    conn.execute.side_effect = [
+        catalog, [SimpleNamespace(indicator_code="DXY", coefficient=coefficient)],
+    ]
+    response = client.get("/api/macro/correlation", params={"codes": "DXY"})
+    assert response.status_code == 200
+    assert response.json()["items"] == []
+    assert response.json()["stub"] is False

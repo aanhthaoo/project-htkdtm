@@ -1,6 +1,7 @@
 """Tin tức và vĩ mô (module TV5). Danh sách tin và chuỗi vĩ mô đọc dữ liệu thật từ dw; cảm xúc có sau N8."""
 
 from datetime import date, datetime
+from math import isfinite
 from typing import Annotated, Literal
 
 from fastapi import APIRouter, Query
@@ -239,7 +240,11 @@ def macro_correlation(
         if non_daily:
             raise ApiError(422, "validation_error", f"Cần chỉ số theo ngày: {', '.join(non_daily)}")
         rows = conn.execute(query, {"codes": wanted, "window_size": window})
-        coefficients = {row.indicator_code: row.coefficient for row in rows if row.coefficient is not None}
+        coefficients = {
+            row.indicator_code: row.coefficient
+            for row in rows
+            if row.coefficient is not None and isfinite(row.coefficient)
+        }
     return Correlation(
         stub=False,
         against=against,

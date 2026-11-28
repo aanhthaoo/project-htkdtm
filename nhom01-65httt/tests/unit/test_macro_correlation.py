@@ -75,3 +75,28 @@ def test_correlation_uses_changes_on_matching_dates_in_latest_window(correlation
     assert item.code == "DXY"
     assert item.window == 5
     assert item.correlation == pytest.approx(expected)
+
+
+@pytest.mark.parametrize(
+    "pairs",
+    [
+        [],
+        [(1, 2)],
+        [(1, 2), (2, 2), (3, 2)],
+        [(1, 2), (1, 3), (1, 4)],
+        [(None, 2), (1, None), (2, 3)],
+    ],
+    ids=["empty", "single-pair", "constant-index", "constant-flow", "insufficient-overlap"],
+)
+def test_undefined_correlation_returns_empty_items(correlation_db, pairs):
+    with correlation_db.begin() as conn:
+        for day, (flow, change) in enumerate(pairs, start=1):
+            conn.exec_driver_sql(
+                "INSERT INTO dw.mv_market_daily_kpi VALUES (?, ?)", (day, flow)
+            )
+            conn.exec_driver_sql(
+                "INSERT INTO dw.ds_macro_daily VALUES (?, 'DXY', 100, ?)", (day, change)
+            )
+    result = news_macro.macro_correlation(user=None, codes="DXY", window=5)
+    assert result.stub is False
+    assert result.items == []
