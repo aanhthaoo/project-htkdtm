@@ -28,6 +28,7 @@ const sectors = [
 export default function NewsPage() {
   const { user } = useAuth();
   const [filters, setFilters] = useState({});
+  const [invalidRange, setInvalidRange] = useState(false);
   const hasFilters = Object.values(filters).some(Boolean);
   const [page, setPage] = useState(1);
   const pageSize = user ? 20 : 5;
@@ -40,12 +41,19 @@ export default function NewsPage() {
     event.preventDefault();
     const form = event.currentTarget;
     const values = Object.fromEntries(new FormData(form));
+    const reversed = Boolean(values.from && values.to && values.from > values.to);
+    setInvalidRange(reversed);
+    if (reversed) {
+      form.elements.namedItem("to").focus();
+      return;
+    }
     values.symbol = values.symbol.trim().toUpperCase();
     form.elements.namedItem("symbol").value = values.symbol;
     setFilters(values);
     setPage(1);
   }
   function clearFilters() {
+    setInvalidRange(false);
     setFilters({});
     setPage(1);
   }
@@ -81,15 +89,19 @@ export default function NewsPage() {
         </label>
         <label className="grid gap-1 text-sm">
           Đến ngày
-          <input type="date" name="to" className="rounded-md border border-slate-300 px-3 py-2" />
+          <input type="date" name="to" className="rounded-md border border-slate-300 px-3 py-2"
+            aria-invalid={invalidRange} aria-describedby={invalidRange ? "news-date-error" : undefined} />
         </label>
         <Button type="submit">Lọc tin</Button>
-        {hasFilters && (
+        {(hasFilters || invalidRange) && (
           <Button type="reset" variant="secondary">
             Xóa bộ lọc
           </Button>
         )}
       </form>
+      {invalidRange && (
+        <Alert kind="error"><span id="news-date-error">Đến ngày phải bằng hoặc sau Từ ngày.</span></Alert>
+      )}
       {news.loading && <Spinner />}
       {news.error && <Alert kind="error">Không tải được tin tức. <button className="underline" onClick={news.reload}>Thử lại</button></Alert>}
       {!news.loading && news.data && (

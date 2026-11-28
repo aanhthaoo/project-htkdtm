@@ -11,6 +11,33 @@ afterEach(() => {
   tokenStore.clear();
 });
 
+it("chặn khoảng ngày đảo ngược và cho phép lọc trong cùng một ngày", async () => {
+  const fetchNews = vi.fn(async () => ({
+    ok: true, status: 200, json: async () => ({ items: [], total: 0 }),
+  }));
+  vi.stubGlobal("fetch", fetchNews);
+  const user = userEvent.setup();
+  render(<MemoryRouter><AuthProvider><NewsPage /></AuthProvider></MemoryRouter>);
+  await screen.findByText("Chưa có tin tức.");
+  const callsBeforeFilter = fetchNews.mock.calls.length;
+  const end = screen.getByLabelText("Đến ngày");
+  const submit = screen.getByRole("button", { name: "Lọc tin" });
+
+  await user.type(screen.getByLabelText("Từ ngày"), "2026-11-28");
+  await user.type(end, "2026-11-27");
+  await user.click(submit);
+  expect(screen.getByRole("alert")).toHaveTextContent("Đến ngày phải bằng hoặc sau Từ ngày.");
+  expect(end).toHaveFocus();
+  expect(fetchNews).toHaveBeenCalledTimes(callsBeforeFilter);
+
+  await user.clear(end);
+  await user.type(end, "2026-11-28");
+  await user.click(submit);
+  await screen.findByText("Không tìm thấy tin phù hợp với bộ lọc.");
+  expect(screen.queryByRole("alert")).not.toBeInTheDocument();
+  expect(fetchNews.mock.lastCall[0].searchParams.get("to")).toBe("2026-11-28");
+});
+
 it("lọc theo mã đã chuẩn hóa và khôi phục danh sách khi xóa bộ lọc", async () => {
   const articles = ["FPT", "VNM"].map((symbol) => ({
     title: `Tin về ${symbol}`,
