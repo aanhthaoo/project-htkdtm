@@ -5,6 +5,7 @@ import Card from "../../components/Card.jsx";
 import PageHeader from "../../components/PageHeader.jsx";
 import Spinner from "../../components/Spinner.jsx";
 import useApi from "../../components/useApi.js";
+import MacroCorrelation from "./MacroCorrelation.jsx";
 
 const dailyCodes = "USDVND,DXY,SP500,WTI,BRENT,GOLD,US10Y";
 const monthlyCodes = "CPI_YOY,IIP_YOY,EXPORT_USD_BN,IMPORT_USD_BN";
@@ -97,6 +98,7 @@ export default function MacroPage() {
           </Card>
         ))
       )}
+      <MacroCorrelation codes={dailyCodes} indicatorNames={indicatorNames} />
     </div>
   );
 }

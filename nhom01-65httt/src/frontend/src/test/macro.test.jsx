@@ -7,6 +7,9 @@ afterEach(() => vi.unstubAllGlobals());
 
 it("đổi từ chuỗi ngày sang tháng và hiển thị đúng ngày công bố", async () => {
   vi.stubGlobal("fetch", vi.fn(async (url) => {
+    if (url.pathname === "/api/macro/correlation") {
+      return { ok: true, status: 200, json: async () => ({ items: [] }) };
+    }
     const monthly = url.searchParams.get("frequency") === "monthly";
     return {
       ok: true, status: 200,
@@ -33,7 +36,7 @@ it("đổi từ chuỗi ngày sang tháng và hiển thị đúng ngày công b�
   expect(await screen.findByRole("heading", { name: "Lạm phát CPI (CPI_YOY)" })).toBeVisible();
   expect(screen.getByText("2026-11-05")).toHaveAttribute("datetime", "2026-11-05");
   expect(screen.getByRole("columnheader", { name: "Ngày cuối kỳ" })).toBeVisible();
-  expect(globalThis.fetch.mock.lastCall[0].searchParams.get("codes"))
+  expect(globalThis.fetch.mock.calls.filter(([url]) => url.pathname === "/api/macro/series").at(-1)[0].searchParams.get("codes"))
     .toBe("CPI_YOY,IIP_YOY,EXPORT_USD_BN,IMPORT_USD_BN");
   expect(screen.getByLabelText("Chỉ số")).toHaveValue("");
   expect(screen.queryByRole("option", { name: "Chỉ số USD (DXY)" })).not.toBeInTheDocument();
@@ -43,5 +46,5 @@ it("đổi từ chuỗi ngày sang tháng và hiển thị đúng ngày công b�
   expect(await screen.findByRole("heading", { name: "Chỉ số DXY (DXY)" })).toBeVisible();
   expect(screen.queryByText("2026-11-05")).not.toBeInTheDocument();
   expect(screen.getByLabelText("Chỉ số")).toHaveValue("");
-  expect(globalThis.fetch.mock.lastCall[0].searchParams.get("codes")).toBe("USDVND,DXY,SP500,WTI,BRENT,GOLD,US10Y");
+  expect(globalThis.fetch.mock.calls.filter(([url]) => url.pathname === "/api/macro/series").at(-1)[0].searchParams.get("codes")).toBe("USDVND,DXY,SP500,WTI,BRENT,GOLD,US10Y");
 });
