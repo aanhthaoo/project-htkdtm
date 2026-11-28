@@ -19,13 +19,21 @@ export default function NewsPage() {
   const { user } = useAuth();
   const [symbol, setSymbol] = useState("");
   const [draft, setDraft] = useState("");
-  const news = useApi("/api/news", { params: { page_size: 20, symbol: symbol || undefined } });
+  const [page, setPage] = useState(1);
+  const pageSize = user ? 20 : 5;
+  const news = useApi("/api/news", {
+    params: { page: user ? page : 1, page_size: pageSize, symbol: symbol || undefined },
+  });
+  const pageCount = Math.ceil((news.data?.total ?? 0) / pageSize);
 
-  function applyFilter(event) {
-    event.preventDefault();
-    const code = draft.trim().toUpperCase();
+  function filterBy(code) {
     setDraft(code);
     setSymbol(code);
+    setPage(1);
+  }
+  function applyFilter(event) {
+    event.preventDefault();
+    filterBy(draft.trim().toUpperCase());
   }
   return (
     <div className="space-y-4">
@@ -47,7 +55,7 @@ export default function NewsPage() {
         </label>
         <Button type="submit">Lọc tin</Button>
         {symbol && (
-          <Button type="button" variant="secondary" onClick={() => { setDraft(""); setSymbol(""); }}>
+          <Button type="button" variant="secondary" onClick={() => filterBy("")}>
             Xóa bộ lọc
           </Button>
         )}
@@ -75,6 +83,17 @@ export default function NewsPage() {
             ))}
           </ul>
           <p className="mt-3 text-xs text-slate-500">Tổng cộng {news.data.total.toLocaleString("vi-VN")} bài.</p>
+          {user && (pageCount > 1 || page > 1) && (
+            <nav aria-label="Phân trang tin tức" className="mt-3 flex items-center gap-3 text-sm">
+              <Button variant="secondary" disabled={page === 1} onClick={() => setPage(page - 1)}>
+                Trang trước
+              </Button>
+              <span>Trang {page}</span>
+              <Button variant="secondary" disabled={page >= pageCount} onClick={() => setPage(page + 1)}>
+                Trang sau
+              </Button>
+            </nav>
+          )}
         </Card>
       )}
     </div>
