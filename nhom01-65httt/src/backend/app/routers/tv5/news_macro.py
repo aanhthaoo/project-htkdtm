@@ -5,7 +5,7 @@ from typing import Annotated, Literal
 
 from fastapi import APIRouter, Query
 from pydantic import BaseModel
-from sqlalchemy import text
+from sqlalchemy import bindparam, text
 
 from app.core.deps import InvestorUser, OptionalUser, Pagination
 from app.core.dw import default_range
@@ -203,16 +203,42 @@ class Correlation(StubFlag):
 def macro_correlation(
     user: InvestorUser,
     codes: str = "USDVND,DXY",
-    against: str = "foreign_net",
+    against: Literal["foreign_net"] = "foreign_net",
     window: Annotated[int, Query(ge=5, le=250)] = 60,
 ):
-    """STUB: tương quan cuốn chiếu giữa chỉ số vĩ mô và dòng tiền khối ngoại. TV5 hoàn thiện; schema đã chốt."""
+    """Tương quan Pearson trên các cặp cùng ngày trong cửa sổ phiên gần nhất.
+
+    Bỏ qua chỉ số nếu thiếu cặp dữ liệu hoặc hệ số không xác định.
+    """
+    wanted = list(dict.fromkeys(c.strip().upper() for c in codes.split(",") if c.strip()))
+    if not wanted:
+        raise ApiError(422, "validation_error", "Cần ít nhất một mã chỉ số")
+    query = text("""
+        WITH sessions AS (
+            SELECT trade_date, foreign_net_bn
+            FROM dw.mv_market_daily_kpi
+            ORDER BY trade_date DESC
+            LIMIT :window_size
+        )
+        SELECT m.indicator_code, corr(m.pct_change_prev, s.foreign_net_bn) AS coefficient
+        FROM sessions s
+        JOIN dw.ds_macro_daily m ON m.trade_date = s.trade_date
+        WHERE m.indicator_code IN :codes
+          AND m.pct_change_prev IS NOT NULL AND s.foreign_net_bn IS NOT NULL
+        GROUP BY m.indicator_code
+    """).bindparams(bindparam("codes", expanding=True))
+    with get_engine().connect() as conn:
+        rows = conn.execute(query, {"codes": wanted, "window_size": window})
+        coefficients = {row.indicator_code: row.coefficient for row in rows if row.coefficient is not None}
     return Correlation(
-        stub=True,
+        stub=False,
         against=against,
         items=[
-            CorrelationItem(code=c.strip().upper(), correlation=0.0, window=window)
-            for c in codes.split(",")
-            if c.strip()
+            CorrelationItem(code=code, correlation=coefficients[code], window=window)
+            for code in wanted if code in coefficients
         ],
+        disclaimer=(
+            "Tương quan không thể hiện quan hệ nhân quả. Chỉ số quốc tế có thể đóng cửa "
+            "sau thị trường Việt Nam. " + DISCLAIMER
+        ),
     )
